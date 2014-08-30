@@ -21,25 +21,25 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
         {src : "demos/two-bags.html"}
     ];
 
-    // initial image index
+    // initial demo index
     $scope._Index = 0;
 
-    // if a current image is the same as requested image
+    // if a current demo is the same as requested demo
     $scope.isActive = function (index) {
         return $scope._Index === index;
     };
 
-    // show prev image
+    // show prev demo
     $scope.showPrev = function () {
         $scope._Index = ($scope._Index > 0) ? --$scope._Index : $scope.demos.length - 1;
     };
 
-    // show next image
+    // show next demo
     $scope.showNext = function () {
         $scope._Index = ($scope._Index < $scope.demos.length - 1) ? ++$scope._Index : 0;
     };
 
-    // show a certain image
+    // show a certain demo
     $scope.showDemo = function (index) {
         $scope._Index = index;
     };
