@@ -14,10 +14,8 @@ Introduction to using libre web fonts in Hindi websites
   * Karma
   * Sarpanch
   * Khand
-  
-TODO
+
+Roadmap
 ====
 
-1. Angular Animations	
-2. CSS Extraction
-3. Build using Browserify and gulp 
+See <https://github.com/davelab6/hindi.librefonts.com/issues>
