@@ -2,7 +2,7 @@
 * @Author: Bhargav Krishna
 * @Date:   2014-08-30 00:29:17
 * @Last Modified by:   Bhargav Krishna
-* @Last Modified time: 2014-08-30 12:35:12
+* @Last Modified time: 2014-09-02 20:27:16
 */
 'use strict';
 
@@ -11,7 +11,7 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
 
     // Set of demos
     $scope.demos = [
-        //{src : "demos/vesper-libre.html"},
+        {src : "demos/vesper-libre.html"},
         {src : "demos/astronomer.html"},
         {src : "demos/crow-pitcher.html"},
         {src : "demos/gnat-bull.html"},
