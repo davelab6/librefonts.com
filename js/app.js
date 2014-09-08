@@ -2,7 +2,7 @@
 * @Author: Bhargav Krishna
 * @Date:   2014-08-30 00:29:17
 * @Last Modified by:   Bhargav Krishna
-* @Last Modified time: 2014-09-02 21:36:56
+* @Last Modified time: 2014-09-09 02:20:09
 */
 'use strict';
 
@@ -11,14 +11,17 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
 
     // Set of demos
     $scope.demos = [
-        {src : "demos/vesper-libre.html"},
-        {src : "demos/astronomer.html"},
-        {src : "demos/crow-pitcher.html"},
+        {src : "demos/swan.html"},
+        {src : "demos/interconnect.html"},
         {src : "demos/gnat-bull.html"},
         {src : "demos/oak.html"},
         {src : "demos/rivers.html"},
         {src : "demos/the-fox-and-the-grapes.html"},
-        {src : "demos/two-bags.html"}
+        {src : "demos/two-bags.html"},
+        {src : "demos/moon-mother.html"},
+        {src : "demos/eleven.html"},
+        {src : "demos/rabbit.html"},
+        {src : "demos/gajraj.html"}
     ];
 
     // initial demo index
