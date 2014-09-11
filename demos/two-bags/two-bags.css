@@ -1,0 +1,17 @@
+ECHO is on.
+.section-two-bags { background: #ddd9d1 url(../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
+.section-two-bags h2 { font: 80px/66px 'Kalam', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; padding-top: 30px}
+.section-two-bags h2 i { font-family:'Kalam', serif; font-style: normal;}
+.section-two-bags p { font: 17px/28px 'Kalam', serif; color: #817a74; width: 380px; margin-left: 250px; }
+.section-two-bags .caption { color: #999; float: left; width: 200px; margin: 4px 0 20px 20px; }
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-two-bags .container { width: 100%;}
+	.section-two-bags h2 { font-size: 64px; line-height: 52px; margin-bottom: 6px; opacity: 1;}
+	.section-two-bags p { max-width: 380px; width: auto; margin-left: 0; padding: 0 20px; float: left; font: 14px/24px 'Monda', Arial, sans-serif; }
+	.section-two-bags .caption { width: auto; margin-top: 6px; opacity: .7; }
+}
