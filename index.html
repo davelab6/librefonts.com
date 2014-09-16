@@ -1,70 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="AwesomeHindiFont">
 <head>
-  <meta charset="UTF-8">
-  <title>Example</title>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
-<style>
-/*
------------------------------------
-This Pen is derived from a Typekit Practice lesson:
-http://practice.typekit.com/lesson/using-shades
------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Ek+Mukta&subset=latin,devanagari);
-/* line 24, source string */
-body {
-  background-color: #fcfefe; }
+    <meta charset="utf-8" />
+    <meta name="author" content="Bhargav Krishna" />
+    <title>Google Hindi Web Fonts Typographic Project</title>
+    <meta name="description" content="Awesome Hindi fonts">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
-/* line 26, source string */
-.split {
-  margin: 4em 0;
-  text-align: center; }
-  /* line 29, source string */
-  .split b {
-    font-family: "Ek Mukta", Verdana, sans-serif;
-    font-size: 4em;
-    color: #d593b8; }
-  /* line 34, source string */
-  .split .shaveice b {
-    color: #f3c83e; }
-  /* line 37, source string */
-  .split em {
-    display: block;
-    margin-bottom: 0.5em;
-    font-family: "Ek Mukta", Verdana, sans-serif;
-    font-size: 8em; }
-  /* line 43, source string */
-  .split .icecream em {
-    color: #402a1f;
-    text-shadow: -0.005em 0.01em #402a1f, -0.01em 0.005em #402a1f, -0.01em 0.015em #402a1f, -0.015em 0.01em #402a1f, -0.015em 0.02em #402a1f, -0.02em 0.015em #402a1f, -0.02em 0.025em #402a1f, -0.025em 0.02em #402a1f, -0.025em 0.03em #402a1f, -0.03em 0.025em #402a1f, -0.03em 0.035em #402a1f, -0.035em 0.03em #402a1f, -0.035em 0.04em #f4efd2, -0.04em 0.035em #f4efd2, -0.04em 0.045em #f4efd2, -0.045em 0.04em #f4efd2, -0.045em 0.05em #f4efd2, -0.05em 0.045em #f4efd2, -0.05em 0.055em #f4efd2, -0.055em 0.05em #f4efd2, -0.055em 0.06em #f4efd2, -0.06em 0.055em #f4efd2, -0.06em 0.065em #f4efd2, -0.065em 0.06em #f4efd2, -0.065em 0.07em #f4efd2, -0.07em 0.065em #f4efd2, -0.07em 0.075em #f4efd2, -0.075em 0.07em #f4efd2, -0.075em 0.08em #f4efd2, -0.08em 0.075em #f4efd2, -0.08em 0.085em #f4efd2, -0.085em 0.08em #f4efd2, -0.085em 0.09em #f4efd2, -0.09em 0.085em #f4efd2, -0.09em 0.095em #f4efd2, -0.095em 0.09em #f4efd2, -0.095em 0.1em #f4efd2, -0.1em 0.095em #f4efd2, -0.1em 0.105em #f4efd2, -0.105em 0.1em #f4efd2, -0.105em 0.11em #f4efd2, -0.11em 0.105em #402a1f, -0.11em 0.115em #402a1f, -0.115em 0.11em #402a1f, -0.115em 0.12em #402a1f, -0.12em 0.115em #402a1f, -0.12em 0.125em #402a1f, -0.125em 0.12em #402a1f, -0.125em 0.13em #402a1f, -0.13em 0.125em #402a1f, -0.13em 0.135em #402a1f, -0.135em 0.13em #402a1f, -0.135em 0.14em #402a1f; }
-  /* line 100, source string */
-  .split .shaveice em {
-    color: rgba(166, 192, 215, 0.7);
-    text-shadow: -0.005em 0.01em #d9edf8, -0.01em 0.005em #d9edf8, -0.01em 0.015em #d9edf8, -0.015em 0.01em #d9edf8, -0.015em 0.02em #d9edf8, -0.02em 0.015em #d9edf8, -0.02em 0.025em #d9edf8, -0.025em 0.02em #d9edf8, -0.025em 0.03em #d9edf8, -0.03em 0.025em #d9edf8, -0.03em 0.035em #d9edf8, -0.035em 0.03em #d9edf8, -0.035em 0.04em #d9edf8, -0.04em 0.035em #d9edf8, -0.04em 0.045em #d9edf8, -0.045em 0.04em #d9edf8, -0.045em 0.05em #d9edf8, -0.05em 0.045em #d9edf8, -0.05em 0.055em #d9edf8, -0.055em 0.05em #d9edf8, -0.055em 0.06em #d9edf8, -0.06em 0.055em #d9edf8, -0.06em 0.065em #d9edf8, -0.065em 0.06em #d9edf8, -0.065em 0.07em #d9edf8, -0.06em 0.065em #f3f5fa, -0.06em 0.075em #f3f5fa, -0.055em 0.07em #f3f5fa, -0.055em 0.08em #f3f5fa, -0.05em 0.075em #f3f5fa, -0.05em 0.085em #f3f5fa, -0.045em 0.08em #f3f5fa, -0.045em 0.09em #f3f5fa, -0.04em 0.085em #f3f5fa, -0.04em 0.095em #f3f5fa, -0.035em 0.09em #f3f5fa, -0.035em 0.1em #f3f5fa, -0.03em 0.095em #f3f5fa, -0.03em 0.105em #f3f5fa, -0.025em 0.1em #f3f5fa, -0.025em 0.11em #f3f5fa, -0.02em 0.105em #f3f5fa, -0.02em 0.115em #f3f5fa, -0.015em 0.11em #f3f5fa, -0.015em 0.12em #f3f5fa, -0.01em 0.115em #f3f5fa, -0.01em 0.125em #f3f5fa, -0.005em 0.12em #f3f5fa, -0.005em 0.13em #f3f5fa, -0em 0.125em #f3f5fa, -0em 0.135em #f3f5fa, 0.005em 0.13em #f3f5fa, 0.005em 0.14em #f3f5fa, 0.01em 0.135em #f3f5fa, 0.01em 0.145em #f3f5fa, 0.015em 0.14em #f3f5fa, 0.015em 0.15em #f3f5fa, 0.02em 0.145em #f3f5fa, 0.02em 0.155em #f3f5fa, 0.025em 0.15em #f3f5fa, 0.025em 0.16em #f3f5fa, 0.03em 0.155em #f3f5fa, 0.03em 0.165em #f3f5fa, 0.035em 0.16em #f3f5fa, 0.035em 0.17em #f3f5fa; }
-</style>
-
+    <!-- Google web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script|Monda|Unica+One|Alegreya:400italic,400|Abril+Fatface|Vollkorn' rel='stylesheet' type='text/css'>
+    <!-- Typography Project stylesheet -->
+    <link href="css/hindi-fonts.css" rel="stylesheet">
+    <!-- add javascripts -->
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="http://code.angularjs.org/1.3.0-beta.19/angular.js"></script>
+    <script src="http://code.angularjs.org/1.3.0-beta.19/angular-animate.min.js"></script>
+    <script src="http://code.angularjs.org/1.3.0-beta.19/angular-touch.min.js"></script>
 </head>
+<body ng-controller="MainCtrl">
 
-<body>
-<div class="split">
-  <h1 class="icecream">
-    <b>घर का बना </b>
-    <em>आइसक्रीम</em>
-  </h1>
-  <h1 class="shaveice">
-    <b>अनन्नास</b>
-    <em>बर्फ दाढ़ी</em>
-  </h1>
-</div>
+    <!-- slider container -->
+        <div class="container-fluid">
+            <div class="container section-intro">
+                <h1>
+                    <span class="small">Hand-Picked Tales <i>from</i></span>
+                    <em>PANCHATANTRA</em>
+                    <span class="small"><i>with</i> Hand-Picked Type <i>from</i></span>
+                    <em>Google Fonts</em>
+                </h1>
+                <div class="divider"></div>
+                <p>
+                    There are over 640 <a href="https://www.google.com/fonts" target="_blank">Google web fonts</a> available for free. Problem is, pairing typefaces isn't easy. And, many of the fonts in Google's library don&rsquo;t work well when applied to typical webpage (desktop) layouts. This collaborative, ongoing project helps provide typographic inspiration for using Google’s web fonts for web applications.
+                </p>
+                <div class="divider"></div>
+                <div class="divider"></div>
+                <div class="caption"><a href="http://www.google.com/fonts/specimen/Playfair+Display" target="_blank">Playfair Display</a>, <a href="http://www.google.com/fonts/specimen/Abril+Fatface" target="_blank">Abril Fatface</a>, <a href="http://www.google.com/fonts/specimen/Alegreya" target="_blank">Alegreya</a></div>
+            </div>
+        </div>
+        <!-- enumerate all photos 
+        <div ng-repeat="demo in demos" class="slide" ng-swipe-right="showPrev()" ng-swipe-left="showNext()" ng-show="isActive($index)" ng-include="{{demo.src}}" />-->
+        <div ng-repeat="demo in demos">
+            <div ng-include="demo.src" >
+            </div>
+        </div>
+    <script src="js/app.js"></script>
 </body>
-
-<script type="text/javascript">
-$(function() {
-  $(".split").fitText(8);
-});
-</script>
-
-</body>
-
 </html>
