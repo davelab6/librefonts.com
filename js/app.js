@@ -2,7 +2,7 @@
 * @Author: Bhargav Krishna
 * @Date:   2014-08-30 00:29:17
 * @Last Modified by:   Bhargav Krishna
-* @Last Modified time: 2014-09-16 22:45:12
+* @Last Modified time: 2014-09-17 01:19:10
 */
 'use strict';
 
@@ -21,7 +21,11 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
         {src : "demos/moon-mother.html"},
         {src : "demos/eleven.html"},
         {src : "demos/rabbit.html"},
-        {src : "demos/gajraj.html"}
+        {src : "demos/bull-jackel.html"},        
+        {src : "demos/gajraj.html"},
+        {src : "demos/drums.html"},
+        {src : "demos/copying.html"},
+
     ];
 
     // initial demo index

@@ -1,7 +1,7 @@
-.section-gajraj { background-color: #093258; padding: 60px 0 120px 0; color: #093258; }
+.section-gajraj { background-color: #eb2c31; padding: 60px 0 120px 0; color: #eb2331; }
 .section-gajraj .container { position: relative; width :100%; }
 .section-gajraj h2 { font: 50px/50px 'Palanquin', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
-.section-gajraj p { font: 20px/30px 'Palanquin', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
+.section-gajraj p { font: 15px/30px 'Palanquin', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
