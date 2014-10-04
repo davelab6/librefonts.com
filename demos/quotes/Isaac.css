@@ -1,0 +1,27 @@
+.sample#Isaac {
+    background: #2980b9;
+    padding: 250px 0;
+}
+.sample#Isaac .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Isaac h2 {
+    color: #f1c40f;
+    font: 400 36px/1.4"Glegoo";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Isaac h3 {
+    color: #fff;
+    font: 400 36px/1.4"Glegoo";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Isaac h3 em {
+    font-style: italic;
+}
