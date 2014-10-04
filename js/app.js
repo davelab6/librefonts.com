@@ -2,7 +2,7 @@
 * @Author: Bhargav Krishna
 * @Date:   2014-08-30 00:29:17
 * @Last Modified by:   Bhargav Krishna
-* @Last Modified time: 2014-10-04 13:14:43
+* @Last Modified time: 2014-10-04 22:06:36
 */
 'use strict';
 
@@ -42,7 +42,16 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
         {src : "demos/quotes/Marshall.html"},
         {src : "demos/quotes/Michelangelo.html"},
         {src : "demos/quotes/Oscar.html"},        
-        {src : "demos/quotes/Isaac.html"}        
+        {src : "demos/quotes/Isaac.html"},
+        {src : "demos/quotes/Scott.html"},
+        {src : "demos/quotes/Carroll.html"},
+        {src : "demos/quotes/Ralph.html"},
+        {src : "demos/quotes/Jackson.html"},
+        {src : "demos/quotes/John.html"},
+        {src : "demos/quotes/Marc.html"},
+        {src : "demos/quotes/Henri.html"},
+        {src : "demos/quotes/Ludwig.html"},
+        {src : "demos/quotes/eorgia.html"}        
     ];
 
     // initial demo index

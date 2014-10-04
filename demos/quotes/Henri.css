@@ -1,27 +1,27 @@
-.sample#Isaac {
-    background: #f1c40f;
+.sample#Henri {
+    background: #f2ca27;
     padding: 250px 0;
 }
-.sample#Isaac .text {
+.sample#Henri .text {
     margin: 0 auto;
     padding: 0 20px;
     width: 800px;
 }
-.sample#Isaac h2 {
-    color: #e67e22;
-    font: 400 36px/1.4"Halant";
+.sample#Henri h2 {
+    color: #e98b39;
+    font: 400 36px/1.4"Rajdhani";
     font-style: italic;
     margin: 0 0 20px 0;
     text-align: left;
     text-indent: -10px;
 }
-.sample#Isaac h3 {
-    color: #354b60;
-    font: 400 24px/1.4"Rajdhani";
+.sample#Henri h3 {
+    color: #1abc9c;
+    font: 400 24px/1.4"Karma";
     margin: 0 0 20px 0;
     text-align: left;
     text-indent: -32px;
 }
-.sample#Isaac h3 em {
+.sample#Henri h3 em {
     font-style: italic;
 }
