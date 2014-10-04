@@ -1,0 +1,32 @@
+/* 
+* @Author: Bhargav Krishna
+* @Date:   2014-10-04 01:59:18
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-10-04 11:18:52
+*/
+.sample#Horace {
+  background: #0ac5f4;
+  padding: 200px 0; }
+  .sample#Horace .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+    width: 800px; }
+  .sample#Horace li {
+    color: #fff;
+    font: 100 92px/1 "Rajdhani";
+    text-transform: uppercase; }
+    .sample#Horace li .kern {
+      margin: 0 0 0 6px; }
+    .sample#Horace li:nth-child(1) {
+      opacity: 0.3; }
+    .sample#Horace li:nth-child(2) {
+      opacity: 0.4; }
+    .sample#Horace li:nth-child(3) {
+      opacity: 0.5; }
+    .sample#Horace li:nth-child(4) {
+      opacity: 0.6; }
+    .sample#Horace li:nth-child(5) {
+      opacity: 0.7; }
+    .sample#Horace li:nth-child(6) {
+      opacity: 0.8; }

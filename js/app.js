@@ -2,7 +2,7 @@
 * @Author: Bhargav Krishna
 * @Date:   2014-08-30 00:29:17
 * @Last Modified by:   Bhargav Krishna
-* @Last Modified time: 2014-09-17 03:11:58
+* @Last Modified time: 2014-10-04 13:14:43
 */
 'use strict';
 
@@ -31,7 +31,18 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
         {src : "demos/fools-learn.html"},
         {src : "demos/golu-molu.html"},
         {src : "demos/lion-jackel.html"},
-        {src : "demos/guests.html"}
+        {src : "demos/guests.html"},
+        {src : "demos/jackel.html"},
+        {src : "demos/quotes/Jean.html"},
+        {src : "demos/quotes/Gertrude.html"},
+        {src : "demos/quotes/Henry.html"},
+        {src : "demos/quotes/Horace.html"},
+        {src : "demos/quotes/James.html"},
+        {src : "demos/quotes/Lucius.html"},
+        {src : "demos/quotes/Marshall.html"},
+        {src : "demos/quotes/Michelangelo.html"},
+        {src : "demos/quotes/Oscar.html"},        
+        {src : "demos/quotes/Isaac.html"}        
     ];
 
     // initial demo index
