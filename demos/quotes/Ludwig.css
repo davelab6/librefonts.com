@@ -1,27 +1,27 @@
-.sample#Isaac {
-    background: #f1c40f;
+.sample#Ludwig {
+    background: #2980b9;
     padding: 250px 0;
 }
-.sample#Isaac .text {
+.sample#Ludwig .text {
     margin: 0 auto;
     padding: 0 20px;
     width: 800px;
 }
-.sample#Isaac h2 {
-    color: #e67e22;
-    font: 400 36px/1.4"Halant";
+.sample#Ludwig h2 {
+    color: #f2ca27;
+    font: 400 36px/1.4"Vesper Libre";
     font-style: italic;
     margin: 0 0 20px 0;
     text-align: left;
     text-indent: -10px;
 }
-.sample#Isaac h3 {
-    color: #354b60;
-    font: 400 24px/1.4"Rajdhani";
+.sample#Ludwig h3 {
+    color: #40d47e;
+    font: 400 24px/1.4"Kalam";
     margin: 0 0 20px 0;
     text-align: left;
     text-indent: -32px;
 }
-.sample#Isaac h3 em {
+.sample#Ludwig h3 em {
     font-style: italic;
 }
