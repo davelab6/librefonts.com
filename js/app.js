@@ -11,6 +11,8 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
 
     // Set of demos
     $scope.demos = [
+		{src : "demos/icecream.html"},
+	    {src : "demos/icecream2.html"},
         {src : "demos/swan.html"},
         {src : "demos/interconnect.html"},
         {src : "demos/gnat-bull.html"},
