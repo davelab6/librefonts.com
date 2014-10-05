@@ -11,7 +11,7 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
 
     // Set of demos
     $scope.demos = [
-		{src : "demos/icecream.html"},
+	    {src : "demos/icecream.html"},
 	    {src : "demos/icecream2.html"},
         {src : "demos/swan.html"},
         {src : "demos/interconnect.html"},
@@ -78,5 +78,26 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
     $scope.showDemo = function (index) {
         $scope._Index = index;
     };
+});
+
+$(document).ready(function() {
+
+	$(function() {
+	  $(".fit").fitText(8);
+	});
+
+	// the fox and the grapes scripts
+	var width = $(window).width() - 250;
+	var height = $(window).height() - 250;
+
+	function run() {
+		var top = Math.random() * height;
+		var left = Math.random() * width;
+		$('#grapes').css('top', top + 'px').css('left', left + 'px');
+		$('#grapes').removeClass('shake');
+	}
+	$('#grapes').mouseover(run);
+	// end the fox and the grapes scripts
+
 });
 
