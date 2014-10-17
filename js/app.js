@@ -8,56 +8,85 @@
 
 angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
   .controller('MainCtrl', function ($scope) {
-
+    var selectedLanguage = "hindi";
+    this.languages = [{ name : 'telugu' ,label : 'తెలుగు' },
+                        { name : 'hindi' ,label : 'हिन्दी' },
+                        { name : 'marati' ,label : 'मराठी' },
+                        { name : 'english' ,label : 'English' },
+                        { name : 'nepali' ,label : 'नेपाली' }];
+    var telugu = [{src : "demos/telugu/vemana1.te.html"},
+                    {src : "demos/telugu/vemana2.te.html"},
+                    {src : "demos/telugu/vemana3.te.html"},
+                    {src : "demos/telugu/vemana4.te.html"},
+                    {src : "demos/telugu/vemana5.te.html"},
+                    {src : "demos/telugu/vemana6.te.html"},
+                    {src : "demos/telugu/vemana7.te.html"},
+                    {src : "demos/telugu/vemana8.te.html"},
+                    {src : "demos/telugu/vemana9.te.html"},
+                    {src : "demos/telugu/vemana10.te.html"}];
+    var hindi = [{src : "demos/hindi/icecream.hi.html"},
+                {src : "demos/hindi/icecream2.hi.html"},
+                {src : "demos/hindi/swan.hi.html"},
+                {src : "demos/hindi/interconnect.hi.html"},
+                {src : "demos/hindi/gnat-bull.hi.html"},
+                {src : "demos/hindi/oak.hi.html"},
+                {src : "demos/hindi/rivers.hi.html"},
+                {src : "demos/hindi/the-fox-and-the-grapes.hi.html"},
+                {src : "demos/hindi/two-bags.hi.html"},
+                {src : "demos/hindi/moon-mother.hi.html"},
+                {src : "demos/hindi/eleven.hi.html"},
+                {src : "demos/hindi/rabbit.hi.html"},
+                {src : "demos/hindi/bull-jackel.hi.html"},
+                {src : "demos/hindi/gajraj.hi.html"},
+                {src : "demos/hindi/drums.hi.html"},
+                {src : "demos/hindi/stupid-ass.hi.html"},
+                {src : "demos/hindi/copying.hi.html"},
+                {src : "demos/hindi/talkative-turtle.hi.html"},
+                {src : "demos/hindi/enemy-advice.hi.html"},
+                {src : "demos/hindi/fools-learn.hi.html"},
+                {src : "demos/hindi/golu-molu.hi.html"},
+                {src : "demos/hindi/lion-jackel.hi.html"},
+                {src : "demos/hindi/guests.hi.html"},
+                {src : "demos/hindi/jackel.hi.html"},
+                {src : "demos/hindi/quotes/Jean.hi.html"},
+                {src : "demos/hindi/quotes/Gertrude.hi.html"},
+                {src : "demos/hindi/quotes/Henry.hi.html"},
+                {src : "demos/hindi/quotes/Horace.hi.html"},
+                {src : "demos/hindi/quotes/James.hi.html"},
+                {src : "demos/hindi/quotes/Lucius.hi.html"},
+                {src : "demos/hindi/quotes/Marshall.hi.html"},
+                {src : "demos/hindi/quotes/Michelangelo.hi.html"},
+                {src : "demos/hindi/quotes/Oscar.hi.html"},        
+                {src : "demos/hindi/quotes/Isaac.hi.html"},
+                {src : "demos/hindi/quotes/Scott.hi.html"},
+                {src : "demos/hindi/quotes/Carroll.hi.html"},
+                {src : "demos/hindi/quotes/Ralph.hi.html"},
+                {src : "demos/hindi/quotes/Jackson.hi.html"},
+                {src : "demos/hindi/quotes/John.hi.html"},
+                {src : "demos/hindi/quotes/Marc.hi.html"},
+                {src : "demos/hindi/quotes/Henri.hi.html"},
+                {src : "demos/hindi/quotes/Ludwig.hi.html"},
+                {src : "demos/hindi/quotes/eorgia.hi.html"}];
+    var english = [];
+    var marati = [];
+    var nepali = [];
+    var demosMap = {
+        telugu : telugu,
+        hindi : hindi,
+        english : english,
+        marati : marati,
+        nepali : nepali
+    };
     // Set of demos
-    $scope.demos = [
-	    {src : "demos/icecream.html"},
-	    {src : "demos/icecream2.html"},
-        {src : "demos/swan.html"},
-        {src : "demos/interconnect.html"},
-        {src : "demos/gnat-bull.html"},
-        {src : "demos/oak.html"},
-        {src : "demos/rivers.html"},
-        {src : "demos/the-fox-and-the-grapes.html"},
-        {src : "demos/two-bags.html"},
-        {src : "demos/moon-mother.html"},
-        {src : "demos/eleven.html"},
-        {src : "demos/rabbit.html"},
-        {src : "demos/bull-jackel.html"},
-        {src : "demos/gajraj.html"},
-        {src : "demos/drums.html"},
-        {src : "demos/stupid-ass.html"},
-        {src : "demos/copying.html"},
-        {src : "demos/talkative-turtle.html"},
-        {src : "demos/enemy-advice.html"},
-        {src : "demos/fools-learn.html"},
-        {src : "demos/golu-molu.html"},
-        {src : "demos/lion-jackel.html"},
-        {src : "demos/guests.html"},
-        {src : "demos/jackel.html"},
-        {src : "demos/quotes/Jean.html"},
-        {src : "demos/quotes/Gertrude.html"},
-        {src : "demos/quotes/Henry.html"},
-        {src : "demos/quotes/Horace.html"},
-        {src : "demos/quotes/James.html"},
-        {src : "demos/quotes/Lucius.html"},
-        {src : "demos/quotes/Marshall.html"},
-        {src : "demos/quotes/Michelangelo.html"},
-        {src : "demos/quotes/Oscar.html"},        
-        {src : "demos/quotes/Isaac.html"},
-        {src : "demos/quotes/Scott.html"},
-        {src : "demos/quotes/Carroll.html"},
-        {src : "demos/quotes/Ralph.html"},
-        {src : "demos/quotes/Jackson.html"},
-        {src : "demos/quotes/John.html"},
-        {src : "demos/quotes/Marc.html"},
-        {src : "demos/quotes/Henri.html"},
-        {src : "demos/quotes/Ludwig.html"},
-        {src : "demos/quotes/eorgia.html"}        
-    ];
+    $scope.demos = demosMap[selectedLanguage];
 
     // initial demo index
     $scope._Index = 0;
+
+    this.changeLanguage = function (lang) {
+        selectedLanguage = lang;
+        $scope.demos = demosMap[selectedLanguage];
+    };
 
     // if a current demo is the same as requested demo
     $scope.isActive = function (index) {
@@ -79,25 +108,3 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
         $scope._Index = index;
     };
 });
-
-$(document).ready(function() {
-
-	$(function() {
-	  $(".fit").fitText(8);
-	});
-
-	// the fox and the grapes scripts
-	var width = $(window).width() - 250;
-	var height = $(window).height() - 250;
-
-	function run() {
-		var top = Math.random() * height;
-		var left = Math.random() * width;
-		$('#grapes').css('top', top + 'px').css('left', left + 'px');
-		$('#grapes').removeClass('shake');
-	}
-	$('#grapes').mouseover(run);
-	// end the fox and the grapes scripts
-
-});
-

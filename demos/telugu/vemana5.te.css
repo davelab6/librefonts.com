@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/earlyaccess/suravaram.css);
+@import url(http://fonts.googleapis.com/earlyaccess/peddana.css);
+.sample#vemana5 {
+  background: #F39C12;
+  padding: 350px 0; }
+  .sample#vemana5 .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 610px; }
+  .sample#vemana5 h1 {
+    color: #86E2D5;
+    font: 400 30px/40px "suravaram";
+    font-style: italic;
+    margin: 0 0 10px 0;}
+  .sample#vemana5 p {
+    color: #3498DB;
+    font: 400 20px/30px "peddana";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-indent: -30px; }

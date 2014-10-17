@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/earlyaccess/tenaliramakrishna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nats.css);
+.sample#vemana2 {
+  background: #D2D7D3;
+  padding: 350px 0; }
+  .sample#vemana2 .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 610px; }
+  .sample#vemana2 h1 {
+    color: #9A12B3;
+    font: 400 30px/40px "tenaliramakrishna";
+    font-style: italic;
+    margin: 0 0 10px 0;}
+  .sample#vemana2 p {
+    color: #DB0A5B;
+    font: 400 20px/30px "nats";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-indent: -30px; }
