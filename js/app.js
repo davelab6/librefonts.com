@@ -14,7 +14,13 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
                         { name : 'marati' ,label : 'मराठी' },
                         { name : 'english' ,label : 'English' },
                         { name : 'nepali' ,label : 'नेपाली' }];
-    var telugu = [{src : "demos/telugu/vemana1.te.html"},
+    var telugu = [ {src : "demos/telugu/attarintiki.te.html"},
+                    {src : "demos/telugu/birbal-fever.te.html"},
+                    {src : "demos/telugu/birbal-khichdi.te.html"},
+                    {src : "demos/telugu/coin-bag.te.html"},
+                    {src : "demos/telugu/garden-plants.te.html"},
+                    {src : "demos/telugu/vishnu-glory.te.html"},
+                    {src : "demos/telugu/vemana1.te.html"},
                     {src : "demos/telugu/vemana2.te.html"},
                     {src : "demos/telugu/vemana3.te.html"},
                     {src : "demos/telugu/vemana4.te.html"},
@@ -22,8 +28,8 @@ angular.module('AwesomeHindiFont', ['ngAnimate', 'ngTouch'])
                     {src : "demos/telugu/vemana6.te.html"},
                     {src : "demos/telugu/vemana7.te.html"},
                     {src : "demos/telugu/vemana8.te.html"},
-                    {src : "demos/telugu/vemana9.te.html"},
-                    {src : "demos/telugu/vemana10.te.html"}];
+                    {src : "demos/telugu/vemana9.te.html"}];
+
     var hindi = [{src : "demos/hindi/icecream.hi.html"},
                 {src : "demos/hindi/icecream2.hi.html"},
                 {src : "demos/hindi/swan.hi.html"},
