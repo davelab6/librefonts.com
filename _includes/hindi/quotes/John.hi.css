@@ -1,0 +1,27 @@
+.sample#John {
+    background: #3d566e;
+    padding: 250px 0;
+}
+.sample#John .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#John h2 {
+    color: #bdc3c7;
+    font: 400 36px/1.4"Vesper Libre";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#John h3 {
+    color: #a3b1b2;
+    font: 400 24px/1.4"Glegoo";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#John h3 em {
+    font-style: italic;
+}

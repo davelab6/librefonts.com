@@ -1,0 +1,17 @@
+.sample#Lucius {
+  background: #c00;
+  padding: 325px 0;
+  text-align: center; }
+  .sample#Lucius .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 700px; }
+  .sample#Lucius h1 {
+    border-bottom: 6px solid #090909;
+    color: #090909;
+    display: inline-block;
+    font: 400 76px/64px "Khand";
+    letter-spacing: -4px;
+    margin: 0 0 20px 0;
+    padding: 0 4px;
+    text-transform: uppercase; }

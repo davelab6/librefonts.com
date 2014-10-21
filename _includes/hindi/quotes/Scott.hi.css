@@ -1,0 +1,27 @@
+.sample#Scott {
+    background: #c0392b;
+    padding: 250px 0;
+}
+.sample#Scott .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Scott h2 {
+    color: #3498db;
+    font: 400 36px/1.4"Vesper Libre";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Scott h3 {
+    color: #2cc36b;
+    font: 400 24px/1.4"Halant";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Scott h3 em {
+    font-style: italic;
+}

@@ -1,0 +1,27 @@
+.sample#eorgia {
+    background: #c0392b;
+    padding: 250px 0;
+}
+.sample#eorgia .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#eorgia h2 {
+    color: #e74c3c;
+    font: 400 36px/1.4"Sarpanch";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#eorgia h3 {
+    color: #ea6153;
+    font: 400 24px/1.4"Rajdhani";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#eorgia h3 em {
+    font-style: italic;
+}
