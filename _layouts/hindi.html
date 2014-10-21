@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Bhargav Krishna" />
-    <title>Google Hindi Web Fonts Typographic Project</title>
-    <meta name="description" content="Awesome Hindi fonts">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+ {% include html_start.html %}
 
-    <!-- Google web Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Oleo+Script|Monda|Unica+One|Alegreya:400italic,400|Abril+Fatface|Vollkorn' rel='stylesheet' type='text/css'>
-    <!-- Typography Project stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/menu_topside.css" />
-    <link href="css/hindi-fonts.css" rel="stylesheet">
-    <!-- add javascripts -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
     <style>
      
                 {% include hindi/interconnect.hi.css %}
@@ -69,50 +51,8 @@
     
 </head>
     
-    
-<body ng-controller="MainCtrl as mainctrl">
-        <div class="menu-wrap">
-            <nav class="menu-top">
-                <div class="profile"><span>Hindi Fonts Showcase</span></div>
-                <div class="icon-list">
-                    <a href="#" >Telugu / తెలుగు  </a> <a>  हिन्दी </a>
-                </div>
-            </nav>
-            <nav class="menu-side">
-                <a href="/index.html#introduction.en_us.html">Introduction</a>
-                <a href="/about.en_us.html">About</a>
-                <a href="/contact.en_us.html">Contact</a>
-            </nav>
-        </div>
-        <button class="menu-button" id="open-button">Open Menu</button>
-    <!-- slider container -->
-        <div class="content-wrap">
-            <div class="content">
-                <div class="container-fluid">
-                    <div class="container section-intro" id="introduction">
-                        <h1>
-                            <span class="small">Examples <i>of</i></span>
-                            <em>Devanagari</em>
-                            <span class="small"><i>with</i> new typefaces <i>from</i></span>
-                            <em>Google Fonts</em>
-                        </h1>
-                        <div class="divider"></div>
-                        <p>
-                            In 2014 the <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> project began publishing a series of new Devanagari typefaces. This collaborative, ongoing project helps provide typographic inspiration for using Google’s new fonts for Hindi, Marathi and Nepali websites.
-                        </p>
-                        <div class="divider"></div>
-                        <div class="divider"></div>
-                       
-                    </div>
-                </div
-				
-            </div>
-        </div>
-
-    <script src="js/classie.js"></script>
-    <script src="js/mainmenu.js"></script>
-</body>
-
+  {% include home.html %}   
+  
 
 <body>
 
