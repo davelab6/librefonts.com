@@ -1,0 +1,2502 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Bhargav Krishna" />
+    <title>Google Hindi Web Fonts Typographic Project</title>
+    <meta name="description" content="Awesome Hindi fonts">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- Google web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script|Monda|Unica+One|Alegreya:400italic,400|Abril+Fatface|Vollkorn' rel='stylesheet' type='text/css'>
+    <!-- Typography Project stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu_topside.css" />
+    <link href="css/hindi-fonts.css" rel="stylesheet">
+    <!-- add javascripts -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
+    <style>
+     
+                /* Number of columns: 8 */
+/* Percentage width of a single column: 12.5% */
+/* Base unit of measurement: 20px */
+.section-interconnect {	background-color: rgba(241, 90, 36, 1); padding: calc(2 * 20px); }
+.section-interconnect h2 { color: white; font-family: 'Vesper Libre', serif; font-size: 20px; line-height: 1.8em; margin-bottom: calc(4 * 20px); margin-top: calc(2 * 20px); text-align: center; text-transform: uppercase; }
+.section-interconnect h2 span {	display: inline-block; outline: 1px solid white; padding: 1em; }
+.section-interconnect .container {	width: 80%; }
+.section-interconnect .container p { font-family: 'Vesper Libre', serif; font-size: 24px; margin-bottom: calc(4 * 20px); }
+.section-interconnect .container p.drop-p { }
+.section-interconnect em { color: white; display: block; font-family: 'Old Standard TT', serif; font-size: 24px; text-align: center; margin-bottom: calc(4 * 20px); }
+.section-interconnect ul { font-family: 'Vesper Libre', serif; font-size: 14px; list-style-type: none; margin-bottom: calc(2 * 20px); padding: 0; text-align: center; }
+.section-interconnect li { line-height: 2.2em; }
+.section-interconnect li.label { font-family: 'Questrial', sans-serif; text-transform: uppercase; }
+.section-interconnect hr { width: 5%; border: 1px solid black; margin-bottom: calc(2 * 20px); }
+.section-interconnect a { color: black;	text-decoration: none; }
+.section-interconnect a:hover {	border-bottom: 1px solid black; }
+
+/* Styles for Astronomer */
+
+/* Small devices (tablets, > 768px) */
+@media (min-width: 769px) {
+
+	.section-interconnect { padding: calc(20px); }
+	.section-interconnect h2 { margin-bottom: calc(8 * 20px); margin-top: calc(4 * 20px); }
+	.section-interconnect .container p { font-size: 24px; }
+	.section-interconnect .container .drop-p { color: white; font-size: 12px; float: left; line-height: 1.4em; margin-bottom: 0; margin-right: calc(3 * 20px); margin-top: calc(1 * 20px); width: 33.3%; }
+	.section-interconnect em { font-size: 18px; margin-bottom: calc(8 * 20px); }
+	.section-interconnect hr { width: 2.5%;	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.section-interconnect .container p { font-size: 35px; }
+	.section-interconnect .container .drop-p { font-size: 15px; line-height: 1.8em; margin-bottom: 0; margin-top: calc(1 * 20px); margin-right: calc(4 * 20px); }
+	.section-interconnect em { font-size: 24px; }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.section-interconnect {	padding: calc(20px);	}
+	.section-interconnect h2 { margin-bottom: calc(2 * 20px);	margin-top: calc( 20px);	}
+	.section-interconnect .container p { font-size: 45px; margin-bottom: calc(2 * 20px);	}
+	.section-interconnect .container .drop-p { font-size: 36px; line-height: 1.8em;	}
+	.section-interconnect em { font-size: 36px; margin-bottom: calc(2 * 20px); }
+}
+
+/* Large devices (extra large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+	.section-interconnect .container p { font-size: 40px;	}
+}
+
+        /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 01:18:30
+*/
+.section-copying {
+	font-family: 'Rajdhani', serif;line-height: 1.5;
+	background-color: #101010;
+	color: #999;
+	color: rgba(255,255,255,0.75);
+	background-image: url(../../images/space.png);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+.section-copying .container {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 180px 140px;
+	background-color: rgba(0,0,0,0.45);
+	box-sizing: border-box;
+}
+.section-copying .caption {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+.section-copying h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+.section-copying p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.section-copying .col {
+	max-width: 420px;
+	float: right;
+}
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-copying .col {float: none;}
+	.section-copying .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
+
+}
+
+                /* 
+* @Author: Dave Crossland
+* @Date:   2014-10-05
+* @Last Modified by:   Dave Crossland
+* @Last Modified time: 2014-10-05
+
+This is derived from a Typekit Practice lesson:
+http://practice.typekit.com/lesson/using-shades
+*/
+/* line 24, source string */
+.section-icecream {
+    background-color: #fcfefe;
+}
+
+/* line 26, source string */
+.section-icecream {
+    margin: 4em 0;
+    text-align: center;
+}
+  /* line 29, source string */
+.section-icecream b {
+    font-family: "Ek Mukta", Verdana, sans-serif;
+    font-size: 4em;
+    color: #d593b8;
+}
+/* line 37, source string */
+.section-icecream em {
+    display: block;
+    margin-bottom: 0.5em;
+    font-family: "Ek Mukta", Verdana, sans-serif;
+    font-size: 8em;
+    color: #402a1f;
+    text-shadow: -0.005em 0.01em #402a1f, -0.01em 0.005em #402a1f, -0.01em 0.015em #402a1f, -0.015em 0.01em #402a1f, -0.015em 0.02em #402a1f, -0.02em 0.015em #402a1f, -0.02em 0.025em #402a1f, -0.025em 0.02em #402a1f, -0.025em 0.03em #402a1f, -0.03em 0.025em #402a1f, -0.03em 0.035em #402a1f, -0.035em 0.03em #402a1f, -0.035em 0.04em #f4efd2, -0.04em 0.035em #f4efd2, -0.04em 0.045em #f4efd2, -0.045em 0.04em #f4efd2, -0.045em 0.05em #f4efd2, -0.05em 0.045em #f4efd2, -0.05em 0.055em #f4efd2, -0.055em 0.05em #f4efd2, -0.055em 0.06em #f4efd2, -0.06em 0.055em #f4efd2, -0.06em 0.065em #f4efd2, -0.065em 0.06em #f4efd2, -0.065em 0.07em #f4efd2, -0.07em 0.065em #f4efd2, -0.07em 0.075em #f4efd2, -0.075em 0.07em #f4efd2, -0.075em 0.08em #f4efd2, -0.08em 0.075em #f4efd2, -0.08em 0.085em #f4efd2, -0.085em 0.08em #f4efd2, -0.085em 0.09em #f4efd2, -0.09em 0.085em #f4efd2, -0.09em 0.095em #f4efd2, -0.095em 0.09em #f4efd2, -0.095em 0.1em #f4efd2, -0.1em 0.095em #f4efd2, -0.1em 0.105em #f4efd2, -0.105em 0.1em #f4efd2, -0.105em 0.11em #f4efd2, -0.11em 0.105em #402a1f, -0.11em 0.115em #402a1f, -0.115em 0.11em #402a1f, -0.115em 0.12em #402a1f, -0.12em 0.115em #402a1f, -0.12em 0.125em #402a1f, -0.125em 0.12em #402a1f, -0.125em 0.13em #402a1f, -0.13em 0.125em #402a1f, -0.13em 0.135em #402a1f, -0.135em 0.13em #402a1f, -0.135em 0.14em #402a1f;
+}
+                /* 
+* @Author: Dave Crossland
+* @Date:   2014-10-05
+* @Last Modified by:   Dave Crossland
+* @Last Modified time: 2014-10-05
+
+This is derived from a Typekit Practice lesson:
+http://practice.typekit.com/lesson/using-shades
+*/
+/* line 24, source string */
+.section-icecream2 {
+    background-color: #fcfefe;
+}
+
+/* line 26, source string */
+.section-icecream2 {
+    margin: 4em 0;
+    text-align: center;
+}
+  /* line 29, source string */
+.section-icecream2 b {
+    font-family: "Ek Mukta", Verdana, sans-serif;
+    font-size: 4em;
+    color: #f3c83e;
+}
+/* line 37, source string */
+.section-icecream2 em {
+    display: block;
+    margin-bottom: 0.5em;
+    font-family: "Ek Mukta", Verdana, sans-serif;
+    font-size: 8em;
+    color: rgba(166, 192, 215, 0.7);
+    text-shadow: -0.005em 0.01em #d9edf8, -0.01em 0.005em #d9edf8, -0.01em 0.015em #d9edf8, -0.015em 0.01em #d9edf8, -0.015em 0.02em #d9edf8, -0.02em 0.015em #d9edf8, -0.02em 0.025em #d9edf8, -0.025em 0.02em #d9edf8, -0.025em 0.03em #d9edf8, -0.03em 0.025em #d9edf8, -0.03em 0.035em #d9edf8, -0.035em 0.03em #d9edf8, -0.035em 0.04em #d9edf8, -0.04em 0.035em #d9edf8, -0.04em 0.045em #d9edf8, -0.045em 0.04em #d9edf8, -0.045em 0.05em #d9edf8, -0.05em 0.045em #d9edf8, -0.05em 0.055em #d9edf8, -0.055em 0.05em #d9edf8, -0.055em 0.06em #d9edf8, -0.06em 0.055em #d9edf8, -0.06em 0.065em #d9edf8, -0.065em 0.06em #d9edf8, -0.065em 0.07em #d9edf8, -0.06em 0.065em #f3f5fa, -0.06em 0.075em #f3f5fa, -0.055em 0.07em #f3f5fa, -0.055em 0.08em #f3f5fa, -0.05em 0.075em #f3f5fa, -0.05em 0.085em #f3f5fa, -0.045em 0.08em #f3f5fa, -0.045em 0.09em #f3f5fa, -0.04em 0.085em #f3f5fa, -0.04em 0.095em #f3f5fa, -0.035em 0.09em #f3f5fa, -0.035em 0.1em #f3f5fa, -0.03em 0.095em #f3f5fa, -0.03em 0.105em #f3f5fa, -0.025em 0.1em #f3f5fa, -0.025em 0.11em #f3f5fa, -0.02em 0.105em #f3f5fa, -0.02em 0.115em #f3f5fa, -0.015em 0.11em #f3f5fa, -0.015em 0.12em #f3f5fa, -0.01em 0.115em #f3f5fa, -0.01em 0.125em #f3f5fa, -0.005em 0.12em #f3f5fa, -0.005em 0.13em #f3f5fa, -0em 0.125em #f3f5fa, -0em 0.135em #f3f5fa, 0.005em 0.13em #f3f5fa, 0.005em 0.14em #f3f5fa, 0.01em 0.135em #f3f5fa, 0.01em 0.145em #f3f5fa, 0.015em 0.14em #f3f5fa, 0.015em 0.15em #f3f5fa, 0.02em 0.145em #f3f5fa, 0.02em 0.155em #f3f5fa, 0.025em 0.15em #f3f5fa, 0.025em 0.16em #f3f5fa, 0.03em 0.155em #f3f5fa, 0.03em 0.165em #f3f5fa, 0.035em 0.16em #f3f5fa, 0.035em 0.17em #f3f5fa;
+}
+                .section-swan { background-color: #2A2C39; padding: 60px 0 120px 0; color: #2A2C39; }
+.section-swan .container { position: relative; width :100%; }
+.section-swan h2 { font: 50px/50px 'Khand', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
+.section-swan p { font: 20px/30px 'Khand', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;
+    }
+.section-swan .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
+.section-swan .caption { margin: 0 0 40px 20px; color: #eee; position: relative; z-index: 102;}
+.section-swan .caption a { color: #eee; }
+.section-swan .caption a:hover { background-color: #e45546; }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-swan .container { width: auto; }
+	.section-swan h2 { font-size: 46px; }
+	.section-swan p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+
+}
+                /* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+
+.section-gnat-bull { background: url(../../images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
+.section-gnat-bull h2 { font: 70px/68px 'Hind', serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
+.section-gnat-bull p { font: 16px/30px 'Hind', serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
+.section-gnat-bull .avatar img { margin: 0 0 10px 20px; }
+.section-gnat-bull .caption { margin: 0 0 40px 20px; color: #eee; }
+.section-gnat-bull .caption a { color: #eee; }
+.section-gnat-bull .caption a:hover { background-color: #0cf; }
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-gnat-bull .container { width: 100%; }
+	.section-gnat-bull h2 { font: 60px/60px 'Glegoo', Georgia, serif; }
+	.section-gnat-bull p { padding-right: 20px; }
+}
+                .section-oak { padding: 30px 20px 200px 20px; }
+.section-oak .container { text-align: center; }
+.section-oak .caption { margin-bottom: 0; text-align: left; }
+.section-oak h2 { font: 24px/24px 'Rajdhani', serif; text-transform: uppercase; text-align: center; color: #c31; margin: 20px 20px 30px; }
+.section-oak p { font: 16px/24px 'Rajdhani', serif; color: #333; width: 460px; text-align: justify; margin: 0 auto;}
+.section-oak .oak-leaf { margin-top: 60px; }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-oak .container { width: 100%; }
+	.section-oak p { max-width: 460px; width: auto; padding: 0 20px; }
+}
+
+                .section-rivers {background: url(../../images/indigo-sea.jpg) no-repeat center; background-size: cover; padding: 40px 20px 80px 20px; }
+.section-rivers .container { width: 80%; min-height: 400px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
+.section-rivers h2 {font: 32px/42px 'Sarpanch', sans-serif; font-weight: 800; text-transform: uppercase; color: #29232D;text-align: left; letter-spacing: 1px;padding: 20px 20px 0 20px;}
+.section-rivers p {font: 18px/27px 'Sarpanch', sans-serif;color: #fff; text-align: left;padding: 20px 20px 0 20px;}
+.section-rivers .caption { margin-bottom:5px; text-align: left; color: #fff; }
+.section-rivers .caption a {color: #fff;}
+.section-rivers .avatar { margin-left: 20px; }
+                /* Styles for The Fox and the Grapes */
+
+.section-the-fox-and-the-grapes { background: #2E334A; cursor: url('../../images/fox.png'), auto; /*ie*/ cursor: -webkit-image-set( url('../../images/fox.png') 1x, url('../../images/fox@2x.png') 2x), auto; padding: 40px 0 310px 0; position: relative; }
+.section-the-fox-and-the-grapes {
+	background: #2E334A;
+	cursor: url('../../images/fox.png'), auto; /*ie*/
+	cursor: -webkit-image-set(
+	  url('../../images/fox.png') 1x,
+	  url('../../images/fox@2x.png') 2x
+	), auto;
+	padding: 40px 0 310px 0;
+	position: relative;
+}
+
+.section-the-fox-and-the-grapes .avatar img { margin: 0 0 10px 20px; }
+.section-the-fox-and-the-grapes .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
+.section-the-fox-and-the-grapes .caption a { color: #CBCCD1; }
+.section-the-fox-and-the-grapes .caption a:hover, .section-the-fox-and-the-grapes .caption a:active { color: #2E334A; background: #CBCCD1; }
+.section-the-fox-and-the-grapes h2, .section-the-fox-and-the-grapes p { margin: 0 auto; width: 420px; }
+.section-the-fox-and-the-grapes h2 { color: #8EC9D2; font: 36px 'Ovo', serif; text-align: center; margin-bottom: 16px; }
+.section-the-fox-and-the-grapes p { color: #B7B8BF; font: 15px/21px 'Muli', sans-serif; font-weight: 300; text-align: justify;	 }
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(0, 0) rotate(0); }
+	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+	10% { -webkit-transform: translate(0, 0) rotate(0); }
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
+}
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+.section-the-fox-and-the-grapes .grapes { background: url('../../images/grapes.png') no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-the-fox-and-the-grapes .container { width: 100%;  }
+	.section-the-fox-and-the-grapes h2,	.section-the-fox-and-the-grapes p { width: auto; max-width: 420px; padding: 0 20px; }
+}
+                .section-two-bags { background: #ddd9d1 url(../../images/architecture.png) no-repeat center; background-size: cover; height: 600px; }
+.section-two-bags h2 { font: 80px/66px 'Kalam', serif; text-transform: uppercase; color: #817a74; margin: 0 0 30px 20px; opacity: .6; padding-top: 30px}
+.section-two-bags h2 i { font-family:'Kalam', serif; font-style: normal;}
+.section-two-bags p { font: 17px/28px 'Kalam', serif; color: #817a74; width: 380px; margin-left: 250px; }
+.section-two-bags .caption { color: #999; float: left; width: 200px; margin: 4px 0 20px 20px; }
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-two-bags .container { width: 100%;}
+	.section-two-bags h2 { font-size: 64px; line-height: 52px; margin-bottom: 6px; opacity: 1;}
+	.section-two-bags p { max-width: 380px; width: auto; margin-left: 0; padding: 0 20px; float: left; font: 14px/24px 'Monda', Arial, sans-serif; }
+	.section-two-bags .caption { width: auto; margin-top: 6px; opacity: .7; }
+}
+                
+.section-moon-mother .container {	width: 85%;}
+.section-moon-mother { background-color: #212221; padding: 60px 0 120px 0; color: #9d9e9d; }
+.section-moon-mother .caption a:hover { color: #000; text-align: left; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; } 
+.section-moon-mother h2 { font: 34px/30px 'Glegoo', 'Glegoo'; color: #865; margin: 0 auto; text-transform: uppercase; padding: 14px 0 13px 0; border-top: 4px double #676767; border-bottom: 4px double #676767; }
+.section-moon-mother h2 span { font: 300 16px 'Glegoo', Helvetica, Arial; margin: 0 5px 0 3px; color: #555; letter-spacing: .05em; }
+.section-moon-mother p { color: #9d9e9d; margin: 0 auto; }
+.section-moon-mother .black-ital { font: italic 900 130px/90px 'Glegoo', Georgia, serif; margin-bottom: 12px; display: block; }
+.section-moon-mother .ital { font: italic 400 60px/60px 'Glegoo', Georgia, serif; margin: 0 0 8px 6px; display: block; }
+.section-moon-mother .small-cap { font: 400 18px/36px 'Glegoo', Georgia, serif; letter-spacing: .17em; margin: 0 0 0 12px; text-transform: uppercase; display: block; }
+.section-moon-mother .reg { font: 400 46px/40px 'Glegoo', Georgia, serif; display: block; margin: 0 0 0 -10px; }
+.section-moon-mother .bold-ital { font: italic 700 43px/56px 'Glegoo', Georgia, serif; display: block; }
+.section-moon-mother .bold { font: 400 23px/36px 'Glegoo', Georgia, serif; display: block; margin-left: 8px; }
+.section-moon-mother strong { text-transform: uppercase; font-weight: 900; letter-spacing: .15em; font-size: 18px; margin: 0 3px; }
+.section-moon-mother .black { font: 900 39px/32px 'Glegoo', Georgia, serif; margin-left: 4px; display: block; }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+
+	.section-moon-mother .container { width: 100%; }
+	.section-moon-mother .container .caption { width: 280px; margin-left: 40px; }
+	.section-moon-mother h2, .section-moon-mother p { width: 320px; }
+	.section-moon-mother h2 { font-size: 32px; text-align: center; }
+	.section-moon-mother h2 span { display: block; }
+	.section-moon-mother .black-ital { font-size: 120px; }
+	.section-moon-mother .small-cap { font-size: 13px; line-height: 15px; margin: 0 auto 4px auto; }
+	.section-moon-mother .reg { font-size: 42px; }
+	.section-moon-mother .bold-ital	{ font-size: 60px; }
+	.section-moon-mother .bold { line-height: 24px; margin: 4px auto; }
+	.section-moon-mother .black { font-size: 42px; line-height: 40px; }
+}
+                .section-eleven {
+	font-family: 'Neuton', serif;line-height: 1.5;
+	background-color: #101010;
+	color: #999;
+	color: rgba(255,255,255,0.75);
+	background-image: url(../../images/prophet.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+.section-eleven .container {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 180px 140px;
+	background-color: rgba(0,0,0,0.45);
+	box-sizing: border-box;
+}
+.section-eleven .caption {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+.section-eleven h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+.section-eleven p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.section-eleven .col {
+	max-width: 420px;
+	float: right;
+}
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-eleven .col {float: none;}
+	.section-eleven .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
+
+}
+
+                /* Styles for rabbit */
+
+@-webkit-keyframes rotate {
+  from { -webkit-transform: rotate(0deg);  }
+  to { -webkit-transform: rotate(360deg);  }
+}
+.section-rabbit { background-color: #411b41; padding: 60px 0 120px 0; color: #411b41; }
+.section-rabbit .container { position: relative; width :100%; }
+.section-rabbit h2 { font: 50px/50px 'Palanquin', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
+.section-rabbit p { font: 15px/30px 'Palanquin', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;
+    }
+.section-rabbit .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
+.section-rabbit .caption { margin: 0 0 40px 20px; color: #eee; position: relative; z-index: 102;}
+.section-rabbit .caption a { color: #eee; }
+.section-rabbit .caption a:hover { background-color: #E84150; }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+    .section-rabbit .container { width: auto; }
+    .section-rabbit h2 { font-size: 46px; }
+    .section-rabbit p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+}
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 01:06:42
+*/
+.section-bull-jackel {
+	font-family: 'Laila', serif;line-height: 1.5;
+	background-color: #101010;
+	color: #999;
+	color: rgba(255,255,255,0.75);
+	background-image: url(../../images/forest.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+.section-bull-jackel .container {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 180px 140px;
+	background-color: rgba(0,0,0,0.45);
+	box-sizing: border-box;
+}
+.section-bull-jackel .caption {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+.section-bull-jackel h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+.section-bull-jackel p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.section-bull-jackel .col {
+	max-width: 420px;
+	float: right;
+}
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-bull-jackel .col {float: none;}
+	.section-bull-jackel .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
+
+}
+
+                .section-gajraj { background-color: #eb2c31; padding: 60px 0 120px 0; color: #eb2331; }
+.section-gajraj .container { position: relative; width :100%; }
+.section-gajraj h2 { font: 50px/50px 'Rozha One', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
+.section-gajraj p { font: 15px/30px 'Rozha One', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;
+    }
+.section-gajraj .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
+.section-gajraj .caption { margin: 0 0 40px 20px; color: #eee; position: relative; z-index: 102;}
+.section-gajraj .caption a { color: #eee; }
+.section-gajraj .caption a:hover { background-color: #093220; }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-gajraj .container { width: auto; }
+	.section-gajraj h2 { font-size: 46px; }
+	.section-gajraj p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+}
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 01:06:24
+*/
+.section-drums {
+	font-family: 'Neuton', serif;line-height: 1.5;
+	background-color: #101010;
+	color: #999;
+	color: rgba(255,255,255,0.75);
+	background-image: url(../../images/drums.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+.section-drums .container {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 180px 140px;
+	background-color: rgba(0,0,0,0.45);
+	box-sizing: border-box;
+}
+.section-drums .caption {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+.section-drums h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+.section-drums p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.section-drums .col {
+	max-width: 420px;
+	float: right;
+}
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-drums .col {float: none;}
+	.section-drums .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
+
+}
+
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 03:11:23
+*/
+
+.section-stupid-ass { background: #000; padding: 40px 0 310px 0; position: relative; }
+.section-stupid-ass {
+	background: #000;
+	padding: 40px 0 310px 0;
+	position: relative;
+}
+
+.section-stupid-ass .avatar img { margin: 0 0 10px 20px; }
+.section-stupid-ass .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
+.section-stupid-ass .caption a { color: #CBCCD1; }
+.section-stupid-ass .caption a:hover, .section-stupid-ass .caption a:active { color: #2E334A; background: #CBCCD1; }
+.section-stupid-ass h2, .section-stupid-ass p { margin: 0 auto; width: 75% }
+.section-stupid-ass h2 { color: #CBCCD1; font: 36px 'Teko', serif; text-align: center; margin-bottom: 16px; }
+.section-stupid-ass p { color: #CBCCD1; font: 15px/21px 'Teko', sans-serif; font-weight: 300; text-align: justify;	 
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;}
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(0, 0) rotate(0); }
+	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+	10% { -webkit-transform: translate(0, 0) rotate(0); }
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
+}
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+.section-stupid-ass .grapes { background: url('../../images/grapes.png') no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-stupid-ass .container { width: 100%;  }
+	.section-stupid-ass h2,	.section-stupid-ass p { width: auto; max-width: 420px; padding: 0 20px; }
+}
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 01:18:30
+*/
+.section-copying {
+	font-family: 'Rajdhani', serif;line-height: 1.5;
+	background-color: #101010;
+	color: #999;
+	color: rgba(255,255,255,0.75);
+	background-image: url(../../images/space.png);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+.section-copying .container {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 180px 140px;
+	background-color: rgba(0,0,0,0.45);
+	box-sizing: border-box;
+}
+.section-copying .caption {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+.section-copying h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+.section-copying p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.section-copying .col {
+	max-width: 420px;
+	float: right;
+}
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-copying .col {float: none;}
+	.section-copying .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
+
+}
+
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 02:20:55
+*/
+.section-talkative-turtle { background-color: #dae76c; padding: 60px 0 120px 0; color: #dae76c; }
+.section-talkative-turtle .container { position: relative; width :100%; }
+.section-talkative-turtle h2 { font: 50px/50px 'Rozha One', Georgia, serif; color: #FD0707; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
+.section-talkative-turtle p { font: 15px/30px 'Rozha One', Georgia, serif; width: 80%; color: #FD0707; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;
+    }
+.section-talkative-turtle .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
+.section-talkative-turtle .caption { margin: 0 0 40px 20px; color: #eee; position: relative; z-index: 102;}
+.section-talkative-turtle .caption a { color: #eee; }
+.section-talkative-turtle .caption a:hover { background-color: #dae76c; }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-talkative-turtle .container { width: auto; }
+	.section-talkative-turtle h2 { font-size: 46px; }
+	.section-talkative-turtle p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+}
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:11
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 01:35:43
+*/
+.section-enemy-advice {
+	font-family: 'Neuton', serif;line-height: 1.5;
+	background-color: #101010;
+	color: #999;
+	color: rgba(255,255,255,0.75);
+	background-image: url(../../images/enemy.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+.section-enemy-advice .container {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 180px 140px;
+	background-color: rgba(0,0,0,0.45);
+	box-sizing: border-box;
+}
+.section-enemy-advice .caption {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+.section-enemy-advice h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+.section-enemy-advice p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.section-enemy-advice .col {
+	max-width: 420px;
+	float: right;
+}
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-enemy-advice .col {float: none;}
+	.section-enemy-advice .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
+
+}
+
+                .section-fools-learn { background-color: #18a566; padding: 60px 0 120px 0; color: #18a566; }
+.section-fools-learn .container { position: relative; width :100%; }
+.section-fools-learn h2 { font: 50px/50px 'Rozha One', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
+.section-fools-learn p { font: 15px/30px 'Rozha One', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;
+    }
+.section-fools-learn .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
+.section-fools-learn .caption { margin: 0 0 40px 20px; color: #eee; position: relative; z-index: 102;}
+.section-fools-learn .caption a { color: #eee; }
+.section-fools-learn .caption a:hover { background-color: #18a566; }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+  .section-fools-learn .container { width: auto; }
+  .section-fools-learn h2 { font-size: 46px; }
+  .section-fools-learn p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+}
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 02:39:04
+*/
+.section-golu-molu {background: url(../../images/stars.png) no-repeat center; background-size: cover; padding: 40px 20px 80px 20px; }
+.section-golu-molu .container { width: 80%; min-height: 400px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
+.section-golu-molu h2 {font: 32px/42px 'Sarpanch', sans-serif; font-weight: 800; text-transform: uppercase; color: #29232D;text-align: left; letter-spacing: 1px;padding: 20px 20px 0 20px;}
+.section-golu-molu p {font: 18px/27px 'Sarpanch', sans-serif;color: #0D1722; text-align: left;padding: 20px 20px 0 20px;}
+.section-golu-molu .caption { margin-bottom:5px; text-align: left; color: #0D1722; }
+.section-golu-molu .caption a {color: #0D1722;}
+.section-golu-molu .avatar { margin-left: 20px; }
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 02:55:24
+*/
+/* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 02:45:57
+*/
+.section-lion-jackel { background: #3c0091;  auto; /*ie*/  padding: 40px 0 310px 0; position: relative; }
+.section-lion-jackel {
+	background: #3c0091;
+	padding: 40px 0 310px 0;
+	position: relative;
+}
+
+.section-lion-jackel .avatar img { margin: 0 0 10px 20px; }
+.section-lion-jackel .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
+.section-lion-jackel .caption a { color: #CBCCD1; }
+.section-lion-jackel .caption a:hover, .section-lion-jackel .caption a:active { color: #3c0091; background: #CBCCD1; }
+.section-lion-jackel h2, .section-lion-jackel p { margin: 0 auto; width: 420px; }
+.section-lion-jackel h2 { color: #8EC9D2; font: 36px 'Ek Mukta', serif; text-align: center; margin-bottom: 16px; }
+.section-lion-jackel p { color: #B7B8BF; font: 15px/21px 'Ek Mukta', sans-serif; font-weight: 300; text-align: justify;	 }
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(0, 0) rotate(0); }
+	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+	10% { -webkit-transform: translate(0, 0) rotate(0); }
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
+}
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-lion-jackel .container { width: 100%;  }
+	.section-lion-jackel h2,	.section-lion-jackel p { width: auto; max-width: 420px; padding: 0 20px; }
+}
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 03:04:53
+*/
+.section-guests { background: #0ac5f4;  padding: 40px 0 310px 0; position: relative; }
+.section-guests {
+	background: #0ac5f4;
+	padding: 40px 0 310px 0;
+	position: relative;
+}
+
+.section-guests .avatar img { margin: 0 0 10px 20px; }
+.section-guests .caption { color: #FFF; margin: 0 0 190px 20px;  }
+.section-guests .caption a { color: #FFF; }
+.section-guests .caption a:hover, .section-guests .caption a:active { color: #FFF; background: #CBCCD1; }
+.section-guests h2, .section-guests p { margin: 0 auto; width: 75%px; }
+.section-guests h2 { color: #FFF; font: 36px 'Glegoo', serif; text-align: center; margin-bottom: 16px; }
+.section-guests p { color: #FFF; font: 15px/21px 'Glegoo', sans-serif; font-weight: 300; text-align: justify;	
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em; }
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(0, 0) rotate(0); }
+	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+	10% { -webkit-transform: translate(0, 0) rotate(0); }
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
+}
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+.section-guests .grapes { background: url('../../images/grapes.png') no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-guests .container { width: 100%;  }
+	.section-guests h2,	.section-guests p { width: auto; max-width: 420px; padding: 0 20px; }
+}
+                /* Number of columns: 8 */
+/* Percentage width of a single column: 12.5% */
+/* Base unit of measurement: 20px */
+.section-jackel {	background-color: rgba(209,66,51,1.0); padding: calc(2 * 20px); }
+.section-jackel h2 { color: white; font-family: 'Laila', serif; font-size: 20px; line-height: 1.8em; margin-bottom: calc(4 * 20px); margin-top: calc(2 * 20px); text-align: center; text-transform: uppercase; }
+.section-jackel h2 span {	display: inline-block; outline: 1px solid white; padding: 1em; }
+.section-jackel .container {	width: 80%; }
+.section-jackel .container p { font-family: 'Laila', serif; font-size: 24px; margin-bottom: calc(4 * 20px); }
+.section-jackel .container p.drop-p { }
+.section-jackel em { color: white; display: block; font-family: 'Old Standard TT', serif; font-size: 24px; text-align: center; margin-bottom: calc(4 * 20px); }
+.section-jackel ul { font-family: 'Laila', serif; font-size: 14px; list-style-type: none; margin-bottom: calc(2 * 20px); padding: 0; text-align: center; }
+.section-jackel li { line-height: 2.2em; }
+.section-jackel li.label { font-family: 'Questrial', sans-serif; text-transform: uppercase; }
+.section-jackel hr { width: 5%; border: 1px solid black; margin-bottom: calc(2 * 20px); }
+.section-jackel a { color: black;	text-decoration: none; }
+.section-jackel a:hover {	border-bottom: 1px solid black; }
+
+/* Styles for Astronomer */
+
+/* Small devices (tablets, > 768px) */
+@media (min-width: 769px) {
+
+	.section-jackel { padding: calc(20px); }
+	.section-jackel h2 { margin-bottom: calc(8 * 20px); margin-top: calc(4 * 20px); }
+	.section-jackel .container p { font-size: 24px; }
+	.section-jackel .container .drop-p { color: white; font-size: 12px; float: left; line-height: 1.4em; margin-bottom: 0; margin-right: calc(3 * 20px); margin-top: calc(1 * 20px); width: 33.3%; }
+	.section-jackel em { font-size: 18px; margin-bottom: calc(8 * 20px); }
+	.section-jackel hr { width: 2.5%;	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.section-jackel .container p { font-size: 35px; }
+	.section-jackel .container .drop-p { font-size: 15px; line-height: 1.8em; margin-bottom: 0; margin-top: calc(1 * 20px); margin-right: calc(4 * 20px); }
+	.section-jackel em { font-size: 24px; }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.section-jackel {	padding: calc(20px);	}
+	.section-jackel h2 { margin-bottom: calc(2 * 20px);	margin-top: calc( 20px);	}
+	.section-jackel .container p { font-size: 45px; margin-bottom: calc(2 * 20px);	}
+	.section-jackel .container .drop-p { font-size: 36px; line-height: 1.8em;	}
+	.section-jackel em { font-size: 36px; margin-bottom: calc(2 * 20px); }
+}
+
+/* Large devices (extra large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+	.section-jackel .container p { font-size: 40px;	}
+}
+
+                .sample#jean {
+    background: #2A2C39;
+    padding: 250px 0;
+}
+.sample#jean .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#jean h2 {
+    color: #E9E9EB;
+    font: 400 36px/1.4"Laila";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#jean h3 {
+    color: #fff;
+    font: 400 36px/1.4"Laila";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#jean h3 em {
+    font-style: italic;
+}
+
+                .sample#Gertrude {
+  background: #fcfaf2;
+  padding: 350px 0; }
+  .sample#Gertrude .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 410px; }
+  .sample#Gertrude h1 {
+    color: #333;
+    font: 400 20px/30px "Hind";
+    font-style: italic;
+    margin: 0 0 10px 0;
+    text-indent: -6px; }
+  .sample#Gertrude p {
+    color: #c90707;
+    font: 400 12px/18px "Hind";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-indent: -13px; }
+
+                .sample#Henry {
+  background: #1dd2af;
+  padding: 300px 0; }
+  .sample#Henry .text {
+    margin: 0 auto;
+    padding: 20px;
+    width: 860px; }
+  .sample#Henry h1 {
+    border-top: 5px solid #172bae;
+    color: #172bae;
+    font: 300 92px/1 "Halant";
+    letter-spacing: -1px;
+    margin: 0 0 0 -8px; }
+    .sample#Henry h1 span {
+      background: #1dd2af;
+      padding: 0 19px 0 0;
+      position: relative;
+      top: -52px; }
+      .sample#Henry h1 span.kern {
+        background: transparent;
+        margin: 0 0 0 -5px;
+        padding: 0;
+        top: 0; }
+        .sample#Henry h1 span.kern.push {
+          margin: 0 0 0 7px; }
+  .sample#Henry p {
+    color: #172bae;
+    font: 400 20px/30px "Palanquin";
+    font-style: italic;
+    margin: -40px 0 0 300px;
+    text-indent: -16px; }
+    .sample#Henry p span {
+      font-size: 28px;
+      font-family: 'Palanquin', serif;;
+      font-weight: 400;
+      margin: 0 2px 0 0;
+      position: relative;
+      top: 5px; }
+
+                /* 
+* @Author: Bhargav Krishna
+* @Date:   2014-10-04 01:59:18
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-10-04 11:18:52
+*/
+.sample#Horace {
+  background: #0ac5f4;
+  padding: 200px 0; }
+  .sample#Horace .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+    width: 800px; }
+  .sample#Horace li {
+    color: #fff;
+    font: 100 92px/1 "Rajdhani";
+    text-transform: uppercase; }
+    .sample#Horace li .kern {
+      margin: 0 0 0 6px; }
+    .sample#Horace li:nth-child(1) {
+      opacity: 0.3; }
+    .sample#Horace li:nth-child(2) {
+      opacity: 0.4; }
+    .sample#Horace li:nth-child(3) {
+      opacity: 0.5; }
+    .sample#Horace li:nth-child(4) {
+      opacity: 0.6; }
+    .sample#Horace li:nth-child(5) {
+      opacity: 0.7; }
+    .sample#Horace li:nth-child(6) {
+      opacity: 0.8; }
+
+                .sample#James {
+  background: rgba(133, 135, 141, 0.7);
+  padding: 0 0 300px 0; }
+  .sample#James .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+    width: 700px; }
+  .sample#James h1 {
+    color: #242526;
+    font: italic 700 84px/1.2 "Teko"; }
+    .sample#James h1.first {
+      float: left;
+      padding: 200px 0 0 0;
+      margin: 0 0 -10px 0;
+      width: 142px; }
+    .sample#James h1.second {
+      border-left: 8px solid #242526;
+      float: left;
+      margin: 0 0 -10px 0;
+      padding: 200px 0 0 25px;
+      width: auto; }
+    .sample#James h1.third {
+      clear: both;
+      font-style: normal;
+      font-weight: 900;
+      margin: 0 0 0 172px; }
+  .sample#James p {
+    color: #2e2f31;
+    font: 400 14px/1 "Teko";
+    letter-spacing: 1px;
+    margin: 18px 0 0 175px;
+    text-transform: uppercase; }
+
+                .sample#Lucius {
+  background: #c00;
+  padding: 325px 0;
+  text-align: center; }
+  .sample#Lucius .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 700px; }
+  .sample#Lucius h1 {
+    border-bottom: 6px solid #090909;
+    color: #090909;
+    display: inline-block;
+    font: 400 76px/64px "Khand";
+    letter-spacing: -4px;
+    margin: 0 0 20px 0;
+    padding: 0 4px;
+    text-transform: uppercase; }
+
+                .sample#Marshall {
+  background: #000;
+  padding: 300px 0; }
+  .sample#Marshall .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 470px; }
+  .sample#Marshall h1 {
+    color: #fff;
+    font: 400 92px/84px Laila; }
+1 
+
+                .sample#Michelangelo {
+  background: #fff;
+  padding: 225px 0; }
+  .sample#Michelangelo .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 205px; }
+  .sample#Michelangelo h1 {
+    color: #222;
+    font: 700 24px/24px "Kalam";
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase; }
+  .sample#Michelangelo hr {
+    background: #333;
+    border: 0;
+    height: 2px;
+    margin: 12px auto 8px;
+    width: 60px; }
+    .sample#Michelangelo hr.bottom {
+      margin: 10px auto; }
+  .sample#Michelangelo h2 {
+    color: #222;
+    font: 700 16px/20px "Hind";
+    margin: 0;
+    text-align: center; }
+  .sample#Michelangelo p {
+    color: #222;
+    font: 400 14px/18px "Hind";
+    text-align: justify;
+    text-indent: 14px; }
+1 
+
+                .sample#Oscar {
+  background: #ec5e00;
+  padding: 300px 0; }
+  .sample#Oscar .text {
+    margin: 0 auto;
+    padding: 20px;
+    width: 860px; }
+  .sample#Oscar h1 {
+    border-top: 5px solid #cbd0d3;
+    color: #cbd0d3;
+    font: 300 92px/1 "Halant";
+    letter-spacing: -1px;
+    margin: 0 0 0 -8px; }
+    .sample#Oscar h1 span {
+      background: #ec5e00;
+      padding: 0 19px 0 0;
+      position: relative;
+      top: -52px; }
+      .sample#Oscar h1 span.kern {
+        background: transparent;
+        margin: 0 0 0 -5px;
+        padding: 0;
+        top: 0; }
+        .sample#Oscar h1 span.kern.push {
+          margin: 0 0 0 7px; }
+  .sample#Oscar p {
+    color: #cbd0d3;
+    font: 400 20px/30px "Palanquin";
+    font-style: italic;
+    margin: -40px 0 0 300px;
+    text-indent: -16px; }
+    .sample#Oscar p span {
+      font-size: 28px;
+      font-family: 'Palanquin', serif;;
+      font-weight: 400;
+      margin: 0 2px 0 0;
+      position: relative;
+      top: 5px; }
+        
+                .sample#Isaac {
+    background: #f1c40f;
+    padding: 250px 0;
+}
+.sample#Isaac .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Isaac h2 {
+    color: #e67e22;
+    font: 400 36px/1.4"Halant";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Isaac h3 {
+    color: #354b60;
+    font: 400 24px/1.4"Rajdhani";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Isaac h3 em {
+    font-style: italic;
+}
+                .sample#Scott {
+    background: #c0392b;
+    padding: 250px 0;
+}
+.sample#Scott .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Scott h2 {
+    color: #3498db;
+    font: 400 36px/1.4"Vesper Libre";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Scott h3 {
+    color: #2cc36b;
+    font: 400 24px/1.4"Halant";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Scott h3 em {
+    font-style: italic;
+}
+                .sample#Carroll {
+    background: #95a5a6;
+    padding: 250px 0;
+}
+.sample#Carroll .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Carroll h2 {
+    color: #cbd0d3;
+    font: 400 36px/1.4"Kalam";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Carroll h3 {
+    color: #7f8c8d;
+    font: 400 24px/1.4"Karma";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Carroll h3 em {
+    font-style: italic;
+}
+                .sample#Ralph {
+    background: #354b60;
+    padding: 250px 0;
+}
+.sample#Ralph .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Ralph h2 {
+    color: #bdc3c7;
+    font: 400 36px/1.4"Kalam";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Ralph h3 {
+    color: #27ae60;
+    font: 400 24px/1.4"Halant";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Ralph h3 em {
+    font-style: italic;
+}
+                .sample#Jackson {
+    background: #f2ca27;
+    padding: 250px 0;
+}
+.sample#Jackson .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Jackson h2 {
+    color: #95a5a6;
+    font: 400 36px/1.4"Sarpanch";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Jackson h3 {
+    color: #8e44ad;
+    font: 400 24px/1.4"Rajdhani";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Jackson h3 em {
+    font-style: italic;
+}
+                .sample#John {
+    background: #3d566e;
+    padding: 250px 0;
+}
+.sample#John .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#John h2 {
+    color: #bdc3c7;
+    font: 400 36px/1.4"Vesper Libre";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#John h3 {
+    color: #a3b1b2;
+    font: 400 24px/1.4"Glegoo";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#John h3 em {
+    font-style: italic;
+}
+                .sample#Marc {
+    background: #2c3e50;
+    padding: 250px 0;
+}
+.sample#Marc .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Marc h2 {
+    color: #3d566e;
+    font: 400 36px/1.4"Hind";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Marc h3 {
+    color: #f4a62a;
+    font: 400 24px/1.4"Halant";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Marc h3 em {
+    font-style: italic;
+}
+                .sample#Henri {
+    background: #f2ca27;
+    padding: 250px 0;
+}
+.sample#Henri .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Henri h2 {
+    color: #e98b39;
+    font: 400 36px/1.4"Rajdhani";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Henri h3 {
+    color: #1abc9c;
+    font: 400 24px/1.4"Karma";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Henri h3 em {
+    font-style: italic;
+}
+                .sample#Ludwig {
+    background: #2980b9;
+    padding: 250px 0;
+}
+.sample#Ludwig .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#Ludwig h2 {
+    color: #f2ca27;
+    font: 400 36px/1.4"Vesper Libre";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#Ludwig h3 {
+    color: #40d47e;
+    font: 400 24px/1.4"Kalam";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#Ludwig h3 em {
+    font-style: italic;
+}
+                .sample#eorgia {
+    background: #c0392b;
+    padding: 250px 0;
+}
+.sample#eorgia .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#eorgia h2 {
+    color: #e74c3c;
+    font: 400 36px/1.4"Sarpanch";
+    font-style: italic;
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -10px;
+}
+.sample#eorgia h3 {
+    color: #ea6153;
+    font: 400 24px/1.4"Rajdhani";
+    margin: 0 0 20px 0;
+    text-align: left;
+    text-indent: -32px;
+}
+.sample#eorgia h3 em {
+    font-style: italic;
+}
+    
+    </style>
+    
+</head>
+    
+    
+<body ng-controller="MainCtrl as mainctrl">
+        <div class="menu-wrap">
+            <nav class="menu-top">
+                <div class="profile"><span>Hindi Fonts Showcase</span></div>
+                <div class="icon-list">
+                    <a href="#" >Telugu / తెలుగు  </a> <a>  हिन्दी </a>
+                </div>
+            </nav>
+            <nav class="menu-side">
+                <a href="/index.html#introduction.en_us.html">Introduction</a>
+                <a href="/about.en_us.html">About</a>
+                <a href="/contact.en_us.html">Contact</a>
+            </nav>
+        </div>
+        <button class="menu-button" id="open-button">Open Menu</button>
+    <!-- slider container -->
+        <div class="content-wrap">
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="container section-intro" id="introduction">
+                        <h1>
+                            <span class="small">Examples <i>of</i></span>
+                            <em>Devanagari</em>
+                            <span class="small"><i>with</i> new typefaces <i>from</i></span>
+                            <em>Google Fonts</em>
+                        </h1>
+                        <div class="divider"></div>
+                        <p>
+                            In 2014 the <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> project began publishing a series of new Devanagari typefaces. This collaborative, ongoing project helps provide typographic inspiration for using Google’s new fonts for Hindi, Marathi and Nepali websites.
+                        </p>
+                        <div class="divider"></div>
+                        <div class="divider"></div>
+                       
+                    </div>
+                </div
+				
+            </div>
+        </div>
+
+    <script src="js/classie.js"></script>
+    <script src="js/mainmenu.js"></script>
+</body>
+
+
+<body>
+
+             
+                <link href='http://fonts.googleapis.com/css?family=Laila:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/bull-jackel.hi.css" rel="stylesheet">
+<div class="container-fluid section-bull-jackel" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Laila" target="_blank">Laila</a></div>
+        <div>
+            <h2>सांड़ और गीदड़</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक किसान के पास एक बिगडैल सांड़ था। उसने कई पशु सींग मारकर घायल कर दिए। आखिर तंग आकर उसने सांड़ को जंगल की ओर खदेड दिया।<br>
+सांड़ जिस जंगल में पहुंचा, वहां खूब हरी घास उगी थी। आज़ाद होने के बाद सांड़ के पास दो ही काम रह गए। खूब खाना, हुंकारना तथा पेडों के तनों में सींग फंसाकर ज़ोर लगाना। सांड़ पहले से भी अधिक मोटा हो गया। सारे शरीर में ऐसी मांसपेशियां उभरी जैसे चमडी से बाहर छलक ही पडेंगी। पीठ पर कंधों के ऊपर की गांठ बढती-बढती धोबी के कपडों के गट्ठर जितनी बडी हो गई। गले में चमडी व मांस की तहों की तहें लटकने लगीं।<br>
+उसी वन में एक गीदड़ व गीदड़ी का जोडा रहता था, जो बडे जानवरों द्वारा छोडे शिकार को खाकर गुजारा चलाते थे। स्वयं वह केवल जंगली चूहों आदि का ही शिकार कर पाते थे।<br>
+संयोग से एक दिन वह मतवाला सांड़ झूमता हुआ उधर ही आ निकला जिदर गीदड़-गीदड़ी रहते थे। गीदड़ी ने उस सांड़ को देखा तो उसकी आंखे फटी की फटी रह गईं। उसने आवाज़ देकर गीदड़ को बाहर बुलाया और बोली 'देखो तो इसकी मांस-पेशियां। इसका मांस खाने में कितना स्वादिष्ट होगा। आह, भगवान ने हमें क्या स्वादिष्ट तोहफा भेजा है।<br>
+गीदड़ ने गीदड़ी को समझाया 'सपने देखना छोडो। उसका मांस कितना ही चर्बीला और स्वादिष्ट हो, हमें क्या लेना।'<br>
+गीदड़ी भडक उठी 'तुम तो भौंदू हो। देखते नहीं उसकी पीठ पर जो चर्बी की गांठ है, वह किसी भी समय गिर जाएगी। हमें उठाना भर होगा और इसके गले में जो मांस की तहें नीचे लटक रही हैं, वे किसी भी समय टूटकर नीचे गिर सकती है। बस हमें इसके पीछे-पीछे चलते रहना होगा।'<br>
+गीदड़ बोला 'भाग्यवान! यह लालच छोडो।'<br>
+गीदड़ी ज़िद करने लगी 'तुम हाथ में आया मौक़ा अपनी कायरता से गंवाना चाहते हो। तुम्हें मेरे साथ चलना होगा। मैं अकेली कितना खा पाऊंगी?'<br>
+गीदड़ी की हठ के सामने गीदड़ की कुछ भी न चली। दोनों ने सांड़ के पीछे-पीछे चलना शुरू किया। सांड़ के पीछे चलते-चलते उन्हें कई दिन हो गए, पर सांड़ के शरीर से कुछ नहीं गिरा। गीदड़ ने बार-बार गीदड़ी को समझाने की कोशिश की “गीदड़ी! घर चलते हैं एक-दो चूहे मारकर पेट की आग बुझाते हैं।<br>
+गीदड़ी की अक्ल पर तो पर्दा पड गया था। वह न मानी 'नहीं, हम खाएंगे तो इसी का मोटा-तजा स्वादिष्ट मांस। कभी न कभी तो यह गिरेगा ही।'<br>
+बस दोनों सांड़ के पीछे लगे रहे। भूखे प्यासे एक दिन दोनों गिर पडे और फिर न उठ सके।<br>
+<br>
+</p>
+<em>सीख -- अधिक लालच का फल सदा बुरा होता है।</em>
+        </div>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Rajdhani&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="css/demos/copying.hi.css" rel="stylesheet">
+<div class="container-fluid section-copying" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a></div>
+        <div>
+            <h2>नकल करना बुरा है</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक पहाड़ की ऊंची चोटी पर एक बाज रहता था। पहाड़ की तराई में बरगद के पेड़ पर एक कौआ अपना घोंसला बनाकर रहता था। वह बड़ा चालाक और धूर्त था। उसकी कोशिश सदा यही रहती थी कि बिना मेहनत किए खाने को मिल जाए। पेड़ के आसपास खोह में खरगोश रहते थे। जब भी खरगोश बाहर आते तो बाज ऊंची उड़ान भरते और एकाध खरगोश को उठाकर ले जाते।<br>
+एक दिन कौए ने सोचा, ‘वैसे तो ये चालाक खरगोश मेरे हाथ आएंगे नहीं, अगर इनका नर्म मांस खाना है तो मुझे भी बाज की तरह करना होगा। एकाएक झपट्टा मारकर पकड़ लूंगा।’<br>
+दूसरे दिन कौए ने भी एक खरगोश को दबोचने की बात सोचकर ऊंची उड़ान भरी। फिर उसने खरगोश को पकड़ने के लिए बाज की तरह ज़ोर से झपट्टा मारा। अब भला कौआ बाज का क्या मुकाबला करता। खरगोश ने उसे देख लिया और झट वहां से भागकर चट्टान के पीछे छिप गया। कौआ अपनी ही झोंक में उस चट्टान से जा टकराया। नतीजा, उसकी चोंच और गरदन टूट गईं और उसने वहीं तड़प कर दम तोड़ दिया।<br>
+<br>
+</p>
+<em>सीख -- नकल करने के लिए भी अकल चाहिए।</em>
+        </div>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:300&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/icecream.hi.css" rel="stylesheet">
+<div class="container-fluid section-icecream" id="davelab6">
+    <div class="container">
+		<div class="fit">
+		  <h1 class="icecream">
+		    <b>घर का बना </b>
+		    <em>आइसक्रीम</em>
+		  </h1>
+		</div>
+    </div>
+</div>
+
+                <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:300&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/icecream2.hi.css" rel="stylesheet">
+<div class="container-fluid section-icecream" id="davelab6">
+    <div class="container">
+		<div class="fit">
+		  <h1 class="icecream">
+		    <b>अनन्नास</b>
+		    <em>बर्फ दाढ़ी</em>
+		  </h1>
+		</div>
+    </div>
+</div>
+
+                <!-- Google web fonts for "The Astronomer" -->
+<link href='http://fonts.googleapis.com/css?family=Khand:400,600,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/swan.hi.css" rel="stylesheet">
+<div class="container-fluid section-swan" id="ybbkrishna">
+    <div class="container">
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Khand" target="_blank">Khand</a></div>
+        <h2>अक़्लमंद हंस</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक बहुत बड़ा विशाल पेड़ था। उस पर बीसियों हंस रहते थे। उनमें एक बहुत स्याना हंस था, बुद्धिमान और बहुत दूरदर्शी। सब उसका आदर करके ‘ताऊ’ कहकर बुलाते थे। एक दिन उसने एक नन्ही-सी बेल को पेड़ के तने पर बहुत नीचे लिपटते पाया। ताऊ ने दूसरे हंसों को बुलाकर कहा 'देखो, इस बेल को नष्ट कर दो। एक दिन यह बेल हम सबको मौत के मुंह में ले जाएगी।'<br>
+एक युवा हंस हंसते हुए बोला 'ताऊ, यह छोटी-सी बेल हमें कैसे मौत के मुंह में ले जाएगी?'<br>
+स्याने हंस ने समझाया 'आज यह तुम्हें छोटी-सी लग रही हैं। धीरे-धीरे यह पेड़ के सारे तने को लपेटा मारकर ऊपर तक आएगी। फिर बेल का तना मोटा होने लगेगा और पेड़ से चिपक जाएगा, तब नीचे से ऊपर तक पेड़ पर चढ़ने के लिए सीढ़ी बन जाएगी। कोई भी शिकारी सीढ़ी के सहारे चढ़कर हम तक पहुंच जाएगा और हम मारे जाएंगे।'<br>
+दूसरे हंस को यकीन न आया 'एक छोटी सी बेल कैसे सीढ़ी बनेगी?'<br>
+तीसरा हंस बोला 'ताऊ, तु तो एक छोटी-सी बेल को खींचकर ज़्यादा ही लम्बा कर रहे हैं।'<br>
+एक हंस बडबडाया 'यह ताऊ अपनी अक्ल का रौब डालने के लिए अंट-शंट कहानी बना रहा हैं।'<br>
+इस प्रकार किसी दूसरे हंस ने ताऊ की बात को गंभीरता से नहीं लिया। इतनी दूर तक देख पाने की उनमें अक्ल कहां थी?  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;समय बीतता रहा। बेल लिपटते-लिपटते ऊपर शाखों तक पहुंच गई। बेल का तना मोटा होना शुरू हुआ और सचमुच ही पेड़ के तने पर सीढ़ी बन गई। जिस पर आसानी से चढ़ा जा सकता था। सबको ताऊ की बात की सच्चाई सामने नज़र आने लगी। पर अब कुछ नहीं किया जा सकता था क्योंकि बेल इतनी मज़बूत हो गई थी कि उसे नष्ट करना हंसों के बस की बात नहीं थी। एक दिन जब सब हंस दाना चुगने बाहर गए हुए थे तब एक बहेलिआ उधर आ निकला। पेड़ पर बनी सीढ़ी को देखते ही उसने पेड़ पर चढ़कर जाल बिछाया और चला गया। सांझ को सारे हंस लौट आए पेड़ पर उतरे तो बहेलिए के जाल में बुरी तरह फंस गए। जब वे जाल में फंस गए और फडफडाने लगे, तब उन्हें ताऊ की बुद्धिमानी और दूरदर्शिता का पता लगा। सब ताऊ की बात न मानने के लिए लज्जित थे और अपने आपको कोस रहे थे। ताऊ सबसे रुष्ट था और चुप बैठा था।<br>
+एक हंस ने हिम्मत करके कहा 'ताऊ, हम मूर्ख हैं, लेकिन अब हमसे मुंह मत फेरो।'<br>
+दूसरा हंस बोला 'इस संकट से निकालने की तरकीब तू ही हमें बता सकता हैं। आगे हम तेरी कोई बात नहीं टालेंगे।' सभी हंसों ने हामी भरी तब ताऊ ने उन्हें बताया 'मेरी बात ध्यान से सुनो। सुबह जब बहेलिया आएगा, तब मुर्दा होने का नाटक करना। बहेलिया तुम्हें मुर्दा समझकर जाल से निकाल कर ज़मीन पर रखता जाएगा। वहां भी मरे समान पडे रहना। जैसे ही वह अन्तिम हंस को नीचे रखेगा, मैं सीटी बजाऊंगा। मेरी सीटी सुनते ही सब उड जाना।'<br>
+सुबह बहेलिया आया। हंसों ने वैसा ही किया, जैसा ताऊ ने समझाया था। सचमुच बहेलिया हंसों को मुर्दा समझकर ज़मीन पर पटकता गया। सीटी की आवाज़ के साथ ही सारे हंस उड गए। बहेलिया अवाक होकर देखता रह गया।<br>
+<br>
+<br>
+<br>
+ <h2>सीख -- बुद्धिमानों की सलाह गंभीरता से लेनी चाहिए।</h2>
+</p>
+    </div>
+</div>
+                <!-- Google web fonts for "The Astronomer" -->
+<link href='http://fonts.googleapis.com/css?family=Vesper+Libre:400,500,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/interconnect.hi.css" rel="stylesheet">
+<div class="container-fluid section-interconnect" id="michaelryap">
+
+    <div class="container">
+
+        <h2><span>आपस की फूट</span></h2>
+
+        <p class="drop-p">प्राचीन समय में एक विचित्र पक्षी रहता था। उसका धड़ एक ही था, परन्तु सिर दो थे नाम था उसका भारुंड। एक शरीर होने के बावज़ूद उसके सिरों में एकता नहीं थी और न ही था तालमेल। वे एक दूसरे से बैर रखते थे। हर जीव सोचने समझने का काम दिमाग से करता हैं और दिमाग होता हैं सिर में। दो सिर होने के कारण भारुंड के दिमाग भी दो थे। जिनमें से एक पूरब जाने की सोचता तो दूसरा पश्चिम, फल यह होता था कि टांगें एक क़दम पूरब की ओर चलती तो अगला क़दम पश्चिम की ओर और भारुंड स्वयं को वहीं खडा पाता था। भारुंड का जीवन बस दो सिरों के बीच रस्साकसी बनकर रह गया था।</p>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक दिन भारुंड भोजन की तलाश में नदी तट पर धूम रहा था कि एक सिर को नीचे गिरा एक फल नजर आया। उसने चोंच मारकर उसे चखकर देखा तो जीभ चटकाने लगा 'वाह! ऐसा स्वादिष्ट फल तो मैंने आज तक कभी नहीं खाया। भगवान ने दुनिया में क्या-क्या चीज़ें बनाई हैं।'<br>
+'अच्छा! जरा मैं भी चखकर देखूं।' कहकर दूसरे ने अपनी चोंच उस फल की ओर बढाई ही थी कि पहले सिर ने झटककर दूसरे सिर को दूर फेंका और बोला 'अपनी गंदी चोंच इस फल से दूर ही रख। यह फल मैंने पाया हैं और इसे मैं ही खाऊंगा।'<br>
+'अरे! हम् दोनों एक ही शरीर के भाग हैं। खाने-पीने की चीज़ें तो हमें बांटकर खानी चाहिए।' दूसरे सिर ने दलील दी। पहला सिर कहने लगा 'ठीक&nbsp;! हम एक शरीर के भाग हैं। पेट हमारा एक ही हैं। मैं इस फल को खाऊंगा तो वह पेट में ही तो जाएगा और पेट तेरा भी हैं।'<br>
+दूसरा सिर बोला 'खाने का मतलब केवल पेट भरना ही नहीं होता भाई। जीभ का स्वाद भी तो कोई चीज़ हैं। तबीयत को संतुष्टि तो जीभ से ही मिलती हैं। खाने का असली मजा तो मुंह में ही हैं।'<br>
+पहला सिर तुनकर चिढाने वाले स्वर में बोला 'मैंने तेरी जीभ और खाने के मजे का ठेका थोडे ही ले रखा हैं। फल खाने के बाद पेट से डकार आएगी। वह डकार तेरे मुंह से भी निकलेगी। उसी से गुजारा चला लेना। अब ज़्यादा बकवास न कर और मुझे शांति से फल खाने दे।' ऐसा कहकर पहला सिर चटकारे ले-लेकर फल खाने लगा।<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;इस घटना के बाद दूसरे सिर ने बदला लेने की ठान ली और मौके की तलाश में रहने लगा। कुछ दिन बाद फिर भारुंड भोजन की तलाश में घूम रहा था कि दूसरे सिर की नजर एक फल पर पडी। उसे जिस चीज़ की तलाश थी, उसे वह मिल गई थी। दूसरा सिर उस फल पर चोंच मारने ही जा रहा था कि कि पहले सिर ने चीखकर चेतावनी दी 'अरे, अरे! इस फल को मत खाना। क्या तुझे पता नहीं कि यह विषैला फल हैं? इसे खाने पर मॄत्यु भी हो सकती है।'<br>
+दूसरा सिर हंसा 'हे हे हे! तु चुपचाप अपना काम देख। तुझे क्या लेना हैं कि मैं क्या खा रहा हूं? भूल गया उस दिन की बात?'<br>
+पहले सिर ने समझाने की कोशिश की 'तुने यह फल खा लिया तो हम दोनों मर जाएंगे।'<br>
+दूसरा सिर तो बदला लेने पर उतारु था। बोला 'मैने तेरे मरने-जीने का ठेका थोडे ही ले रखा हैं? मैं जो खाना चाहता हूं, वह खाऊंगा चाहे उसका नतीजा कुछ भी हो। अब मुझे शांति से विषैला फल खाने दे।'<br>
+दूसरे सिर ने सारा विषैला फल खा लिया और भारुंड तडप-तडपकर मर गया।<br>
+<br>
+</p>
+
+        <em>सीख-- आपस की फूट सदा ले डूबती है।</em>
+
+        <ul>
+            <li class="label">Types in Use</li>
+            <li><a href="https://www.google.com/fonts/specimen/Vesper+Libre">Vesper Libre</a></li>
+        </ul>
+
+        <hr />
+
+        <ul>
+            <li class="label">Set By</li>
+            <li><a href="https://twitter.com/ybbkrishna">@ybbkrishna</a></li>
+        </ul>
+
+    </div>
+
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Hind&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/gnat-bull.hi.css" rel="stylesheet">
+<div class="container-fluid section-gnat-bull" id="ybbkrishna">
+    <div class="container">
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="http://www.google.com/fonts/specimen/Hind" target="_blank">Hind</a></div>
+        <h2>बोलने वाली मांद</h2>
+        <p>किसी जंगल में एक शेर रहता था। एक बार वह दिन-भर भटकता रहा, किंतु भोजन के लिए कोई जानवर नहीं मिला। थककर वह एक गुफा के अंदर आकर बैठ गया। उसने सोचा कि रात में कोई न कोई जानवर इसमें अवश्य आएगा। आज उसे ही मारकर मैं अपनी भूख शांत करुँगा।
+उस गुफा का मालिक एक सियार था। वह रात में लौटकर अपनी गुफा पर आया। उसने गुफा के अंदर जाते हुए शेर के पैरों के निशान देखे। उसने ध्यान से देखा। उसने अनुमान लगाया कि शेर अंदर तो गया, परंतु अंदर से बाहर नहीं आया है। वह समझ गया कि उसकी गुफा में कोई शेर छिपा बैठा है। चतुर सियार ने तुरंत एक उपाय सोचा। वह गुफा के भीतर नहीं गया।
+
+उसने द्वार से आवाज लगाई- ‘ओ मेरी गुफा, तुम चुप क्यों हो? आज बोलती क्यों नहीं हो? जब भी मैं बाहर से आता हूँ, तुम मुझे बुलाती हो। आज तुम बोलती क्यों नहीं हो?’
+
+गुफा में बैठे हुए शेर ने सोचा, ऐसा संभव है कि गुफा प्रतिदिन आवाज देकर सियार को बुलाती हो। आज यह मेरे भय के कारण मौन है। इसलिए आज मैं ही इसे आवाज देकर अंदर बुलाता हूँ। ऐसा सोचकर शेर ने अंदर से आवाज लगाई और कहा-‘आ जाओ मित्र, अंदर आ जाओ।’आवाज सुनते ही सियार समझ गया कि अंदर शेर बैठा है। वह तुरंत वहाँ से भाग गया। और इस तरह सियार ने चालाकी से अपनी जान बचा ली।
+
+</p>
+        <p>(साभारः पंचतंत्र की प्रेरक कहानियाँ, डायमंड प्रकाशन, सर्वाधिकार सुरक्षित।)</p>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Rajdhani&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/oak.hi.css" rel="stylesheet">
+<div class="container-fluid section-oak">
+    <div class="container">
+        <div class="caption"><a href="http://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a></div>
+
+        <!-- Oak Leaf -->
+        <div class="oak-leaf">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="90px" height="130px" viewBox="0 0 90 130" enable-background="new 0 0 90 130" xml:space="preserve">
+                <g>
+                    <path fill="#9E9EA0" d="M80.07,60.508c0,0.48-0.281,0.921-0.84,1.32c-2.562,0.401-6.36,0.6-11.4,0.6c-2.481,0-5.381,1.68-8.7,5.04
+                        c-3.321,3.36-4.98,6.281-4.98,8.76c0,2.321,0.57,3.48,1.71,3.48c4.562-3.36,8.064-5.04,10.509-5.04c0.733,0,1.101,0.201,1.101,0.6
+                        c0,0.48-0.188,1.28-0.562,2.4c-0.375,1.121-0.561,2.081-0.561,2.88c0,0.081-0.707,0.701-2.121,1.86
+                        c-1.414,1.161-2.286,2.76-2.617,4.8c-0.334,2.04-0.499,4.661-0.499,7.86c0,5.679,1.12,10.119,3.36,13.32
+                        c2.4,3.439,6.28,5.88,11.64,7.32c-0.24,0.48-0.6,1.159-1.08,2.04c-2.24-0.96-4.721-2.682-7.44-5.16
+                        c-2.241-2.081-4.481-4.161-6.72-6.24c-0.642-0.561-3.401-2.121-8.28-4.68c-4.56-2.321-6.881-3.64-6.96-3.96
+                        c1.68-1.279,2.52-2.28,2.52-3c0-1.359-0.72-2.04-2.16-2.04c-1.041,0-2.621,0.72-4.74,2.16c-2.121,1.44-3.621,2.16-4.5,2.16
+                        c-0.881,0-1.281-0.679-1.2-2.04c-1.361-0.799-3.041-1.519-5.04-2.16l-0.48-0.96c0-1.44,2.88-2.859,8.64-4.26
+                        c5.76-1.399,8.64-3.18,8.64-5.34c0-0.559-0.12-1.12-0.36-1.68c-1.76-5.04-5.121-8.439-10.08-10.2
+                        c-2.241-0.798-6.48-1.398-12.72-1.8c-4.56-0.319-7.121-1.279-7.68-2.88c0-0.96,1.219-1.939,3.66-2.94c2.439-1,3.66-1.78,3.66-2.34
+                        c0-0.799-1.32-2.1-3.96-3.9c-2.64-1.8-3.96-2.779-3.96-2.94c0-0.24,0.259-0.58,0.78-1.02c0.52-0.439,0.78-0.9,0.78-1.38
+                        c-1.361-2.08-2.04-3.559-2.04-4.44c0-1.519,0.6-2.28,1.8-2.28c0.799,0,1.999,0.6,3.6,1.8c1.92,1.361,3.079,2.121,3.48,2.28
+                        l0.12-0.12l0.96,0.84c0.399-0.079,0.858-0.379,1.38-0.9c0.52-0.519,0.979-0.78,1.38-0.78c1.12,0,3,1.961,5.64,5.88
+                        c2.64,3.921,4.92,5.88,6.84,5.88c0.96,0,1.44-0.96,1.44-2.88c0-4.639-1.08-8.839-3.24-12.6c-1.281-2.239-3.281-4.8-6-7.68
+                        c-2.082-2.16-3.12-3.6-3.12-4.32c0-0.72,0.559-1.159,1.68-1.32c1.119-0.159,1.68-0.438,1.68-0.84c0-1.12-0.341-2.68-1.02-4.68
+                        c-0.681-1.999-1.02-3.52-1.02-4.56c0-1.599,0.879-2.4,2.64-2.4c1.839,0,3.759,1.94,5.76,5.82c1.999,3.881,3.639,5.82,4.92,5.82
+                        c0.799-1.359,1.26-4.08,1.38-8.16c0.12-4.08,0.699-6.679,1.74-7.8c0.318,0.081,0.858,0.621,1.62,1.62
+                        c0.759,1.001,1.339,1.5,1.74,1.5c0.48,0,1.719-1.039,3.72-3.12c0.72,0,1.44,0.469,2.16,1.406c0.72,0.937,1.12,1.815,1.2,2.63
+                        c-1.361,3.424-2.04,6.075-2.04,7.95l0.6,0.733c0.559,0,1.999-0.979,4.32-2.94c2.319-1.959,4.119-2.94,5.4-2.94
+                        c0.399,0,0.84,0.161,1.32,0.48v0.48c0,1.121-0.641,2.681-1.92,4.68c-1.28,2-1.92,3.48-1.92,4.44c0,0.72,0.439,1.34,1.32,1.86
+                        c0.879,0.521,1.32,0.941,1.32,1.26c0,0.561-1.241,1.841-3.72,3.84c-3.041,2.48-5.28,4.641-6.72,6.48c-2.4,3.12-3.6,6.321-3.6,9.6
+                        c0,0.641,0.52,0.96,1.56,0.96c3.679,0,9.12-5.359,16.32-16.08l0.48-0.36c0.559,1.121,1.56,1.68,3,1.68c0.72,0,1.719-0.259,3-0.78
+                        c1.279-0.52,2.2-0.819,2.76-0.9l0.6,0.6c0,0.48-0.32,1.4-0.96,2.76c-0.641,1.361-0.96,2.48-0.96,3.36
+                        c0,0.321,0.139,0.801,0.42,1.44c0.28,0.642,0.42,1.122,0.42,1.44c0,1.041-0.881,2.021-2.64,2.94c-1.761,0.92-2.64,1.74-2.64,2.46
+                        c0,1.041,1.08,2.34,3.24,3.9C78.99,58.648,80.07,59.789,80.07,60.508z"/>
+                </g>
+            </svg>
+        </div>
+
+        <h2>ओक और नरकट</h2>
+        <p>एक नदी के तट पर बढ़ी कि एक ओक हवा का एक गंभीर आंधी से उखाड़, और धारा में फेंक दिया गया था. यह पानी से बढ़ रही कुछ नरकट के बीच गिर गया, और उन से कहा, "यह कैसे मैं अपने सभी शक्ति के साथ, द्वारा फाड़ा गया है, जबकि आप,,, जो इतना कमजोर और दुबला हैं तूफ़ान का सामना करने में कामयाब रहे हैं कि है जड़ों और नदी में फेंका "" आप जिद्दी थे "जवाब आया," और आप की तुलना में मजबूत साबित जो तूफान, के खिलाफ लड़ाई लड़ी: लेकिन हम धनुष और हर हवा को उपज, और इस तरह आंधी हमारे सिर पर अहानिकारक पारित कर दिया. "</p>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Sarpanch:400,800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/rivers.hi.css" rel="stylesheet">
+<div class="container-fluid section-rivers" id="ybbkrishna">
+    <div class="container">
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="http://www.google.com/fonts/specimen/Sarpanch" target="_blank">Sarpanch</a></div>
+        <h2>एकता का बल</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक समय की बात हैं कि कबूतरों का एक दल आसमान में भोजन की तलाश में उड़ता हुआ जा रहा था। ग़लती से वह दल भटककर ऐसे प्रदेश के ऊपर से गुजरा, जहां भयंकर अकाल पड़ा था। कबूतरों का सरदार चिंतित था। कबूतरों के शरीर की शक्ति समाप्त होती जा रही थी। शीघ्र ही कुछ दाना मिलना जरुरी था। दल का युवा कबूतर सबसे नीचे उड़ रहा था। भोजन नजर आने पर उसे ही बाकी दल को सूचित करना था। बहुत समय उड़ने के बाद कहीं वह सूखाग्रस्त क्षेत्र से बाहर आया। नीचे हरियाली नजर आने लगी तो भोजन मिलने की उम्मीद बनी। युवा कबूतर और नीचे उड़ान भरने लगा। तभी उसे नीचे खेत में बहुत सारा अन्न बिखरा नजर आया “चाचा, नीचे एक खेत में बहुत सारा दाना बिखरा पडा हैं। हम सबका पेट भर जाएगा।’<br>
+सरदार ने सूचना पाते ही कबूतरों को नीचे उतरकर खेत में बिखरा दाना चुनने का आदेश दिया। सारा दल नीचे उतरा और दाना चुनने लगा। वास्तव में वह दाना पक्षी पकड़ने वाले एक बहलिए ने बिखेर रखा था। ऊपर पेड़ पर तना था उसका जाल। जैसे ही कबूतर दल दाना चुगने लगा, जाल उन पर आ गिरा। सारे कबूतर फंस गए।<br>
+कबूतरों के सरदार ने माथा पीटा 'ओह! यह तो हमें फंसाने के लिए फैलाया गया जाल था। भूख ने मेरी अक़्ल पर पर्दा डाल दिया था। मुझे सोचना चाहिए था कि इतना अन्न बिखरा होने का कोई मतलब हैं। अब पछताए होत क्या, जब चिड़िया चुग गई खेत?'<br>
+एक कबूतर रोने लगा 'हम सब मारे जाएंगे।'<br>
+बाकी कबूतर तो हिम्मत हार बैठे थे, पर सरदार गहरी सोच में डूबा था। एकाएक उसने कहा 'सुनो, जाल मज़बूत हैं यह ठीक हैं, पर इसमें इतनी भी शक्ति नहीं कि एकता की शक्ति को हरा सके। हम अपनी सारी शक्ति को जोड़े तो मौत के मुंह में जाने से बच सकते हैं।'<br>
+युवा कबूतर फड़फडाया 'चाचा! साफ-साफ बताओ तुम क्या कहना चाहते हो। जाल ने हमें तोड़ रखा हैं, शक्ति कैसे जोडे?'<br>
+सरदार बोला 'तुम सब चोंच से जाल को पकडो, फिर जब मैं फुर्र कहूं तो एक साथ ज़ोर लगाकर उड़ना।'<br>
+सबने ऐसा ही किया। तभी जाल बिछाने वाला बहेलियां आता नजर आया। जाल में कबूतरों को फंसा देख उसकी आंखें चमकी। हाथ में पकडा डंडा उसने मज़बूती से पकडा व जाल की ओर दौडा।<br>
+बहेलिया जाल से कुछ ही दूर था कि कबूतरों का सरदार बोला 'फुर्रर्रर्र!'<br>
+सारे कबूतर एक साथ ज़ोर लगाकर उड़े तो पूरा जाल हवा में ऊपर उठा और सारे कबूतर जाल को लेकर ही उड़ने लगे। कबूतरों को जाल सहित उड़ते देखकर बहेलिया अवाक रह गया। कुछ संभला तो जाल के पीछे दौड़ने लगा। कबूतर सरदार ने बहेलिए को नीचे जाल के पीछे दौड़ते पाया तो उसका इरादा समझ गया। सरदार भी जानता था कि अधिक देर तक कबूतर दल के लिए जाल सहित उड़ते रहना संभव न होगा। पर सरदार के पास इसका उपाय था। निकट ही एक पहाड़ी पर बिल बनाकर उसका एक चूहा मित्र रहता था। सरदार ने कबूतरों को तेजी से उस पहाड़ी की ओर उड़ने का आदेश दिया। पहाड़ी पर पहुंचते ही सरदार का संकेत पाकर जाल समेत कबूतर चूहे के बिल के निकट उतरे।<br>
+सरदार ने मित्र चूहे को आवाज़ दी। सरदार ने संक्षेप में चूहे को सारी घटना बताई और जाल काटकर उन्हें आज़ाद करने के लिए कहा। कुछ ही देर में चूहे ने वह जाल काट दिया। सरदार ने अपने मित्र चूहे को धन्यवाद दिया और सारा कबूतर दल आकाश की ओर आज़ादी की उडान भरने लगा।<br>
+<br>
+</p>
+<em>सीख- एकजुट होकर बड़ी से बड़ी विपत्ति का सामना किया जा सकता है।</em>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Teko:300,400&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/the-fox-and-the-grapes.hi.css" rel="stylesheet">
+<div class="container-fluid section-the-fox-and-the-grapes" id="ybbkrishna">
+  <div class="container">
+      <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+      <div class="caption"><a href="https://www.google.com/fonts/specimen/Teko" target="_blank">Teko</a></div>
+      <h2>फॉक्स और अंगूर</h2>
+      <p>नेहा लड़की है, छोटी-सी। 
+						भालू खिलौना है, बड़ा-सा। भालू नेहा का दोस्त है। नेहा और 
+						भालू साथ-साथ रहते हैं। <br>
+						<br>
+						आज शाम नेहा बगीचे में गई। भालू भी साथ गया।<br>
+						वहाँ एक फूल था, बड़ा-सा। फूल गुलाबी रंग का था। <br>
+						नेहा ने फूल को देखा, उसे फूल सुंदर लगा।<br>
+						<br>
+						ऊपर आसमान था, बड़ा-सा। आसमान का रंग नीला था। नेहा को 
+						आसमान सुंदर लगा। आसमान में तितली थी, छोटी-सी। उसके पंखों 
+						का रंग लाल था। नेहा को तितली अच्छी लगी।<br>
+						<br>
+						नीचे घास थी। घास का रंग हरा था। बल्लू और नेहा घास पर 
+						बैठे। घास नर्म थी। नेहा को घास अच्छी लगी। बल्लू फूल से 
+						बातें करने लगा। लो, नेहा तो बैठे बैठे सो गई !</p>
+      <div id="grapes" class="shake grapes"></div>
+  </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Kalam&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/two-bags.hi.css" rel="stylesheet">
+<div class="container-fluid section-two-bags">
+    <div class="container">
+        <h2>दो बैग</h2>
+        <div class="caption"><a href="http://www.google.com/fonts/specimen/Kalam" target="_blank">Kalam</a></div>
+        <p>हर आदमी उसके साथ के बारे में दो बैग, सामने एक और पीछे एक वहन करती है, और दोनों दोष का पूरा पैक कर रहे हैं. सामने थैला उसके पड़ोसियों के दोष, अपने ही पीछे से एक होता है. इसलिए यह पुरुष अपने दोष देखते हैं, लेकिन कभी दूसरे लोगों के देखने के लिए असफल नहीं है.</p>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Glegoo:400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/moon-mother.hi.css" rel="stylesheet">
+<div class="container-fluid section-moon-mother" id="anon-03">
+    <div class="container">
+        <div class="caption">
+            <a href="https://www.google.com/fonts/specimen/Glegoo" target="_blank">Glegoo</a>
+        </div>
+        <h2>कौए<span>और</span> उल्लू</h2>
+        <span class="bold">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;बहुत समय पहले की बात हैं कि एक वन में एक विशाल बरगद का पेड़ कौओं की राजधानी था। हजारों कौए उस पर वास करते थे। उसी पेड़ पर कौओं का राजा मेघवर्ण भी रहता था।<br>
+बरगद के पेड़ के पास ही एक पहाड़ी थी, जिसमें असंख्य गुफाएं थीं। उन गुफाओं में उल्लू निवास करते थे, उनका राजा अरिमर्दन था। अरिमर्दन बहुत पराक्रमी राजा था। कौओं को तो उसने उल्लुओं का दुश्मन नम्बर एक घोषित कर रखा था। उसे कौओं से इतनी नफरत थी कि किसी कौए को मारे बिना वह भोजन नहीं करता था।<br>
+जब बहुत अधिक कौए मारे जाने लगे तो उनके राजा मेघवर्ण को बहुत चिन्ता हुई। उसने कौओं की एक सभा इस समस्या पर विचार करने के लिए बुलाई। <br>
+मेघवर्ण बोला 'मेरे प्यारे कौओ, आपको तो पता ही हैं कि उल्लुओं के आक्रमणों के कारण हमारा जीवन असुरक्षित हो गया हैं। हमारा शत्रु शक्तिशाली हैं और अहंकारी भी। हम पर रात को हमले किए जाते हैं। हम रात को देख नहीं पाते। हम दिन में जवाबी हमला नहीं कर पाते, क्योंकि वे गुफाओं के अंधेरों में सुरक्षित बैठे रहते हैं।'<br>
+फिर मेघवर्ण ने स्याने और बुद्धिमान कौओं से अपने सुझाव देने के लिए कहा।<br>
+एक डरपोक कौआ बोला 'हमें उल्लुओं से समझौता कर लेना चाहिए। वह जो शर्ते रखें, हम स्वीकार करें। अपने से ताकतवर दुश्मन से पिटते रहने में क्या तुक है?'<br>
+बहुत-से कौओं ने कां कां करके विरोध प्रकट किया। एक गर्म दिमाग का कौआ चीखा 'हमें उन दुष्टों से बात नहीं करनी चाहिए। सब उठो और उन पर आक्रमण कर दो।'<br>
+एक निराशावादी कौआ बोला 'शत्रु बलवान हैं। हमें यह स्थान छोडकर चले जाना चाहिए।'<br>
+स्याने कौए ने सलाह दी 'अपना घर छोड़ना ठीक नहीं होगा। हम यहां से गए तो बिल्कुल ही टूट जाएंगे। हमें यहीं रहकर और पक्षियों से सहायता लेनी चाहिए।'<br>
+कौओं में सबसे चतुर व बुद्धिमान स्थिरजीवी नामक कौआ था, जो चुपचाप बैठा सबकी दलीलें सुन रहा था। राजा मेघवर्ण उसकी ओर मुड़ा 'महाशय, आप चुप हैं। मैं आपकी राय जानना चाहता हूं।'<br>
+स्थिरजीवी बोला 'महाराज, शत्रु अधिक शक्तिशाली हो तो छलनीति से काम लेना चाहिए।'<br>
+'कैसी छलनीति? जरा साफ-साफ बताइए, स्थिरजीवी।' राजा ने कहा।<br>
+स्थिरजीवी बोला 'आप मुझे भला-बुरा कहिए और मुझ पर जानलेवा हमला कीजिए।’<br>
+मेघवर्ण चौंका 'यह आप क्या कह रहे हैं स्थिरजीवी?'<br>
+स्थिरजीवी राजा मेघवर्ण वाली डाली पर जाकर कान में बोला 'छलनीति के लिए हमें यह नाटक करना पडेगा। हमारे आसपास के पेड़ों पर उल्लू जासूस हमारी इस सभा की सारी कार्यवाही देख रहे हैं। उन्हे दिखाकर हमें फूट और झगडे का नाटक करना होगा। इसके बाद आप सारे कौओं को लेकर ॠष्यमूक पर्वत पर जाकर मेरी प्रतीक्षा करें। मैं उल्लुओं के दल में शामिल होकर उनके विनाश का सामान जुटाऊंगा। घर का भेदी बनकर उनकी लंका ढाऊंगा।'<br>
+फिर नाटक शुरू हुआ। स्थिरजीवी चिल्लाकर बोला 'मैं जैसा कहता हूं, वैसा कर राजा के बच्चे। क्यों हमें मरवाने पर तुला हैं?'<br>
+मेघवर्ण चीख उठा 'गद्दार, राजा से ऐसी बदतमीजी से बोलने की तेरी हिम्मत कैसे हुई?' कई कौए एक साथ चिल्ला उठे 'इस गद्दार को मार दो।'<br>
+राजा मेघवर्ण ने अपने पंख से स्थिरजीवी को जोरदार झापड मारकर तनी से गिरा दिया और घोषणा की 'मैं गद्दार स्थिरजीवी को कौआ समाज से निकाल रहा हूं। अब से कोई कौआ इस नीच से कोई संबध नहीं रखेगा।'<br>
+आसपास के पेड़ों पर छिपे बैठे उल्लू जासूसों की आंखे चमक उठी। उल्लुओं के राजा को जासूसों ने सूचना दी कि कौओं में फूट पड गई हैं। मार-पीट और गाली-गलौच हो रही हैं। इतना सुनते ही उल्लुओं के सेनापति ने राजा से कहा 'महाराज, यही मौक़ा हैं कौओं पर आक्रमण करने का। इस समय हम उन्हें आसानी से हरा देंगे।'<br>
+उल्लुओं के राजा अरिमर्दन को सेनापति की बात सही लगी। उसने तुरंत आक्रमण का आदेश दे दिया। बस फिर क्या था हजारों उल्लुओं की सेना बरगद के पेड़ पर आक्रमण करने चल दी। परन्तु वहां एक भी कौआ नहीं मिला। <br>
+मिलता भी कैसे? योजना के अनुसार मेघवर्ण सारे कौओं को लेकर ॠष्यमूक पर्वत की ओर कूच कर गया था। पेड़ ख़ाली पाकर उल्लुओं के राजा ने थूका 'कौए हमारा सामना करने की बजाए भाग गए। ऐसे कायरों पर हज़ार थू।' सारे उल्लू ‘हू हू’ की आवाज़ निकालकर अपनी जीत की घोषणा करने लगे। नीचे झाडियों में गिरा पड़ा स्थिरजीवी कौआ यह सब देख रहा था। स्थिरजीवी ने कां-कां की आवाज़ निकाली। उसे देखकर जासूस उल्लू बोला 'अरे, यह तो वही कौआ हैं, जिसे इनका राजा धक्का देकर गिरा रहा था और अपमानित कर रहा था।’<br>
+उल्लुओं का राजा भी आया। उसने पूछा 'तुम्हारी यह दुर्दशा कैसे हुई?' स्थिरजीवी बोला 'मैं राजा मेघवर्ण का नीतिमंत्री था। मैंने उनको नेक सलाह दी कि उल्लुओं का नेतृत्व इस समय एक पराक्रमी राजा कर रहे हैं। हमें उल्लुओं की अधीनता स्वीकार कर लेनी चाहिए। मेरी बात सुनकर मेघवर्ण क्रोधित हो गया और मुझे फटकार कर कौओं की जाति से बाहर कर दिया। मुझे अपनी शरण में ले लीजिए।'<br>
+उल्लुओं का राजा अरिमर्दन सोच में पड गया। उसके स्याने नीति सलाहकार ने कान में कहा 'राजन, शत्रु की बात का विश्वास नहीं करना चाहिए। यह हमारा शत्रु हैं। इसे मार दो।' एक चापलूस मंत्री बोला 'नहीं महाराज! इस कौए को अपने साथ मिलाने में बडा लाभ रहेगा। यह कौओं के घर के भेद हमें बताएगा।'<br>
+राजा को भी स्थिरजीवी को अपने साथ मिलाने में लाभ नजर आया आओ उल्लू स्थिरजीवी कौए को अपने साथ ले गए। वहां अरिमर्दन ने उल्लू सेवकों से कहा 'स्थिरजीवी को गुफा के शाही मेहमान कक्ष में ठहराओ। इन्हें कोई कष्ट नहीं होना चाहिए।'<br>
+स्थिरजीवी हाथ जोड़कर बोला 'महाराज, आपने मुझे शरण दी, यही बहुत हैं। मुझे अपनी शाही गुफा के बाहर एक पत्थर पर सेवक की तरह ही रहने दीजिए। वहां बैठकर आपके गुण गाते रहने की ही मेरी इच्छा हैं।' इस प्रकार स्थिरजीवी शाही गुफा के बाहर डेरा जमाकर बैठ गया।<br>
+गुफा में नीति सलाहकार ने राजा से फिर से कहा 'महाराज! शत्रु पर विश्वास मत करो। उसे अपने घर में स्थान देना तो आत्महत्या करने समान हैं।' अरिमर्दन ने उसे क्रोध से देखा 'तुम मुझे ज़्यादा नीति समझाने की कोशिश मत करो। चाहो तो तुम यहां से जा सकते हो।' नीति सलाहकार उल्लू अपने दो-तीन मित्रों के साथ वहां से सदा के लिए यह कहता हुआ चला गया। 'विनाशकाले विपरीत बुद्धि।'<br>
+कुछ दिनों बाद स्थिरजीवी लकड़ियां लाकर गुफा के द्वार के पास रखने लगा 'सरकार, सर्दियां आने वाली हैं। मैं लकड़ियों की झोपड़ी बनाना चाहता हूं ताकि ठंड से बचाव हो।’ धीरे-धीरे लकड़ियों का काफ़ी ढेर जमा हो गया। एक दिन जब सारे उल्लू सो रहे थे तो स्थिरजीवी वहां से उड़कर सीधे ॠष्यमूक पर्वत पर पहुंचा, जहां मेघवर्ण और कौओं सहित उसी की प्रतीक्षा कर रहे थे। स्थिरजीवी ने कहा 'अब आप सब निकट के जंगल से जहां आग लगी हैं एक-एक जलती लकड़ी चोंच में उठाकर मेरे पीछे आइए।'<br>
+कौओं की सेना चोंच में जलती लकड़ियां पकड़ स्थिरजीवी के साथ उल्लुओं की गुफाओं में आ पहुंचा। स्थिरजीवी द्वारा ढेर लगाई लकड़ियों में आग लगा दी गई। सभी उल्लू जलने या दम घुटने से मर गए। राजा मेघवर्ण ने स्थिरजीवी को कौआ रत्न की उपाधि दी।<br>
+<br>
+<br>
+            <span class="ital">सीख- शत्रु को अपने घर में पनाह देना अपने ही विनाश का सामान जुटाना है।</span>
+
+</p></span>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Halant:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/eleven.hi.css" rel="stylesheet">
+<div class="container-fluid section-eleven" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Halant" target="_blank">Halant</a></div>
+        <div>
+            <h2>एक और एक ग्यारह</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक बार की बात हैं कि बनगिरी के घने जंगल में एक उन्मुत्त हाथी ने भारी उत्पात मचा रखा था। वह अपनी ताकत के नशे में चूर होने के कारण किसी को कुछ नहीं समझता था। बनगिरी में ही एक पेड़ पर एक चिड़िया व चिड़े का छोटा-सा सुखी संसार था। चिड़िया अंडों पर बैठी नन्हें-नन्हें प्यारे बच्चों के निकलने के सुनहरे सपने देखती रहती। एक दिन क्रूर हाथी गरजता, चिंघाडता पेड़ों को तोड़ता-मरोड़ता उसी ओर आया। देखते ही देखते उसने चिड़िया के घोंसले वाला पेड़ भी तोड डाला। घोंसला नीचे आ गिरा। अंडे टूट गए और ऊपर से हाथी का पैर उस पर पड़ा।<br>
+चिड़िया और चिड़ा चीखने चिल्लाने के सिवा और कुछ न कर सके। हाथी के जाने के बाद चिड़िया छाती पीट-पीटकर रोने लगी। तभी वहां कठफोडवी आई। वह चिड़िया की अच्छी मित्र थी। कठफोडवी ने उनके रोने का कारण पूछा तो चिड़िया ने अपनी सारी कहानी कह डाली। कठफोडवी बोली 'इस प्रकार ग़म में डूबे रहने से कुछ नहीं होगा। उस हाथी को सबक सिखाने के लिए हमे कुछ करना होगा।'<br>
+चिड़िया ने निराशा दिखाई 'हम छोटे-मोटे जीव उस बलशाली हाथी से कैसे टक्कर ले सकते हैं?'<br>
+कठफोडवी ने समझाया 'एक और एक मिलकर ग्यारह बनते हैं। हम अपनी शक्तियां जोडेंगे।'<br>
+'कैसे?' चिड़िया ने पूछा।<br>
+'मेरा एक मित्र वींआख नामक भंवरा हैं। हमें उससे सलाह लेनी चाहिए।' चिड़िया और कठफोडवी भंवरे से मिली। भंवरा गुनगुनाया 'यह तो बहुत बुरा हुआ। मेरा एक मेंढक मित्र हैं आओ, उससे सहायता मांगे।'<br>
+अब तीनों उस सरोवर के किनारे पहुंचे, जहां वह मेंढक रहता था। भंवरे ने सारी समस्या बताई। मेंढक भर्राये स्वर में बोला 'आप लोग धैर्य से जरा यहीं मेरी प्रतीक्षा करें। मैं गहरे पाने में बैठकर सोचता हूं।'<br>
+ऐसा कहकर मेंढक जल में कूद गया। आधे घंटे बाद वह पानी से बाहर आया तो उसकी आंखे चमक रही थी। वह बोला 'दोस्तो! उस हत्यारे हाथी को नष्ट करने की मेरे दिमाग में एक बडी अच्छी योजना आई हैं। उसमें सभी का योगदान होगा।'<br>
+मेंढक ने जैसे ही अपनी योजना बताई, सब खुशी से उछल पड़े। योजना सचमुच ही अदभुत थी। मेंढक ने दोबारा बारी-बारी सबको अपना-अपना रोल समझाया।<br>
+कुछ ही दूर वह उन्मत्त हाथी तोड़फोड़ मचाकर व पेट भरकर कोंपलों वाली शाखाएं खाकर मस्ती में खडा झूम रहा था। पहला काम भंवरे का था। वह हाथी के कानों के पास जाकर मधुर राग गुंजाने लगा। राग सुनकर हाथी मस्त होकर आंखें बंद करके झूमने लगा।<br>
+तभी कठफोडवी ने अपना काम कर दिखाया। वह आई और अपनी सुई जैसी नुकीली चोंच से उसने तेजी से हाथी की दोनों आंखें बींध डाली। हाथी की आंखे फूट गईं। वह तडपता हुआ अंधा होकर इधर-उधर भागने लगा।<br>
+जैसे-जैसे समय बीतता जा रहा था, हाथी का क्रोध बढता जा रहा था। आंखों से नजर न आने के कारण ठोकरों और टक्करों से शरीर जख्मी होता जा रहा था। जख्म उसे और चिल्लाने पर मजबूर कर रहे थे।<br>
+चिड़िया कॄतज्ञ स्वर में मेंढक से बोली 'बहिया, मैं आजीवन तुम्हारी आभारी रहूंगी। तुमने मेरी इतनी सहायता कर दी।'<br>
+मेंढक ने कहा 'आभार मानने की ज़रुरत नहीं। मित्र ही मित्रों के काम आते हैं।'<br>
+एक तो आंखों में जलन और ऊपर से चिल्लाते-चिंघाड़ते हाथी का गला सूख गया। उसे तेज प्यास लगने लगी। अब उसे एक ही चीज़ की तलाश थी, पानी। मेंढक ने अपने बहुत से बंधु-बांधवों को इकट्ठा किया और उन्हें ले जाकर दूर बहुत बडे गड्ढे के किनारे बैठकर टर्राने के लिए कहा। सारे मेंढक टर्राने लगे। मेंढक की टर्राहट सुनकर हाथी के कान खडे हो गए। वह यह जानता था कि मेंढक जल स्त्रोत के निकट ही वास करते हैं। वह उसी दिशा में चल पड़ा। टर्राहट और तेज होती जा रही थी। प्यासा हाथी और तेज भागने लगा।<br>
+जैसे ही हाथी गड्ढे के निकट पहुंचा, मेंढकों ने पूरा ज़ोर लगाकर टर्राना शुरू किया। हाथी आगे बढा और विशाल पत्थर की तरह गड्ढे में गिर पडा, जहां उसके प्राण पखेरु उडते देर न लगे इस प्रकार उस अहंकार में डूबे हाथी का अंत हुआ।<br>
+<br>
+</p>
+<em>सीख -- 1. एकता में बल हैं। 2. अहंकारी का देर या सबेर अंत होता ही हैं।</em>
+        </div>
+    </div>
+</div>
+                <!-- Google web fonts for "Rabbit" -->
+<link href='http://fonts.googleapis.com/css?family=Palanquin:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/rabbit.hi.css" rel="stylesheet">
+<div class="container-fluid section-rabbit" id="ybbkrishna">
+    <div class="container">
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Palanquin" target="_blank">Palanquin</a></div>
+        <h2>खरगोश की चतुराई</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;किसी घने वन में एक बहुत बड़ा शेर रहता था। वह रोज शिकार पर निकलता और एक ही नहीं, दो नहीं कई-कई जानवरों का काम तमाम देता। जंगल के जानवर डरने लगे कि अगर शेर इसी तरह शिकार करता रहा तो एक दिन ऐसा आयेगा कि जंगल में कोई भी जानवर नहीं बचेगा।<br>
+सारे जंगल में सनसनी फैल गई। शेर को रोकने के लिये कोई न कोई उपाय करना ज़रूरी था। एक दिन जंगल के सारे जानवर इकट्ठा हुए और इस प्रश्न पर विचार करने लगे। अन्त में उन्होंने तय किया कि वे सब शेर के पास जाकर उनसे इस बारे में बात करें। दूसरे दिन जानवरों के एक दल शेर के पास पहुंचा। उनके अपनी ओर आते देख शेर घबरा गया और उसने गरजकर पूछा, ‘‘क्या बात है&nbsp;? तुम सब यहां क्यों आ रहे हो&nbsp;?’’<br>
+जानवर दल के नेता ने कहा, ‘‘महाराज, हम आपके पास निवेदन करने आये हैं। आप राजा हैं और हम आपकी प्रजा। जब आप शिकार करने निकलते हैं तो बहुत जानवर मार डालते हैं। आप सबको खा भी नहीं पाते। इस तरह से हमारी संख्या कम होती जा रही है। अगर ऐसा ही होता रहा तो कुछ ही दिनों में जंगल में आपके सिवाय और कोई भी नहीं बचेगा। प्रजा के बिना राजा भी कैसे रह सकता है&nbsp;? यदि हम सभी मर जायेंगे तो आप भी राजा नहीं रहेंगे। हम चाहते हैं कि आप सदा हमारे राजा बने रहें। आपसे हमारी विनती है कि आप अपने घर पर ही रहा करें। हर रोज स्वयं आपके खाने के लिए एक जानवर भेज दिया करेंगे। इस तरह से राजा और प्रजा दोनो ही चैन से रह सकेंगे।’’ शेर को लगा कि जानवरों की बात में सच्चाई है। उसने पलभर सोचा, फिर बोला अच्छी बात है। मैं तुम्हारे सुझाव को मान लेता हूं। लेकिन याद रखना, अगर किसी भी दिन तुमने मेरे खाने के लिये पूरा भोजन नहीं भेजा तो मैं जितने जानवर चाहूंगा, मार डालूंगा।’’ जानवरों के पास तो और कोई चारा नहीं। इसलिये उन्होंने शेर की शर्त मान ली और अपने-अपने घर चले गये।<br>
+उस दिन से हर रोज शेर के खाने के लिये एक जानवर भेजा जाने लगा। इसके लिये जंगल में रहने वाले सब जानवरों में से एक-एक जानवर, बारी-बारी से चुना जाता था। कुछ दिन बाद खरगोशों की बारी भी आ गई। शेर के भोजन के लिये एक नन्हें से खरगोश को चुना गया। वह खरगोश जितना छोटा था, उतना ही चतुर भी था। उसने सोचा, बेकार में शेर के हाथों मरना मूर्खता है। अपनी जान बचाने का कोई न कोई उपाय अवश्य करना चाहिये, और हो सके तो कोई ऐसी तरकीब ढूंढ़नी चाहिये जिसे सभी को इस मुसीबत से सदा के लिए छुटकारा मिल जाये। आखिर उसने एक तरकीब सोच ही निकाली।<br>
+खरगोश धीरे-धीरे आराम से शेर के घर की ओर चल पड़ा। जब वह शेर के पास पहुंचा तो बहुत देर हो चुकी थी।<br>
+भूख के मारे शेर का बुरा हाल हो रहा था। जब उसने सिर्फ एक छोटे से खरगोश को अपनी ओर आते देखा तो गुस्से से बौखला उठा और गरजकर बोला, ‘‘किसने तुम्हें भेजा है&nbsp;? एक तो पिद्दी जैसे हो, दूसरे इतनी देर से आ रहे हो। जिन बेवकूफों ने तुम्हें भेजा है मैं उन सबको ठीक करूंगा। एक-एक का काम तमाम न किया तो मेरा नाम भी शेर नहीं।’’<br>
+नन्हे खरगोश ने आदर से ज़मीन तक झुककर, ‘‘महाराज, अगर आप कृपा करके मेरी बात सुन लें तो मुझे या और जानवरों को दोष नहीं देंगे। वे तो जानते थे कि एक छोटा सा खरगोश आपके भोजन के लिए पूरा नहीं पड़ेगा, ‘इसलिए उन्होंने छह खरगोश भेजे थे। लेकिन रास्ते में हमें एक और शेर मिल गया। उसने पांच खरगोशों को मारकर खा लिया।’’<br>
+यह सुनते ही शेर दहाड़कर बोला, ‘‘क्या कहा&nbsp;? दूसरा शेर&nbsp;? कौन है वह&nbsp;? तुमने उसे कहां देखा&nbsp;?’’<br>
+‘‘महाराज, वह तो बहुत ही बड़ा शेर है’’, खरगोश ने कहा, ‘‘वह ज़मीन के अन्दर बनी एक बड़ी गुफा में से निकला था। वह तो मुझे ही मारने जा रहा था। पर मैंने उससे कहा, ‘सरकार, आपको पता नहीं कि आपने क्या अन्धेर कर दिया है। हम सब अपने महाराज के भोजन के लिये जा रहे थे, लेकिन आपने उनका सारा खाना खा लिया है। हमारे महाराज ऐसी बातें सहन नहीं करेंगे। वे ज़रूर ही यहाँ आकर आपको मार डालेंगे।’<br>
+‘‘इस पर उसने पूछा, ‘कौन है तुम्हारा राजा&nbsp;?’ मैंने जवाब दिया, ‘हमारा राजा जंगल का सबसे बड़ा शेर है।’<br>
+‘‘महाराज, ‘मेरे ऐसा कहते ही वह गुस्से से लाल-पीला होकर बोला बेवकूफ इस जंगल का राजा सिर्फ मैं हूं। यहां सब जानवर मेरी प्रजा हैं। मैं उनके साथ जैसा चाहूं वैसा कर सकता हूं। जिस मूर्ख को तुम अपना राजा कहते हो उस चोर को मेरे सामने हाजिर करो। मैं उसे बताऊंगा कि असली राजा कौन है।’ महाराज इतना कहकर उस शेर ने आपको लिवाने के लिए मुझे यहां भेज दिया।’’<br>
+खरगोश की बात सुनकर शेर को बड़ा गुस्सा आया और वह बार-बार गरजने लगा। उसकी भयानक गरज से सारा जंगल दहलने लगा। ‘‘मुझे फौरन उस मूर्ख का पता बताओ’’, शेर ने दहाड़कर कहा, ‘‘जब तक मैं उसे जान से न मार दूँगा मुझे चैन नहीं मिलेगा।’’ ‘‘बहुत अच्छा महाराज,’’ खरगोश ने कहा ‘‘मौत ही उस दुष्ट की सज़ा है। अगर मैं और बड़ा और मज़बूत होता तो मैं खुद ही उसके टुकड़े-टुकड़े कर देता।’’<br>
+‘‘चलो, ‘रास्ता दिखाओ,’’ शेर ने कहा, ‘‘फौरन बताओ किधर चलना है&nbsp;?’’<br>
+‘‘इधर आइये महाराज, इधर, ‘‘खरगोश रास्ता दिखाते हुआ शेर को एक कुएँ के पास ले गया और बोला, ‘‘महाराज, वह दुष्ट शेर ज़मीन के नीचे किले में रहता है। जरा सावधान रहियेगा। किले में छुपा दुश्मन खतरनाक होता है।’’ <br>
+‘‘मैं उससे निपट लूँगा,’’ शेर ने कहा, ‘‘तुम यह बताओ कि वह है कहाँ&nbsp;?’’<br>
+‘‘पहले जब मैंने उसे देखा था तब तो वह यहीं बाहर खड़ा था। लगता है आपको आता देखकर वह किले में घुस गया। आइये मैं आपको दिखाता हूँ।’’<br>
+खरगोश ने कुएं के नजदीक आकर शेर से अन्दर झांकने के लिये कहा। शेर ने कुएं के अन्दर झांका तो उसे कुएं के पानी में अपनी परछाईं दिखाई दी।<br>
+परछाईं को देखकर शेर ज़ोर से दहाड़ा। कुएं के अन्दर से आती हुई अपने ही दहाड़ने की गूंज सुनकर उसने समझा कि दूसरा शेर भी दहाड़ रहा है। दुश्मन को तुरंत मार डालने के इरादे से वह फौरन कुएं में कूद पड़ा।<br>
+कूदते ही पहले तो वह कुएं की दीवार से टकराया फिर धड़ाम से पानी में गिरा और डूबकर मर गया। इस तरह चतुराई से शेर से छुट्टी पाकर नन्हा खरगोश घर लौटा। उसने जंगल के जानवरों को शेर के मारे जाने की कहानी सुनाई। दुश्मन के मारे जाने की खबर से सारे जंगल में खुशी फैल गई। जंगल के सभी जानवर खरगोश की जय-जयकार करने लगे।<br>
+</p>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Laila:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/bull-jackel.hi.css" rel="stylesheet">
+<div class="container-fluid section-bull-jackel" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Laila" target="_blank">Laila</a></div>
+        <div>
+            <h2>सांड़ और गीदड़</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक किसान के पास एक बिगडैल सांड़ था। उसने कई पशु सींग मारकर घायल कर दिए। आखिर तंग आकर उसने सांड़ को जंगल की ओर खदेड दिया।<br>
+सांड़ जिस जंगल में पहुंचा, वहां खूब हरी घास उगी थी। आज़ाद होने के बाद सांड़ के पास दो ही काम रह गए। खूब खाना, हुंकारना तथा पेडों के तनों में सींग फंसाकर ज़ोर लगाना। सांड़ पहले से भी अधिक मोटा हो गया। सारे शरीर में ऐसी मांसपेशियां उभरी जैसे चमडी से बाहर छलक ही पडेंगी। पीठ पर कंधों के ऊपर की गांठ बढती-बढती धोबी के कपडों के गट्ठर जितनी बडी हो गई। गले में चमडी व मांस की तहों की तहें लटकने लगीं।<br>
+उसी वन में एक गीदड़ व गीदड़ी का जोडा रहता था, जो बडे जानवरों द्वारा छोडे शिकार को खाकर गुजारा चलाते थे। स्वयं वह केवल जंगली चूहों आदि का ही शिकार कर पाते थे।<br>
+संयोग से एक दिन वह मतवाला सांड़ झूमता हुआ उधर ही आ निकला जिदर गीदड़-गीदड़ी रहते थे। गीदड़ी ने उस सांड़ को देखा तो उसकी आंखे फटी की फटी रह गईं। उसने आवाज़ देकर गीदड़ को बाहर बुलाया और बोली 'देखो तो इसकी मांस-पेशियां। इसका मांस खाने में कितना स्वादिष्ट होगा। आह, भगवान ने हमें क्या स्वादिष्ट तोहफा भेजा है।<br>
+गीदड़ ने गीदड़ी को समझाया 'सपने देखना छोडो। उसका मांस कितना ही चर्बीला और स्वादिष्ट हो, हमें क्या लेना।'<br>
+गीदड़ी भडक उठी 'तुम तो भौंदू हो। देखते नहीं उसकी पीठ पर जो चर्बी की गांठ है, वह किसी भी समय गिर जाएगी। हमें उठाना भर होगा और इसके गले में जो मांस की तहें नीचे लटक रही हैं, वे किसी भी समय टूटकर नीचे गिर सकती है। बस हमें इसके पीछे-पीछे चलते रहना होगा।'<br>
+गीदड़ बोला 'भाग्यवान! यह लालच छोडो।'<br>
+गीदड़ी ज़िद करने लगी 'तुम हाथ में आया मौक़ा अपनी कायरता से गंवाना चाहते हो। तुम्हें मेरे साथ चलना होगा। मैं अकेली कितना खा पाऊंगी?'<br>
+गीदड़ी की हठ के सामने गीदड़ की कुछ भी न चली। दोनों ने सांड़ के पीछे-पीछे चलना शुरू किया। सांड़ के पीछे चलते-चलते उन्हें कई दिन हो गए, पर सांड़ के शरीर से कुछ नहीं गिरा। गीदड़ ने बार-बार गीदड़ी को समझाने की कोशिश की “गीदड़ी! घर चलते हैं एक-दो चूहे मारकर पेट की आग बुझाते हैं।<br>
+गीदड़ी की अक्ल पर तो पर्दा पड गया था। वह न मानी 'नहीं, हम खाएंगे तो इसी का मोटा-तजा स्वादिष्ट मांस। कभी न कभी तो यह गिरेगा ही।'<br>
+बस दोनों सांड़ के पीछे लगे रहे। भूखे प्यासे एक दिन दोनों गिर पडे और फिर न उठ सके।<br>
+<br>
+</p>
+<em>सीख -- अधिक लालच का फल सदा बुरा होता है।</em>
+        </div>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Rozha+One&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/gajraj.hi.css" rel="stylesheet">
+<div class="container-fluid section-gajraj" id="ybbkrishna">
+    <div class="container">
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Rozha One</a></div>
+        <h2>गजराज व मूषकराज</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;प्राचीन काल में एक नदी के किनारे बसा नगर व्यापार का केन्द्र था। फिर आए उस नगर के बुरे दिन, जब एक वर्ष भारी वर्षा हुई। नदी ने अपना रास्ता बदल दिया। लोगों के लिए पीने का पानी न रहा और देखते ही देखते नगर वीरान हो गया अब वह जगह केवल चूहों के लायक़ रह गई। चारों ओर चूहे ही चूहे नजर आने लगे। चूहों का पूरा साम्राज्य ही स्थापित हो गया। चूहों के उस साम्राज्य का राजा बना मूषकराज चूहा। चूहों का भाग्य देखो, उनके बसने के बाद नगर के बाहर ज़मीन से एक पानी का स्त्रोत फूट पड़ा और वह एक बड़ा जलाशय बन गया।<br>
+नगर से कुछ ही दूर एक घना जंगल था। जंगल में अनगिनत हाथी रहते थे। उनका राजा गजराज नामक एक विशाल हाथी था। उस जंगल क्षेत्र में भयानक सूखा पड़ा। जीव-जन्तु पानी की तलाश में इधर-उधर मारे-मारे फिरने लगे। भारी भरकम शरीर वाले हाथियों की तो दुर्दशा हो गई।<br>
+हाथियों के बच्चे प्यास से व्याकुल होकर चिल्लाने व दम तोडने लगे। गजराज खुद सूखे की समस्या से चिंतित था और हाथियों का कष्ट जानता था। एक दिन गजराज की मित्र चील ने आकर खबर दी कि खंडहर बने नगर के दूसरी ओर एक जलाशय हैं। गजराज ने सबको तुरंत उस जलाशय की ओर चलने का आदेश दिया। सैकडों हाथी प्यास बुझाने डोलते हुए चल पडे। जलाशय तक पहुंचने के लिए उन्हें खंडहर बने नगर के बीच से गुजरना पडा।<br>
+हाथियों के हजारों पैर चूहों को रौंदते हुए निकल गए। हजारों चूहे मारे गए। खंडहर नगर की सडकें चूहों के खून-मांस के कीचड से लथपथ हो गई। मुसीबत यहीं खत्म नहीं हुई। हाथियों का दल फिर उसी रास्ते से लौटा। हाथी रोज उसी मार्ग से पानी पीने जाने लगे।<br>
+काफ़ी सोचने-विचारने के बाद मूषकराज के मंत्रियों ने कहा 'महाराज, आपको ही जाकर गजराज से बात करनी चाहिए। वह दयालु हाथी हैं।' मूषकराज हाथियों के वन में गया। एक बडे पेड़ के नीचे गजराज खड़ा था।<br>
+मूषकराज उसके सामने के बड़े पत्थर के ऊपर चढा और गजराज को नमस्कार करके बोला 'गजराज को मूषकराज का नमस्कार। हे महान हाथी, मैं एक निवेदन करना चाहता हूं।'<br>
+आवाज़ गजराज के कानों तक नहीं पहुंच रही थी। दयालु गजराज उसकी बात सुनने के लिए नीचे बैठ गया और अपना एक कान पत्थर पर चढे मूषकराज के निकट ले जाकर बोला 'नन्हें मियां, आप कुछ कह रहे थे। कॄपया फिर से कहिए।'<br>
+मूषकराज बोला 'हे गजराज, मुझे चूहा कहते हैं। हम बड़ी संख्या में खंडहर बनी नगरी में रहते हैं। मैं उनका मूषकराज हूं। आपके हाथी रोज जलाशय तक जाने के लिए नगरी के बीच से गुजरते हैं। हर बार उनके पैरों तले कुचले जाकर हजारों चूहे मरते हैं। यह मूषक संहार बंद न हुआ तो हम नष्ट हो जाएंगे।'<br>
+गजराज ने दुख भरे स्वर में कहा “मूषकराज, आपकी बात सुन मुझे बहुत शोक हुआ। हमें ज्ञान ही नहीं था कि हम इतना अनर्थ कर रहे हैं। हम नया रास्ता ढूढ लेंगे।'<br>
+मूषकराज कॄतज्ञता भरे स्वर में बोला 'गजराज, आपने मुझ जैसे छोटे जीव की बात ध्यान से सुनी। आपका धन्यवाद। गजराज, कभी हमारी जरुरत पडे तो याद जरुर कीजिएगा।'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;गजराज ने सोचा कि यह नन्हा जीव हमारे किसी काम क्या आएगा। सो उसने केवल मुस्कुराकर मूषकराज को विदा किया। कुछ दिन बाद पडौसी देश के राजा ने सेना को मज़बूत बनाने के लिए उसमें हाथी शामिल करने का निर्णय लिया। राजा के लोग हाथी पकड़ने आए। जंगल में आकर वे चुपचाप कई प्रकार के जाल बिछाकर चले जाते हैं। सैकडों हाथी पकड़ लिए गए। एक रात हाथियों के पकड़े जाने से चिंतित गजराज जंगल में घूम रहे थे कि उनका पैर सूखी पत्तियों के नीचे छल से दबाकर रखे रस्सी के फंदे में फंस जाता हैं। जैसे ही गजराज ने पैर आगे बढाया रस्सा कस गया। रस्से का दूसरा सिरा एक पेड़ के मोटे तने से मज़बूती से बंधा था। गजराज चिंघाडने लगा। उसने अपने सेवकों को पुकारा, लेकिन कोई नहीं आया। कौन फंदे में फंसे हाथी के निकट आएगा? एक युवा जंगली भैंसा गजराज का बहुत आदर करता था। जब वह भैंसा छोटा था तो एक बार वह एक गड्ढे में जा गिरा था। उसकी चिल्लाहट सुनकर गजराज ने उसकी जान बचाई थी। चिंघाड सुनकर वह दौड़ा और फंदे में फंसे गजराज के पास पहुंचा। गजराज की हालत देख उसे बहुत धक्का लगा। वह चीखा 'यह कैसा अन्याय हैं? गजराज, बताइए क्या करुं? मैं आपको छुडाने के लिए अपनी जान भी दे सकता हूं।'<br>
+गजराज बोले 'बेटा, तुम बस दौड़कर खंडहर नगरी जाओ और चूहों के राजा मूषकराज को सारा हाल बताना। उससे कहना कि मेरी सारी आस टूट चुकी है।<br>
+भैंसा अपनी पूरी शक्ति से दौड़ा-दौड़ा मूषकराज के पास गया और सारी बात बताई। मूषकराज तुरंत अपने बीस-तीस सैनिकों के साथ भैंसे की पीठ पर बैठा और वो शीघ्र ही गजराज के पास पहुंचे। चूहे भैंसे की पीठ पर से कूदकर फंदे की रस्सी कुतरने लगे। कुछ ही देर में फंदे की रस्सी कट गई व गजराज आज़ाद हो गए।<br>
+<br>
+<h2>सीख- आपसी सद्भाव व प्रेम सदा एक दूसरे के कष्टों को हर लेते हैं।</h2>
+</p>
+    </div>
+</div>
+
+                <link href='http://fonts.googleapis.com/css?family=Kalam:300&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/drums.hi.css" rel="stylesheet">
+<div class="container-fluid section-drums" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Kalam" target="_blank">Kalam</a></div>
+        <div>
+            <h2>ढोल की पोल</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक बार एक जंगल के निकट दो राजाओं के बीच घोर युद्ध हुआ। एक जीता दूसरा हारा। सेनाएं अपने नगरों को लौट गई। बस, सेना का एक ढोल पीछे रह गया। उस ढोल को बजा-बजाकर सेना के साथ गए भांड व चारण रात को वीरता की कहानियां सुनाते थे।<br>
+युद्ध के बाद एक दिन आंधी आई। आंधी के ज़ोर में वह ढोल लुढकता-पुढकता एक सूखे पेड के पास जाकर टिक गया। उस पेड की सूखी टहनियां ढोल से इस तरह से सट गई थी कि तेज हवा चलते ही ढोल पर टकरा जाती थी और ढमाढम ढमाढम की गुंजायमान आवाज़ होती।<br>
+एक सियार उस क्षेत्र में घूमता था। उसने ढोल की आवाज़ सुनी। वह बडा भयभीत हुआ। ऐसी अजीब आवाज़ बोलते पहले उसने किसी जानवर को नहीं सुना था। वह सोचने लगा कि यह कैसा जानवर हैं, जो ऐसी जोरदार बोली बोलता हैं ’ढमाढम’। सियार छिपकर ढोल को देखता रहता, यह जानने के लिए कि यह जीव उडने वाला हैं या चार टांगो पर दौडने वाला।<br>
+एक दिन सियार झाडी के पीछे छुप कर ढोल पर नजर रखे था। तभी पेड से नीचे उतरती हुई एक गिलहरी कूदकर ढोल पर उतरी। हलकी-सी ढम की आवाज़ भी हुई। गिलहरी ढोल पर बैठी दाना कुतरती रही।<br>
+सियार बडबडाया 'ओह! तो यह कोई हिंसक जीव नहीं हैं। मुझे भी डरना नहीं चाहिए।'<br>
+सियार फूंक-फूंककर क़दम रखता ढोल के निकट गया। उसे सूंघा। ढोल का उसे न कहीं सिर नजर आया और न पैर। तभी हवा के झुंके से टहनियां ढोल से टकराईं। ढम की आवाज़ हुई और सियार उछलकर पीछे जा गिरा।<br>
+'अब समझ आया।' सियार उढने की कोशिश करता हुआ बोला 'यह तो बाहर का खोल हैं। जीव इस खोल के अंदर हैं। आवाज़ बता रही हैं कि जो कोई जीव इस खोल के भीतर रहता हैं, वह मोटा-ताजा होना चाहिए। चर्बी से भरा शरीर। तभी ये ढम=ढम की जोरदार बोली बोलता हैं।'<br>
+अपनी मांद में घुसते ही सियार बोला 'ओ सियारी! दावत खाने के लिए तैयार हो जा। एक मोटे-ताजे शिकार का पता लगाकर आया हूं।'<br>
+सियारी पूछने लगी 'तुम उसे मारकर क्यों नहीं लाए?'<br>
+सियार ने उसे झिडकी दी 'क्योंकि मैं तेरी तरह मूर्ख नहीं हूं। वह एक खोल के भीतर छिपा बैठा हैं। खोल ऐसा हैं कि उसमें दो तरफ सूखी चमडी के दरवाज़े हैं।मैं एक तरफ से हाथ डाल उसे पकडने की कोशिश करता तो वह दूसरे दरवाज़े से न भाग जाता?'<br>
+चांद निकलने पर दोनों ढोल की ओर गए। जब वह् निकट पहुंच ही रहे थे कि फिर हवा से टहनियां ढोल पर टकराईं और ढम-ढम की आवाज़ निकली। सियार सियारी के कान में बोला 'सुनी उसकी आवाज? जरा सोच जिसकी आवाज़ ऐसी गहरी हैं, वह खुद कितना मोटा ताजा होगा।'<br>
+दोनों ढोल को सीधा कर उसके दोनों ओर बैठे और लगे दांतो से ढोल के दोनों चमडी वाले भाग के किनारे फाडने। जैसे ही चमडियां कटने लगी, सियार बोला 'होशियार रहना। एक साथ हाथ अंदर डाल शिकार को दबोचना हैं।' दोनों ने ‘हूं’ की आवाज़ के साथ हाथ ढोल के भीतर डाले और अंदर टटोलने लगे। अदंर कुछ नहीं था। एक दूसरे के हाथ ही पकड में आए। दोंनो चिल्लाए 'हैं! यहां तो कुछ नहीं हैं।' और वे माथा पीटकर रह गए।<br>
+<br>
+</p>
+<em>सीख -- 1. एकता में बल हैं। 2. अहंकारी का देर या सबेर अंत होता ही हैं।</em>
+        </div>
+    </div>
+</div>
+
+                <link href='http://fonts.googleapis.com/css?family=Teko:300,400&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/stupid-ass.hi.css" rel="stylesheet">
+<div class="container-fluid section-stupid-ass" id="ybbkrishna">
+  <div class="container">
+      <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+      <div class="caption"><a href="https://www.google.com/fonts/specimen/Teko" target="_blank">Teko</a></div>
+      <h2>मूर्ख गधा</h2>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;किसी जंगल में एक शेर रहता था। एक सियार उसका सेवक था। एक बार एक हाथी से शेर की लड़ाई हो गई। शेर बुरी तरह घायल हो गया। वह चलने-फिरने में भी असमर्थ हो गया। आहार न मिलने से सियार भी भूखा था।<br>
+शेर ने सियार से कहा- ‘तुम जाओ और किसी पशु को खोजकर लाओ, जिसे मारकर हम अपने पेट भर सकें।’ सियार किसी जानवर की खोज करता हुआ एक गाँव में पहुँच गया। वहाँ उसने एक गधे को घास चरते हुए देखा। सियार गधे के पास गया और बोला- ‘मामा, प्रणाम! बहुत दिनों बाद आपके दर्शन हुए हैं। आप इतने दुबले कैसे हो गए?’ गधा बोला- ‘भाई, कुछ मत पूछो। मेरा स्वामी बड़ा कठोर है। वह पेटभर कर घास नहीं देता। इस धूल से सनी हुई घास खाकर पेट भरना पड़ता है।’ सियार ने कहा- ‘मामा, उधर नदी के किनारे एक बहुत बड़ा घास का मैदान है। आप वहीं चलें और मेरे साथ आनंद से रहें।' गधे ने कहा- ‘भाई, मैं तो गाँव का गधा हूँ। वहाँ जंगली जानवरों के साथ मैं कैसे रह सकूँगा?’ सियार बोला- ‘मामा, वह बड़ी सुरक्षित जगह है। वहाँ किसी का कोई डर नहीं है। तीन गधियाँ भी वहीं रहती हैं। वे भी एक धोबी के अत्याचारों से तंग होकर भाग आई हैं। उनका कोई पति भी नहीं है। आप उनके योग्य हो!’ चाहो तो उन तीनों के पति भी बन सकते हो। चलो तो सही।’ सियार की बात सुनकर गधा लालच में आ गया। गधे को लेकर धूर्त सियार वहाँ पहुँचा, जहाँ शेर छिपा हुआ बैठा था। शेर ने पंजे से गधे पर प्रहार किया लेकिन गधे को चोट नहीं लगी और वह डरकर भाग खड़ा हुआ।<br>
+तब सियार ने नाराज़ होकर शेर से कहा-‘तुम एकदम निकम्मे हो गए! जब तुम एक गधे को नहीं मार सकते, तो हाथी से कैसे लड़ोगे?’ शेर झेंपता हुआ बोला-‘मैं उस समय तैयार नहीं था, इसीलिए चूक हो गई।’ सियार ने कहा- ‘अच्छा, अब तुम पूरी तरह तैयार होकर बैठो, मैं उसे फिर से लेकर आता हूँ।’ वह फिर गधे के पास पहुँचा। गधे ने सियार को देखते ही कहा- ‘तुम तो मुझे मौत के मुँह में ही ले गए थे। न जाने वह कौन-सा जानवर था। मैं बड़ी मुश्किल से जान बचाकर भागा!’ सियार ने हँसते हुए कहा- ‘अरे मामा, तुम उसे पहचान नहीं पाए। वह तो गधी थी। उसने तो प्रेम से तुम्हारा स्वागत करने के लिए हाथ बढ़ाया था। तुम तो बिल्कुल कायर निकले! और वह बेचारी तुम्हारे वियोग में खाना-पीना छोड़कर बैठी है। तुम्हें तो उसने अपना पति मान लिया है। अगर तुम नहीं चलोगे तो वह प्राण त्याग देगी।’ गधा एक बार फिर सियार की बातों में आ गया और उसके साथ चल पड़ा। इस बार शेर नहीं चूका। उसने गधे को एक ही झपट्टे में मार दिया। भोजन करने से पहले शेर स्नान करने के लिए चला गया। इस बीच सियार ने उस गधे का दिल और दिमाग खा लिया।<br>
+शेर स्नान करके लौटा तो नाराज़ होकर बोला- ‘ओ सियार के बच्चे! तूने मेरे भोजन को जूठा क्यों किया? तूने इसके हृदय और सर क्यों खा लिए&nbsp;?’<br>
+धूर्त सियार गिड़गिड़ाता हुआ बोला- 'महाराज, मैंने तो कुछ भी नहीं खाया है। इस गधे का दिल और दिमाग था ही नहीं, यदि इसके होते तो यह दोबारा मेरे साथ कैसे आ सकता था। शेर को सियार की बात पर विश्वास आ गया। वह शांत होकर भोजन करने में जुट गया।'<br>
+<br>
+</p>
+<em>सीख- जो दिल और दिमाग से काम नहीं लेते हैं, वो हमेशा किसी का शिकार हो जाते हैं चाहे वो जानवर हो या फिर इंसान ।</em>
+  </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Rajdhani&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="css/demos/copying.hi.css" rel="stylesheet">
+<div class="container-fluid section-copying" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a></div>
+        <div>
+            <h2>नकल करना बुरा है</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक पहाड़ की ऊंची चोटी पर एक बाज रहता था। पहाड़ की तराई में बरगद के पेड़ पर एक कौआ अपना घोंसला बनाकर रहता था। वह बड़ा चालाक और धूर्त था। उसकी कोशिश सदा यही रहती थी कि बिना मेहनत किए खाने को मिल जाए। पेड़ के आसपास खोह में खरगोश रहते थे। जब भी खरगोश बाहर आते तो बाज ऊंची उड़ान भरते और एकाध खरगोश को उठाकर ले जाते।<br>
+एक दिन कौए ने सोचा, ‘वैसे तो ये चालाक खरगोश मेरे हाथ आएंगे नहीं, अगर इनका नर्म मांस खाना है तो मुझे भी बाज की तरह करना होगा। एकाएक झपट्टा मारकर पकड़ लूंगा।’<br>
+दूसरे दिन कौए ने भी एक खरगोश को दबोचने की बात सोचकर ऊंची उड़ान भरी। फिर उसने खरगोश को पकड़ने के लिए बाज की तरह ज़ोर से झपट्टा मारा। अब भला कौआ बाज का क्या मुकाबला करता। खरगोश ने उसे देख लिया और झट वहां से भागकर चट्टान के पीछे छिप गया। कौआ अपनी ही झोंक में उस चट्टान से जा टकराया। नतीजा, उसकी चोंच और गरदन टूट गईं और उसने वहीं तड़प कर दम तोड़ दिया।<br>
+<br>
+</p>
+<em>सीख -- नकल करने के लिए भी अकल चाहिए।</em>
+        </div>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Palanquin:300&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/talkative-turtle.hi.css" rel="stylesheet">
+<div class="container-fluid section-talkative-turtle" id="ybbkrishna">
+    <div class="container">
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Palanquin" target="_blank">Palanquin</a></div>
+        <h2>मूर्ख बातूनी कछुआ</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक तालाब में एक कछुआ रहता था। उसी तलाब में दो हंस तैरने के लिए उतरते थे। हंस बहुत हंसमुख और मिलनसार थे। कछुए और उनमें दोस्ती होते देर न लगी। हंसों को कछुए का धीमे-धीमे चलना और उसका भोलापन बहुत अच्छा लगा। हंस बहुत ज्ञानी भी थे। वे कछुए को अदभुत बातें बताते। ॠषि-मुनियों की कहानियां सुनाते। हंस तो दूर-दूर तक घूमकर आते थे, इसलिए दूसरी जगहों की अनोखी बातें कछुए को बताते। कछुआ मंत्रमुग्ध होकर उनकी बातें सुनता। बाकी तो सब ठीक था, पर कछुए को बीच में टोका-टाकी करने की बहुत आदत थी। अपने सज्जन स्वभाव के कारण हंस उसकी इस आदत का बुरा नहीं मानते थे। उन तीनों की घनिष्टता बढती गई। दिन गुजरते गए।<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक बार बडे ज़ोर का सूखा पडा। बरसात के मौसम में भी एक बूंद पानी नहीं बरसा। उस तालाब का पानी सूखने लगा। प्राणी मरने लगे, मछलियां तो तडप-तडपकर मर गईं। तालाब का पानी और तेजी से सूखने लगा। एक समय ऐसा भी आया कि तालाब में ख़ाली कीचड रह गया। कछुआ बडे संकट में पड गया। जीवन-मरण का प्रश्न खडा हो गया। वहीं पडा रहता तो कछुए का अंत निश्चित था। हंस अपने मित्र पर आए संकट को दूर करने का उपाय सोचने लगे। वे अपने मित्र कछुए को ढाडस बंधाने का प्रयत्न करते और हिम्म्त न हारने की सलाह देते। हंस केवल झूठा दिलासा नहीं दे रहे थे। वे दूर-दूर तक उडकर समस्या का हल ढूढते। एक दिन लौटकर हंसों ने कहा 'मित्र, यहां से पचास कोस दूर एक झील हैं।उसमें काफ़ी पानी हैं तुम वहां मजे से रहोगे।' कछुआ रोनी आवाज़ में बोला 'पचास कोस? इतनी दूर जाने में मुझे महीनों लगेंगे। तब तक तो मैं मर जाऊंगा।'<br>
+कछुए की बात भी ठीक थी। हंसों ने अक़्ल लडाई और एक तरीका सोच निकाला।<br>
+वे एक लकडी उठाकर लाए और बोले 'मित्र, हम दोनों अपनी चोंच में इस लकडी के सिरे पकडकर एक साथ उडेंगे। तुम इस लकडी को बीच में से मुंह से थामे रहना। इस प्रकार हम उस झील तक तुम्हें पहुंचा देंगे उसके बाद तुम्हें कोई चिन्ता नहीं रहेगी।'<br>
+उन्होंने चेतावनी दी 'पर याद रखना, उडान के दौरान अपना मुंह न खोलना। वरना गिर पडोगे।'<br>
+कछुए ने हामी में सिर हिलाया। बस, लकडी पकडकर हंस उड चले। उनके बीच में लकडी मुंह दाबे कछुआ। वे एक कस्बे के ऊपर से उड रहे थे कि नीचे खडे लोगों ने आकाश में अदभुत नज़ारा देखा। सब एक दूसरे को ऊपर आकाश का दृश्य दिखाने लगे। लोग दौड-दौडकर अपने छज्जों पर निकल आए। कुछ अपने मकानों की छतों की ओर दौडे। बच्चे बूडे, औरतें व जवान सब ऊपर देखने लगे। खूब शोर मचा। कछुए की नजर नीचे उन लोगों पर पडी।<br>
+उसे आश्चर्य हुआ कि उन्हें इतने लोग देख रहे हैं। वह अपने मित्रों की चेतावनी भूल गया और चिल्लाया 'देखो, कितने लोग हमें देख रहे है!' मुंह के खुलते ही वह नीचे गिर पडा। नीचे उसकी हड्डी-पसली का भी पता नहीं लगा।<br>
+<br>
+</p>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Vesper+Libre:500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/enemy-advice.hi.css" rel="stylesheet">
+<div class="container-fluid section-enemy-advice" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Vesper+Libre" target="_blank">Vesper Libre</a></div>
+        <div>
+            <h2>शत्रु की सलाह</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;नदी किनारे एक विशाल पेड था। उस पेड पर बगुलों का बहुत बडा झुंड रहता था। उसी पेड के कोटर में काला नाग रहता था। जब अंडों से बच्चे निकल आते और जब वह कुछ बडे होकर मां-बाप से दूर रहने लगते, तभी वह नाग उन्हें खा जाता था। इस प्रकार वर्षो से काला नाग बगुलों के बच्चे हडपता आ रहा था। बगुले भी वहां से जाने का नाम नहीं लेते थे, क्योंकि वहां नदी में कछुओं की भरमार थी। कछुओं का नरम मांस बगुलों को बहुत अच्छा लगता था।<br>
+इस बार नाग जब एक बच्चे को हडपने लगा तो पिता बगुले की नजर उस पर पड गई। बगुले को पता लग गया कि उसके पहले बच्चों को भी वह नाग खाता रहा होगा। उसे बहुत शोक हुआ। उसे आंसू बहाते एक कछुए ने देखा और पूछा 'मामा, क्यों रो रहे हो?'<br>
+गम में जीव हर किसी के आगे अपना दुखडा रोने लगता हैं। उसने नाग और अपने मृत बच्चों के बारे में बताकर कहा 'मैं उससे बदला लेना चाहता हूं।'<br>
+कछुए ने सोचा 'अच्छा तो इस गम में मामा रो रहा है। जब यह हमारे बच्चे खा जाते हैं तब तो कुछ ख्याल नहीं आता कि हमें कितना गम होता होगा। तुम सांप से बदला लेना चाहते हो तो हम भी तो तुमसे बदला लेना चाहेंगे।'<br>
+बगुला अपने शत्रु को अपना दुख बताकर ग़लती कर बैठा था। चतुर कछुआ एक तीर से दो शिकार मारने की योजना सोच चुका था। वह बोला 'मामा! मैं तुम्हें बदला लेने का बहुत अच्छा उपाय सुझाता हूं।'<br>
+बगुले ने अदीर स्वर में पूछा “जल्दी बताओ वह उपाय क्या हैं। मैं तुम्हारा एहसान जीवन भरा नहीं भूलूंगा।’ कछुआ मन ही मन मुस्कुराया और उपाय बताने लगा “यहां से कुछ दूर एक नेवले का बिल है। नेवला सांप का घोर शत्रु हैं। नेवले को मछलियाँ बहुत प्रिय होती हैं। तुम छोटी-छोटी मछलियां पकडकर नेवले के बिल से सांप के कोटर तक बिछा दो, नेवला मछलियां खाता-खाता सांप तक पहुंच जाएगा और उसे समाप्त कर देगा।’ बगुला बोला “तुम जरा मुझे उस नेवले का बिल दिखा दो।’<br>
+कचुए ने बगुले को नेवले का बिल दिखा दिया। बगुले ने वैसे ही किया जैसे कछुए ने समझाया था। नेवला सचमुच मछलियां खाता हुआ कोटर तक पहुंचा। नेवले को देखते ही नाग ने फुंकार छोडी। कुछ ही देर की लडाई में नेवले ने सांप के टुकडे-टुकडे कर दिए। बगुला खुशी से उछल पडा। कछुए ने मन ही मन में कहा 'यह तो शुरुआत हैं मूर्ख बगुले। अब मेरा बदला शुरू होगा और तुम सब बगुलों का नाश होगा।'<br>
+कछुए का सोचना सही निकला। नेवला नाग को मारने के बाद वहां से नहीं गया। उसे अपने चारों ओर बगुले नजर आए, उसके लिए महिनों के लिए स्वादिष्ट खाना। नेवला उसी कोटर में बस गया, जिसमें नाग रहता था और रोज एक बगुले को अपना शिकार बनाने लगा। इस प्रकार एक-एक करके सारे बगुले मारे गए।<br>
+<br>
+</p>
+<em>सीख -- शत्रु की सलाह में उसका स्वार्थ छिपा होता है।</em>
+        </div>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Rozha+One&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/fools-learn.hi.css" rel="stylesheet">
+<div class="container-fluid section-fools-learn" id="ybbkrishna">
+    <div class="container">
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Rozha One</a></div>
+        <h2>मूर्ख को सीख</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक जंगल में एक पेड पर गौरैया का घोंसला था। एक दिन कडाके की ठंड पड रही थी। ठंड से कांपते हुए तीन चार बंदरों ने उसी पेड के नीचे आश्रय लिया। एक बंदर बोला 'कहीं से आग तापने को मिले तो ठंड दूर हो सकती हैं।'<br>
+दूसरे बंदर ने सुझाया 'देखो, यहां कितनी सूखी पत्तियां गिरी पडी हैं। इन्हें इकट्ठा कर हम ढेर लगाते हैं और फिर उसे सुलगाने का उपाय सोचते हैं।'<br>
+बंदरों ने सूखी पत्तियों का ढेर बनाया और फिर गोल दायरे में बैठकर सोचने लगे कि ढेर को कैसे सुलगाया जाए। तभी एक बंदर की नजर दूर हवा में उडते एक जुगनू पर पडी और वह उछल पडा। उधर ही दौडता हुआ चिल्लाने लगा 'देखो, हवा में चिंगारी उड रही है। इसे पकडकर ढेर के नीचे रखकर फूंक मारने से आग सुलग जाएगी।'<br>
+'हां हां!' कहते हुए बाकी बंदर भी उधर दौडने लगे। पेड पर अपने घोंसले में बैठी गौरैया यह सब देख रही थे। उससे चुप नहीं रहा गया। वह बोली 'बंदर भाइयो, यह चिंगारी नहीं हैं यह तो जुगनू है।'<br>
+एक बंदर क्रोध से गौरैया की देखकर गुर्राया 'मूर्ख चिडिया, चुपचाप घोंसले में दुबकी रह। हमें सिखाने चली है।'<br>
+इस बीच एक बंदर उछलकर जुगनू को अपनी हथेलियों के बीच कटोरा बनाकर कैद करने में सफल हो गया। जुगनू को ढेर के नीचे रख दिया गया और सारे बंदर लगे चारों ओर से ढेर में फूंक मारने।<br>
+गौरैया ने सलाह दी 'भाइयो! आप लोग ग़लती कर रहे हैं। जुगनू से आग नहीं सुलगेगी। दो पत्थरों को टकराकर उससे चिंगारी पैदा करके आग सुलगाइए।'<br>
+बंदरों ने गौरैया को घूरा। आग नहीं सुलगी तो गौरैया फिर बोल उठी 'भाइयो! आप मेरी सलाह मानिए, कम से कम दो सूखी लकडियों को आपस में रगडकर देखिए।'<br>
+सारे बंदर आग न सुलगा पाने के कारण खीजे हुए थे। एक बंदर क्रोध से भरकर आगे बढा और उसने गौरैया पकडकर ज़ोर से पेड के तने पर मारा। गौरैया फडफडाती हुई नीचे गिरी और मर गई।<br>
+<br>
+</p>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Sarpanch:400,800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/golu-molu.hi.css" rel="stylesheet">
+<div class="container-fluid section-golu-molu" id="ybbkrishna">
+    <div class="container">
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="http://www.google.com/fonts/specimen/Sarpanch" target="_blank">Sarpanch</a></div>
+        <h2>गोलू-मोलू और भालू</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;गोलू और मोलू पक्के दोस्त थे। गोलू जहां दुबला-पतला था, वहीं मोलू मोटा गोल-मटोल। दोनों एक-दूसरे पर जान देने का दम भरते थे, लेकिन उनकी जोड़ी देखकर लोगों की हंसी छूट जाती। एक बार उन्हें किसी दूसरे गांव में रहने वाले मित्र का निमंत्रण मिला। उसने उन्हें अपनी बहन के विवाह के अवसर पर बुलाया था।<br>
+उनके मित्र का गांव कोई बहुत दूर तो नहीं था लेकिन वहां तक पहुंचने के लिए जंगल से होकर गुजरना पड़ता था। और उस जंगल में जंगली जानवरों की भरमार थी।<br>
+दोनों चल दिए…जब वे जंगल से होकर गुजर रहे थे तो उन्हें सामने से एक भालू आता दिखा। उसे देखकर दोनों भय से थर-थर कांपने लगे। तभी दुबला-पतला गोलू तेजी से दौड़कर एक पेड़ पर जा चढ़ा, लेकिन मोटा होने के कारण मोलू उतना तेज नहीं दौड़ सकता था। उधर भालू भी निकट आ चुका था, फिर भी मोलू ने साहस नहीं खोया। उसने सुन रखा था कि भालू मृत शरीर को नहीं खाते। वह तुरंत ज़मीन पर लेट गया और सांस रोक ली। ऐसा अभिनय किया कि मानो शरीर में प्राण हैं ही नहीं। भालू घुरघुराता हुआ मोलू के पास आया, उसके चेहरे व शरीर को सूंघा और उसे मृत समझकर आगे बढ़ गया।<br>
+जब भालू काफ़ी दूर निकल गया तो गोलू पेड़ से उतरकर मोलू के निकट आया और बोला, ‘‘मित्र, मैंने देखा था….भालू तुमसे कुछ कह रहा था। क्या कहा उसने&nbsp;?’’<br>
+मोलू ने गुस्से में भरकर जवाब दिया, ‘‘मुझे मित्र कहकर न बुलाओ…और ऐसा ही कुछ भालू ने भी मुझसे कहा। उसने कहा, गोलू पर विश्वास न करना, वह तुम्हारा मित्र नहीं है।’’<br>
+सुनकर गोलू शर्मिन्दा हो गया। उसे आभास हो गया था कि उससे कितनी भारी भूल हो गई थी। उसकी मित्रता भी सदैव के लिए समाप्त हो गई। <br>
+<br>
+</p>
+<em>सीख- सच्चा मित्र वही है जो संकट के काम आए।</em>
+    </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:300&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/lion-jackel.hi.css" rel="stylesheet">
+<div class="container-fluid section-lion-jackel" id="ybbkrishna">
+  <div class="container">
+      <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+      <div class="caption"><a href="https://www.google.com/fonts/specimen/Ek+Mukta" target="_blank">Ek Mukta</a></div>
+      <h2>सिंह और सियार</h2>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;वर्षों पहले हिमालय की किसी कन्दरा में एक बलिष्ठ शेर रहा करता था। एक दिन वह एक भैंसे का शिकार और भक्षण कर अपनी गुफा को लौट रहा था। तभी रास्ते में उसे एक मरियल-सा सियार मिला जिसने उसे लेटकर दण्डवत् प्रणाम किया। जब शेर ने उससे ऐसा करने का कारण पूछा तो उसने कहा, “सरकार मैं आपका सेवक बनना चाहता हूँ। कुपया मुझे आप अपनी शरण में ले लें। मैं आपकी सेवा करुँगा और आपके द्वारा छोड़े गये शिकार से अपना गुजर-बसर कर लूंगा।' शेर ने उसकी बात मान ली और उसे मित्रवत अपनी शरण में रखा।<br>
+कुछ ही दिनों में शेर द्वारा छोड़े गये शिकार को खा-खा कर वह सियार बहुत मोटा हो गया। प्रतिदिन सिंह के पराक्रम को देख-देख उसने भी स्वयं को सिंह का प्रतिरुप मान लिया। एक दिन उसने सिंह से कहा, 'अरे सिंह&nbsp;! मैं भी अब तुम्हारी तरह शक्तिशाली हो गया हूँ। आज मैं एक हाथी का शिकार करुंगा और उसका भक्षण करुंगा और उसके बचे-खुचे माँस को तुम्हारे लिए छोड़ दूँगा।' चूँकि सिंह उस सियार को मित्रवत् देखता था, इसलिए उसने उसकी बातों का बुरा न मान उसे ऐसा करने से रोका। भ्रम-जाल में फँसा वह दम्भी सियार सिंह के परामर्श को अस्वीकार करता हुआ पहाड़ की चोटी पर जा खड़ा हुआ। वहाँ से उसने चारों ओर नज़रें दौड़ाई तो पहाड़ के नीचे हाथियों के एक छोटे से समूह को देखा। फिर सिंह-नाद की तरह तीन बार सियार की आवाजें लगा कर एक बड़े हाथी के ऊपर कूद पड़ा। किन्तु हाथी के सिर के ऊपर न गिर वह उसके पैरों पर जा गिरा। और हाथी अपनी मस्तानी चाल से अपना अगला पैर उसके सिर के ऊपर रख आगे बढ़ गया। क्षण भर में सियार का सिर चकनाचूर हो गया और उसके प्राण पखेरु उड़ गये।<br>
+पहाड़ के ऊपर से सियार की सारी हरकतें देखता हुआ सिंह ने तब यह गाथा कही – 'होते है जो मूर्ख और घमण्डी, होती है उनकी ऐसी ही गति।'<br>
+<br>
+</p>
+  </div>
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Glegoo&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/guests.hi.css" rel="stylesheet">
+<div class="container-fluid section-guests" id="ybbkrishna">
+  <div class="container">
+      <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+      <div class="caption"><a href="https://www.google.com/fonts/specimen/Glegoo" target="_blank">Glegoo</a></div>
+      <h2>मुफ़्तखोर मेहमान</h2>
+      <p>नेहा लड़की है, छोटी-सी। 
+						भालू खिलौना है, बड़ा-सा। भालू नेहा का दोस्त है। नेहा और 
+						भालू साथ-साथ रहते हैं। <br>
+						<br>
+						आज शाम नेहा बगीचे में गई। भालू भी साथ गया।<br>
+						वहाँ एक फूल था, बड़ा-सा। फूल गुलाबी रंग का था। <br>
+						नेहा ने फूल को देखा, उसे फूल सुंदर लगा।<br>
+						<br>
+						ऊपर आसमान था, बड़ा-सा। आसमान का रंग नीला था। नेहा को 
+						आसमान सुंदर लगा। आसमान में तितली थी, छोटी-सी। उसके पंखों 
+						का रंग लाल था। नेहा को तितली अच्छी लगी।<br>
+						<br>
+						नीचे घास थी। घास का रंग हरा था। बल्लू और नेहा घास पर 
+						बैठे। घास नर्म थी। नेहा को घास अच्छी लगी। बल्लू फूल से 
+						बातें करने लगा। लो, नेहा तो बैठे बैठे सो गई !</p>
+  </div>
+</div>
+                <!-- Google web fonts for "The Astronomer" -->
+<link href='http://fonts.googleapis.com/css?family=Laila:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/jackel.hi.css" rel="stylesheet">
+<div class="container-fluid section-jackel" id="michaelryap">
+
+    <div class="container">
+
+        <h2><span>बुद्धिमान सियार</span></h2>
+
+        <p class="drop-p">एक समय की बात हैं कि जंगल में एक शेर के पैर में कांटा चुभ गया। पंजे में जख्म हो गया और शेर के लिए दौडना असंभव हो गया। वह लंगडाकर मुश्किल से चलता। शेर के लिए तो शिकार न करने के लिए दौडना जरुरी होता है। इसलिए वह कई दिन कोई शिकार न कर पाया और भूखों मरने लगा। कहते हैं कि शेर मरा हुआ जानवर नहीं खाता, परन्तु मजबूरी में सब कुछ करना पडता हैं। लंगडा शेर किसी घायल अथवा मरे हुए जानवर की तलाश में जंगल में भटकने लगा। यहां भी किस्मत ने उसका साथ नहीं दिया। कहीं कुछ हाथ नहीं लगा।</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;धीरे-धीरे पैर घसीटता हुआ वह एक गुफा के पास आ पहुंचा। गुफा गहरी और संकरी थी, ठीक वैसी जैसे जंगली जानवरों के मांद के रुप में काम आती हैं। उसने उसके अंदर झांका मांद ख़ाली थी पर चारों ओर उसे इस बात के प्रमाण नजर आए कि उसमें जानवर का बसेरा हैं। उस समय वह जानवर शायद भोजन की तलाश में बाहर गया हुआ था। शेर चुपचाप दुबककर बैठ गया ताकि उसमें रहने वाला जानवर लौट आए तो वह दबोच ले।<br>
+सचमुच उस गुफा में सियार रहता था, जो दिन को बाहर घूमता रहता और रात को लौट आता था। उस दिन भी सूरज डूबने के बाद वह लौट आया। सियार काफ़ी चालाक था। हर समय चौकन्ना रहता था। उसने अपनी गुफा के बाहर किसी बडे जानवर के पैरों के निशान देखे तो चौंका उसे शक हुआ कि कोई शिकारी जीव मांद में उसके शिकार की आस में घात लगाए न बठा हो। उसने अपने शक की पुष्टि के लिए सोच विचार कर एक चाल चली। गुफा के मुहाने से दूर जाकर उसने आवाज़ दी 'गुफा! ओ गुफा।'<br>
+गुफा में चुप्पी छायी रही उसने फिर पुकारा 'अरी ओ गुफा, तू बोलती क्यों नहीं?'<br>
+भीतर शेर दम साधे बैठा था। भूख के मारे पेट कुलबुला रहा था। उसे यही इंतज़ार था कि कब सियार अंदर आए और वह उसे पेट में पहुंचाए। इसलिए वह उतावला भी हो रहा था। सियार एक बार फिर ज़ोर से बोला 'ओ गुफा! रोज तू मेरी पुकार के जवाब में मुझे अंदर बुलाती हैं। आज चुप क्यों है? मैंने पहले ही कह रखा है कि जिस दिन तू मुझे नहीं बुलाएगी, उस दिन मैं किसी दूसरी गुफा में चला जाऊंगा। अच्छा तो मैं चला।'<br>
+यह सुनकर शेर हडबडा गया। उसने सोचा शायद गुफा सचमुच सियार को अंदर बुलाती होगी। यह सोचकर कि कहीं सियार सचमुच न चला जाए, उसने अपनी आवाज़ बदलकर कहा 'सियार राजा, मत जाओ अंदर आओ न। मैं कब से तुम्हारी राह देख रही थी।'<br>
+सियार शेर की आवाज़ पहचान गया और उसकी मूर्खता पर हंसता हुआ वहां से चला गया और फिर लौटकर नहीं आया। मूर्ख शेर उसी गुफा में भूखा-प्यासा मर गया।<br>
+<br>
+<br>
+</p>
+
+        <em>सीख-- सतर्क व्यक्ति जीवन में कभी मार नहीं खाता।</em>
+
+        <ul>
+            <li class="label">Types in Use</li>
+            <li><a href="https://www.google.com/fonts/specimen/Laila">Laila</a></li>
+        </ul>
+
+        <hr />
+
+        <ul>
+            <li class="label">Set By</li>
+            <li><a href="https://twitter.com/ybbkrishna">@ybbkrishna</a></li>
+        </ul>
+
+    </div>
+
+</div>
+                <link href='http://fonts.googleapis.com/css?family=Laila:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/quotes/Jean.hi.css" rel="stylesheet">
+<section class="sample" id="jean">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Laila" target="_blank">Laila</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“कला कुरूप चीजों को जन्म देती है जो समय के साथ खूबसूरत होती जाती  हैं. वहीँ दूसरी तरफ, फैशन खूबसूरत चीजों को जन्म देता है जो समय के साथ कुरूप होती जाती हैं.”</h2>
+		  	<h3>—माइकलैंजिलो</h3>
+	</section>
+</section>
+                <link href='http://fonts.googleapis.com/css?family=Hind:400,500,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/quotes/Gertrude.hi.css" rel="stylesheet">
+<section class="sample" id="Gertrude">
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Hind" target="_blank">Hind</a></div>
+    </div>
+    <section class="text">
+        <h1>“एक लेखक को अपने आँखों से लिखना चाहिए  <br>और एक चित्रकार को अपने कानो से चित्रकारी करनी चाहिए.”</h1>
+        <p>—गैरत्रुद स्टेन</p>
+  </section>
+                <link href='http://fonts.googleapis.com/css?family=Halant|Palanquin&subset=latin,devanagari,latin-ext' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/quotes/Henry.hi.css" rel="stylesheet">
+<section class="sample" id="Henry">
+    <section class="text">
+            <div class="container">
+            	&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna">
+                    <img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna">
+                </a>
+                <div class="caption"><a href="https://www.google.com/fonts/specimen/Halant" target="_blank">Halant</a>
+                </div>
+            </div>
+            <br /><br />
+            <h1><span>हेनरी<span class="kern">मू</span><span class="kern push">र</span></span></h1>
+            <p>
+                <span>“</span>एक मूर्तिकार चीजों को आकार देने में रुचि रखता है, एक कवी शब्दों में और एक संगीतकार ध्वनि में.
+                <span>”</span>
+            </p>
+        </a>
+    </section>
+</section>
+
+                <link href='http://fonts.googleapis.com/css?family=Rajdhani&subset=latin,devanagari,latin-ext' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/quotes/Horace.hi.css" rel="stylesheet">
+<section class="sample" id="Horace">
+    <section class="text">
+    	<div class="container">
+            	&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna">
+                    <img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna">
+                </a>
+                <div class="caption"><a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a>
+                </div>
+            </div>
+            <br /><br />
+        <ul>
+          <li>एक<span class="kern">ता</span></li>
+          <li>ता<span class="kern">ल</span></li>
+          <li>संतु<span class="kern">ल</span>न</li>
+          <li>जो<span class="kern">र</span></li>
+          <li>निक<span class="kern">टता</span></li>
+          <li>पदानु<span class="kern">क्</span>रम</li>
+        </ul>
+    </section>
+  </section>
+                <link href='http://fonts.googleapis.com/css?family=Teko:400,500,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/quotes/James.hi.css" rel="stylesheet">
+<section class="sample" id="James">
+    <section class="text">
+        <h1 class="first">काम<br> &nbsp;&nbsp;&nbsp;से</h1>
+        <h1 class="second">कलाकार<br>जाना</h1>
+        <h1 class="third">जाता है.</h1>
+        <p>जीन  डी  ला फोंटेन</p>
+    </section>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Teko" target="_blank">Teko</a></div>
+    </div>    
+  </section>
+                <link href='http://fonts.googleapis.com/css?family=Khand:400,500,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/quotes/Lucius.hi.css" rel="stylesheet">
+<section class="sample" id="Lucius">
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Khand" target="_blank">Khand</a></div>
+    </div>
+    <section class="text">
+        <h1>सभी कलाएं प्रकृति </h1><br />
+        <h1>की नक़ल हैं.</h1>
+        <p>—लुसिअस अन्निअस सेनिसा</p>
+    </section>
+  </section>
+                <link href='http://fonts.googleapis.com/css?family=Laila:400,500,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/quotes/Marshall.hi.css" rel="stylesheet">
+<section class="sample" id="Marshall">
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Laila" target="_blank">Laila</a></div>
+    </div>
+    <section class="text">
+        <h1>विज्ञापन बीसवीं सदी की केव आर्ट हैं.</h1>
+        <p style="color: grey;">—मार्शल मैकलुहान</p>
+    </section>
+  </section>
+                <link href='http://fonts.googleapis.com/css?family=Hind|Kalam:400,500,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/quotes/Michelangelo.hi.css" rel="stylesheet">
+<section class="sample" id="Michelangelo">
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Hind" target="_blank">Hind</a>,<a href="https://www.google.com/fonts/specimen/Kalam" target="_blank">Kalam</a></div>
+    </div></div>
+    </div>
+    <section class="text">
+        <hr>
+        <h2>व्यक्ति अपने दिमाग से पेंट करता है अपने  हाथों से नहीं.</h2>
+        <hr class="bottom">
+        <p>-माइकलैंजिलो</p>      
+    </section>
+  </section>
+                <link href='http://fonts.googleapis.com/css?family=Halant|Palanquin&subset=latin,devanagari,latin-ext' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/quotes/Oscar.hi.css" rel="stylesheet">
+<section class="sample" id="Oscar">
+    <section class="text">
+            <div class="container">
+            	&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna">
+                    <img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna">
+                </a>
+                <div class="caption"><a href="https://www.google.com/fonts/specimen/Halant" target="_blank">Halant</a>,<a href="https://www.google.com/fonts/specimen/Palanquin" target="_blank">Palanquin</a></div>
+            </div>
+            <br /><br />
+            <h1><span>ऑस्कार वाइल्ड</span></h1>
+            <p>
+            	<br />
+                <span>“</span>एक कलाकृति  एक  अद्वितीय स्वभाव का  अद्वितीय परिणाम है.
+                <span>”</span>
+            </p>
+        </a>
+    </section>
+</section>
+        
+                <link href="http://fonts.googleapis.com/css?family=Halant|Rajdhani:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/Isaac.hi.css" rel="stylesheet">
+<section class="sample" id="Isaac">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Halant" target="_blank">Halant</a>
+<a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“हर एक निर्माता अपनी अंतर्दृष्टि और परम अभिव्यक्ति के बीच एक अंतर होने की पीड़ा अनुभव करता है.”</h2>
+		  	<h3>—आइजैक बैशेविस सिंगर</h3>
+	</section>
+</section>
+                <link href="http://fonts.googleapis.com/css?family=Vesper Libre|Halant:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/Scott.hi.css" rel="stylesheet">
+<section class="sample" id="Scott">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Vesper Libre" target="_blank">Vesper Libre</a>
+<a href="https://www.google.com/fonts/specimen/Halant" target="_blank">Halant</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“खुद को गलतियाँ करने देना रचनात्मकता. ये जानना कि कौन सी गलतियों को रखना है ; कला है.”</h2>
+		  	<h3>—स्कॉट एडम्स</h3>
+	</section>
+</section>
+                <link href="http://fonts.googleapis.com/css?family=Kalam|Karma:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/Carroll.hi.css" rel="stylesheet">
+<section class="sample" id="Carroll">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Kalam" target="_blank">Kalam</a>
+<a href="https://www.google.com/fonts/specimen/Karma" target="_blank">Karma</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“एक सच्चा कलाकार भी हमेशा कला का निर्माण नहीं करता.”</h2>
+		  	<h3>—कैरोल ओ’ कौन्कार</h3>
+	</section>
+</section>
+                <link href="http://fonts.googleapis.com/css?family=Kalam|Halant:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/Ralph.hi.css" rel="stylesheet">
+<section class="sample" id="Ralph">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Kalam" target="_blank">Kalam</a>
+<a href="https://www.google.com/fonts/specimen/Halant" target="_blank">Halant</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“सभी कलाकार पहले नौसिखिया थे.”</h2>
+		  	<h3>—रल्प वाल्डो एमर्सन</h3>
+	</section>
+</section>
+                <link href="http://fonts.googleapis.com/css?family=Sarpanch|Rajdhani:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/Jackson.hi.css" rel="stylesheet">
+<section class="sample" id="Jackson">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Sarpanch" target="_blank">Sarpanch</a>
+<a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“एक अच्छा चित्रकार हमेशा वो पेंट करता है जो वो है.”</h2>
+		  	<h3>—जैक्सन पोल्लोक</h3>
+	</section>
+</section>
+                <link href="http://fonts.googleapis.com/css?family=Vesper Libre|Glegoo:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/John.hi.css" rel="stylesheet">
+<section class="sample" id="John">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Vesper Libre" target="_blank">Vesper Libre</a>
+<a href="https://www.google.com/fonts/specimen/Glegoo" target="_blank">Glegoo</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“फाइन आर्ट वो है जिसमे व्यक्ति का हाथ,दिमाग और दिल एक साथ काम करते हैं.”</h2>
+		  	<h3>—जॉन रस्किन</h3>
+	</section>
+</section>
+                <link href="http://fonts.googleapis.com/css?family=Hind|Halant:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/Marc.hi.css" rel="stylesheet">
+<section class="sample" id="Marc">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Hind" target="_blank">Hind</a>
+<a href="https://www.google.com/fonts/specimen/Halant" target="_blank">Halant</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“महान कला की शुरुआत वहां होती है जहाँ प्रकृति का अंत होता है.”</h2>
+		  	<h3>—मार्क चैगैल</h3>
+	</section>
+</section>
+                <link href="http://fonts.googleapis.com/css?family=Rajdhani|Karma:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/Henri.hi.css" rel="stylesheet">
+<section class="sample" id="Henri">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a>
+<a href="https://www.google.com/fonts/specimen/Karma" target="_blank">Karma</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“मैं चीजों को पेंट नहीं करता. मैं बस उनके बीच के अंतर को पेंट करता हूँ.”</h2>
+		  	<h3>—हेनरी मतिस्से</h3>
+	</section>
+</section>
+                <link href="http://fonts.googleapis.com/css?family=Vesper Libre|Kalam:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/Ludwig.hi.css" rel="stylesheet">
+<section class="sample" id="Ludwig">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Vesper Libre" target="_blank">Vesper Libre</a>
+<a href="https://www.google.com/fonts/specimen/Kalam" target="_blank">Kalam</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“मैं रोचक  नहीं  होना  चाहता . मैं  अच्छा  होना  चाहता  हूँ .”</h2>
+		  	<h3>—लुड मिस वें डर रोहे</h3>
+	</section>
+</section>
+                <link href="http://fonts.googleapis.com/css?family=Sarpanch|Rajdhani:400,500&subset=latin,devanagari" rel="stylesheet" type="text/css">
+<link href="demos/hindi/quotes/eorgia.hi.css" rel="stylesheet">
+<section class="sample" id="eorgia">
+	<div class="background"></div>
+	<div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Sarpanch" target="_blank">Sarpanch</a>
+<a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a></div>
+    </div>
+	<section class="text">
+		  	<h2>“मैंने  पाया  है  कि  जो  चीजें  मैं  रंगों  और  आक्र्तियों  के  माध्यम  से  कह  सकता  हूँ  वो  और  किसी  तरह  से  नहीं  कह  सकता.”</h2>
+		  	<h3>—जोर्जिया ओ’ केफे</h3>
+	</section>
+</section>
+  </body>  
+    </html>

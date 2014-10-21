@@ -1,0 +1,56 @@
+/* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 02:55:24
+*/
+/* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 02:45:57
+*/
+.section-lion-jackel { background: #3c0091;  auto; /*ie*/  padding: 40px 0 310px 0; position: relative; }
+.section-lion-jackel {
+	background: #3c0091;
+	padding: 40px 0 310px 0;
+	position: relative;
+}
+
+.section-lion-jackel .avatar img { margin: 0 0 10px 20px; }
+.section-lion-jackel .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
+.section-lion-jackel .caption a { color: #CBCCD1; }
+.section-lion-jackel .caption a:hover, .section-lion-jackel .caption a:active { color: #3c0091; background: #CBCCD1; }
+.section-lion-jackel h2, .section-lion-jackel p { margin: 0 auto; width: 420px; }
+.section-lion-jackel h2 { color: #8EC9D2; font: 36px 'Ek Mukta', serif; text-align: center; margin-bottom: 16px; }
+.section-lion-jackel p { color: #B7B8BF; font: 15px/21px 'Ek Mukta', sans-serif; font-weight: 300; text-align: justify;	 }
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(0, 0) rotate(0); }
+	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+	10% { -webkit-transform: translate(0, 0) rotate(0); }
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
+}
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-lion-jackel .container { width: 100%;  }
+	.section-lion-jackel h2,	.section-lion-jackel p { width: auto; max-width: 420px; padding: 0 20px; }
+}

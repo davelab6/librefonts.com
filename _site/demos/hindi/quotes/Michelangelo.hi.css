@@ -1,0 +1,32 @@
+.sample#Michelangelo {
+  background: #fff;
+  padding: 225px 0; }
+  .sample#Michelangelo .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 205px; }
+  .sample#Michelangelo h1 {
+    color: #222;
+    font: 700 24px/24px "Kalam";
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase; }
+  .sample#Michelangelo hr {
+    background: #333;
+    border: 0;
+    height: 2px;
+    margin: 12px auto 8px;
+    width: 60px; }
+    .sample#Michelangelo hr.bottom {
+      margin: 10px auto; }
+  .sample#Michelangelo h2 {
+    color: #222;
+    font: 700 16px/20px "Hind";
+    margin: 0;
+    text-align: center; }
+  .sample#Michelangelo p {
+    color: #222;
+    font: 400 14px/18px "Hind";
+    text-align: justify;
+    text-indent: 14px; }
+1 

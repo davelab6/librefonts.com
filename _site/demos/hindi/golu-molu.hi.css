@@ -1,0 +1,13 @@
+/* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 02:39:04
+*/
+.section-golu-molu {background: url(../../images/stars.png) no-repeat center; background-size: cover; padding: 40px 20px 80px 20px; }
+.section-golu-molu .container { width: 80%; min-height: 400px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
+.section-golu-molu h2 {font: 32px/42px 'Sarpanch', sans-serif; font-weight: 800; text-transform: uppercase; color: #29232D;text-align: left; letter-spacing: 1px;padding: 20px 20px 0 20px;}
+.section-golu-molu p {font: 18px/27px 'Sarpanch', sans-serif;color: #0D1722; text-align: left;padding: 20px 20px 0 20px;}
+.section-golu-molu .caption { margin-bottom:5px; text-align: left; color: #0D1722; }
+.section-golu-molu .caption a {color: #0D1722;}
+.section-golu-molu .avatar { margin-left: 20px; }

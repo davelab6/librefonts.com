@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/earlyaccess/ntr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/gurajada.css);
+.sample#vemana8 {
+  background: #BE90D4;
+  padding: 350px 0; }
+  .sample#vemana8 .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 610px; }
+  .sample#vemana8 h1 {
+    color: #F4B350;
+    font: 400 30px/40px "ntr";
+    font-style: italic;
+    margin: 0 0 10px 0;}
+  .sample#vemana8 p {
+    color: #1E824C;
+    font: 400 20px/30px "gurajada";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-indent: -30px; }

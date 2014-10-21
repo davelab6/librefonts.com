@@ -1,0 +1,33 @@
+.sample#James {
+  background: rgba(133, 135, 141, 0.7);
+  padding: 0 0 300px 0; }
+  .sample#James .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+    width: 700px; }
+  .sample#James h1 {
+    color: #242526;
+    font: italic 700 84px/1.2 "Teko"; }
+    .sample#James h1.first {
+      float: left;
+      padding: 200px 0 0 0;
+      margin: 0 0 -10px 0;
+      width: 142px; }
+    .sample#James h1.second {
+      border-left: 8px solid #242526;
+      float: left;
+      margin: 0 0 -10px 0;
+      padding: 200px 0 0 25px;
+      width: auto; }
+    .sample#James h1.third {
+      clear: both;
+      font-style: normal;
+      font-weight: 900;
+      margin: 0 0 0 172px; }
+  .sample#James p {
+    color: #2e2f31;
+    font: 400 14px/1 "Teko";
+    letter-spacing: 1px;
+    margin: 18px 0 0 175px;
+    text-transform: uppercase; }
