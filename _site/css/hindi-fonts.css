@@ -10,13 +10,21 @@ h1, h2, p { margin: 0; padding: 0; }
 
 .section-intro h1 { font: 75px/68px 'Abril Fatface', Georgia, serif; text-transform: uppercase; color: #693; margin: 200px 0 90px 0; text-align: center; }
 .section-intro .small { font: 30px/32px 'Glegoo', Georgia, serif; letter-spacing: .06em; margin-left: 30px; display: block; }
-.section-intro h1 em { display: block; font-style: normal; }
+.section-intro h1 em { display: block; font-style: normal; color:  #FF9933; }
 .section-intro h1 i { text-transform: lowercase; letter-spacing: 0; color: #7a6; }
 .section-intro .divider { width: 30px; padding: 30px 0 0 0; border-top: 1px solid #999; margin: 30px auto 0 auto; }
-.section-intro p { color: #999; font: 15px/20px 'Alegreya', Georgia, serif; margin: 0 auto 14px auto; max-width: 460px; }
+.section-intro p { color: #999; font: 15px/20px 'Ek Mukta', sans-serif; margin: 0 auto 14px auto; max-width: 460px; font-weight: 200; width: 50%; float:left; }
 .section-intro .caption { margin-top: 180px; }
-.section-intro a { color: #000; text-decoration: none; }
-.section-intro a:hover { background-color: #ddd; }
+.home-menu{ text-align: center;width: 100%;float: none;}
+.section-intro a.btn {color: #515050;
+background: #eee;
+text-decoration: none;
+padding: 10px;
+margin: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 5px; }
+.section-intro a.btn:hover { background-color: #ddd; }
 
 /* ---------------------- */
 /* Device-specific styles */
