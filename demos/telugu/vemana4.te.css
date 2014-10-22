@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/earlyaccess/suravaram.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+.sample#vemana4 {
+  background: #F22613;
+  padding: 350px 0; }
+  .sample#vemana4 .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 610px; }
+  .sample#vemana4 h1 {
+    color: #68C3A3;
+    font: 400 30px/40px "suravaram";
+    font-style: italic;
+    margin: 0 0 10px 0;}
+  .sample#vemana4 p {
+    color: #E4F1FE;
+    font: 400 20px/30px "notosanstelugu";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-indent: -30px; }
