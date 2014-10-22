@@ -1,9 +1,9 @@
 ---
 layout: page
-
+title: Welcome
 ---
 
-Welcome
+
 =======
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate mauris massa, dignissim dapibus dui lacinia ut. Phasellus et faucibus libero, in finibus dolor. Cras eget augue in est rhoncus convallis ut quis turpis. Sed purus nunc, finibus vel turpis eget, maximus eleifend nibh. Nullam augue tellus, blandit ut malesuada feugiat, tincidunt sed metus. Aenean sed gravida leo. Ut pellentesque vitae orci id bibendum. Integer laoreet auctor augue. Nulla facilisi.
