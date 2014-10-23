@@ -7,7 +7,17 @@
     </title>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/site.css" />
-    {{ if include.language == "telugu" }}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/menu_topside.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/mainmenu.js"></script>
+<script src="{{ site.baseurl }}/js/classie.js"></script>
+    
+    <script type="text/javascript">
+        function gotoPage(select){
+        window.location = select.value;
+        }
+    </script>
+    {{ if include.language == "Telugu" }}
     <style>
         {% include telugu/attarintiki.te.css %}
         {% include telugu/birbal-fever.te.css %}
@@ -15,8 +25,12 @@
         {% include telugu/coin-bag.te.css %}
         {% include telugu/garden-plants.te.css %}
         {% include telugu/vishnu-glory.te.css %}
-        
-        /*Hindi Styles Begin*/
+    </style>
+    {{ endif }}   
+    
+    {{ if include.language == "Hindi" }}   
+    <style>
+          /*Hindi Styles Begin*/
         {% include hindi/bull-jackel.hi.css %}
         {% include hindi/copying.hi.css %}
         {% include hindi/copying.hi.css %}
@@ -33,4 +47,11 @@
     {{ endif }}
   
 </head>
+   
+
 <body>
+    
+{% include navigation.html%}
+   
+<div class="content-wrap">
+    <div class="content">

@@ -1,3 +1,4 @@
+<!-- start of page layout -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +8,16 @@
     </title>
     <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/menu_topside.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/hindi.librefonts.com/js/mainmenu.js"></script>
+<script src="/hindi.librefonts.com/js/classie.js"></script>
+    
+    <script type="text/javascript">
+        function gotoPage(select){
+        window.location = select.value;
+        }
+    </script>
     
     <style>
         /* ---------------------- */
@@ -247,8 +258,12 @@
 
 }
 
-        
-        /*Hindi Styles Begin*/
+    </style>
+       
+    
+       
+    <style>
+          /*Hindi Styles Begin*/
         /* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:10
@@ -779,14 +794,36 @@
     
   
 </head>
-<body>
+   
 
-<!-- start of page layout -->
+<body>
+    
+<div class="menu-wrap">
+            <nav class="menu-top">
+                <div class="profile"><a href="/hindi.librefonts.com"><span>Libre Fonts Showcase</span></a> </div>
+                <div class="icon-list">
+                   <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a> <a href="/hindi.librefonts.com/telugu" >Telugu / తెలుగు  </a> <a href="/hindi.librefonts.com/english" >Telugu / తెలుగు  </a> 
+                </div>
+            </nav>
+            <nav class="menu-side">
+               <a href="/hindi.librefonts.com/">Home</a>
+<a href="/hindi.librefonts.com/Telugu/about">About</a>
+<a href="/hindi.librefonts.com/Telugu/contact">Contact</a>
+            </nav>
+        </div>
+<button class="menu-button" id="open-button">Open Menu</button>
+    <script src="/hindi.librefonts.com/js/mainmenu.js"></script>
+<script src="/hindi.librefonts.com/js/classie.js"></script>
+   
+<div class="content-wrap">
+    <div class="content">
+
 <h1></h1>
 <p>
 Contact the developers of this site <a href="http://github.com/davelab6/librefonts.com/issues/new">with Github</a> in English <a href="https://guides.github.com/features/issues/">(Learn more...)</a>
 </p>
 <!-- start of page layout -->
-
+</div>
+</div>
 </body>
 </html>
