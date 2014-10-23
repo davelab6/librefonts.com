@@ -9,7 +9,7 @@
 	background-color: #101010;
 	color: #999;
 	color: rgba(255,255,255,0.75);
-	background-image: url(../../images/space.png);
+	background-image: url({{ site.baseurl }}/images/space.png);
 	background-size: cover;
 	background-attachment: fixed;
 	-webkit-font-smoothing: antialiased;

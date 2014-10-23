@@ -3,7 +3,7 @@
 /* ---------------------- */
 
 
-.section-gnat-bull { background: url(../../images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
+.section-gnat-bull { background: url({{ site.baseurl }}/images/forest.jpg) no-repeat; background-size: cover; padding: 90px 0 100px;}
 .section-gnat-bull h2 { font: 70px/68px 'Hind', serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
 .section-gnat-bull p { font: 16px/30px 'Hind', serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
 .section-gnat-bull .avatar img { margin: 0 0 10px 20px; }

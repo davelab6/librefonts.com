@@ -1,7 +1,17 @@
-# hindi.librefonts.com
+# librefonts.com
 
-This site showcases Hindi web fonts.
+This site showcases libre fonts.
 
 ## Roadmap
 
-See <https://github.com/davelab6/hindi.librefonts.com/issues>
+* Make splash page language chooser a nice responsive design
+
+See <https://github.com/davelab6/librefonts.com/issues>
+
+## Development
+
+Run Jeykll locally like this:
+
+```
+jekyll serve --watch --baseurl ''
+```

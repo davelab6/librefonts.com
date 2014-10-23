@@ -1,3 +1,4 @@
 markdown: kramdown
-pygments: false
+highlighter: false
 permalink: pretty
+baseurl: /hindi.librefonts.com

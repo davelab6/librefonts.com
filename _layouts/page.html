@@ -1,37 +1,5 @@
-{% include html_start.html %}
-
-
-
-
-
-<body>
-    {% include nav.html %}
-
-
-    <div class="content-wrap">
-        <div class="content">
-            <div class="container-fluid">
-                <div class="container section-intro" id="introduction">
-                    
-                         <h1> <span> <em>{{ page.title }}</em></span>
-                            
-                            <span class="small"><i>to New</i> Indian Script typefaces <i>from</i></span>
-                             <i>Google Fonts</i>
-                        </h1>
-                    <div class="divider"></div>
-                    <p>
-                        {{ content }}
-                    </p>
-                    <div class="divider"></div>
-                    <div class="divider"></div>
-
-                </div>
-            </div>
-        </div>
-
-</div>
-
-
-        
-        
-</body>
+{% include html_start.html language="telugu" %}
+<!-- start of page layout -->
+{{ content }}
+<!-- start of page layout -->
+{% include html_end.html %}
