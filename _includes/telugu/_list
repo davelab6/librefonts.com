@@ -1,0 +1,9 @@
+<!-- no links as no telugu in main API just yet -->
+<style>
+{% include telugu/attarintiki.te.css %}
+{% include telugu/birbal-fever.te.css %}
+{% include telugu/birbal-khichdi.te.css %}
+{% include telugu/coin-bag.te.css %}
+{% include telugu/garden-plants.te.css %}
+{% include telugu/vishnu-glory.te.css %}
+</style>
