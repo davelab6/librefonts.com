@@ -2,25 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>
-        Hindi Examples
-    </title>
-    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/site.css" />
-    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/menu_topside.css" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="/hindi.librefonts.com/js/mainmenu.js"></script>
-<script src="/hindi.librefonts.com/js/classie.js"></script>
-    
-    <script type="text/javascript">
-        function gotoPage(select){
-        window.location = select.value;
-        }
-    </script>
-    
-    <style>
-        /* ---------------------- */
+       
+        <!-- no links as no telugu in main API just yet -->
+<style>
+/* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
@@ -40,7 +25,7 @@
 	.section-attarintiki p { padding-right: 20px; }
 }
 
-        @import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
 .section-birbal-fever { padding: 30px 20px 200px 20px; background-color: #F5D76E }
 .section-birbal-fever .container { text-align: center; }
 .section-birbal-fever .caption { margin-bottom: 0; text-align: left; }
@@ -58,7 +43,7 @@
 	.section-birbal-fever p { max-width: 460px; width: auto; padding: 0 20px; }
 }
 
-        /* 
+/* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:10
 * @Last Modified by:   Bhargav Krishna
@@ -117,7 +102,7 @@
 	.section-birbal-khichdi .container { width: 100%;  }
 	.section-birbal-khichdi h2,	.section-birbal-khichdi p { width: auto; max-width: 420px; padding: 0 20px; }
 }
-        @import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
 .section-coin-bag { background-color: #454545; padding: 60px 0 120px 0; color: #454545; }
 .section-coin-bag .container { position: relative; width :90%; }
 .section-coin-bag h2 { font: 50px/50px 'notosanstelugu', Georgia, serif; color: #aee; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
@@ -146,7 +131,7 @@
 	.section-coin-bag p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
 
 }
-        /* 
+/* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:10
 * @Last Modified by:   Bhargav Krishna
@@ -207,7 +192,7 @@
 	.section-garden-plants h2,	.section-garden-plants p { width: auto; max-width: 420px; padding: 0 20px; }
 }
 
-        @import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
 .section-vishnu-glory {
 	font-family: 'notosanstelugu', serif;line-height: 1.5;
 	background-color: #101010;
@@ -258,13 +243,92 @@
 
 }
 
-    </style>
-       
+</style>
+
     
-       
-    <style>
-          /*Hindi Styles Begin*/
-        /* 
+        <!-- single <link> tag for Google Fonts API is fastest -->
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+
+<!-- HOWTO: include each demo's css here -->
+<style>
+@import url (http://fonts.googleapis.com/css?family=Rozha+One&subset=latin,devanagari);
+.section-fools-learn {
+    background: #18a566;
+    padding: 60px 0 120px 0;
+}
+.section-fools-learn .container {
+    position: relative;
+    width: 100%;
+}
+.section-fools-learn h2 {
+    font: 50px/50px'Rozha One', Georgia, serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    border-bottom: solid 1px rgba(255, 255, 255, .5);
+    padding-bottom: 40px;
+    width: 80%;
+}
+.section-fools-learn p {
+    font: 15px/30px'Ek Mukta', serif;
+    font-weight: 200;
+    width: 80%;
+    color: #fff;
+    margin: 0 auto 20px auto;
+    border-bottom: solid 1px rgba(255, 255, 255, .5);
+    padding-bottom: 30px;
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px;
+    /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;
+}
+.section-fools-learn .avatar img {
+    margin: 0 0 10px 20px;
+    position: relative;
+    z-index: 101;
+}
+.section-fools-learn .caption {
+    margin: 0 0 40px 20px;
+    color: #eee;
+    position: relative;
+    z-index: 102;
+}
+.section-fools-learn .caption a {
+    color: #eee;
+}
+.section-fools-learn .caption a:hover {
+    background-color: #18a566;
+}
+/* ---------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .section-fools-learn .container {
+        width: auto;
+    }
+    .section-fools-learn h2 {
+        font-size: 46px;
+    }
+    .section-fools-learn p {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+/* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:10
 * @Last Modified by:   Bhargav Krishna
@@ -320,12 +384,14 @@
 
 }
 
-        /* 
+/* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:10
 * @Last Modified by:   Bhargav Krishna
 * @Last Modified time: 2014-09-17 01:18:30
 */
+/*Web font import link*/
+@import url(http://fonts.googleapis.com/css?family=Rajdhani&subset=latin,devanagari);
 .section-copying {
 	font-family: 'Rajdhani', serif;line-height: 1.5;
 	background-color: #101010;
@@ -376,63 +442,7 @@
 
 }
 
-        /* 
-* @Author: Bhargav Krishna
-* @Date:   2014-09-16 23:27:10
-* @Last Modified by:   Bhargav Krishna
-* @Last Modified time: 2014-09-17 01:18:30
-*/
-.section-copying {
-	font-family: 'Rajdhani', serif;line-height: 1.5;
-	background-color: #101010;
-	color: #999;
-	color: rgba(255,255,255,0.75);
-	background-image: url(/hindi.librefonts.com/images/space.png);
-	background-size: cover;
-	background-attachment: fixed;
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	-webkit-text-rendering: optimizeLegibility;
-	text-rendering: optimizeLegibility;
-}
-.section-copying .container {
-	width: 100%;
-	overflow: hidden;
-	padding: 40px 180px 140px;
-	background-color: rgba(0,0,0,0.45);
-	box-sizing: border-box;
-}
-.section-copying .caption {
-	margin-bottom: 40px;
-	margin-left: 0;
-}
-.section-copying h2 {
-	font-size: 40px;
-	font-weight: 300;
-	margin-bottom: 10px;
-	color: #FFF;
-}
-.section-copying p {
-	font-size: 20px;
-	font-weight: 300;
-}
-.section-copying .col {
-	max-width: 420px;
-	float: right;
-}
-
-/* ---------------------- */
-/* Device-specific styles */
-/* ---------------------- */
-
-/* Sub-tablet <768px */
-@media (max-width: 768px) {
-	.section-copying .col {float: none;}
-	.section-copying .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
-
-}
-
-        /* 
+/* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:10
 * @Last Modified by:   Bhargav Krishna
@@ -488,57 +498,7 @@
 
 }
 
-        .section-eleven {
-	font-family: 'Neuton', serif;line-height: 1.5;
-	background-color: #101010;
-	color: #999;
-	color: rgba(255,255,255,0.75);
-	background-image: url(/hindi.librefonts.com/images/prophet.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	-webkit-text-rendering: optimizeLegibility;
-	text-rendering: optimizeLegibility;
-}
-.section-eleven .container {
-	width: 100%;
-	overflow: hidden;
-	padding: 40px 180px 140px;
-	background-color: rgba(0,0,0,0.45);
-	box-sizing: border-box;
-}
-.section-eleven .caption {
-	margin-bottom: 40px;
-	margin-left: 0;
-}
-.section-eleven h2 {
-	font-size: 40px;
-	font-weight: 300;
-	margin-bottom: 10px;
-	color: #FFF;
-}
-.section-eleven p {
-	font-size: 20px;
-	font-weight: 300;
-}
-.section-eleven .col {
-	max-width: 420px;
-	float: right;
-}
-
-/* ---------------------- */
-/* Device-specific styles */
-/* ---------------------- */
-
-/* Sub-tablet <768px */
-@media (max-width: 768px) {
-	.section-eleven .col {float: none;}
-	.section-eleven .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
-
-}
-
-        /* 
+/* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:11
 * @Last Modified by:   Bhargav Krishna
@@ -549,7 +509,6 @@
 	background-color: #101010;
 	color: #999;
 	color: rgba(255,255,255,0.75);
-	background-image: url(/hindi.librefonts.com/images/enemy.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	-webkit-font-smoothing: antialiased;
@@ -594,61 +553,86 @@
 
 }
 
-        .section-fools-learn { background-color: #18a566; padding: 60px 0 120px 0; color: #18a566; }
-.section-fools-learn .container { position: relative; width :100%; }
-.section-fools-learn h2 { font: 50px/50px 'Rozha One', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
-.section-fools-learn p { font: 15px/30px 'Rozha One', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
+/*Web font import link*/
+@import url(http://fonts.googleapis.com/css?family=Hind);
+/*Web font import link*/
+ .section-gajraj {
+    background-color: #eb2c31;
+    padding: 60px 0 120px 0;
+    color: #eb2331;
+}
+.section-gajraj .container {
+    position: relative;
+    width: 100%;
+}
+.section-gajraj h2 {
+    font: 50px/50px'Rozha One', Georgia, serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    border-bottom: solid 1px rgba(255, 255, 255, .5);
+    padding-bottom: 40px;
+    width: 80%;
+}
+.section-gajraj p {
+    font: 15px/30px'Rozha One', Georgia, serif;
+    width: 80%;
+    color: #fff;
+    margin: 0 auto 20px auto;
+    border-bottom: solid 1px rgba(255, 255, 255, .5);
+    padding-bottom: 30px;
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
     column-count: 3;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
+    -webkit-column-gap: 40px;
+    /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px;
+    /* Firefox */
     column-gap: 40px;
     letter-spacing: 0.03em;
-    }
-.section-fools-learn .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
-.section-fools-learn .caption { margin: 0 0 40px 20px; color: #eee; position: relative; z-index: 102;}
-.section-fools-learn .caption a { color: #eee; }
-.section-fools-learn .caption a:hover { background-color: #18a566; }
-
+}
+.section-gajraj .avatar img {
+    margin: 0 0 10px 20px;
+    position: relative;
+    z-index: 101;
+}
+.section-gajraj .caption {
+    margin: 0 0 40px 20px;
+    color: #eee;
+    position: relative;
+    z-index: 102;
+}
+.section-gajraj .caption a {
+    color: #eee;
+}
+.section-gajraj .caption a:hover {
+    background-color: #093220;
+}
 /* ---------------------- */
+
 /* Device-specific styles */
+
 /* ---------------------- */
 
 /* Sub-tablet <768px */
+
 @media (max-width: 768px) {
-  .section-fools-learn .container { width: auto; }
-  .section-fools-learn h2 { font-size: 46px; }
-  .section-fools-learn p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
-}
-        .section-gajraj { background-color: #eb2c31; padding: 60px 0 120px 0; color: #eb2331; }
-.section-gajraj .container { position: relative; width :100%; }
-.section-gajraj h2 { font: 50px/50px 'Rozha One', Georgia, serif; color: #fff; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
-.section-gajraj p { font: 15px/30px 'Rozha One', Georgia, serif; width: 80%; color: #fff; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
-    letter-spacing: 0.03em;
+    .section-gajraj .container {
+        width: auto;
     }
-.section-gajraj .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
-.section-gajraj .caption { margin: 0 0 40px 20px; color: #eee; position: relative; z-index: 102;}
-.section-gajraj .caption a { color: #eee; }
-.section-gajraj .caption a:hover { background-color: #093220; }
-
-/* ---------------------- */
-/* Device-specific styles */
-/* ---------------------- */
-
-/* Sub-tablet <768px */
-@media (max-width: 768px) {
-	.section-gajraj .container { width: auto; }
-	.section-gajraj h2 { font-size: 46px; }
-	.section-gajraj p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+    .section-gajraj h2 {
+        font-size: 46px;
+    }
+    .section-gajraj p {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
 }
-        /* ---------------------- */
+/* ---------------------- */
 /* Device-specific styles */
 /* ---------------------- */
 
@@ -667,7 +651,7 @@
 	.section-gnat-bull h2 { font: 60px/60px 'Glegoo', Georgia, serif; }
 	.section-gnat-bull p { padding-right: 20px; }
 }
-        /* 
+/* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:10
 * @Last Modified by:   Bhargav Krishna
@@ -680,7 +664,7 @@
 .section-golu-molu .caption { margin-bottom:5px; text-align: left; color: #0D1722; }
 .section-golu-molu .caption a {color: #0D1722;}
 .section-golu-molu .avatar { margin-left: 20px; }
-        /* 
+/* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:10
 * @Last Modified by:   Bhargav Krishna
@@ -739,7 +723,7 @@
 	.section-guests .container { width: 100%;  }
 	.section-guests h2,	.section-guests p { width: auto; max-width: 420px; padding: 0 20px; }
 }
-        /* Number of columns: 8 */
+/* Number of columns: 8 */
 /* Percentage width of a single column: 12.5% */
 /* Base unit of measurement: 20px */
 .section-jackel {	background-color: rgba(209,66,51,1.0); padding: calc(2 * 20px); }
@@ -790,175 +774,67 @@
 	.section-jackel .container p { font-size: 40px;	}
 }
 
-    </style>
+
+</style>
+
     
-  
-</head>
-   
+    <meta charset="utf-8" />
+    <title>
+        Hindi Examples
+    </title>
+    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/menu_topside.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/hindi.librefonts.com/js/mainmenu.js"></script>
+    <script src="/hindi.librefonts.com/js/classie.js"></script>
+    </style>  
+</head> 
 
 <body>
-    
-<div class="menu-wrap">
-            <nav class="menu-top">
-                <div class="profile"><a href="/hindi.librefonts.com"><span>Libre Fonts Showcase</span></a> </div>
-                <div class="icon-list">
-                   <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a> <a href="/hindi.librefonts.com/telugu" >Telugu / తెలుగు  </a> <a href="/hindi.librefonts.com/english" >Telugu / తెలుగు  </a> 
-                </div>
-            </nav>
-            <nav class="menu-side">
-               <a href="/hindi.librefonts.com/">Home</a>
-<a href="/hindi.librefonts.com/Hindi/about">About</a>
-<a href="/hindi.librefonts.com/Hindi/contact">Contact</a>
-            </nav>
-        </div>
+    <div class="menu-wrap">
+    <nav class="menu-top">
+        <div class="profile"><a href="/hindi.librefonts.com/"><span>Libre Fonts Showcase</span></a> 
+       
+    </nav>
+    <nav class="menu-side">
+
+        <a href="/hindi.librefonts.com/Hindi/about">के बारे में</a>
+        <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
+        <a href="/hindi.librefonts.com/telugu">Telugu / తెలుగు  </a>  
+        <a href="/hindi.librefonts.com/english">Telugu / తెలుగు  </a> 
+
+    </nav>
+</div>
 <button class="menu-button" id="open-button">Open Menu</button>
-    <script src="/hindi.librefonts.com/js/mainmenu.js"></script>
+<script src="/hindi.librefonts.com/js/mainmenu.js"></script>
 <script src="/hindi.librefonts.com/js/classie.js"></script>
-   
-<div class="content-wrap">
-    <div class="content">
+    <div class="content-wrap">
+        <div class="content">
+
 
 <!-- start of hindi.html content -->
 
-<link href='http://fonts.googleapis.com/css?family=Laila:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href="demos/hindi/bull-jackel.hi.css" rel="stylesheet">
-<div class="container-fluid section-bull-jackel" id="ybbkrishna">
+
+
+<div class="container-fluid section-fools-learn" id="ybbkrishna">
     <div class="container">
-        <div class="background"></div>
+       
         <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Laila" target="_blank">Laila</a></div>
-        <div>
-            <h2>सांड़ और गीदड़</h2>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक किसान के पास एक बिगडैल सांड़ था। उसने कई पशु सींग मारकर घायल कर दिए। आखिर तंग आकर उसने सांड़ को जंगल की ओर खदेड दिया।<br>
-सांड़ जिस जंगल में पहुंचा, वहां खूब हरी घास उगी थी। आज़ाद होने के बाद सांड़ के पास दो ही काम रह गए। खूब खाना, हुंकारना तथा पेडों के तनों में सींग फंसाकर ज़ोर लगाना। सांड़ पहले से भी अधिक मोटा हो गया। सारे शरीर में ऐसी मांसपेशियां उभरी जैसे चमडी से बाहर छलक ही पडेंगी। पीठ पर कंधों के ऊपर की गांठ बढती-बढती धोबी के कपडों के गट्ठर जितनी बडी हो गई। गले में चमडी व मांस की तहों की तहें लटकने लगीं।<br>
-उसी वन में एक गीदड़ व गीदड़ी का जोडा रहता था, जो बडे जानवरों द्वारा छोडे शिकार को खाकर गुजारा चलाते थे। स्वयं वह केवल जंगली चूहों आदि का ही शिकार कर पाते थे।<br>
-संयोग से एक दिन वह मतवाला सांड़ झूमता हुआ उधर ही आ निकला जिदर गीदड़-गीदड़ी रहते थे। गीदड़ी ने उस सांड़ को देखा तो उसकी आंखे फटी की फटी रह गईं। उसने आवाज़ देकर गीदड़ को बाहर बुलाया और बोली 'देखो तो इसकी मांस-पेशियां। इसका मांस खाने में कितना स्वादिष्ट होगा। आह, भगवान ने हमें क्या स्वादिष्ट तोहफा भेजा है।<br>
-गीदड़ ने गीदड़ी को समझाया 'सपने देखना छोडो। उसका मांस कितना ही चर्बीला और स्वादिष्ट हो, हमें क्या लेना।'<br>
-गीदड़ी भडक उठी 'तुम तो भौंदू हो। देखते नहीं उसकी पीठ पर जो चर्बी की गांठ है, वह किसी भी समय गिर जाएगी। हमें उठाना भर होगा और इसके गले में जो मांस की तहें नीचे लटक रही हैं, वे किसी भी समय टूटकर नीचे गिर सकती है। बस हमें इसके पीछे-पीछे चलते रहना होगा।'<br>
+<div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Rozha One</a></div>
+        <h2>मूर्ख को सीख</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक जंगल में एक पेड पर गौरैया का घोंसला था। एक दिन कडाके की ठंड पड रही थी। ठंड से कांपते हुए तीन चार बंदरों ने उसी पेड के नीचे आश्रय लिया। एक बंदर बोला 'कहीं से आग तापने को मिले तो ठंड दूर हो सकती हैं।'<br>
+दूसरे बंदर ने सुझाया 'देखो, यहां कितनी सूखी पत्तियां गिरी पडी हैं। इन्हें इकट्ठा कर हम ढेर लगाते हैं और फिर उसे सुलगाने का उपाय सोचते हैं।'<br>
+बंदरों ने सूखी पत्तियों का ढेर बनाया और फिर गोल दायरे में बैठकर सोचने लगे कि ढेर को कैसे सुलगाया जाए। तभी एक बंदर की नजर दूर हवा में उडते एक जुगनू पर पडी और वह उछल पडा। उधर ही दौडता हुआ चिल्लाने लगा 'देखो, हवा में चिंगारी उड रही है। इसे पकडकर ढेर के नीचे रखकर फूंक मारने से आग सुलग जाएगी।'<br>
+'हां हां!' कहते हुए बाकी बंदर भी उधर दौडने लगे। पेड पर अपने घोंसले में बैठी गौरैया यह सब देख रही थे। उससे चुप नहीं रहा गया। वह बोली 'बंदर भाइयो, यह चिंगारी नहीं हैं यह तो जुगनू है।'<br>
 
 <br>
 </p>
-<em>सीख -- अधिक लालच का फल सदा बुरा होता है।</em>
-        </div>
-    </div>
-</div>
-<link href='http://fonts.googleapis.com/css?family=Laila:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href="demos/hindi/bull-jackel.hi.css" rel="stylesheet">
-<div class="container-fluid section-bull-jackel" id="ybbkrishna">
-    <div class="container">
-        <div class="background"></div>
-        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Laila" target="_blank">Laila</a></div>
-        <div>
-            <h2>सांड़ और गीदड़</h2>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक किसान के पास एक बिगडैल सांड़ था। उसने कई पशु सींग मारकर घायल कर दिए। आखिर तंग आकर उसने सांड़ को जंगल की ओर खदेड दिया।<br>
-सांड़ जिस जंगल में पहुंचा, वहां खूब हरी घास उगी थी। आज़ाद होने के बाद सांड़ के पास दो ही काम रह गए। खूब खाना, हुंकारना तथा पेडों के तनों में सींग फंसाकर ज़ोर लगाना। सांड़ पहले से भी अधिक मोटा हो गया। सारे शरीर में ऐसी मांसपेशियां उभरी जैसे चमडी से बाहर छलक ही पडेंगी। पीठ पर कंधों के ऊपर की गांठ बढती-बढती धोबी के कपडों के गट्ठर जितनी बडी हो गई। गले में चमडी व मांस की तहों की तहें लटकने लगीं।<br>
-उसी वन में एक गीदड़ व गीदड़ी का जोडा रहता था, जो बडे जानवरों द्वारा छोडे शिकार को खाकर गुजारा चलाते थे। स्वयं वह केवल जंगली चूहों आदि का ही शिकार कर पाते थे।<br>
-संयोग से एक दिन वह मतवाला सांड़ झूमता हुआ उधर ही आ निकला जिदर गीदड़-गीदड़ी रहते थे। गीदड़ी ने उस सांड़ को देखा तो उसकी आंखे फटी की फटी रह गईं। उसने आवाज़ देकर गीदड़ को बाहर बुलाया और बोली 'देखो तो इसकी मांस-पेशियां। इसका मांस खाने में कितना स्वादिष्ट होगा। आह, भगवान ने हमें क्या स्वादिष्ट तोहफा भेजा है।<br>
-गीदड़ ने गीदड़ी को समझाया 'सपने देखना छोडो। उसका मांस कितना ही चर्बीला और स्वादिष्ट हो, हमें क्या लेना।'<br>
-गीदड़ी भडक उठी 'तुम तो भौंदू हो। देखते नहीं उसकी पीठ पर जो चर्बी की गांठ है, वह किसी भी समय गिर जाएगी। हमें उठाना भर होगा और इसके गले में जो मांस की तहें नीचे लटक रही हैं, वे किसी भी समय टूटकर नीचे गिर सकती है। बस हमें इसके पीछे-पीछे चलते रहना होगा।'<br>
-
-<br>
-</p>
-<em>सीख -- अधिक लालच का फल सदा बुरा होता है।</em>
-        </div>
-    </div>
-</div>
-<link href='http://fonts.googleapis.com/css?family=Rajdhani&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href="css/demos/copying.hi.css" rel="stylesheet">
-<div class="container-fluid section-copying" id="ybbkrishna">
-    <div class="container">
-        <div class="background"></div>
-        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a></div>
-        <div>
-            <h2>नकल करना बुरा है</h2>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक पहाड़ की ऊंची चोटी पर एक बाज रहता था। पहाड़ की तराई में बरगद के पेड़ पर एक कौआ अपना घोंसला बनाकर रहता था। वह बड़ा चालाक और धूर्त था। उसकी कोशिश सदा यही रहती थी कि बिना मेहनत किए खाने को मिल जाए। पेड़ के आसपास खोह में खरगोश रहते थे। जब भी खरगोश बाहर आते तो बाज ऊंची उड़ान भरते और एकाध खरगोश को उठाकर ले जाते।<br>
-एक दिन कौए ने सोचा, ‘वैसे तो ये चालाक खरगोश मेरे हाथ आएंगे नहीं, अगर इनका नर्म मांस खाना है तो मुझे भी बाज की तरह करना होगा। एकाएक झपट्टा मारकर पकड़ लूंगा।’<br>
-दूसरे दिन कौए ने भी एक खरगोश को दबोचने की बात सोचकर ऊंची उड़ान भरी। फिर उसने खरगोश को पकड़ने के लिए बाज की तरह ज़ोर से झपट्टा मारा। अब भला कौआ बाज का क्या मुकाबला करता। खरगोश ने उसे देख लिया और झट वहां से भागकर चट्टान के पीछे छिप गया। कौआ अपनी ही झोंक में उस चट्टान से जा टकराया। नतीजा, उसकी चोंच और गरदन टूट गईं और उसने वहीं तड़प कर दम तोड़ दिया।<br>
-<br>
-</p>
-<em>सीख -- नकल करने के लिए भी अकल चाहिए।</em>
-        </div>
-    </div>
-</div>
-<link href='http://fonts.googleapis.com/css?family=Rajdhani&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href="css/demos/copying.hi.css" rel="stylesheet">
-<div class="container-fluid section-copying" id="ybbkrishna">
-    <div class="container">
-        <div class="background"></div>
-        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a></div>
-        <div>
-            <h2>नकल करना बुरा है</h2>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक पहाड़ की ऊंची चोटी पर एक बाज रहता था। पहाड़ की तराई में बरगद के पेड़ पर एक कौआ अपना घोंसला बनाकर रहता था। वह बड़ा चालाक और धूर्त था। उसकी कोशिश सदा यही रहती थी कि बिना मेहनत किए खाने को मिल जाए। पेड़ के आसपास खोह में खरगोश रहते थे। जब भी खरगोश बाहर आते तो बाज ऊंची उड़ान भरते और एकाध खरगोश को उठाकर ले जाते।<br>
-एक दिन कौए ने सोचा, ‘वैसे तो ये चालाक खरगोश मेरे हाथ आएंगे नहीं, अगर इनका नर्म मांस खाना है तो मुझे भी बाज की तरह करना होगा। एकाएक झपट्टा मारकर पकड़ लूंगा।’<br>
-दूसरे दिन कौए ने भी एक खरगोश को दबोचने की बात सोचकर ऊंची उड़ान भरी। फिर उसने खरगोश को पकड़ने के लिए बाज की तरह ज़ोर से झपट्टा मारा। अब भला कौआ बाज का क्या मुकाबला करता। खरगोश ने उसे देख लिया और झट वहां से भागकर चट्टान के पीछे छिप गया। कौआ अपनी ही झोंक में उस चट्टान से जा टकराया। नतीजा, उसकी चोंच और गरदन टूट गईं और उसने वहीं तड़प कर दम तोड़ दिया।<br>
-<br>
-</p>
-<em>सीख -- नकल करने के लिए भी अकल चाहिए।</em>
-        </div>
-    </div>
-</div>
-<link href='http://fonts.googleapis.com/css?family=Kalam:300&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href="demos/hindi/drums.hi.css" rel="stylesheet">
-<div class="container-fluid section-drums" id="ybbkrishna">
-    <div class="container">
-        <div class="background"></div>
-        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Kalam" target="_blank">Kalam</a></div>
-        <div>
-            <h2>ढोल की पोल</h2>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक बार एक जंगल के निकट दो राजाओं के बीच घोर युद्ध हुआ। एक जीता दूसरा हारा। सेनाएं अपने नगरों को लौट गई। बस, सेना का एक ढोल पीछे रह गया। उस ढोल को बजा-बजाकर सेना के साथ गए भांड व चारण रात को वीरता की कहानियां सुनाते थे।<br>
-युद्ध के बाद एक दिन आंधी आई। आंधी के ज़ोर में वह ढोल लुढकता-पुढकता एक सूखे पेड के पास जाकर टिक गया। उस पेड की सूखी टहनियां ढोल से इस तरह से सट गई थी कि तेज हवा चलते ही ढोल पर टकरा जाती थी और ढमाढम ढमाढम की गुंजायमान आवाज़ होती।<br>
-एक सियार उस क्षेत्र में घूमता था। उसने ढोल की आवाज़ सुनी। वह बडा भयभीत हुआ। ऐसी अजीब आवाज़ बोलते पहले उसने किसी जानवर को नहीं सुना था। वह सोचने लगा कि यह कैसा जानवर हैं, जो ऐसी जोरदार बोली बोलता हैं ’ढमाढम’। सियार छिपकर ढोल को देखता रहता, यह जानने के लिए कि यह जीव उडने वाला हैं या चार टांगो पर दौडने वाला।<br>
-एक दिन सियार झाडी के पीछे छुप कर ढोल पर नजर रखे था। तभी पेड से नीचे उतरती हुई एक गिलहरी कूदकर ढोल पर उतरी। हलकी-सी ढम की आवाज़ भी हुई। गिलहरी ढोल पर बैठी दाना कुतरती रही।<br>
-सियार बडबडाया 'ओह! तो यह कोई हिंसक जीव नहीं हैं। मुझे भी डरना नहीं चाहिए।'<br>
-सियार फूंक-फूंककर क़दम रखता ढोल के निकट गया। उसे सूंघा। ढोल का उसे न कहीं सिर नजर आया और न पैर। तभी हवा के झुंके से टहनियां ढोल से टकराईं। ढम की आवाज़ हुई और सियार उछलकर पीछे जा गिरा।<br>
-'अब समझ आया।' सियार उढने की कोशिश करता हुआ बोला 'यह तो बाहर का खोल हैं। जीव इस खोल के अंदर हैं। आवाज़ बता रही हैं कि जो कोई जीव इस खोल के भीतर रहता हैं, वह मोटा-ताजा होना चाहिए। चर्बी से भरा शरीर। तभी ये ढम=ढम की जोरदार बोली बोलता हैं।'<br>
-अपनी मांद में घुसते ही सियार बोला 'ओ सियारी! दावत खाने के लिए तैयार हो जा। एक मोटे-ताजे शिकार का पता लगाकर आया हूं।'<br>
-सियारी पूछने लगी 'तुम उसे मारकर क्यों नहीं लाए?'<br>
-सियार ने उसे झिडकी दी 'क्योंकि मैं तेरी तरह मूर्ख नहीं हूं। वह एक खोल के भीतर छिपा बैठा हैं। खोल ऐसा हैं कि उसमें दो तरफ सूखी चमडी के दरवाज़े हैं।मैं एक तरफ से हाथ डाल उसे पकडने की कोशिश करता तो वह दूसरे दरवाज़े से न भाग जाता?'<br>
-चांद निकलने पर दोनों ढोल की ओर गए। जब वह् निकट पहुंच ही रहे थे कि फिर हवा से टहनियां ढोल पर टकराईं और ढम-ढम की आवाज़ निकली। सियार सियारी के कान में बोला 'सुनी उसकी आवाज? जरा सोच जिसकी आवाज़ ऐसी गहरी हैं, वह खुद कितना मोटा ताजा होगा।'<br>
-दोनों ढोल को सीधा कर उसके दोनों ओर बैठे और लगे दांतो से ढोल के दोनों चमडी वाले भाग के किनारे फाडने। जैसे ही चमडियां कटने लगी, सियार बोला 'होशियार रहना। एक साथ हाथ अंदर डाल शिकार को दबोचना हैं।' दोनों ने ‘हूं’ की आवाज़ के साथ हाथ ढोल के भीतर डाले और अंदर टटोलने लगे। अदंर कुछ नहीं था। एक दूसरे के हाथ ही पकड में आए। दोंनो चिल्लाए 'हैं! यहां तो कुछ नहीं हैं।' और वे माथा पीटकर रह गए।<br>
-<br>
-</p>
-<em>सीख -- 1. एकता में बल हैं। 2. अहंकारी का देर या सबेर अंत होता ही हैं।</em>
-        </div>
     </div>
 </div>
 
-<link href='http://fonts.googleapis.com/css?family=Halant:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href="demos/hindi/eleven.hi.css" rel="stylesheet">
-<div class="container-fluid section-eleven" id="ybbkrishna">
-    <div class="container">
-        <div class="background"></div>
-        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Halant" target="_blank">Halant</a></div>
-        <div>
-            <h2>एक और एक ग्यारह</h2>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक बार की बात हैं कि बनगिरी के घने जंगल में एक उन्मुत्त हाथी ने भारी उत्पात मचा रखा था। वह अपनी ताकत के नशे में चूर होने के कारण किसी को कुछ नहीं समझता था। बनगिरी में ही एक पेड़ पर एक चिड़िया व चिड़े का छोटा-सा सुखी संसार था। चिड़िया अंडों पर बैठी नन्हें-नन्हें प्यारे बच्चों के निकलने के सुनहरे सपने देखती रहती। एक दिन क्रूर हाथी गरजता, चिंघाडता पेड़ों को तोड़ता-मरोड़ता उसी ओर आया। देखते ही देखते उसने चिड़िया के घोंसले वाला पेड़ भी तोड डाला। घोंसला नीचे आ गिरा। अंडे टूट गए और ऊपर से हाथी का पैर उस पर पड़ा।<br>
-चिड़िया और चिड़ा चीखने चिल्लाने के सिवा और कुछ न कर सके। हाथी के जाने के बाद चिड़िया छाती पीट-पीटकर रोने लगी। तभी वहां कठफोडवी आई। वह चिड़िया की अच्छी मित्र थी। कठफोडवी ने उनके रोने का कारण पूछा तो चिड़िया ने अपनी सारी कहानी कह डाली। कठफोडवी बोली 'इस प्रकार ग़म में डूबे रहने से कुछ नहीं होगा। उस हाथी को सबक सिखाने के लिए हमे कुछ करना होगा।'<br>
-चिड़िया ने निराशा दिखाई 'हम छोटे-मोटे जीव उस बलशाली हाथी से कैसे टक्कर ले सकते हैं?'<br>
-कठफोडवी ने समझाया 'एक और एक मिलकर ग्यारह बनते हैं। हम अपनी शक्तियां जोडेंगे।'<br>
-'कैसे?' चिड़िया ने पूछा।<br>
-'मेरा एक मित्र वींआख नामक भंवरा हैं। हमें उससे सलाह लेनी चाहिए।' चिड़िया और कठफोडवी भंवरे से मिली। भंवरा गुनगुनाया 'यह तो बहुत बुरा हुआ। मेरा एक मेंढक मित्र हैं आओ, उससे सहायता मांगे।'<br>
-अब तीनों उस सरोवर के किनारे पहुंचे, जहां वह मेंढक रहता था। भंवरे ने सारी समस्या बताई। मेंढक भर्राये स्वर में बोला 'आप लोग धैर्य से जरा यहीं मेरी प्रतीक्षा करें। मैं गहरे पाने में बैठकर सोचता हूं।'<br>
-ऐसा कहकर मेंढक जल में कूद गया। आधे घंटे बाद वह पानी से बाहर आया तो उसकी आंखे चमक रही थी। वह बोला 'दोस्तो! उस हत्यारे हाथी को नष्ट करने की मेरे दिमाग में एक बडी अच्छी योजना आई हैं। उसमें सभी का योगदान होगा।'<br>
-मेंढक ने जैसे ही अपनी योजना बताई, सब खुशी से उछल पड़े। योजना सचमुच ही अदभुत थी। मेंढक ने दोबारा बारी-बारी सबको अपना-अपना रोल समझाया।<br>
-कुछ ही दूर वह उन्मत्त हाथी तोड़फोड़ मचाकर व पेट भरकर कोंपलों वाली शाखाएं खाकर मस्ती में खडा झूम रहा था। पहला काम भंवरे का था। वह हाथी के कानों के पास जाकर मधुर राग गुंजाने लगा। राग सुनकर हाथी मस्त होकर आंखें बंद करके झूमने लगा।<br>
-तभी कठफोडवी ने अपना काम कर दिखाया। वह आई और अपनी सुई जैसी नुकीली चोंच से उसने तेजी से हाथी की दोनों आंखें बींध डाली। हाथी की आंखे फूट गईं। वह तडपता हुआ अंधा होकर इधर-उधर भागने लगा।<br>
-जैसे-जैसे समय बीतता जा रहा था, हाथी का क्रोध बढता जा रहा था। आंखों से नजर न आने के कारण ठोकरों और टक्करों से शरीर जख्मी होता जा रहा था। जख्म उसे और चिल्लाने पर मजबूर कर रहे थे।<br>
-चिड़िया कॄतज्ञ स्वर में मेंढक से बोली 'बहिया, मैं आजीवन तुम्हारी आभारी रहूंगी। तुमने मेरी इतनी सहायता कर दी।'<br>
-मेंढक ने कहा 'आभार मानने की ज़रुरत नहीं। मित्र ही मित्रों के काम आते हैं।'<br>
-एक तो आंखों में जलन और ऊपर से चिल्लाते-चिंघाड़ते हाथी का गला सूख गया। उसे तेज प्यास लगने लगी। अब उसे एक ही चीज़ की तलाश थी, पानी। मेंढक ने अपने बहुत से बंधु-बांधवों को इकट्ठा किया और उन्हें ले जाकर दूर बहुत बडे गड्ढे के किनारे बैठकर टर्राने के लिए कहा। सारे मेंढक टर्राने लगे। मेंढक की टर्राहट सुनकर हाथी के कान खडे हो गए। वह यह जानता था कि मेंढक जल स्त्रोत के निकट ही वास करते हैं। वह उसी दिशा में चल पड़ा। टर्राहट और तेज होती जा रही थी। प्यासा हाथी और तेज भागने लगा।<br>
-जैसे ही हाथी गड्ढे के निकट पहुंचा, मेंढकों ने पूरा ज़ोर लगाकर टर्राना शुरू किया। हाथी आगे बढा और विशाल पत्थर की तरह गड्ढे में गिर पडा, जहां उसके प्राण पखेरु उडते देर न लगे इस प्रकार उस अहंकार में डूबे हाथी का अंत हुआ।<br>
-<br>
-</p>
-<em>सीख -- 1. एकता में बल हैं। 2. अहंकारी का देर या सबेर अंत होता ही हैं।</em>
-        </div>
-    </div>
-</div>
+
+
 <link href='http://fonts.googleapis.com/css?family=Vesper+Libre:500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href="demos/hindi/enemy-advice.hi.css" rel="stylesheet">
 <div class="container-fluid section-enemy-advice" id="ybbkrishna">
@@ -982,38 +858,25 @@
         </div>
     </div>
 </div>
-<link href='http://fonts.googleapis.com/css?family=Rozha+One&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href="demos/hindi/fools-learn.hi.css" rel="stylesheet">
-<div class="container-fluid section-fools-learn" id="ybbkrishna">
-    <div class="container">
-        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Rozha One</a></div>
-        <h2>मूर्ख को सीख</h2>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक जंगल में एक पेड पर गौरैया का घोंसला था। एक दिन कडाके की ठंड पड रही थी। ठंड से कांपते हुए तीन चार बंदरों ने उसी पेड के नीचे आश्रय लिया। एक बंदर बोला 'कहीं से आग तापने को मिले तो ठंड दूर हो सकती हैं।'<br>
-दूसरे बंदर ने सुझाया 'देखो, यहां कितनी सूखी पत्तियां गिरी पडी हैं। इन्हें इकट्ठा कर हम ढेर लगाते हैं और फिर उसे सुलगाने का उपाय सोचते हैं।'<br>
-बंदरों ने सूखी पत्तियों का ढेर बनाया और फिर गोल दायरे में बैठकर सोचने लगे कि ढेर को कैसे सुलगाया जाए। तभी एक बंदर की नजर दूर हवा में उडते एक जुगनू पर पडी और वह उछल पडा। उधर ही दौडता हुआ चिल्लाने लगा 'देखो, हवा में चिंगारी उड रही है। इसे पकडकर ढेर के नीचे रखकर फूंक मारने से आग सुलग जाएगी।'<br>
-'हां हां!' कहते हुए बाकी बंदर भी उधर दौडने लगे। पेड पर अपने घोंसले में बैठी गौरैया यह सब देख रही थे। उससे चुप नहीं रहा गया। वह बोली 'बंदर भाइयो, यह चिंगारी नहीं हैं यह तो जुगनू है।'<br>
 
-<br>
-</p>
-    </div>
-</div>
-<link href='http://fonts.googleapis.com/css?family=Rozha+One&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href="demos/hindi/gajraj.hi.css" rel="stylesheet">
 <div class="container-fluid section-gajraj" id="ybbkrishna">
     <div class="container">
-        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Rozha One</a></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna">
+            <img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna">
+        </a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Rozha One</a>
+        </div>
         <h2>गजराज व मूषकराज</h2>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;प्राचीन काल में एक नदी के किनारे बसा नगर व्यापार का केन्द्र था। फिर आए उस नगर के बुरे दिन, जब एक वर्ष भारी वर्षा हुई। नदी ने अपना रास्ता बदल दिया। लोगों के लिए पीने का पानी न रहा और देखते ही देखते नगर वीरान हो गया अब वह जगह केवल चूहों के लायक़ रह गई। चारों ओर चूहे ही चूहे नजर आने लगे। चूहों का पूरा साम्राज्य ही स्थापित हो गया। चूहों के उस साम्राज्य का राजा बना मूषकराज चूहा। चूहों का भाग्य देखो, उनके बसने के बाद नगर के बाहर ज़मीन से एक पानी का स्त्रोत फूट पड़ा और वह एक बड़ा जलाशय बन गया।<br>
-नगर से कुछ ही दूर एक घना जंगल था। जंगल में अनगिनत हाथी रहते थे। उनका राजा गजराज नामक एक विशाल हाथी था। उस जंगल क्षेत्र में भयानक सूखा पड़ा। जीव-जन्तु पानी की तलाश में इधर-उधर मारे-मारे फिरने लगे। भारी भरकम शरीर वाले हाथियों की तो दुर्दशा हो गई।<br>
-हाथियों के बच्चे प्यास से व्याकुल होकर चिल्लाने व दम तोडने लगे। गजराज खुद सूखे की समस्या से चिंतित था और हाथियों का कष्ट जानता था। एक दिन गजराज की मित्र चील ने आकर खबर दी कि खंडहर बने नगर के दूसरी ओर एक जलाशय हैं। गजराज ने सबको तुरंत उस जलाशय की ओर चलने का आदेश दिया। सैकडों हाथी प्यास बुझाने डोलते हुए चल पडे। जलाशय तक पहुंचने के लिए उन्हें खंडहर बने नगर के बीच से गुजरना पडा।<br>
-हाथियों के हजारों पैर चूहों को रौंदते हुए निकल गए। हजारों चूहे मारे गए। खंडहर नगर की सडकें चूहों के खून-मांस के कीचड से लथपथ हो गई। मुसीबत यहीं खत्म नहीं हुई। हाथियों का दल फिर उसी रास्ते से लौटा। हाथी रोज उसी मार्ग से पानी पीने जाने लगे।<br>
-काफ़ी सोचने-विचारने के बाद मूषकराज के मंत्रियों ने कहा 'महाराज, आपको ही जाकर गजराज से बात करनी चाहिए। वह दयालु हाथी हैं।' मूषकराज हाथियों के वन में गया। एक बडे पेड़ के नीचे गजराज खड़ा था।<br>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;प्राचीन काल में एक नदी के किनारे बसा नगर व्यापार का केन्द्र था। फिर आए उस नगर के बुरे दिन, जब एक वर्ष भारी वर्षा हुई। नदी ने अपना रास्ता बदल दिया। लोगों के लिए पीने का पानी न रहा और देखते ही देखते नगर वीरान हो गया अब वह जगह केवल चूहों के लायक़ रह गई। चारों ओर चूहे ही चूहे नजर आने लगे। चूहों का पूरा साम्राज्य ही स्थापित हो गया। चूहों के उस साम्राज्य का राजा बना मूषकराज चूहा। चूहों का भाग्य देखो, उनके बसने के बाद नगर के बाहर ज़मीन से एक पानी का स्त्रोत फूट पड़ा और वह एक बड़ा जलाशय बन गया।
+            <br>नगर से कुछ ही दूर एक घना जंगल था। जंगल में अनगिनत हाथी रहते थे। उनका राजा गजराज नामक एक विशाल हाथी था। उस जंगल क्षेत्र में भयानक सूखा पड़ा। जीव-जन्तु पानी की तलाश में इधर-उधर मारे-मारे फिरने लगे। भारी भरकम शरीर वाले हाथियों की तो दुर्दशा हो गई।
+            <br>हाथियों के बच्चे प्यास से व्याकुल होकर चिल्लाने व दम तोडने लगे। गजराज खुद सूखे की समस्या से चिंतित था और हाथियों का कष्ट जानता था। एक दिन गजराज की मित्र चील ने आकर खबर दी कि खंडहर बने नगर के दूसरी ओर एक जलाशय हैं। गजराज ने सबको तुरंत उस जलाशय की ओर चलने का आदेश दिया। सैकडों हाथी प्यास बुझाने डोलते हुए चल पडे। जलाशय तक पहुंचने के लिए उन्हें खंडहर बने नगर के बीच से गुजरना पडा।
+            <br>हाथियों के हजारों पैर चूहों को रौंदते हुए निकल गए। हजारों चूहे मारे गए। खंडहर नगर की सडकें चूहों के खून-मांस के कीचड से लथपथ हो गई। मुसीबत यहीं खत्म नहीं हुई। हाथियों का दल फिर उसी रास्ते से लौटा। हाथी रोज उसी मार्ग से पानी पीने जाने लगे।
+            <br>काफ़ी सोचने-विचारने के बाद मूषकराज के मंत्रियों ने कहा 'महाराज, आपको ही जाकर गजराज से बात करनी चाहिए। वह दयालु हाथी हैं।' मूषकराज हाथियों के वन में गया। एक बडे पेड़ के नीचे गजराज खड़ा था।
+            <br>
 
-<br>
-<h2>सीख- आपसी सद्भाव व प्रेम सदा एक दूसरे के कष्टों को हर लेते हैं।</h2>
-</p>
+            <br>
+            <h2>सीख- आपसी सद्भाव व प्रेम सदा एक दूसरे के कष्टों को हर लेते हैं।</h2>
+        </p>
     </div>
 </div>
 
@@ -1033,6 +896,22 @@
 
 </p>
         <p>(साभारः पंचतंत्र की प्रेरक कहानियाँ, डायमंड प्रकाशन, सर्वाधिकार सुरक्षित।)</p>
+    </div>
+</div>
+<div class="container-fluid section-copying" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rajdhani" target="_blank">Rajdhani</a></div>
+        <div>
+            <h2>नकल करना बुरा है</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक पहाड़ की ऊंची चोटी पर एक बाज रहता था। पहाड़ की तराई में बरगद के पेड़ पर एक कौआ अपना घोंसला बनाकर रहता था। वह बड़ा चालाक और धूर्त था। उसकी कोशिश सदा यही रहती थी कि बिना मेहनत किए खाने को मिल जाए। पेड़ के आसपास खोह में खरगोश रहते थे। जब भी खरगोश बाहर आते तो बाज ऊंची उड़ान भरते और एकाध खरगोश को उठाकर ले जाते।<br>
+एक दिन कौए ने सोचा, ‘वैसे तो ये चालाक खरगोश मेरे हाथ आएंगे नहीं, अगर इनका नर्म मांस खाना है तो मुझे भी बाज की तरह करना होगा। एकाएक झपट्टा मारकर पकड़ लूंगा।’<br>
+दूसरे दिन कौए ने भी एक खरगोश को दबोचने की बात सोचकर ऊंची उड़ान भरी। फिर उसने खरगोश को पकड़ने के लिए बाज की तरह ज़ोर से झपट्टा मारा। अब भला कौआ बाज का क्या मुकाबला करता। खरगोश ने उसे देख लिया और झट वहां से भागकर चट्टान के पीछे छिप गया। कौआ अपनी ही झोंक में उस चट्टान से जा टकराया। नतीजा, उसकी चोंच और गरदन टूट गईं और उसने वहीं तड़प कर दम तोड़ दिया।<br>
+<br>
+</p>
+<em>सीख -- नकल करने के लिए भी अकल चाहिए।</em>
+        </div>
     </div>
 </div>
 <link href='http://fonts.googleapis.com/css?family=Sarpanch:400,800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
@@ -1114,6 +993,34 @@
     </div>
 
 </div>
+<link href='http://fonts.googleapis.com/css?family=Kalam:300&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/drums.hi.css" rel="stylesheet">
+<div class="container-fluid section-drums" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Kalam" target="_blank">Kalam</a></div>
+        <div>
+            <h2>ढोल की पोल</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक बार एक जंगल के निकट दो राजाओं के बीच घोर युद्ध हुआ। एक जीता दूसरा हारा। सेनाएं अपने नगरों को लौट गई। बस, सेना का एक ढोल पीछे रह गया। उस ढोल को बजा-बजाकर सेना के साथ गए भांड व चारण रात को वीरता की कहानियां सुनाते थे।<br>
+युद्ध के बाद एक दिन आंधी आई। आंधी के ज़ोर में वह ढोल लुढकता-पुढकता एक सूखे पेड के पास जाकर टिक गया। उस पेड की सूखी टहनियां ढोल से इस तरह से सट गई थी कि तेज हवा चलते ही ढोल पर टकरा जाती थी और ढमाढम ढमाढम की गुंजायमान आवाज़ होती।<br>
+एक सियार उस क्षेत्र में घूमता था। उसने ढोल की आवाज़ सुनी। वह बडा भयभीत हुआ। ऐसी अजीब आवाज़ बोलते पहले उसने किसी जानवर को नहीं सुना था। वह सोचने लगा कि यह कैसा जानवर हैं, जो ऐसी जोरदार बोली बोलता हैं ’ढमाढम’। सियार छिपकर ढोल को देखता रहता, यह जानने के लिए कि यह जीव उडने वाला हैं या चार टांगो पर दौडने वाला।<br>
+एक दिन सियार झाडी के पीछे छुप कर ढोल पर नजर रखे था। तभी पेड से नीचे उतरती हुई एक गिलहरी कूदकर ढोल पर उतरी। हलकी-सी ढम की आवाज़ भी हुई। गिलहरी ढोल पर बैठी दाना कुतरती रही।<br>
+सियार बडबडाया 'ओह! तो यह कोई हिंसक जीव नहीं हैं। मुझे भी डरना नहीं चाहिए।'<br>
+सियार फूंक-फूंककर क़दम रखता ढोल के निकट गया। उसे सूंघा। ढोल का उसे न कहीं सिर नजर आया और न पैर। तभी हवा के झुंके से टहनियां ढोल से टकराईं। ढम की आवाज़ हुई और सियार उछलकर पीछे जा गिरा।<br>
+'अब समझ आया।' सियार उढने की कोशिश करता हुआ बोला 'यह तो बाहर का खोल हैं। जीव इस खोल के अंदर हैं। आवाज़ बता रही हैं कि जो कोई जीव इस खोल के भीतर रहता हैं, वह मोटा-ताजा होना चाहिए। चर्बी से भरा शरीर। तभी ये ढम=ढम की जोरदार बोली बोलता हैं।'<br>
+अपनी मांद में घुसते ही सियार बोला 'ओ सियारी! दावत खाने के लिए तैयार हो जा। एक मोटे-ताजे शिकार का पता लगाकर आया हूं।'<br>
+सियारी पूछने लगी 'तुम उसे मारकर क्यों नहीं लाए?'<br>
+सियार ने उसे झिडकी दी 'क्योंकि मैं तेरी तरह मूर्ख नहीं हूं। वह एक खोल के भीतर छिपा बैठा हैं। खोल ऐसा हैं कि उसमें दो तरफ सूखी चमडी के दरवाज़े हैं।मैं एक तरफ से हाथ डाल उसे पकडने की कोशिश करता तो वह दूसरे दरवाज़े से न भाग जाता?'<br>
+चांद निकलने पर दोनों ढोल की ओर गए। जब वह् निकट पहुंच ही रहे थे कि फिर हवा से टहनियां ढोल पर टकराईं और ढम-ढम की आवाज़ निकली। सियार सियारी के कान में बोला 'सुनी उसकी आवाज? जरा सोच जिसकी आवाज़ ऐसी गहरी हैं, वह खुद कितना मोटा ताजा होगा।'<br>
+दोनों ढोल को सीधा कर उसके दोनों ओर बैठे और लगे दांतो से ढोल के दोनों चमडी वाले भाग के किनारे फाडने। जैसे ही चमडियां कटने लगी, सियार बोला 'होशियार रहना। एक साथ हाथ अंदर डाल शिकार को दबोचना हैं।' दोनों ने ‘हूं’ की आवाज़ के साथ हाथ ढोल के भीतर डाले और अंदर टटोलने लगे। अदंर कुछ नहीं था। एक दूसरे के हाथ ही पकड में आए। दोंनो चिल्लाए 'हैं! यहां तो कुछ नहीं हैं।' और वे माथा पीटकर रह गए।<br>
+<br>
+</p>
+<em>सीख -- 1. एकता में बल हैं। 2. अहंकारी का देर या सबेर अंत होता ही हैं।</em>
+        </div>
+    </div>
+</div>
+
 <!-- Google web fonts for "The Astronomer" -->
 <link href='http://fonts.googleapis.com/css?family=Laila:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href="demos/hindi/jackel.hi.css" rel="stylesheet">
@@ -1151,6 +1058,28 @@
 
     </div>
 
+</div>
+<link href='http://fonts.googleapis.com/css?family=Laila:400,500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href="demos/hindi/bull-jackel.hi.css" rel="stylesheet">
+<div class="container-fluid section-bull-jackel" id="ybbkrishna">
+    <div class="container">
+        <div class="background"></div>
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Laila" target="_blank">Laila</a></div>
+        <div>
+            <h2>सांड़ और गीदड़</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक किसान के पास एक बिगडैल सांड़ था। उसने कई पशु सींग मारकर घायल कर दिए। आखिर तंग आकर उसने सांड़ को जंगल की ओर खदेड दिया।<br>
+सांड़ जिस जंगल में पहुंचा, वहां खूब हरी घास उगी थी। आज़ाद होने के बाद सांड़ के पास दो ही काम रह गए। खूब खाना, हुंकारना तथा पेडों के तनों में सींग फंसाकर ज़ोर लगाना। सांड़ पहले से भी अधिक मोटा हो गया। सारे शरीर में ऐसी मांसपेशियां उभरी जैसे चमडी से बाहर छलक ही पडेंगी। पीठ पर कंधों के ऊपर की गांठ बढती-बढती धोबी के कपडों के गट्ठर जितनी बडी हो गई। गले में चमडी व मांस की तहों की तहें लटकने लगीं।<br>
+उसी वन में एक गीदड़ व गीदड़ी का जोडा रहता था, जो बडे जानवरों द्वारा छोडे शिकार को खाकर गुजारा चलाते थे। स्वयं वह केवल जंगली चूहों आदि का ही शिकार कर पाते थे।<br>
+संयोग से एक दिन वह मतवाला सांड़ झूमता हुआ उधर ही आ निकला जिदर गीदड़-गीदड़ी रहते थे। गीदड़ी ने उस सांड़ को देखा तो उसकी आंखे फटी की फटी रह गईं। उसने आवाज़ देकर गीदड़ को बाहर बुलाया और बोली 'देखो तो इसकी मांस-पेशियां। इसका मांस खाने में कितना स्वादिष्ट होगा। आह, भगवान ने हमें क्या स्वादिष्ट तोहफा भेजा है।<br>
+गीदड़ ने गीदड़ी को समझाया 'सपने देखना छोडो। उसका मांस कितना ही चर्बीला और स्वादिष्ट हो, हमें क्या लेना।'<br>
+गीदड़ी भडक उठी 'तुम तो भौंदू हो। देखते नहीं उसकी पीठ पर जो चर्बी की गांठ है, वह किसी भी समय गिर जाएगी। हमें उठाना भर होगा और इसके गले में जो मांस की तहें नीचे लटक रही हैं, वे किसी भी समय टूटकर नीचे गिर सकती है। बस हमें इसके पीछे-पीछे चलते रहना होगा।'<br>
+
+<br>
+</p>
+<em>सीख -- अधिक लालच का फल सदा बुरा होता है।</em>
+        </div>
+    </div>
 </div>
 
 <!-- end of hindi.html content -->

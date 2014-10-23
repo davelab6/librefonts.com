@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    {{ if include.language == "Telugu" }}   
+        {% include telugu/_list %}
+    {{ elif include.language == "Hindi" }}
+        {% include hindi/_list %}
+    {{ endif }}
     <meta charset="utf-8" />
     <title>
         {{ page.title }}
@@ -10,48 +15,11 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/menu_topside.css" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/mainmenu.js"></script>
-<script src="{{ site.baseurl }}/js/classie.js"></script>
-    
-    <script type="text/javascript">
-        function gotoPage(select){
-        window.location = select.value;
-        }
-    </script>
-    {{ if include.language == "Telugu" }}
-    <style>
-        {% include telugu/attarintiki.te.css %}
-        {% include telugu/birbal-fever.te.css %}
-        {% include telugu/birbal-khichdi.te.css %}
-        {% include telugu/coin-bag.te.css %}
-        {% include telugu/garden-plants.te.css %}
-        {% include telugu/vishnu-glory.te.css %}
-    </style>
-    {{ endif }}   
-    
-    {{ if include.language == "Hindi" }}   
-    <style>
-          /*Hindi Styles Begin*/
-        {% include hindi/bull-jackel.hi.css %}
-        {% include hindi/copying.hi.css %}
-        {% include hindi/copying.hi.css %}
-        {% include hindi/drums.hi.css %}
-        {% include hindi/eleven.hi.css %}
-        {% include hindi/enemy-advice.hi.css %}
-        {% include hindi/fools-learn.hi.css %}
-        {% include hindi/gajraj.hi.css %}
-        {% include hindi/gnat-bull.hi.css %}
-        {% include hindi/golu-molu.hi.css %}
-        {% include hindi/guests.hi.css %}
-        {% include hindi/jackel.hi.css %}
-    </style>
-    {{ endif }}
-  
-</head>
-   
+    <script src="{{ site.baseurl }}/js/classie.js"></script>
+    </style>  
+</head> 
 
 <body>
-    
-{% include navigation.html%}
-   
-<div class="content-wrap">
-    <div class="content">
+    {% include navigation.html %}
+    <div class="content-wrap">
+        <div class="content">

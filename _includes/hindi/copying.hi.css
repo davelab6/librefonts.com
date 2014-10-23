@@ -4,6 +4,8 @@
 * @Last Modified by:   Bhargav Krishna
 * @Last Modified time: 2014-09-17 01:18:30
 */
+/*Web font import link*/
+@import url(http://fonts.googleapis.com/css?family=Rajdhani&subset=latin,devanagari);
 .section-copying {
 	font-family: 'Rajdhani', serif;line-height: 1.5;
 	background-color: #101010;
