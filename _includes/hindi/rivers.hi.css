@@ -1,7 +1,0 @@
-.section-rivers {background: url({{ site.baseurl }}/images/indigo-sea.jpg) no-repeat center; background-size: cover; padding: 40px 20px 80px 20px; }
-.section-rivers .container { width: 80%; min-height: 400px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; }
-.section-rivers h2 {font: 32px/42px 'Sarpanch', sans-serif; font-weight: 800; text-transform: uppercase; color: #29232D;text-align: left; letter-spacing: 1px;padding: 20px 20px 0 20px;}
-.section-rivers p {font: 18px/27px 'Sarpanch', sans-serif;color: #fff; text-align: left;padding: 20px 20px 0 20px;}
-.section-rivers .caption { margin-bottom:5px; text-align: left; color: #fff; }
-.section-rivers .caption a {color: #fff;}
-.section-rivers .avatar { margin-left: 20px; }

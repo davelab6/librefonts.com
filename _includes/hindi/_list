@@ -6,14 +6,10 @@
 <!-- HOWTO: include each demo's css here -->
 <style>
 {% include hindi/fools-learn.hi.css %}
-{% include hindi/bull-jackel.hi.css %}
-{% include hindi/copying.hi.css %}
-{% include hindi/drums.hi.css %}
+
 {% include hindi/enemy-advice.hi.css %}
-{% include hindi/gajraj.hi.css %}
-{% include hindi/gnat-bull.hi.css %}
-{% include hindi/golu-molu.hi.css %}
-{% include hindi/guests.hi.css %}
-{% include hindi/jackel.hi.css %}
+{% include hindi/classifieds.hi.css %}
+
+
 
 </style>
