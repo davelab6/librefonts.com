@@ -1,6 +1,8 @@
 <!-- single <link> tag for Google Fonts API is fastest -->
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-
+<link href='http://fonts.googleapis.com/css?family=Karma:300,700,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ek+Mukta:800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Kalam:300,400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <!-- HOWTO: include each demo's css here -->
 <style>
 {% include hindi/fools-learn.hi.css %}
