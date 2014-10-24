@@ -1,0 +1,64 @@
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#classifieds {
+    background: #fffff9;
+    padding: 100px 0;
+}
+.sample#classifieds .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#classifieds .box {
+    border: 1px solid #000 ;
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    
+ 
+}
+.sample#classifieds h1{
+    color: #fff;
+background: #000;
+font: 700 40px/64px"Kalam";
+margin: -15px -15px 10px -15px;
+text-align: center;
+padding: 10px;
+   
+}
+
+.sample#classifieds p {
+    color: #222;
+    font: 300 16px/24px"Kalam";
+    margin: 0;
+}
+
+.sample#classifieds p span{
+   font-weight:400;
+    
+}
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .section-gajraj .container {
+        width: auto;
+    }
+    .section-gajraj h2 {
+        font-size: 46px;
+    }
+    .section-gajraj p {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
