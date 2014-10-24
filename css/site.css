@@ -60,7 +60,8 @@ p {
 }
 .section-intro p {
     color: #999;
-    font: 200 15px/20px'Ek Mukta', sans-serif;
+    font: 200 20px/20px'Ek Mukta', sans-serif;
+    line-height: 1.4;
     margin: 0 auto 14px auto;
     max-width: 460px;
 }
