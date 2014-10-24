@@ -5,6 +5,8 @@
         {% include telugu/_list %}
     {{ elif include.language == "Hindi" }}
         {% include hindi/_list %}
+    {{ elif include.language == "English" }}
+        {% include english/_list %}
     {{ endif }}
     <meta charset="utf-8" />
     <title>
@@ -13,10 +15,9 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/site.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/menu_topside.css" />
+    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/js/mainmenu.js"></script>
-    <script src="{{ site.baseurl }}/js/classie.js"></script>
-    </style>  
+
 </head> 
 
 <body>
