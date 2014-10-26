@@ -1,0 +1,106 @@
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#revolution {
+
+    
+
+    padding: 100px 0;
+    
+    background: #fff;
+    background-repeat: no-repeat;
+    background: 
+
+}
+
+.sample#revolution .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#revolution .box {
+
+
+
+    /* Background pattern from subtlepatterns.com */
+
+    background-repeat: repeat;
+    float: right;
+    padding: 15px;
+    height: 100%;
+    width: 50%;
+    margin-right: 10%;
+    z-index: 999;
+}
+#hand img{
+    z-index: -1;
+  -webkit-transform: rotate(30deg);
+
+    -moz-transform: rotate(30deg);
+
+    -o-transform: rotate(180deg);
+
+    -ms-transform: rotate(30deg);
+
+    transform: rotate(30deg);}
+#hand {
+
+    width: 40%;
+min-width: 200px;
+padding: 20px;
+margin: 0px -108px -195px -100px;
+float: left;
+overflow: hidden;
+    position: absolute;
+
+  
+
+
+}
+.sample#revolution h1 {
+    color: #935050;
+    font: 800 35px/64px"Sarpanch";
+    text-align: left;
+    min-width: 300px;
+    float: left;
+  
+
+}
+.sample#revolution p {
+    color: #222;
+    font: 300 16px/24px"Halant";
+    margin-top: 40px;
+    float: left;
+
+}
+.sample#revolution h1 span {
+    font-weight: 300;
+    font-size: 30px;
+}
+------------------- */
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .sample#revolution .container {
+        width: auto;
+    }
+    .sample#revolution h1 {
+        font: 800 40px/64px"Ek Mukta";
+        text-align: left;
+        padding: 10px;
+        float: left;
+        width: 70%;
+    }
+}
