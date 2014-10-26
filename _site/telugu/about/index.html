@@ -255,11 +255,17 @@
 <link href='http://fonts.googleapis.com/css?family=Karma:300,700,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Kalam:300,400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Khand:300,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Hind:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Teko:300,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Laila:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rajdhani|Sarpanch:600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Halant:400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <!-- HOWTO: include each demo's css here -->
 <style>
 @import url (http://fonts.googleapis.com/css?family=Rozha+One&subset=latin,devanagari);
 .section-fools-learn {
-    background: #18a566;
+    background: #138808;
     padding: 60px 0 120px 0;
 }
 .section-fools-learn .container {
@@ -267,32 +273,24 @@
     width: 100%;
 }
 .section-fools-learn h2 {
-    font: 50px/50px'Rozha One', Georgia, serif;
-    color: #fff;
+    font: 70px/70px'Rozha One', Georgia, serif;
     text-transform: uppercase;
     margin: 0 auto 40px auto;
     text-align: center;
-    border-bottom: solid 1px rgba(255, 255, 255, .5);
     padding-bottom: 40px;
     width: 80%;
+color: #FF9933;
+text-shadow: 0px 1px 0px #236B0B, 0px 2px 0px #2C640C, 0px 3px 0px #385F0D, 0px 4px 0px #17610F, 0px 5px 0px #10610B, 0px 6px 0px #0A571F, 0px 7px 0px #295111, 0px 8px 7px #072C01;
 }
 .section-fools-learn p {
     font: 15px/30px'Ek Mukta', serif;
     font-weight: 200;
-    width: 80%;
+    width: 300px;
     color: #fff;
     margin: 0 auto 20px auto;
     border-bottom: solid 1px rgba(255, 255, 255, .5);
-    padding-bottom: 30px;
-    -webkit-column-count: 3;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 3;
-    /* Firefox */
-    column-count: 3;
-    -webkit-column-gap: 40px;
-    /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px;
-    /* Firefox */
+    border-top: solid 1px rgba(255, 255, 255, .5);
+    padding: 30px;
     column-gap: 40px;
     letter-spacing: 0.03em;
 }
@@ -334,7 +332,154 @@
         column-count: 1;
     }
 }
+/* Number of columns: 8 */
 
+/* Percentage width of a single column: 12.5% */
+
+/* Base unit of measurement: 20px */
+
+.sample#interconnect {
+    background-color: rgba(241, 90, 36, 1);
+    padding: calc(2 * 20px);
+}
+.sample#interconnect h2 {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    line-height: 1.8em;
+    margin-bottom: calc(4 * 20px);
+    margin-top: calc(2 * 20px);
+    text-align: center;
+    text-transform: uppercase;
+}
+.sample#interconnect h2 span {
+    display: inline-block;
+    padding: 1em;
+}
+.sample#interconnect .container {
+    width: 80%;
+}
+.sample#interconnect .container p {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: calc(4 * 20px);
+}
+.sample#interconnect .container p.drop-p {font-weight: 600;} .sample#interconnect em {
+    color: white;
+    display: block;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: calc(4 * 20px);
+}
+.sample#interconnect ul {
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+    margin-bottom: calc(2 * 20px);
+    padding: 0;
+    text-align: center;
+}
+.sample#interconnect li {
+    line-height: 2.2em;
+}
+.sample#interconnect li.label {
+    font-family: 'Questrial', sans-serif;
+    text-transform: uppercase;
+}
+.sample#interconnect hr {
+    width: 5%;
+    margin-bottom: calc(2 * 20px);
+}
+.sample#interconnect a {
+    color: black;
+    text-decoration: none;
+}
+.sample#interconnect a:hover {
+    border-bottom: 1px solid black;
+}
+/* Styles for Astronomer */
+
+/* Small devices (tablets, > 768px) */
+
+@media (min-width: 769px) {
+    .sample#interconnect {
+        padding: calc(20px);
+    }
+    .sample#interconnect h2 {
+        margin-bottom: calc(8 * 20px);
+        margin-top: calc(4 * 20px);
+    }
+    .sample#interconnect .container p {
+        font-size: 24px;
+    }
+    .sample#interconnect .container .drop-p {
+        color: white;
+        font-size: 12px;
+        float: left;
+        line-height: 1.4em;
+        margin-bottom: 0;
+        margin-right: calc(3 * 20px);
+        margin-top: calc(1 * 20px);
+        width: 33.3%;
+    }
+    .sample#interconnect em {
+        font-size: 18px;
+        margin-bottom: calc(8 * 20px);
+    }
+    .sample#interconnect hr {
+        width: 2.5%;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .sample#interconnect .container p {
+        font-size: 35px;
+    }
+    .sample#interconnect .container .drop-p {
+        font-size: 15px;
+        line-height: 1.8em;
+        margin-bottom: 0;
+        margin-top: calc(1 * 20px);
+        margin-right: calc(4 * 20px);
+    }
+    .sample#interconnect em {
+        font-size: 24px;
+    }
+}
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .sample#interconnect {
+        padding: calc(20px);
+    }
+    .sample#interconnect h2 {
+        margin-bottom: calc(2 * 20px);
+        margin-top: calc(20px);
+    }
+    .sample#interconnect .container p {
+        font-size: 45px;
+        margin-bottom: calc(2 * 20px);
+    }
+    .sample#interconnect .container .drop-p {
+        font-size: 16px;
+        line-height: 1.8em;
+    }
+    .sample#interconnect em {
+        font-size: 36px;
+        margin-bottom: calc(2 * 20px);
+    }
+}
+/* Large devices (extra large desktops, 1440px and up) */
+
+@media (min-width: 1440px) {
+    .sample#interconnect .container p {
+        font-size: 14px;
+    }
+}
 /* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:11
@@ -359,15 +504,12 @@
 }
 .sample#nietzsche h1 {
     color: #222;
-    font: 800 64px/64px"Ek Mukta";
+    font: 800 64px/64px"Teko";
     margin: 0 0 32px 0;
     text-align: center;
     width: 800px;
 }
-.sample#nietzsche h1 span {
-    font: 400 40px/60px"Ek Mukta";
- 
-}
+
 
 .sample#nietzsche h2 {
     border-top: 1px solid #222222;
@@ -442,12 +584,12 @@ padding: 10px;
 
 .sample#classifieds p {
     color: #222;
-    font: 300 16px/24px"Kalam";
+    font: 300 16px/24px"Laila";
     margin: 0;
 }
 
 .sample#classifieds p span{
-   font-weight:400;
+   font-weight:600;
     
 }
 ------------------- */
@@ -472,6 +614,238 @@ padding: 10px;
     }
 }
 
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#gandhi {
+
+    background: #ebe9ad;
+
+    padding: 100px 0;
+
+}
+
+.sample#gandhi .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#gandhi .box {
+
+    margin: 0 auto;
+
+    padding: 15px;
+
+}
+
+.sample#gandhi .box img {
+
+    width: 45%;
+
+    background: #fff;
+
+    min-width: 200px;
+
+    border-radius: 50%;
+
+    padding: 60px;
+
+    float: left;
+
+}
+
+.sample#gandhi h1 {
+
+    color: #935050;
+
+    font: 800 35px/64px"Ek Mukta";
+
+    text-align: left;
+
+    min-width: 300px;
+
+    padding: 0px 0px 0px 80px;
+
+    float: left;
+
+    width: 55%;
+
+}
+
+.sample#gandhi p {
+
+    color: #222;
+
+    font: 300 16px/24px"Hind";
+
+    margin-top: 40px;
+
+    float: left;
+
+    -webkit-column-count: 2;
+
+    -moz-column-count: 2;
+
+    column-count: 2;
+
+}
+
+.sample#gandhi h1 span {
+
+    font-weight: 300;
+
+    font-size: 30px;
+
+}
+
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+
+    .sample#gandhi .container {
+
+        width: auto;
+
+    }
+
+    .sample#gandhi h1 {
+
+        font: 800 40px/64px"Ek Mukta";
+
+        text-align: left;
+
+        padding: 10px;
+
+        float: left;
+
+        width: 70%;
+
+    }
+
+}
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#revolution {
+
+    
+
+    padding: 100px 0;
+    
+    background: #fff;
+    background-repeat: no-repeat;
+    background: 
+
+}
+
+.sample#revolution .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#revolution .box {
+
+
+
+    /* Background pattern from subtlepatterns.com */
+
+    background-repeat: repeat;
+    float: right;
+    padding: 15px;
+    height: 100%;
+    width: 50%;
+    margin-right: 10%;
+    z-index: 999;
+}
+#hand img{
+    z-index: -1;
+  -webkit-transform: rotate(30deg);
+
+    -moz-transform: rotate(30deg);
+
+    -o-transform: rotate(180deg);
+
+    -ms-transform: rotate(30deg);
+
+    transform: rotate(30deg);}
+#hand {
+
+    width: 40%;
+min-width: 200px;
+padding: 20px;
+margin: 0px -108px -195px -100px;
+float: left;
+overflow: hidden;
+    position: absolute;
+
+  
+
+
+}
+.sample#revolution h1 {
+    color: #935050;
+    font: 800 35px/64px"Sarpanch";
+    text-align: left;
+    min-width: 300px;
+    float: left;
+  
+
+}
+.sample#revolution p {
+    color: #222;
+    font: 300 16px/24px"Halant";
+    margin-top: 40px;
+    float: left;
+
+}
+.sample#revolution h1 span {
+    font-weight: 300;
+    font-size: 30px;
+}
+------------------- */
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .sample#revolution .container {
+        width: auto;
+    }
+    .sample#revolution h1 {
+        font: 800 40px/64px"Ek Mukta";
+        text-align: left;
+        padding: 10px;
+        float: left;
+        width: 70%;
+    }
+}
+
+
+
+
 
 
 </style>
@@ -491,9 +865,12 @@ padding: 10px;
     <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/site.css" />
     <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/menu_topside.css" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:200,300,800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rozha+One' rel='stylesheet' type='text/css'>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head> 
 
 <body>
@@ -506,35 +883,13 @@ padding: 10px;
     <nav class="menu-side">
 
         <a class="about" href="/hindi.librefonts.com/Telugu/about">About </a>
+         <a class="about" href="/hindi.librefonts.com/Telugu/about">Add a Sample</a>
         
 <h2>Choose a Language:  </h2>      
         <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
+        <a href="/hindi.librefonts.com/telugu" class="nototelugu" >Telugu  తెలుగు  </a>  
         <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
+     
 
     </nav>
 </div>

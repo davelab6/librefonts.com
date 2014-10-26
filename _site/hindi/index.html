@@ -255,11 +255,17 @@
 <link href='http://fonts.googleapis.com/css?family=Karma:300,700,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Kalam:300,400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Khand:300,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Hind:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Teko:300,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Laila:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rajdhani|Sarpanch:600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Halant:400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <!-- HOWTO: include each demo's css here -->
 <style>
 @import url (http://fonts.googleapis.com/css?family=Rozha+One&subset=latin,devanagari);
 .section-fools-learn {
-    background: #18a566;
+    background: #138808;
     padding: 60px 0 120px 0;
 }
 .section-fools-learn .container {
@@ -267,32 +273,24 @@
     width: 100%;
 }
 .section-fools-learn h2 {
-    font: 50px/50px'Rozha One', Georgia, serif;
-    color: #fff;
+    font: 70px/70px'Rozha One', Georgia, serif;
     text-transform: uppercase;
     margin: 0 auto 40px auto;
     text-align: center;
-    border-bottom: solid 1px rgba(255, 255, 255, .5);
     padding-bottom: 40px;
     width: 80%;
+color: #FF9933;
+text-shadow: 0px 1px 0px #236B0B, 0px 2px 0px #2C640C, 0px 3px 0px #385F0D, 0px 4px 0px #17610F, 0px 5px 0px #10610B, 0px 6px 0px #0A571F, 0px 7px 0px #295111, 0px 8px 7px #072C01;
 }
 .section-fools-learn p {
     font: 15px/30px'Ek Mukta', serif;
     font-weight: 200;
-    width: 80%;
+    width: 300px;
     color: #fff;
     margin: 0 auto 20px auto;
     border-bottom: solid 1px rgba(255, 255, 255, .5);
-    padding-bottom: 30px;
-    -webkit-column-count: 3;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 3;
-    /* Firefox */
-    column-count: 3;
-    -webkit-column-gap: 40px;
-    /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px;
-    /* Firefox */
+    border-top: solid 1px rgba(255, 255, 255, .5);
+    padding: 30px;
     column-gap: 40px;
     letter-spacing: 0.03em;
 }
@@ -334,7 +332,154 @@
         column-count: 1;
     }
 }
+/* Number of columns: 8 */
 
+/* Percentage width of a single column: 12.5% */
+
+/* Base unit of measurement: 20px */
+
+.sample#interconnect {
+    background-color: rgba(241, 90, 36, 1);
+    padding: calc(2 * 20px);
+}
+.sample#interconnect h2 {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    line-height: 1.8em;
+    margin-bottom: calc(4 * 20px);
+    margin-top: calc(2 * 20px);
+    text-align: center;
+    text-transform: uppercase;
+}
+.sample#interconnect h2 span {
+    display: inline-block;
+    padding: 1em;
+}
+.sample#interconnect .container {
+    width: 80%;
+}
+.sample#interconnect .container p {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: calc(4 * 20px);
+}
+.sample#interconnect .container p.drop-p {font-weight: 600;} .sample#interconnect em {
+    color: white;
+    display: block;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: calc(4 * 20px);
+}
+.sample#interconnect ul {
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+    margin-bottom: calc(2 * 20px);
+    padding: 0;
+    text-align: center;
+}
+.sample#interconnect li {
+    line-height: 2.2em;
+}
+.sample#interconnect li.label {
+    font-family: 'Questrial', sans-serif;
+    text-transform: uppercase;
+}
+.sample#interconnect hr {
+    width: 5%;
+    margin-bottom: calc(2 * 20px);
+}
+.sample#interconnect a {
+    color: black;
+    text-decoration: none;
+}
+.sample#interconnect a:hover {
+    border-bottom: 1px solid black;
+}
+/* Styles for Astronomer */
+
+/* Small devices (tablets, > 768px) */
+
+@media (min-width: 769px) {
+    .sample#interconnect {
+        padding: calc(20px);
+    }
+    .sample#interconnect h2 {
+        margin-bottom: calc(8 * 20px);
+        margin-top: calc(4 * 20px);
+    }
+    .sample#interconnect .container p {
+        font-size: 24px;
+    }
+    .sample#interconnect .container .drop-p {
+        color: white;
+        font-size: 12px;
+        float: left;
+        line-height: 1.4em;
+        margin-bottom: 0;
+        margin-right: calc(3 * 20px);
+        margin-top: calc(1 * 20px);
+        width: 33.3%;
+    }
+    .sample#interconnect em {
+        font-size: 18px;
+        margin-bottom: calc(8 * 20px);
+    }
+    .sample#interconnect hr {
+        width: 2.5%;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .sample#interconnect .container p {
+        font-size: 35px;
+    }
+    .sample#interconnect .container .drop-p {
+        font-size: 15px;
+        line-height: 1.8em;
+        margin-bottom: 0;
+        margin-top: calc(1 * 20px);
+        margin-right: calc(4 * 20px);
+    }
+    .sample#interconnect em {
+        font-size: 24px;
+    }
+}
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .sample#interconnect {
+        padding: calc(20px);
+    }
+    .sample#interconnect h2 {
+        margin-bottom: calc(2 * 20px);
+        margin-top: calc(20px);
+    }
+    .sample#interconnect .container p {
+        font-size: 45px;
+        margin-bottom: calc(2 * 20px);
+    }
+    .sample#interconnect .container .drop-p {
+        font-size: 16px;
+        line-height: 1.8em;
+    }
+    .sample#interconnect em {
+        font-size: 36px;
+        margin-bottom: calc(2 * 20px);
+    }
+}
+/* Large devices (extra large desktops, 1440px and up) */
+
+@media (min-width: 1440px) {
+    .sample#interconnect .container p {
+        font-size: 14px;
+    }
+}
 /* 
 * @Author: Bhargav Krishna
 * @Date:   2014-09-16 23:27:11
@@ -359,15 +504,12 @@
 }
 .sample#nietzsche h1 {
     color: #222;
-    font: 800 64px/64px"Ek Mukta";
+    font: 800 64px/64px"Teko";
     margin: 0 0 32px 0;
     text-align: center;
     width: 800px;
 }
-.sample#nietzsche h1 span {
-    font: 400 40px/60px"Ek Mukta";
- 
-}
+
 
 .sample#nietzsche h2 {
     border-top: 1px solid #222222;
@@ -442,12 +584,12 @@ padding: 10px;
 
 .sample#classifieds p {
     color: #222;
-    font: 300 16px/24px"Kalam";
+    font: 300 16px/24px"Laila";
     margin: 0;
 }
 
 .sample#classifieds p span{
-   font-weight:400;
+   font-weight:600;
     
 }
 ------------------- */
@@ -472,6 +614,238 @@ padding: 10px;
     }
 }
 
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#gandhi {
+
+    background: #ebe9ad;
+
+    padding: 100px 0;
+
+}
+
+.sample#gandhi .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#gandhi .box {
+
+    margin: 0 auto;
+
+    padding: 15px;
+
+}
+
+.sample#gandhi .box img {
+
+    width: 45%;
+
+    background: #fff;
+
+    min-width: 200px;
+
+    border-radius: 50%;
+
+    padding: 60px;
+
+    float: left;
+
+}
+
+.sample#gandhi h1 {
+
+    color: #935050;
+
+    font: 800 35px/64px"Ek Mukta";
+
+    text-align: left;
+
+    min-width: 300px;
+
+    padding: 0px 0px 0px 80px;
+
+    float: left;
+
+    width: 55%;
+
+}
+
+.sample#gandhi p {
+
+    color: #222;
+
+    font: 300 16px/24px"Hind";
+
+    margin-top: 40px;
+
+    float: left;
+
+    -webkit-column-count: 2;
+
+    -moz-column-count: 2;
+
+    column-count: 2;
+
+}
+
+.sample#gandhi h1 span {
+
+    font-weight: 300;
+
+    font-size: 30px;
+
+}
+
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+
+    .sample#gandhi .container {
+
+        width: auto;
+
+    }
+
+    .sample#gandhi h1 {
+
+        font: 800 40px/64px"Ek Mukta";
+
+        text-align: left;
+
+        padding: 10px;
+
+        float: left;
+
+        width: 70%;
+
+    }
+
+}
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#revolution {
+
+    
+
+    padding: 100px 0;
+    
+    background: #fff;
+    background-repeat: no-repeat;
+    background: 
+
+}
+
+.sample#revolution .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#revolution .box {
+
+
+
+    /* Background pattern from subtlepatterns.com */
+
+    background-repeat: repeat;
+    float: right;
+    padding: 15px;
+    height: 100%;
+    width: 50%;
+    margin-right: 10%;
+    z-index: 999;
+}
+#hand img{
+    z-index: -1;
+  -webkit-transform: rotate(30deg);
+
+    -moz-transform: rotate(30deg);
+
+    -o-transform: rotate(180deg);
+
+    -ms-transform: rotate(30deg);
+
+    transform: rotate(30deg);}
+#hand {
+
+    width: 40%;
+min-width: 200px;
+padding: 20px;
+margin: 0px -108px -195px -100px;
+float: left;
+overflow: hidden;
+    position: absolute;
+
+  
+
+
+}
+.sample#revolution h1 {
+    color: #935050;
+    font: 800 35px/64px"Sarpanch";
+    text-align: left;
+    min-width: 300px;
+    float: left;
+  
+
+}
+.sample#revolution p {
+    color: #222;
+    font: 300 16px/24px"Halant";
+    margin-top: 40px;
+    float: left;
+
+}
+.sample#revolution h1 span {
+    font-weight: 300;
+    font-size: 30px;
+}
+------------------- */
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .sample#revolution .container {
+        width: auto;
+    }
+    .sample#revolution h1 {
+        font: 800 40px/64px"Ek Mukta";
+        text-align: left;
+        padding: 10px;
+        float: left;
+        width: 70%;
+    }
+}
+
+
+
+
 
 
 </style>
@@ -491,9 +865,12 @@ padding: 10px;
     <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/site.css" />
     <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/menu_topside.css" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:200,300,800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rozha+One' rel='stylesheet' type='text/css'>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head> 
 
 <body>
@@ -506,35 +883,13 @@ padding: 10px;
     <nav class="menu-side">
 
         <a class="about" href="/hindi.librefonts.com/Hindi/about">About के बारे में</a>
+         <a class="about" href="/hindi.librefonts.com/Hindi/about">Add a Sample</a>
         
 <h2>Choose a Language:  </h2>      
         <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
+        <a href="/hindi.librefonts.com/telugu" class="nototelugu" >Telugu  తెలుగు  </a>  
         <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
-     <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
-        <a href="/hindi.librefonts.com/telugu">Telugu  తెలుగు  </a>  
-        <a href="/hindi.librefonts.com/english">English  </a> 
+     
 
     </nav>
 </div>
@@ -553,12 +908,10 @@ padding: 10px;
     <div class="container">
        
         <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-<div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Rozha One</a></div>
-        <h2>मूर्ख को सीख</h2>
+<div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Rozha One and Ek Mukata</a></div>
+        <h2>हिंदी वेब फ़ॉन्ट्स</h2>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;एक जंगल में एक पेड पर गौरैया का घोंसला था। एक दिन कडाके की ठंड पड रही थी। ठंड से कांपते हुए तीन चार बंदरों ने उसी पेड के नीचे आश्रय लिया। एक बंदर बोला 'कहीं से आग तापने को मिले तो ठंड दूर हो सकती हैं।'<br>
 दूसरे बंदर ने सुझाया 'देखो, यहां कितनी सूखी पत्तियां गिरी पडी हैं। इन्हें इकट्ठा कर हम ढेर लगाते हैं और फिर उसे सुलगाने का उपाय सोचते हैं।'<br>
-बंदरों ने सूखी पत्तियों का ढेर बनाया और फिर गोल दायरे में बैठकर सोचने लगे कि ढेर को कैसे सुलगाया जाए। तभी एक बंदर की नजर दूर हवा में उडते एक जुगनू पर पडी और वह उछल पडा। उधर ही दौडता हुआ चिल्लाने लगा 'देखो, हवा में चिंगारी उड रही है। इसे पकडकर ढेर के नीचे रखकर फूंक मारने से आग सुलग जाएगी।'<br>
-'हां हां!' कहते हुए बाकी बंदर भी उधर दौडने लगे। पेड पर अपने घोंसले में बैठी गौरैया यह सब देख रही थे। उससे चुप नहीं रहा गया। वह बोली 'बंदर भाइयो, यह चिंगारी नहीं हैं यह तो जुगनू है।'<br>
 
 <br>
 </p>
@@ -569,7 +922,7 @@ padding: 10px;
     <div class="container">
         <div class="background"></div>
         <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna"><img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna"></a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Vesper+Libre" target="_blank">Vesper Libre</a></div>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Vesper+Libre" target="_blank">Teko and Karma</a></div>
         
             
     <section class="text">
@@ -601,7 +954,7 @@ padding: 10px;
         <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna">
             <img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna">
         </a>
-        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Rozha One</a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Kalam and Laila</a>
         </div>
 
         <div class="box">
@@ -613,6 +966,64 @@ padding: 10px;
 
         </div>
     </div>
+
+</section>
+
+
+
+<section class="container-fluid sample" id="gandhi">
+    <div class="container">
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna">
+            <img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna">
+        </a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Ek Mukta and Hind</a>
+        </div>
+
+        <div class="box">
+                 <img src="https://openclipart.org/people/Archie/Archie_Mahatma_Gandhi.svg" />
+           
+            <h1>निरंतर विकास जीवन का नियम है , और जो व्यक्ति खुद को सही दिखाने  के लिए हमेशा अपनी रूढ़िवादिता को बरकरार
+                रखने की कोशिश करता है वो खुद को गलत इस्थिति में पंहुचा देता है.
+                <br /><span>- महात्मा गाँधी </span>
+            </h1>
+        
+       
+            <p>मोहनदास कर्मचन्द गांधी (2 अक्टूबर 1869 - 30 जनवरी 1948) भारत एवं भारतीय स्वतंत्रता आंदोलन के एक प्रमुख राजनैतिक एवं आध्यात्मिक नेता थे। वे सत्याग्रह (व्यापक सविनय अवज्ञा) के माध्यम से अत्याचार के प्रतिकार के अग्रणी नेता थे, उनकी इस अवधारणा की नींव सम्पूर्ण अहिंसा के सिद्धान्त पर रखी गयी थी जिसने भारत को आजादी दिलाकर पूरी दुनिया में जनता के नागरिक अधिकारों एवं स्वतन्त्रता के प्रति आन्दोलन के लिये प्रेरित किया। उन्हें दुनिया में आम जनता महात्मा गांधी के नाम से जानती है। संस्कृत भाषा में महात्मा अथवा महान आत्मा एक सम्मान सूचक शब्द है। गांधी को महात्मा की उपाधि सबसे पहले 1915 में राजवैद्य जीवराम कालिदास ने प्रदान की थी[1] रवीन्द्रनाथ टेगौर ने नहीं। उन्हें बापू (गुजराती भाषा में બાપુ बापू यानी पिता) के नाम से भी याद किया जाता है। सुभाष चन्द्र बोस ने 6 जुलाई 1944 को रंगून रेडियो से गान्धी जी के नाम जारी प्रसारण में उन्हें राष्ट्रपिता कहकर सम्बोधित करते हुए आज़ाद हिन्द फौज़ के सैनिकों के लिये उनका आशीर्वाद और शुभकामनाएँ माँगीं थीं।[2] प्रति वर्ष 2 अक्टूबर को उनका जन्म दिन भारत में गांधी जयंती के रूप में और पूरे विश्व में अन्तर्राष्ट्रीय अहिंसा दिवस के नाम से मनाया जाता है।
+            </p>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="container-fluid sample" id="revolution">
+    
+        <a href="https://twitter.com/ybbkrishna" class="avatar" target="_blank" title="ybbkrishna">
+            <img src="https://pbs.twimg.com/profile_images/446199185319022592/5b5W6bcL.jpeg" alt="ybbkrishna">
+        </a>
+        <div class="caption"><a href="https://www.google.com/fonts/specimen/Rozha+One" target="_blank">Sarpanch and Hind</a>
+        </div>
+
+        <div class="box">
+               <h1>
+                नभारतीय स्वतंत्रता का क्रांतिकारी आन्दोलन
+            </h1>
+        
+       
+            <p>मुक्त ज्ञानकोश विकिपीडिया से
+
+                <b>महान क्रान्तिकारी यतीन्द्रनाथ मुखर्जी</b>
+भारत की स्वतंत्रता के लिये अंग्रेजों के विरुद्ध आन्दोलन दो प्रकार का था - एक अहिंसक आन्दोलन एवं दूसरा सशस्त्र क्रान्तिकारी आन्दोलन। भारत की आज़ादी के लिए 1757 से 1947 के बीच जितने भी प्रयत्न हुए, उनमें स्वतंत्रता का सपना संजोये क्रान्तिकारियों और शहीदों की उपस्थित सबसे अधिक प्रेरणादायी सिद्ध हुई।
+
+वस्तुतः भारतीय क्रांतिकारी आंदोलन भारतीय <b>इतिहास का स्वर्ण </b>युग है। भारत की धरती के प्रति जितनी भक्ति और मातृ-भावना उस युग में थी, उतनी कभी नहीं रही। मातृभूमि की सेवा और उसके लिए मर-मिटने की जो भावना उस समय थी, आज उसका नितांत अभाव हो गया है।
+            </p>
+         
+   
+           
+        </div>
+      <div id="hand"> <img src="https://openclipart.org/people/worker/1336647257.svg" />
+           </div>
 
 </section>
 

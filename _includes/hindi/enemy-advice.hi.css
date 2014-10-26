@@ -22,15 +22,12 @@
 }
 .sample#nietzsche h1 {
     color: #222;
-    font: 800 64px/64px"Ek Mukta";
+    font: 800 64px/64px"Teko";
     margin: 0 0 32px 0;
     text-align: center;
     width: 800px;
 }
-.sample#nietzsche h1 span {
-    font: 400 40px/60px"Ek Mukta";
- 
-}
+
 
 .sample#nietzsche h2 {
     border-top: 1px solid #222222;

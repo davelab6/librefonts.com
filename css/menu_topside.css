@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+
 html,
 body,
 .container,
@@ -70,7 +72,7 @@ body,
 .menu-wrap {
     position: absolute;
     height: 100%;
-    font-family: 'Ek Mukta', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
     opacity: 0;
     -webkit-transition: opacity 1s;
@@ -152,6 +154,7 @@ body,
 .menu-side a:hover {
     color: #000;
     background: rgba(255, 83, 83, 0.94);
+    text-decoration: none;
 }
 .menu-side a:first-child {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -173,3 +176,8 @@ body,
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+/* Noto Font Labels */
+
+.nototelugu{
+font-family: 'Noto Sans Telugu', serif;}

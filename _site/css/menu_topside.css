@@ -1,199 +1,183 @@
-html, 
-body, 
-.container, 
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+
+html,
+body,
+.container,
 .content-wrap {
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
-
-.container {
-	
+.container {} .content-wrap {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    
 }
-
-
-.content-wrap {
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
-	-webkit-transition: -webkit-transform 0.3s;
-	transition: transform 0.3s;
-}
-
 .content {
-	position: relative;
+    position: relative;
 }
-
 /* Overlay */
+
 .content::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.3);
-	content: '';
-	opacity: 0;
-	-webkit-transform: translate3d(100%,0,0);
-	transform: translate3d(100%,0,0);
-	-webkit-transition: opacity 0.3s, -webkit-transform 0s 0.3s;
-	transition: opacity 0.3s, transform 0s 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    content: '';
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0s 0.3s;
+    transition: opacity 0.3s, transform 0s 0.3s;
+    -webkit-box-shadow: inset 10px 2px 34px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow:inset 10px 2px 34px 0px rgba(0, 0, 0, 0.65);
+    box-shadow:inset  10px 2px 34px 0px rgba(0, 0, 0, 0.65);
 }
-
 /* Menu Button */
+
 .menu-button {
-	position: fixed;
-	z-index: 1000;
-	margin: 1em;
-	padding: 0;
-	width: 2.5em;
-	height: 2.25em;
-	border: none;
-	text-indent: 2.5em;
-	font-size: 1.5em;
-	color: transparent;
-	background: transparent;
-	-webkit-transition: -webkit-transform 0.3s;
-	transition: transform 0.3s;
+    position: fixed;
+    z-index: 1000;
+    margin: 1em;
+    padding: 0;
+    width: 2.5em;
+    height: 2.25em;
+    border: none;
+    text-indent: 2.5em;
+    font-size: 1.5em;
+    color: transparent;
+    background: transparent;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
 }
-
 .menu-button::before {
-	position: absolute;
-	top: 0.5em;
-	right: 0.5em;
-	bottom: 0.5em;
-	left: 0.5em;
-	background: linear-gradient(#373a47 20%, transparent 20%, transparent 40%, #373a47 40%, #373a47 60%, transparent 60%, transparent 80%, #373a47 80%);
-	content: '';
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    background: linear-gradient(#373a47 20%, transparent 20%, transparent 40%, #373a47 40%, #373a47 60%, transparent 60%, transparent 80%, #373a47 80%);
+    content: '';
 }
-
 .menu-button:hover {
-	opacity: 0.6;
+    opacity: 0.6;
 }
 /* Menu */
+
 .menu-wrap {
     position: absolute;
     height: 100%;
-    font-family: 'Ek Mukta', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
-	opacity: 0;
-	-webkit-transition: opacity 1s;
-	transition: opacity 1s;
-    overflow-y: scroll; 
-    
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    overflow-y: scroll;
 }
-
 .menu-wrap h1 {
-	color: #6a6a6a;
+    color: #6a6a6a;
     text-decoration: none;
     font-weight: 300;
     padding: 20px;
 }
 .menu-wrap h2 {
     font-size: 18px;
-	color: #9a9a9a;
+    color: #9a9a9a;
     text-decoration: none;
     font-weight: 300;
     padding: 20px;
 }
-.menu-wrap a{
-text-decoration: none;
+.menu-wrap a {
+    text-decoration: none;
 }
-
 .menu-top {
-	line-height: 58px;
+    line-height: 58px;
 }
-
 .menu-top .profile {
-	display: inline-block;
-	padding: 8px 10px;
-	line-height: 42px;
+    display: inline-block;
+    padding: 8px 10px;
+    line-height: 42px;
 }
-
 .menu-top .profile,
 .menu-side {
-	width: 300px;
+    width: 300px;
 }
-
 .menu-top .profile img {
-	float: left;
-	margin-right: 1em;
+    float: left;
+    margin-right: 1em;
 }
-
 .icon-list {
-	display: inline-block;
-	font-size: 1.25em;
+    display: inline-block;
+    font-size: 1.25em;
 }
-
 .icon-list a {
-	margin: 0 1em 0 0;
-	padding: 0;
+    margin: 0 1em 0 0;
+    padding: 0;
 }
-
 .icon-list div {
-	margin: 0 1em 0 0;
-	padding: 0;
+    margin: 0 1em 0 0;
+    padding: 0;
 }
-
 @media screen and (max-width: 32em) {
-	.icon-list {
-		padding-left: 1em;
-	}
+    .icon-list {
+        padding-left: 1em;
+    }
 }
-
-
 .menu-side a.about {
     color: #000;
-   background: #fff;
-     text-decoration: underline;
+    background: #fff;
+    text-decoration: underline;
     font-size: 18px;
     font-weight: 400;
     border: none;
 }
 .menu-side a.about:hover {
     color: #000;
-   background: #afafaf;
-    
+    background: #afafaf;
 }
-
 .menu-side a {
     font-size: 20px;
-	display: block;
+    display: block;
     text-decoration: none;
-	padding: 1.2em;
-	border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 1.2em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     color: #1a1a1a;
     background: #eee;
-    -webkit-transition:  0.5s;
-	transition:  0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
-
 .menu-side a:hover {
     color: #000;
-   background: rgba(255, 83, 83, 0.94);
+    background: rgba(255, 83, 83, 0.94);
+    text-decoration: none;
 }
-
-
-
 .menu-side a:first-child {
-	border-top: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 /* Shown menu */
-.show-menu .menu-wrap {
-	opacity: 1;
-}
 
+.show-menu .menu-wrap {
+    opacity: 1;
+}
 .show-menu .content-wrap,
 .show-menu .menu-button {
-	-webkit-transform: translate3d(300px,0px,0);
-	transform: translate3d(300px,0px,0);
+    -webkit-transform: translate3d(300px, 0px, 0);
+    transform: translate3d(300px, 0px, 0);
+}
+.show-menu .content::before {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
-.show-menu .content::before {
-	opacity: 1;
-	-webkit-transition: opacity 0.3s;
-	transition: opacity 0.3s;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
+/* Noto Font Labels */
+
+.nototelugu{
+font-family: 'Noto Sans Telugu', serif;}
