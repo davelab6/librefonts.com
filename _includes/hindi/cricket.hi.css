@@ -1,0 +1,138 @@
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#cricket {
+
+    background:#4CE29E;
+
+    padding: 100px 0;
+
+}
+
+.sample#cricket .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#cricket .box {
+
+    margin: 0 auto;
+
+    padding: 15px;
+
+}
+
+.sample#cricket .box img {
+
+    width: 45%;
+
+  
+
+    min-width: 200px;
+
+
+    padding: 60px;
+
+    float: left;
+
+}
+
+.sample#cricket h1 {
+
+    color: #935050;
+
+    font: 800 35px/64px"Ek Mukta";
+
+    text-align: left;
+
+    min-width: 300px;
+
+    padding: 0px 0px 0px 80px;
+
+    float: left;
+
+    width: 55%;
+
+}
+.sample#cricket h1 span {
+
+    color: #935050;
+
+    font: 800 20px/64px"Ek Mukta";
+
+    text-align: left;
+
+    min-width: 300px;
+
+    padding: 0px 0px 0px 80px;
+
+    float: left;
+
+    width: 55%;
+
+}
+.sample#cricket p {
+
+    color: #222;
+
+    font: 300 16px/24px"Hind";
+
+    margin-top: 40px;
+
+    float: left;
+
+    -webkit-column-count: 2;
+
+    -moz-column-count: 2;
+
+    column-count: 2;
+
+}
+
+.sample#cricket h1 span {
+
+    font-weight: 300;
+
+    font-size: 30px;
+
+}
+
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+
+    .sample#cricket .container {
+
+        width: auto;
+
+    }
+
+    .sample#cricket h1 {
+
+        font: 800 40px/64px"Ek Mukta";
+
+        text-align: left;
+
+        padding: 10px;
+
+        float: left;
+
+        width: 70%;
+
+    }
+
+}
