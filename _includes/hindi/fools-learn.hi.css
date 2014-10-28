@@ -29,17 +29,7 @@ text-shadow: 0px 1px 0px #236B0B, 0px 2px 0px #2C640C, 0px 3px 0px #385F0D, 0px 
     column-gap: 40px;
     letter-spacing: 0.03em;
 }
-.section-fools-learn .avatar img {
-    margin: 0 0 10px 20px;
-    position: relative;
-    z-index: 101;
-}
-.section-fools-learn .caption {
-    margin: 0 0 40px 20px;
-    color: #eee;
-    position: relative;
-    z-index: 102;
-}
+
 .section-fools-learn .caption a {
     color: #eee;
 }

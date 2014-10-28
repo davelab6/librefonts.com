@@ -6,7 +6,7 @@
 
 .sample#cricket {
 
-    background:#4CE29E;
+    background:#4CB4E2;
 
     padding: 100px 0;
 
@@ -44,56 +44,54 @@
     float: left;
 
 }
+#circle{
+    background: #eee;
+    
 
+}
 .sample#cricket h1 {
 
-    color: #935050;
+    color: #FFFFFF;
+font: 700 75px/75px "Khand";
+text-align: left;
+line-height: 1;
+float: left;
 
-    font: 800 35px/64px"Ek Mukta";
-
-    text-align: left;
-
-    min-width: 300px;
-
-    padding: 0px 0px 0px 80px;
-
-    float: left;
-
-    width: 55%;
+-webkit-transform: rotate(30deg);
+-moz-transform: rotate(30deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(30deg);
+transform: rotate(-20deg);
 
 }
-.sample#cricket h1 span {
+.sample#cricket h2 {
 
-    color: #935050;
-
-    font: 800 20px/64px"Ek Mukta";
-
-    text-align: left;
-
-    min-width: 300px;
-
-    padding: 0px 0px 0px 80px;
-
-    float: left;
-
-    width: 55%;
-
+color: #1C5F88;
+font: 700 33px/64px "Rajdhani";
+text-align: left;
+min-width: 300px;
+padding: 0px 0px 0px 80px;
+float: right;
+width: 78%;
+line-height: 1.5;
 }
+
+
 .sample#cricket p {
 
-    color: #222;
+    color: #1C3045;
 
-    font: 300 16px/24px"Hind";
+    font: 300 16px/24px "Noto Sans";
 
     margin-top: 40px;
 
     float: left;
 
-    -webkit-column-count: 2;
+    -webkit-column-count: 3;
 
-    -moz-column-count: 2;
+    -moz-column-count:3;
 
-    column-count: 2;
+    column-count: 3;
 
 }
 

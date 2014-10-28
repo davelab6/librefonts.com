@@ -3,12 +3,13 @@
 <link href='http://fonts.googleapis.com/css?family=Karma:300,700,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Kalam:300,400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Khand:300,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Khand:300,600,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Hind:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Teko:300,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Laila:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rajdhani|Sarpanch:600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Halant:400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rajdhani:500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <!-- HOWTO: include each demo's css here -->
 <style>
 {% include hindi/fools-learn.hi.css %}
