@@ -1,60 +1,43 @@
 # librefonts.com 
 
-This site showcase Web Fonts Exmples with only Free, Libre, Open Souce Fonts.
-
+This site showcases libre web fonts with examples of the fonts in use.
 
 ## How to add a new example
 
-Adding a new example is easy. Lets add a Hindi webfont example called `my-webpage ` 
-            
-- First take a look at one of our example HTML and CSS files .
-- Make your Example follwing the structure.
-- Don't forget to add your Twitter profile url and image url.
+Take a look at one of our example HTML and CSS files, and use it as a template or make your own following the same structure.
 
+Lets add a Hindi webfont example called `my-webpage`
+
+- Fork this repo and clone your fork to your computer
+
+- Install the Github Pages software by running in Terminal
+```sh
+gem install github-pages
+```
+
+- In your fork, copy `example-name.langauge-code.css` and `example-name.langauge-code.css` to files with your name, like `my-webpage.hi.css` and `my-webpage.hi.html`, and move them to the `_includes/hindi` directory.
+
+- Include the Google Fonts API `<link>` for the fonts your examples uses in `_includes/hindi/_list`
+
+- Include your CSS file in the site by adding `{% include hindi/my-webpage.hi.css %}` to `_includes/hindi/_list` 
+
+- Include your HTML file in the site by adding `{% include hindi/my-webpage.hi.html %}` to `_includes/hindi/index.html`
+
+- Run `jekyll serve --watch --baseurl` and browse [http://localhost:4000/librefonts.com](localhost:4000/librefonts.com) to preview the site, live
+
+- Edit the HTML and CSS to make a stunning example of web typography. Each time you save your files, the [http://localhost:4000/librefonts.com](localhost:4000/librefonts.com) preview site will be regenerated, so refresh your browser to see them in action. 
+
+- Include your Twitter profile and image:
 ```
 <!--Add your Twitter URL-->
    <a href="https://twitter.com/twitterID" class="avatar" target="_blank">
-         
 <!--Add your Twitter Prifle pic URL. You can get this by right click > Copy Image URL on your twitter profile page-->
             <img src="TWITTER_pic URL">
    </a>
-
-```
-- Name your files ` my-webpage.hi.css`  and ` my-webpage.hi.html`. We me files like this ` example-name.langauge-code.css`  and  ` example-name.langauge-code.css ` 
-
-- Add your HTML and CSS files to ` _includes/hindi`  directory.
-
-- Add the Google Fonts ` <link>`  url to ` _includes/hindi/_list file ` . Don't forget to remove the Google fonts link from CSS and HTML file if you had them added.
-
-- Link your CSS file by adding ` {% include hindi/my-webpage.hi.css %} ` to ` _includes/hindi/_list file ` 
-
-- Link your HTML file by adding ` {% include hindi/my-webpage.hi.html %} ` to ` _includes/hindi/index.html `
-
-- Now do ` jekyll serve --watch --baseurl  ` and browse [http://localhost:4000/librefonts.com](http://localhost:4000/librefonts.com) to see your example live.
-
-- Keep editing :)
-
-- Send a Pull request 
-
-## Need help
-
-Please open a [new issue](https://github.com/fontdirectory/examples/issues) if you need any help.
-
-
-## How to build the site
-
-For Linux, ensure that ruby-dev is installed on your system: e.g. for Ubuntu 14.04:
-    
-    sudo apt-get install ruby-dev
-
-First install Jekyll, with `gem`:
-
-    sudo gem install jekyll
-
-To see the site as it will appear after processing by Jekyll and review your edits live in a browser layout, run:
-
-```
-` jekyll serve --watch --baseurl ''
 ```
 
-Now browse [http://localhost:4000/](http://localhost:4000/).
+- When you are ready, push your new files to your Github fork and send us a pull request
+
+## Need help?
+
+Please [open an issue](https://github.com/fontdirectory/examples/issues) if you need any help.
