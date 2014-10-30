@@ -1,0 +1,336 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+}
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------------------------- 
+Universal styles
+------------------------------------------*/
+
+/* Menu--------------- */
+
+html,
+body,
+.container,
+.content-wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.container {} .content-wrap {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    
+}
+.content {
+    position: relative;
+}
+
+/* Overlay--------------- */
+
+.content::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    content: '';
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0s 0.3s;
+    transition: opacity 0.3s, transform 0s 0.3s;
+    -webkit-box-shadow: inset 10px 2px 34px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow:inset 10px 2px 34px 0px rgba(0, 0, 0, 0.65);
+    box-shadow:inset  10px 2px 34px 0px rgba(0, 0, 0, 0.65);
+}
+
+.menu-wrap {
+    position: absolute;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    overflow-y: scroll;
+}
+.menu-wrap h1 {
+    color: #6a6a6a;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 20px;
+}
+.menu-wrap h2 {
+    font-size: 18px;
+    color: #9a9a9a;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 20px;
+}
+.menu-wrap a {
+    text-decoration: none;
+}
+.menu-top {
+    line-height: 58px;
+}
+.menu-top .profile {
+    display: inline-block;
+    padding: 8px 10px;
+    line-height: 42px;
+}
+.menu-top .profile,
+.menu-side {
+    width: 300px;
+}
+.menu-top .profile img {
+    float: left;
+    margin-right: 1em;
+}
+.icon-list {
+    display: inline-block;
+    font-size: 1.25em;
+}
+.icon-list a {
+    margin: 0 1em 0 0;
+    padding: 0;
+    
+}
+.icon-list div {
+    margin: 0 1em 0 0;
+    padding: 0;
+}
+@media screen and (max-width: 32em) {
+    .icon-list {
+        padding-left: 1em;
+    }
+}
+.menu-side a.about {
+    color: #000;
+    background: #fff;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+.menu-side a.about:hover {
+    color: #000;
+    background: #afafaf;
+}
+.menu-side a {
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 1.2em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #1a1a1a;
+    background: #eee;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+     
+}
+.menu-side a:hover {
+    color: #000;
+    background: rgba(255, 83, 83, 0.94);
+    text-decoration: none;
+}
+.menu-side a:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* Shown menu--------------- */
+
+.show-menu .menu-wrap {
+    opacity: 1;
+}
+.show-menu .content-wrap,
+.show-menu .menu-button {
+    -webkit-transform: translate3d(300px, 0px, 0);
+    transform: translate3d(300px, 0px, 0);
+}
+.show-menu .content::before {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+
+/*----------------------------------------- 
+Home Page Styles
+------------------------------------------*/
+
+.section-intro h1 {
+    font: 800 75px/68px 'Noto Sans', serif;
+    color:  rgba(255, 83, 83, 0.94);
+    margin: 0.3em;
+    text-align: center;
+}
+
+.section-intro h2 {
+    font: 200 30px/68px 'Noto Sans', sans-serif;
+    color: #656763;
+    text-align: center;
+}
+.section-intro h4 {
+    font: 200 20px/68px 'Noto Sans', sans-serif;
+    color: #656763;
+    text-align: center;
+}
+
+.section-intro .divider {
+    width: 30px;
+    padding: 30px 0 0 0;
+    border-top: 1px solid #999;
+    margin: 30px auto 0 auto;
+}
+.section-intro p {
+    color: #999;
+    font: 200 20px/100px'Noto Sans', sans-serif;
+    line-height: 1.4;
+    margin: 0 auto 14px auto;
+    max-width: 560px;
+}
+.section-intro p.label {
+   text-align: center;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.home-menu {
+    text-align: center;
+    width: 100%;
+    float: none;
+}
+.section-intro a.btn {
+    font: 200 20px/100px'Noto Sans', sans-serif;
+    color: #515050;
+    background: #eee;
+    text-decoration: none;
+    width: 300px;
+    height: 300px;
+    font-size: 5em;
+    padding: 10px;
+    margin: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+}
+.section-intro a.btn:hover {
+    background-color: #ddd;
+}
+footer {
+    margin-top: 5em;
+    color: #999;
+    font-size: smaller;
+    text-align: center;
+}
+footer ul, li {
+    list-style: none;
+}
+
+
+/*----------------------------
+Examples 
+------------------------------*/
+
+.avatar img {
+    width: 30px;
+height: 30px;
+margin-left: 40px;
+margin-bottom: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.caption {
+    margin: 0 0 60px 20px;
+}
+.caption a {
+    font: 14px/16px'Noto Sans', Helvetica, Arial, sans-serif;
+    letter-spacing: .1em;
+    color: #999;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.caption a:hover {
+    background-color: #ddd;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*----------------------------
+Menu
+------------------------------*/
+
+
+/* Menu Button */
+
+.menu-button {
+    position: fixed;
+    z-index: 1000;
+    margin: 1em;
+    padding: 0;
+    width: 2.5em;
+    height: 2.25em;
+    border: none;
+    text-indent: 2.5em;
+    font-size: 1.5em;
+    color: transparent;
+    background: transparent;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+.menu-button::before {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    bottom: 0.5em;
+    left: 0.5em;
+    background: linear-gradient(#373a47 20%, transparent 20%, transparent 40%, #373a47 40%, #373a47 60%, transparent 60%, transparent 80%, #373a47 80%);
+    content: '';
+}
+.menu-button:hover {
+    opacity: 0.6;
+}
+
+
+
+/* ---------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .section-intro {
+        width: 100%;
+    }
+    .section-intro .small {
+        margin: 0 20px;
+    }
+    .section-intro p {
+        max-width: 460px;
+        width: auto;
+        padding: 0 20px;
+    }
+}
