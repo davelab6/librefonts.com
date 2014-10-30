@@ -12,7 +12,9 @@ p {
 }
 .avatar img {
     width: 30px;
-    height: 30px;
+height: 30px;
+margin-left: 40px;
+margin-bottom: 10px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -21,11 +23,12 @@ p {
     margin: 0 0 60px 20px;
 }
 .caption a {
-    font: 14px/16px'Unica One', Helvetica, Arial, sans-serif;
+    font: 14px/16px'Noto Sans', Helvetica, Arial, sans-serif;
     letter-spacing: .1em;
     color: #999;
     text-transform: uppercase;
     text-decoration: none;
+    margin-left: 20px;
 }
 .caption a:hover {
     background-color: #ddd;

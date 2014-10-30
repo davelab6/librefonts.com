@@ -255,12 +255,13 @@
 <link href='http://fonts.googleapis.com/css?family=Karma:300,700,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Kalam:300,400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Khand:300,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Khand:300,600,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Hind:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Teko:300,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Laila:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rajdhani|Sarpanch:600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Halant:400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rajdhani:500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <!-- HOWTO: include each demo's css here -->
 <style>
 @import url (http://fonts.googleapis.com/css?family=Rozha+One&subset=latin,devanagari);
@@ -294,17 +295,7 @@ text-shadow: 0px 1px 0px #236B0B, 0px 2px 0px #2C640C, 0px 3px 0px #385F0D, 0px 
     column-gap: 40px;
     letter-spacing: 0.03em;
 }
-.section-fools-learn .avatar img {
-    margin: 0 0 10px 20px;
-    position: relative;
-    z-index: 101;
-}
-.section-fools-learn .caption {
-    margin: 0 0 40px 20px;
-    color: #eee;
-    position: relative;
-    z-index: 102;
-}
+
 .section-fools-learn .caption a {
     color: #eee;
 }
@@ -649,7 +640,7 @@ padding: 10px;
 
     width: 45%;
 
-    background: #fff;
+    background: #FFFDCF;
 
     min-width: 200px;
 
@@ -749,8 +740,7 @@ padding: 10px;
     padding: 100px 0;
     
     background: #fff;
-    background-repeat: no-repeat;
-    background: 
+ 
 
 }
 
@@ -841,6 +831,142 @@ overflow: hidden;
         float: left;
         width: 70%;
     }
+}
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#cricket {
+
+    background:#4CB4E2;
+
+    padding: 100px 0;
+
+}
+
+.sample#cricket .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#cricket .box {
+
+    margin: 0 auto;
+
+    padding: 15px;
+
+}
+
+.sample#cricket .box img {
+
+    width: 45%;
+
+  
+
+    min-width: 200px;
+
+
+    padding: 60px;
+
+    float: left;
+
+}
+#circle{
+    background: #eee;
+    
+
+}
+.sample#cricket h1 {
+
+    color: #FFFFFF;
+font: 700 75px/75px "Khand";
+text-align: left;
+line-height: 1;
+float: left;
+
+-webkit-transform: rotate(30deg);
+-moz-transform: rotate(30deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(30deg);
+transform: rotate(-20deg);
+
+}
+.sample#cricket h2 {
+
+color: #1C5F88;
+font: 700 33px/64px "Rajdhani";
+text-align: left;
+min-width: 300px;
+padding: 0px 0px 0px 80px;
+float: right;
+width: 78%;
+line-height: 1.5;
+}
+
+
+.sample#cricket p {
+
+    color: #1C3045;
+
+    font: 300 16px/24px "Noto Sans";
+
+    margin-top: 40px;
+
+    float: left;
+
+    -webkit-column-count: 3;
+
+    -moz-column-count:3;
+
+    column-count: 3;
+
+}
+
+.sample#cricket h1 span {
+
+    font-weight: 300;
+
+    font-size: 30px;
+
+}
+
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+
+    .sample#cricket .container {
+
+        width: auto;
+
+    }
+
+    .sample#cricket h1 {
+
+        font: 800 40px/64px"Ek Mukta";
+
+        text-align: left;
+
+        padding: 10px;
+
+        float: left;
+
+        width: 70%;
+
+    }
+
 }
 
 
