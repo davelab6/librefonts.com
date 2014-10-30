@@ -1,0 +1,19 @@
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+
+.section-attarintiki { background: url({{ site.baseurl }}/images/river.jpg) no-repeat #000; background-size: cover; padding: 90px 0 100px;}
+.section-attarintiki h2 { font: 70px/68px 'notosanstelugu', serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
+.section-attarintiki p { font: 16px/30px 'notosanstelugu', serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
+.section-attarintiki .avatar img { margin: 0 0 10px 20px; }
+.section-attarintiki .caption { margin: 0 0 40px 20px; color: #eee; }
+.section-attarintiki .caption a { color: #eee; }
+.section-attarintiki .caption a:hover { background-color: #0cf; }
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-attarintiki .container { width: 100%; }
+	.section-attarintiki h2 { font: 60px/60px 'notosanstelugu', Georgia, serif; }
+	.section-attarintiki p { padding-right: 20px; }
+}

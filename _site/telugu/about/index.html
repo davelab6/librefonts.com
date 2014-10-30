@@ -1,0 +1,1035 @@
+<!-- start of page layout -->
+<!DOCTYPE html>
+<html>
+<head>
+       
+        <!-- single <link> tag for Google Fonts API is fastest -->
+<!-- no links as no telugu in main API just yet -->
+
+<!-- HOWTO: include each demo's css here -->
+<style>
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+
+.section-attarintiki { background: url(/hindi.librefonts.com/images/river.jpg) no-repeat #000; background-size: cover; padding: 90px 0 100px;}
+.section-attarintiki h2 { font: 70px/68px 'notosanstelugu', serif; color: #fff; text-transform: uppercase; margin: 0 0 60px 20px; }
+.section-attarintiki p { font: 16px/30px 'notosanstelugu', serif; max-width: 540px; color: #fff; margin: 0 0 12px 20px; }
+.section-attarintiki .avatar img { margin: 0 0 10px 20px; }
+.section-attarintiki .caption { margin: 0 0 40px 20px; color: #eee; }
+.section-attarintiki .caption a { color: #eee; }
+.section-attarintiki .caption a:hover { background-color: #0cf; }
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-attarintiki .container { width: 100%; }
+	.section-attarintiki h2 { font: 60px/60px 'notosanstelugu', Georgia, serif; }
+	.section-attarintiki p { padding-right: 20px; }
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+.section-birbal-fever { padding: 30px 20px 200px 20px; background-color: #F5D76E }
+.section-birbal-fever .container { text-align: center; }
+.section-birbal-fever .caption { margin-bottom: 0; text-align: left; }
+.section-birbal-fever h2 { font: 24px/24px 'notosanstelugu', serif; text-transform: uppercase; text-align: center; color: #c31; margin: 20px 20px 30px; }
+.section-birbal-fever p { font: 16px/24px 'notosanstelugu', serif; color: #333; width: 460px; text-align: justify; margin: 0 auto;}
+.section-birbal-fever .birbal-fever-leaf { margin-top: 60px; }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-birbal-fever .container { width: 100%; }
+	.section-birbal-fever p { max-width: 460px; width: auto; padding: 0 20px; }
+}
+
+/* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 03:04:53
+*/
+.section-birbal-khichdi { background: #019875;  padding: 40px 0 310px 0; position: relative; }
+.section-birbal-khichdi {
+	background: #019875;
+	padding: 40px 0 310px 0;
+	position: relative;
+}
+
+.section-birbal-khichdi .avatar img { margin: 0 0 10px 20px; }
+.section-birbal-khichdi .caption { color: #FFF; margin: 0 0 190px 20px;  }
+.section-birbal-khichdi .caption a { color: #FFF; }
+.section-birbal-khichdi .caption a:hover, .section-birbal-khichdi .caption a:active { color: #FFF; background: #019875; }
+.section-birbal-khichdi h2, .section-birbal-khichdi p { margin: 0 auto; width: 75%px; }
+.section-birbal-khichdi h2 { color: #FFF; font: 36px 'Glegoo', serif; text-align: center; margin-bottom: 16px; }
+.section-birbal-khichdi p { color: #FFF; font: 15px/21px 'Glegoo', sans-serif; font-weight: 300; text-align: justify;	
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em; }
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(0, 0) rotate(0); }
+	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+	10% { -webkit-transform: translate(0, 0) rotate(0); }
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
+}
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+.section-birbal-khichdi .grapes { background: url('/hindi.librefonts.com/images/grapes.png') no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-birbal-khichdi .container { width: 100%;  }
+	.section-birbal-khichdi h2,	.section-birbal-khichdi p { width: auto; max-width: 420px; padding: 0 20px; }
+}
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+.section-coin-bag { background-color: #454545; padding: 60px 0 120px 0; color: #454545; }
+.section-coin-bag .container { position: relative; width :90%; }
+.section-coin-bag h2 { font: 50px/50px 'notosanstelugu', Georgia, serif; color: #aee; text-transform: uppercase; margin: 0 auto 40px auto; text-align: center; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 40px; width: 80%;}
+.section-coin-bag p { font: 20px/30px 'notosanstelugu', Georgia, serif; width: 80%; color: #eee; margin: 0 auto 20px auto; border-bottom: solid 1px rgba(255, 255, 255, .5); padding-bottom: 30px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;
+    }
+.section-coin-bag .avatar img { margin: 0 0 10px 20px; position: relative; z-index: 101;}
+.section-coin-bag .caption { margin: 0 0 40px 20px; color: #eee; position: relative; z-index: 102;}
+.section-coin-bag .caption a { color: #eee; }
+.section-coin-bag .caption a:hover { background-color: #e45546; }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-coin-bag .container { width: auto; }
+	.section-coin-bag h2 { font-size: 46px; }
+	.section-coin-bag p { -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; }
+
+}
+/* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 03:11:23
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+.section-garden-plants { background: #000; padding: 40px 0 310px 0; position: relative; }
+.section-garden-plants {
+	background: #000;
+	padding: 40px 0 310px 0;
+	position: relative;
+}
+
+.section-garden-plants .avatar img { margin: 0 0 10px 20px; }
+.section-garden-plants .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
+.section-garden-plants .caption a { color: #CBCCD1; }
+.section-garden-plants .caption a:hover, .section-garden-plants .caption a:active { color: #2E334A; background: #CBCCD1; }
+.section-garden-plants h2, .section-garden-plants p { margin: 0 auto; width: 75% }
+.section-garden-plants h2 { color: #CBCCD1; font: 36px 'Teko', serif; text-align: center; margin-bottom: 16px; }
+.section-garden-plants p { color: #CBCCD1; font: 15px/21px 'Teko', sans-serif; font-weight: 300; text-align: justify;	 
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;}
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(0, 0) rotate(0); }
+	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+	10% { -webkit-transform: translate(0, 0) rotate(0); }
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
+}
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+.section-garden-plants .grapes { background: url('/hindi.librefonts.com/images/grapes.png') no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-garden-plants .container { width: 100%;  }
+	.section-garden-plants h2,	.section-garden-plants p { width: auto; max-width: 420px; padding: 0 20px; }
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+.section-vishnu-glory {
+	font-family: 'notosanstelugu', serif;line-height: 1.5;
+	background-color: #101010;
+	color: #999;
+	color: rgba(255,255,255,0.75);
+	background-image: url(/hindi.librefonts.com/images/night.png);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-webkit-text-rendering: optimizeLegibility;
+	text-rendering: optimizeLegibility;
+}
+.section-vishnu-glory .container {
+	width: 100%;
+	overflow: hidden;
+	padding: 40px 180px 140px;
+	background-color: rgba(0,0,0,0.45);
+	box-sizing: border-box;
+}
+.section-vishnu-glory .caption {
+	margin-bottom: 40px;
+	margin-left: 0;
+}
+.section-vishnu-glory h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 10px;
+	color: #FFF;
+}
+.section-vishnu-glory p {
+	font-size: 20px;
+	font-weight: 300;
+}
+.section-vishnu-glory .col {
+	max-width: 420px;
+	float: right;
+}
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-vishnu-glory .col {float: none;}
+	.section-vishnu-glory .container {background-color: rgba(0,0,0,0.75);padding-left:40px;padding-right:40px;padding-bottom:100px;}
+
+}
+
+
+</style>
+
+    
+        <!-- single <link> tag for Google Fonts API is fastest -->
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Karma:300,700,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ek+Mukta:800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Kalam:300,400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Khand:300,600,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Hind:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Teko:300,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Laila:400,600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rajdhani|Sarpanch:600&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Halant:400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Rajdhani:500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<!-- HOWTO: include each demo's css here -->
+<style>
+@import url (http://fonts.googleapis.com/css?family=Rozha+One&subset=latin,devanagari);
+.section-fools-learn {
+    background: #138808;
+    padding: 60px 0 120px 0;
+}
+.section-fools-learn .container {
+    position: relative;
+    width: 100%;
+}
+.section-fools-learn h2 {
+    font: 70px/70px'Rozha One', Georgia, serif;
+    text-transform: uppercase;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    padding-bottom: 40px;
+    width: 80%;
+color: #FF9933;
+text-shadow: 0px 1px 0px #236B0B, 0px 2px 0px #2C640C, 0px 3px 0px #385F0D, 0px 4px 0px #17610F, 0px 5px 0px #10610B, 0px 6px 0px #0A571F, 0px 7px 0px #295111, 0px 8px 7px #072C01;
+}
+.section-fools-learn p {
+    font: 15px/30px'Ek Mukta', serif;
+    font-weight: 200;
+    width: 300px;
+    color: #fff;
+    margin: 0 auto 20px auto;
+    border-bottom: solid 1px rgba(255, 255, 255, .5);
+    border-top: solid 1px rgba(255, 255, 255, .5);
+    padding: 30px;
+    column-gap: 40px;
+    letter-spacing: 0.03em;
+}
+
+.section-fools-learn .caption a {
+    color: #eee;
+}
+.section-fools-learn .caption a:hover {
+    background-color: #18a566;
+}
+/* ---------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .section-fools-learn .container {
+        width: auto;
+    }
+    .section-fools-learn h2 {
+        font-size: 46px;
+    }
+    .section-fools-learn p {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+/* Number of columns: 8 */
+
+/* Percentage width of a single column: 12.5% */
+
+/* Base unit of measurement: 20px */
+
+.sample#interconnect {
+    background-color: rgba(241, 90, 36, 1);
+    padding: calc(2 * 20px);
+}
+.sample#interconnect h2 {
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    line-height: 1.8em;
+    margin-bottom: calc(4 * 20px);
+    margin-top: calc(2 * 20px);
+    text-align: center;
+    text-transform: uppercase;
+}
+.sample#interconnect h2 span {
+    display: inline-block;
+    padding: 1em;
+}
+.sample#interconnect .container {
+    width: 80%;
+}
+.sample#interconnect .container p {
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: calc(4 * 20px);
+}
+.sample#interconnect .container p.drop-p {font-weight: 600;} .sample#interconnect em {
+    color: white;
+    display: block;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: calc(4 * 20px);
+}
+.sample#interconnect ul {
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    list-style-type: none;
+    margin-bottom: calc(2 * 20px);
+    padding: 0;
+    text-align: center;
+}
+.sample#interconnect li {
+    line-height: 2.2em;
+}
+.sample#interconnect li.label {
+    font-family: 'Questrial', sans-serif;
+    text-transform: uppercase;
+}
+.sample#interconnect hr {
+    width: 5%;
+    margin-bottom: calc(2 * 20px);
+}
+.sample#interconnect a {
+    color: black;
+    text-decoration: none;
+}
+.sample#interconnect a:hover {
+    border-bottom: 1px solid black;
+}
+/* Styles for Astronomer */
+
+/* Small devices (tablets, > 768px) */
+
+@media (min-width: 769px) {
+    .sample#interconnect {
+        padding: calc(20px);
+    }
+    .sample#interconnect h2 {
+        margin-bottom: calc(8 * 20px);
+        margin-top: calc(4 * 20px);
+    }
+    .sample#interconnect .container p {
+        font-size: 24px;
+    }
+    .sample#interconnect .container .drop-p {
+        color: white;
+        font-size: 12px;
+        float: left;
+        line-height: 1.4em;
+        margin-bottom: 0;
+        margin-right: calc(3 * 20px);
+        margin-top: calc(1 * 20px);
+        width: 33.3%;
+    }
+    .sample#interconnect em {
+        font-size: 18px;
+        margin-bottom: calc(8 * 20px);
+    }
+    .sample#interconnect hr {
+        width: 2.5%;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .sample#interconnect .container p {
+        font-size: 35px;
+    }
+    .sample#interconnect .container .drop-p {
+        font-size: 15px;
+        line-height: 1.8em;
+        margin-bottom: 0;
+        margin-top: calc(1 * 20px);
+        margin-right: calc(4 * 20px);
+    }
+    .sample#interconnect em {
+        font-size: 24px;
+    }
+}
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .sample#interconnect {
+        padding: calc(20px);
+    }
+    .sample#interconnect h2 {
+        margin-bottom: calc(2 * 20px);
+        margin-top: calc(20px);
+    }
+    .sample#interconnect .container p {
+        font-size: 45px;
+        margin-bottom: calc(2 * 20px);
+    }
+    .sample#interconnect .container .drop-p {
+        font-size: 16px;
+        line-height: 1.8em;
+    }
+    .sample#interconnect em {
+        font-size: 36px;
+        margin-bottom: calc(2 * 20px);
+    }
+}
+/* Large devices (extra large desktops, 1440px and up) */
+
+@media (min-width: 1440px) {
+    .sample#interconnect .container p {
+        font-size: 14px;
+    }
+}
+/* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:11
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 01:35:43
+*/
+
+.sample#nietzsche {
+    background: #4ab0fc;
+    padding: 100px 0;
+}
+.sample#nietzsche .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#nietzsche .excerpt {
+    -moz-column-count: 2;
+    -moz-column-gap: 50px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 50px;
+}
+.sample#nietzsche h1 {
+    color: #222;
+    font: 800 64px/64px"Teko";
+    margin: 0 0 32px 0;
+    text-align: center;
+    width: 800px;
+}
+
+
+.sample#nietzsche h2 {
+    border-top: 1px solid #222222;
+    color: #222;
+    font: 800 20px/20px"open sans";
+    margin: 0 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sample#nietzsche h2 span {
+     background: #4ab0fc;
+    padding: 0 20px;
+    position: relative;
+    top: -10px;
+}
+.sample#nietzsche p {
+    color: #222;
+    font: 400 16px/24px"Karma";
+    margin: 0;
+}
+/* ---------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .section-enemy-advice .col {
+        float: none;
+    }
+    .section-enemy-advice .container {
+        background-color: rgba(0, 0, 0, 0.75);
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 100px;
+    }
+}
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#classifieds {
+    background: #fffff9;
+    padding: 100px 0;
+}
+.sample#classifieds .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.sample#classifieds .box {
+    border: 1px solid #000 ;
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    
+ 
+}
+.sample#classifieds h1{
+    color: #fff;
+background: #000;
+font: 700 40px/64px"Kalam";
+margin: -15px -15px 10px -15px;
+text-align: center;
+padding: 10px;
+   
+}
+
+.sample#classifieds p {
+    color: #222;
+    font: 300 16px/24px"Laila";
+    margin: 0;
+}
+
+.sample#classifieds p span{
+   font-weight:600;
+    
+}
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .section-gajraj .container {
+        width: auto;
+    }
+    .section-gajraj h2 {
+        font-size: 46px;
+    }
+    .section-gajraj p {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#gandhi {
+
+    background: #ebe9ad;
+
+    padding: 100px 0;
+
+}
+
+.sample#gandhi .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#gandhi .box {
+
+    margin: 0 auto;
+
+    padding: 15px;
+
+}
+
+.sample#gandhi .box img {
+
+    width: 45%;
+
+    background: #FFFDCF;
+
+    min-width: 200px;
+
+    border-radius: 50%;
+
+    padding: 60px;
+
+    float: left;
+
+}
+
+.sample#gandhi h1 {
+
+    color: #935050;
+
+    font: 800 35px/64px"Ek Mukta";
+
+    text-align: left;
+
+    min-width: 300px;
+
+    padding: 0px 0px 0px 80px;
+
+    float: left;
+
+    width: 55%;
+
+}
+
+.sample#gandhi p {
+
+    color: #222;
+
+    font: 300 16px/24px"Hind";
+
+    margin-top: 40px;
+
+    float: left;
+
+    -webkit-column-count: 2;
+
+    -moz-column-count: 2;
+
+    column-count: 2;
+
+}
+
+.sample#gandhi h1 span {
+
+    font-weight: 300;
+
+    font-size: 30px;
+
+}
+
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+
+    .sample#gandhi .container {
+
+        width: auto;
+
+    }
+
+    .sample#gandhi h1 {
+
+        font: 800 40px/64px"Ek Mukta";
+
+        text-align: left;
+
+        padding: 10px;
+
+        float: left;
+
+        width: 70%;
+
+    }
+
+}
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#revolution {
+
+    
+
+    padding: 100px 0;
+    
+    background: #fff;
+ 
+
+}
+
+.sample#revolution .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#revolution .box {
+
+
+
+    /* Background pattern from subtlepatterns.com */
+
+    background-repeat: repeat;
+    float: right;
+    padding: 15px;
+    height: 100%;
+    width: 50%;
+    margin-right: 10%;
+    z-index: 999;
+}
+#hand img{
+    z-index: -1;
+  -webkit-transform: rotate(30deg);
+
+    -moz-transform: rotate(30deg);
+
+    -o-transform: rotate(180deg);
+
+    -ms-transform: rotate(30deg);
+
+    transform: rotate(30deg);}
+#hand {
+
+    width: 40%;
+min-width: 200px;
+padding: 20px;
+margin: 0px -108px -195px -100px;
+float: left;
+overflow: hidden;
+    position: absolute;
+
+  
+
+
+}
+.sample#revolution h1 {
+    color: #935050;
+    font: 800 35px/64px"Sarpanch";
+    text-align: left;
+    min-width: 300px;
+    float: left;
+  
+
+}
+.sample#revolution p {
+    color: #222;
+    font: 300 16px/24px"Halant";
+    margin-top: 40px;
+    float: left;
+
+}
+.sample#revolution h1 span {
+    font-weight: 300;
+    font-size: 30px;
+}
+------------------- */
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+    .sample#revolution .container {
+        width: auto;
+    }
+    .sample#revolution h1 {
+        font: 800 40px/64px"Ek Mukta";
+        text-align: left;
+        padding: 10px;
+        float: left;
+        width: 70%;
+    }
+}
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#cricket {
+
+    background:#4CB4E2;
+
+    padding: 100px 0;
+
+}
+
+.sample#cricket .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#cricket .box {
+
+    margin: 0 auto;
+
+    padding: 15px;
+
+}
+
+.sample#cricket .box img {
+
+    width: 45%;
+
+  
+
+    min-width: 200px;
+
+
+    padding: 60px;
+
+    float: left;
+
+}
+#circle{
+    background: #eee;
+    
+
+}
+.sample#cricket h1 {
+
+    color: #FFFFFF;
+font: 700 75px/75px "Khand";
+text-align: left;
+line-height: 1;
+float: left;
+
+-webkit-transform: rotate(30deg);
+-moz-transform: rotate(30deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(30deg);
+transform: rotate(-20deg);
+
+}
+.sample#cricket h2 {
+
+color: #1C5F88;
+font: 700 33px/64px "Rajdhani";
+text-align: left;
+min-width: 300px;
+padding: 0px 0px 0px 80px;
+float: right;
+width: 78%;
+line-height: 1.5;
+}
+
+
+.sample#cricket p {
+
+    color: #1C3045;
+
+    font: 300 16px/24px "Noto Sans";
+
+    margin-top: 40px;
+
+    float: left;
+
+    -webkit-column-count: 3;
+
+    -moz-column-count:3;
+
+    column-count: 3;
+
+}
+
+.sample#cricket h1 span {
+
+    font-weight: 300;
+
+    font-size: 30px;
+
+}
+
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+
+    .sample#cricket .container {
+
+        width: auto;
+
+    }
+
+    .sample#cricket h1 {
+
+        font: 800 40px/64px"Ek Mukta";
+
+        text-align: left;
+
+        padding: 10px;
+
+        float: left;
+
+        width: 70%;
+
+    }
+
+}
+
+
+
+
+
+
+</style>
+
+    
+        <!-- single <link> tag for Google Fonts API is fastest -->
+
+<style>
+
+</style>
+
+    
+    <meta charset="utf-8" />
+    <title>
+        ఈ సైట్ గురించి
+    </title>
+    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="/hindi.librefonts.com/css/menu_topside.css" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:200,300,800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rozha+One' rel='stylesheet' type='text/css'>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head> 
+
+<body>
+    <div class="menu-wrap">
+    <nav class="menu-top">
+        <div class="profile">
+           <h1 class="sitename"> <a href="/hindi.librefonts.com/">Libre Fonts Showcase</a> </h1>
+       
+    </nav>
+    <nav class="menu-side">
+
+        <a class="about" href="/hindi.librefonts.com/Telugu/about">About </a>
+         <a class="about" href="/hindi.librefonts.com/Telugu/about">Add a Sample</a>
+        
+<h2>Choose a Language:  </h2>      
+        <a href="/hindi.librefonts.com/hindi"> Hindi हिन्दी </a>  
+        <a href="/hindi.librefonts.com/telugu" class="nototelugu" >Telugu  తెలుగు  </a>  
+        <a href="/hindi.librefonts.com/english">English  </a> 
+     
+
+    </nav>
+</div>
+<button class="menu-button" id="open-button">Open Menu</button>
+<script src="/hindi.librefonts.com/js/mainmenu.js"></script>
+<script src="/hindi.librefonts.com/js/classie.js"></script>
+    <div class="content-wrap">
+        <div class="content">
+
+
+<h1></h1>
+
+<!-- start of page layout -->
+</div>
+</div>
+</body>
+</html>

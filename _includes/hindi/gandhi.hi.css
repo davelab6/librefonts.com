@@ -1,0 +1,123 @@
+
+/* 
+* @Author: Pathum 
+* @Last Modified by:   Pathum
+*/
+
+.sample#gandhi {
+
+    background: #ebe9ad;
+
+    padding: 100px 0;
+
+}
+
+.sample#gandhi .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#gandhi .box {
+
+    margin: 0 auto;
+
+    padding: 15px;
+
+}
+
+.sample#gandhi .box img {
+
+    width: 45%;
+
+    background: #FFFDCF;
+
+    min-width: 200px;
+
+    border-radius: 50%;
+
+    padding: 60px;
+
+    float: left;
+
+}
+
+.sample#gandhi h1 {
+
+    color: #935050;
+
+    font: 800 35px/64px"Ek Mukta";
+
+    text-align: left;
+
+    min-width: 300px;
+
+    padding: 0px 0px 0px 80px;
+
+    float: left;
+
+    width: 55%;
+
+}
+
+.sample#gandhi p {
+
+    color: #222;
+
+    font: 300 16px/24px"Hind";
+
+    margin-top: 40px;
+
+    float: left;
+
+    -webkit-column-count: 2;
+
+    -moz-column-count: 2;
+
+    column-count: 2;
+
+}
+
+.sample#gandhi h1 span {
+
+    font-weight: 300;
+
+    font-size: 30px;
+
+}
+
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+
+    .sample#gandhi .container {
+
+        width: auto;
+
+    }
+
+    .sample#gandhi h1 {
+
+        font: 800 40px/64px"Ek Mukta";
+
+        text-align: left;
+
+        padding: 10px;
+
+        float: left;
+
+        width: 70%;
+
+    }
+
+}

@@ -1,0 +1,60 @@
+/* 
+* @Author: Bhargav Krishna
+* @Date:   2014-09-16 23:27:10
+* @Last Modified by:   Bhargav Krishna
+* @Last Modified time: 2014-09-17 03:11:23
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstelugu.css);
+.section-garden-plants { background: #000; padding: 40px 0 310px 0; position: relative; }
+.section-garden-plants {
+	background: #000;
+	padding: 40px 0 310px 0;
+	position: relative;
+}
+
+.section-garden-plants .avatar img { margin: 0 0 10px 20px; }
+.section-garden-plants .caption { color: #CBCCD1; margin: 0 0 190px 20px;  }
+.section-garden-plants .caption a { color: #CBCCD1; }
+.section-garden-plants .caption a:hover, .section-garden-plants .caption a:active { color: #2E334A; background: #CBCCD1; }
+.section-garden-plants h2, .section-garden-plants p { margin: 0 auto; width: 75% }
+.section-garden-plants h2 { color: #CBCCD1; font: 36px 'Teko', serif; text-align: center; margin-bottom: 16px; }
+.section-garden-plants p { color: #CBCCD1; font: 15px/21px 'Teko', sans-serif; font-weight: 300; text-align: justify;	 
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    letter-spacing: 0.03em;}
+@-webkit-keyframes shake {
+	0% { -webkit-transform: translate(0, 0) rotate(0); }
+	1% { -webkit-transform: translate(-1px, -2px) rotate(-10deg); }
+	2% { -webkit-transform: translate(-3px, 0) rotate(30deg); }
+	3% { -webkit-transform: translate(0px, 2px) rotate(0); }
+	4% { -webkit-transform: translate(1px, -1px) rotate(30deg); }
+	5% { -webkit-transform: translate(-1px, 2px) rotate(-10deg); }
+	6% { -webkit-transform: translate(-3px, 1px) rotate(0); }
+	7% { -webkit-transform: translate(2px, 1px) rotate(-10deg); }
+	8% { -webkit-transform: translate(-1px, -1px) rotate(10deg); }
+	9% { -webkit-transform: translate(2px, 2px) rotate(0); }
+	10% { -webkit-transform: translate(0, 0) rotate(0); }
+	100% { -webkit-transform: translate(0, 0) rotate(0); }
+}
+.shake {
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+.section-garden-plants .grapes { background: url('{{ site.baseurl }}/images/grapes.png') no-repeat center; bottom: 216px; height: 100px; left: 50%; margin-left: -50px; position: absolute; transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); width: 100px; -moz-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); -o-transition: all 0.2s cubic-bezier(0, 0.65, 0.03, 1.2); }
+
+/* ---------------------- */
+/* Device-specific styles */
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+@media (max-width: 768px) {
+	.section-garden-plants .container { width: 100%;  }
+	.section-garden-plants h2,	.section-garden-plants p { width: auto; max-width: 420px; padding: 0 20px; }
+}
