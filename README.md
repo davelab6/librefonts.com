@@ -1,9 +1,9 @@
-# librefonts.com : 
+# librefonts.com 
 
 This site showcase Web Fonts Exmples with only Free, Libre, Open Souce Fonts.
 
 
-## Roadmap
+## How to add a new example
 
 Adding a new example is easy. Lets add a Hindi webfont example called `my-webpage ` 
             
