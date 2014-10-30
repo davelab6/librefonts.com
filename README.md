@@ -16,7 +16,7 @@ Adding a new example is easy. Lets add a Hindi webfont example called `my-webpag
    <a href="https://twitter.com/twitterID" class="avatar" target="_blank">
          
 <!--Add your Twitter Prifle pic URL. You can get this by right click > Copy Image URL on your twitter profile page-->
-            <img src="https://pbs.twimg.com/profile_images/431160368165961728/8Cz-MEYm_400x400.jpeg">
+            <img src="TWITTER_pic URL">
    </a>
 
 ```
