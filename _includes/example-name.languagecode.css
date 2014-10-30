@@ -1,0 +1,151 @@
+
+/* 
+* Sample CSS fro librefonts.com Examples 
+* Please don't add @import font links on this sheet, see https://github.com/fontdirectory/examples for instructions
+*/
+
+.sample#cricket {
+
+    background: #4CB4E2;
+
+    padding: 100px 0;
+
+}
+
+.sample#example .text {
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+    width: 800px;
+
+}
+
+.sample#example .box {
+
+    margin: 0 auto;
+
+    padding: 15px;
+
+}
+
+.sample#example .box img {
+
+    width: 45%;
+
+    min-width: 200px;
+
+    padding: 60px;
+
+    float: left;
+
+}
+
+#circle {
+
+    background: #eee;
+
+}
+
+.sample#example h1 {
+
+    color: #FFFFFF;
+
+    font: 700 75px/75px"Khand";
+
+    text-align: left;
+
+    line-height: 1;
+
+    float: left;
+
+    -webkit-transform: rotate(30deg);
+
+    -moz-transform: rotate(30deg);
+
+    -o-transform: rotate(180deg);
+
+    -ms-transform: rotate(30deg);
+
+    transform: rotate(-20deg);
+
+}
+
+.sample#example h2 {
+
+    color: #1C5F88;
+
+    font: 700 33px/64px"Rajdhani";
+
+    text-align: left;
+
+    min-width: 300px;
+
+    padding: 0px 0px 0px 80px;
+
+    float: right;
+
+    width: 78%;
+
+    line-height: 1.5;
+
+}
+
+.sample#example p {
+
+    color: #1C3045;
+
+    font: 300 16px/24px"Noto Sans";
+
+    margin-top: 40px;
+
+    float: left;
+
+    -webkit-column-count: 3;
+
+    -moz-column-count: 3;
+
+    column-count: 3;
+
+}
+
+.sample#example h1 span {
+
+    font-weight: 300;
+
+    font-size: 30px;
+
+}
+
+------------------- */
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+/* Sub-tablet <768px */
+
+@media (max-width: 768px) {
+
+    .sample#example .container {
+
+        width: auto;
+
+    }
+
+    .sample#example h1 {
+
+        font: 800 40px/64px"Ek Mukta";
+
+        text-align: left;
+
+        padding: 10px;
+
+        float: left;
+
+        width: 70%;
+
+    }
+
+}
