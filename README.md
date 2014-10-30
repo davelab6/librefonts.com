@@ -9,7 +9,18 @@ Adding a new example is easy. Lets add a Hindi webfont example called `my-webpag
             
 - First take a look at one of our example HTML and CSS files.
 - Make your Example follwing the structure.
-- Don't forget to add your Twitter link and image.
+- Don't forget to add your Twitter profile url and image url.
+
+```
+
+<!--Add your Twitter URL-->
+         <a href="https://twitter.com/twitterID" class="avatar" target="_blank" title="ybbkrishna">
+<!--Add your Twitter Prifle pic URL. You can get this by right click > Copy Image URL on your twitter profile page-->
+            <img src="https://pbs.twimg.com/profile_images/431160368165961728/8Cz-MEYm_400x400.jpeg" alt="pathumego">
+        </a>
+
+
+```
 - Name your files ` my-webpage.hi.css`  and ` my-webpage.hi.html` 
 - Add your HTML and CSS files to ` _includes/hindi`  directory.
 - Add the Google Fonts ` <link>`  url to ` _includes/hindi/_list file ` . Don't forget to remove the Google fonts link from CSS and HTML file if you had them added.
