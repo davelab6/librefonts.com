@@ -21,12 +21,19 @@ Adding a new example is easy. Lets add a Hindi webfont example called `my-webpag
 
 ```
 - Name your files ` my-webpage.hi.css`  and ` my-webpage.hi.html`. We me files like this ` example-name.langauge-code.css`  and  ` example-name.langauge-code.css ` 
+
 - Add your HTML and CSS files to ` _includes/hindi`  directory.
+
 - Add the Google Fonts ` <link>`  url to ` _includes/hindi/_list file ` . Don't forget to remove the Google fonts link from CSS and HTML file if you had them added.
+
 - Link your CSS file by adding ` {% include hindi/my-webpage.hi.css %} ` to ` _includes/hindi/_list file ` 
+
 - Link your HTML file by adding ` {% include hindi/my-webpage.hi.html %} ` to ` _includes/hindi/index.html `
+
 - Now do ` jekyll serve --watch --baseurl  ` and browse [http://localhost:4000/librefonts.com](http://localhost:4000/librefonts.com) to see your example live.
+
 - Keep editing :)
+
 - Send a Pull request 
 
 ## Need help
