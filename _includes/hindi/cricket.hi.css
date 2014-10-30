@@ -1,7 +1,7 @@
 
 /* 
-* @Author: Pathum 
-* @Last Modified by:   Pathum
+* @Author: pathumego
+* @Last Modified by: pathumego
 */
 
 .sample#cricket {
@@ -9,6 +9,12 @@
     background:#4CB4E2;
 
     padding: 100px 0;
+
+}
+
+.sample#cricket a{
+
+color: #fff;
 
 }
 
@@ -100,6 +106,12 @@ line-height: 1.5;
     font-weight: 300;
 
     font-size: 30px;
+
+}
+
+.sample#cricket a{
+
+color: #fff;
 
 }
 
