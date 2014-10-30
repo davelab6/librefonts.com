@@ -13,7 +13,6 @@
 <!-- HOWTO: include each demo's css here -->
 <style>
 {% include hindi/fools-learn.hi.css %}
-{% include hindi/interconnect.hi.css %}
 {% include hindi/enemy-advice.hi.css %}
 {% include hindi/classifieds.hi.css %}
 {% include hindi/gandhi.hi.css %}
