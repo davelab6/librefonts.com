@@ -2,3 +2,4 @@ markdown: kramdown
 highlighter: false
 permalink: pretty
 baseurl: /librefonts.com
+title: Web Fonts Showcase
