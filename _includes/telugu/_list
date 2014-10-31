@@ -3,6 +3,7 @@
 
 <!-- HOWTO: include each demo's css here -->
 <style>
+{% include telugu/intro.te.css %}
 {% include telugu/attarintiki.te.css %}
 {% include telugu/birbal-fever.te.css %}
 {% include telugu/birbal-khichdi.te.css %}
