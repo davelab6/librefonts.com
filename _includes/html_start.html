@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {{ if include.language == "Telugu" }}   
+    {{ if page.language = "Telugu" }}   
         {% include telugu/_list %}
-    {{ elif include.language == "Hindi" }}
+    {{ elif page.language = "Hindi" }}
         {% include hindi/_list %}
-    {{ elif include.language == "English" }}
+    {{ elif page.language = "English" }}
         {% include english/_list %}
     {{ endif }}
     <meta charset="utf-8" />
