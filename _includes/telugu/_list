@@ -1,14 +1,17 @@
 <!-- single <link> tag for Google Fonts API is fastest -->
-<!-- no links as no telugu in main API just yet -->
+<!-- no links as no telugu in main API just yet, add the @import in side stylr tag below -->
 
 <!-- HOWTO: include each demo's css here -->
 <style>
+/*--no links as no telugu in main API just yet--*/
+@import url(http://fonts.googleapis.com/earlyaccess/gidugu.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nats.css);
+@import url(http://fonts.googleapis.com/earlyaccess/lakkireddy.css);
+@import url(http://fonts.googleapis.com/earlyaccess/peddana.css);
+
 {% include telugu/intro.te.css %}
-{% include telugu/attarintiki.te.css %}
-{% include telugu/birbal-fever.te.css %}
-{% include telugu/birbal-khichdi.te.css %}
 {% include telugu/coin-bag.te.css %}
-{% include telugu/garden-plants.te.css %}
-{% include telugu/vishnu-glory.te.css %}
+
+
 
 </style>
