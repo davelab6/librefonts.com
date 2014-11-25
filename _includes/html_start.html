@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {{ if include.language == "Telugu" }}   
+    {{ if page.language = "Telugu" }}   
         {% include telugu/_list %}
-    {{ elif include.language == "Hindi" }}
+    {{ elif page.language = "Hindi" }}
         {% include hindi/_list %}
-    {{ elif include.language == "English" }}
+    {{ elif page.language = "English" }}
         {% include english/_list %}
     {{ endif }}
     <meta charset="utf-8" />
     <title>
         {{ page.language }} {{ site.title }}
     </title>
-    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="./css/site.css" />
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/css/site.css" />
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Ek+Mukta:200,300,800&subset=latin,devanagari' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Rozha+One' rel='stylesheet' type='text/css'>
