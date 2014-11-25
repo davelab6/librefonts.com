@@ -15,7 +15,7 @@ Lets add a Hindi webfont example called `my-webpage`:
 gem install github-pages
 ```
 
-- In your fork, copy `example-name.langauge-code.css` and `example-name.langauge-code.css` to files with your name, like `my-webpage.hi.css` and `my-webpage.hi.html`, and move them to the `_includes/hindi` directory.
+- In your fork, copy `example-name.language-code.css` and `example-name.language-code.css` to files with your name, like `my-webpage.hi.css` and `my-webpage.hi.html`, and move them to the `_includes/hindi` directory.
 
 - Include the Google Fonts API `<link>` for the fonts your examples uses in `_includes/hindi/_list`
 
