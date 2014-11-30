@@ -36,8 +36,14 @@ body,
 }
 .content {
     position: relative;
+    
 }
-
+.narrow{
+    width: 90%;
+    max-width:1200px;
+    display: block;
+    margin: 0 auto;
+}
 /* Overlay--------------- */
 
 .content::before {
