@@ -1,106 +1,114 @@
 
 /* 
-* @Author: pathumego 
-* @Last Modified by: pathumego
-Images from openclipart.org
+* Author: @pathumego 
+* 
 */
 
-.sample#revolution {
+/* Paper Articler*/
 
-    
-
-    padding: 100px 0;
-    
-    background: #fff;
- 
-
-}
-
-.sample#revolution .text {
-
-    margin: 0 auto;
-
-    padding: 0 20px;
-
-    width: 800px;
-
-}
-
-.sample#revolution .box {
-
-
-
-    /* Background pattern from subtlepatterns.com */
-
-    background-repeat: repeat;
-    float: right;
-    padding: 15px;
-    height: 100%;
-    width: 50%;
-    margin-right: 10%;
-    z-index: 999;
-}
-#hand img{
-    z-index: -1;
-  -webkit-transform: rotate(30deg);
-
-    -moz-transform: rotate(30deg);
-
-    -o-transform: rotate(180deg);
-
-    -ms-transform: rotate(30deg);
-
-    transform: rotate(30deg);}
-#hand {
-
-    width: 40%;
-min-width: 200px;
-padding: 20px;
-margin: 0px -108px -195px -100px;
-float: left;
+#newspaper {
+    display: block;
+margin: 0px auto 0 auto;
+width: 100%;
+font-family: 'Ek Mukta', sans-serif;
+background: #F9F9F9;
+padding: 50px;
+height: 100%;
 overflow: hidden;
-    position: absolute;
+-moz-box-shadow: inset 0 0 10px #000000;
+-webkit-box-shadow: inset 0 0 10px #000000;
+box-shadow: inset 0 0 20px #000000;
+}
 
-  
+#newspaper .narrow {
+margin-top:-100px;
+}
 
+#newspaper #left{
+width: 80%;
+    float: left;
+    display: block;
 
 }
-.sample#revolution h1 {
-    color: #935050;
-    font: 800 35px/64px"Sarpanch";
+#newspaper #right{
+width: 20%;
+    float: left;
+
+}
+#newspaper hr {
+background-color: #000;
+margin: 30px 0 30px 0;
+height: 1px;
+border: 0;
+clear: both;
+}
+#newspaper hr.contents {
+background-color: #000;
+margin: 9px 0 9px 0;
+height: 1px;
+border: 0;
+clear: both;
+}
+
+#newspaper ul{
+margin: 0;
+}
+#newspaper h1 {
+  font-family: 'Sarpanch';
+font-weight: 900;
+    line-height: 1.2;
+font-size: 39px;
+text-align: left;
+color: #000;
+display: block;
+margin: 0% auto 0%;
+}
+#newspaper h2 {
+ font-family:'Halant';
+  font-weight:700;
+    font-size:40px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    color: #000;
+    display: block;
+    margin: 0% auto 0%;
+}
+section#bandflyer {
+    background: #000;
+    padding: 50px;
+}
+#newspaper p{
+    font: 15px "Ek Mukta";
+    font-weight: 200;
     text-align: left;
-    min-width: 300px;
-    float: left;
-  
+    color: #000;
+     -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+#newspaper p .strong{
+    font-weight: 500;
 
 }
-.sample#revolution p {
-    color: #222;
-    font: 300 16px/24px"Halant";
-    margin-top: 40px;
-    float: left;
-
+ #description_fit_big {
+    font-weight: 600;
 }
-.sample#revolution h1 span {
-    font-weight: 300;
-    font-size: 30px;
+#bandflyer h3 {
+    font: 95px/1"Hind";
+    color: #D2F3FF;
+    font-weight: 700;
 }
-------------------- */
-/* Device-specific styles */
-
-/* ---------------------- */
-
-/* Sub-tablet <768px */
-
-@media (max-width: 768px) {
-    .sample#revolution .container {
-        width: auto;
+#bandflyer #copyright {
+    font-weight: 700;
+    text-align: center;
+    color: #888;
+    margin-top: 100px;
+}
+@media only screen and (max-device-width: 480px) {
+    #content {
+        width: 100%;
     }
-    .sample#revolution h1 {
-        font: 800 40px/64px"Ek Mukta";
-        text-align: left;
-        padding: 10px;
-        float: left;
-        width: 70%;
+    body {
+        background: #000;
     }
 }
