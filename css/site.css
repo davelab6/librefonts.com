@@ -325,18 +325,23 @@ Menu
 
 /* ---------------------- */
 
-/* Sub-tablet <768px */
 
-@media (max-width: 768px) {
-    .section-intro {
-        width: 100%;
-    }
-    .section-intro .small {
-        margin: 0 20px;
-    }
-    .section-intro p {
-        max-width: 460px;
-        width: auto;
-        padding: 0 20px;
-    }
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+   
+
+   #invitation {
+   
+   padding: 20px;
+}
+    
+#invitation {
+   
+    padding: 0px 25px 25px 25px;
+}
+    
 }
