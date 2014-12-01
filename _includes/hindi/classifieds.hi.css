@@ -4,43 +4,105 @@
 * @Last Modified by: pathumego
 */
 
-.sample#classifieds {
-    background: #fffff9;
+section#classifieds {
+   background: #FAFAFA;
     padding: 100px 0;
 }
-.sample#classifieds .text {
+section #classifieds .text {
     margin: 0 auto;
     padding: 0 20px;
     width: 800px;
 }
-.sample#classifieds .box {
-    border: 1px solid #000 ;
-    width: 300px;
-    margin: 0 auto;
-    padding: 15px;
-    
- 
+section#classifieds .box {
+     font-family: 'Halant';
+   border: 1px solid #000;
+padding: 15px;
+margin: 10px 0px;
 }
-.sample#classifieds h1{
-    color: #fff;
+ 
+ 
+
+section#classifieds h1{
+  font-family: 'Rajdhani';
+font-size: 29px;
+color: #fff;
 background: #000;
-font: 700 40px/64px"Kalam";
-margin: -15px -15px 10px -15px;
+text-align: center;
+padding: 10px;
+margin: 10px 0px 10px 0px;
 text-align: center;
 padding: 10px;
    
 }
 
-.sample#classifieds p {
-    color: #222;
+
+
+ 
+
+
+/* single classifieds */
+
+#cookery {
     font: 300 16px/24px"Laila";
     margin: 0;
 }
 
-.sample#classifieds p span{
+#cookery h2{
+  font-family: 'Halant';
+font-size: 29px;
+text-align: center;
+padding: 10px;
+margin: 10px 0px 10px 0px;
+
+
+text-align: center;
+padding: 10px;
+   
+}
+
+#cookery p span{
    font-weight:600;
     
 }
+
+#advertise{
+     font-family: 'Halant' serif;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+#advertise h2 {
+    
+    font-size: 40px;
+}
+#advertise p{
+    background: #000;
+    color: #fff;
+
+}
+
+#cleaning{
+    font-family: 'Halant' serif;
+
+}
+
+#cleaning h2 {
+
+}
+#building span{
+font-weight: 700;
+
+}
+#building img{
+float: left;
+    width: 40%;
+    -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+
+}
+
+
 ------------------- */
 
 /* Device-specific styles */
