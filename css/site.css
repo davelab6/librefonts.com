@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     zoom: 1;
+    background: #EDEDED;
 }
 h1,
 h2,
@@ -254,6 +255,33 @@ footer ul, li {
 Examples 
 ------------------------------*/
 
+.font_links{
+width: 100%;
+max-width: 1200px;
+display: block;
+background: #000;
+color: #fff;
+margin: 0 auto;
+text-align: center;
+font-size: 40px;
+}
+.shadow_bottom{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+background: no-repeat top url(../images/seperator_bottom.png);
+height: 100px;
+position: absolute;
+}
+.shadow_top{
+  width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+background: no-repeat top url(../images/seperator_top.png);
+height: 100px;
+position: absolute;
+margin-top: -100px;
+}
 .avatar img {
     width: 30px;
 height: 30px;
