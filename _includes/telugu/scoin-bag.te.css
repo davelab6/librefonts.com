@@ -4,8 +4,7 @@
 * 
 *
 //* Invitationr*/
-
-#invitation {
+#invitation_te {
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -21,17 +20,18 @@ background: linear-gradient(to bottom,  #ffdd32 0%,#fffb89 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdd32', endColorstr='#fffb89',GradientType=0 ); /* IE6-9 */
 
 }
-#invitation h1 {
-    font-family:'Rozha One';
-    font-size: 60px;
-    color: #B84E3B;
-    padding-top: 60px;
-    text-align: left;
-    display: block;
-    margin: 0% auto 0%;
+#invitation_te h1 {
+font-family: 'Ravi Prakash', serif;
+font-size: 80px;
+color: #B84E3B;
+padding-top: 60px;
+text-align: left;
+display: block;
+margin: 0% auto 0%;
+ 
 }
-#invitation p {
-    font-family: 'Rozha One';
+#invitation_te p {
+font-family: 'NATS', serif; 
 font-size: 38px;
 color: #565656;
 padding-top: 30px;
@@ -41,8 +41,8 @@ margin: 0% auto 0%;
 line-height: 1;
 }
 
-#invitation p#invi_body{
-    font-family: 'Karma';
+#invitation_te p#invi_body{
+font-family: 'NATS', serif; 
 font-size: 20px;
 color: #B84E3B;
 padding-top: 89px;
