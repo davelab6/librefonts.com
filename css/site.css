@@ -251,22 +251,31 @@ margin-bottom: 100px;
 
 #homemenu li a{
     font: 200 20px/100px'Noto Sans', sans-serif;
-    color: #515050;
-    background: #eee;
-    text-decoration: none;
-    font-size: 5em;
-   
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 5px;
-    
+color: #515050;
+background: #eee;
+text-decoration: none;
+font-size: 5em;
+color: #515050;
+background: #eee;
+text-decoration: none;
+width: 300px;
+height: 300px;
+display: block;
+float: left;
+margin-bottom: 100px;
+padding: 30px;
+text-align: center;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 5px;
+
 
 }
 
 #homemenu li a:hover{
     
     color: #515050;
-    background: #eee;
+    background: #a2a2a2;
 
 }
 /*----------------------------
