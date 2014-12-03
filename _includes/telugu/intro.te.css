@@ -1,65 +1,95 @@
 
 /* 
-* @Author: pathumego
-* @Last Modified by: pathumego
-*/
+* Author: @pathumego 
+* 
+*
+//* Invitationr*/
 
-.into_te {
-    background: #138808;
-    padding: 60px 0 120px 0;
+section#intro_te {
+
+   display: block;
+margin: 0 auto;
+width: 100%;
+max-width: 1200px;
+padding: 0px 50px 100px 50px;
+background: #184D69;
+
+
 }
-.into_te .container {
-    position: relative;
-    width: 100%;
-}
-.into_te h2 {
-    font: 70px/70px 'Gidugu', serif;
-    text-transform: uppercase;
-    margin: 0 auto 40px auto;
+
+#intro_te h1 {
+
+     font-family: 'NATS', serif;
+
+    font-size: 80px;
+
+    color: #B84E3B;
+
+    padding-top: 60px;
+
     text-align: center;
-    padding-bottom: 40px;
-    width: 80%;
-    color: #FF9933;
-    text-shadow: 0px 1px 0px #236B0B, 0px 2px 0px #2C640C, 0px 3px 0px #385F0D, 0px 4px 0px #17610F, 0px 5px 0px #10610B, 0px 6px 0px #0A571F, 0px 7px 0px #295111, 0px 8px 7px #072C01;
+
+    display: block;
+
+    margin: 0% auto 0%;
+
 }
-.into_te p {
-    font: 20px/30px 'NATS', serif;
-font-weight: 200;
-width: 40%;
+
+h1#coming_soon{
+   font-family: 'NATS', serif;
+font-size: 60px;
 color: #fff;
-margin: 0 auto 23px auto;
-border-bottom: solid 1px rgba(255, 255, 255, .5);
-border-top: solid 1px rgba(255, 255, 255, .5);
-padding: 30px;
-column-gap: 40px;
-letter-spacing: 0.03em;
-line-height: 1.4;
+padding-top: 60px;
+text-align: center;
+display: block;
+margin: 0% auto 0%;
+}
+}
+#inro_te p {
+
+    font-family: 'NATS', serif;
+
+    font-size: 38px;
+
+    color: #565656;
+
+    padding-top: 30px;
+
+    text-align: left;
+
+    display: block;
+
+    margin: 0% auto 0%;
+
+    line-height: 1;
+
 }
 
-.into_te .caption a {
-    color: #eee;
+#intro_te p#invi_body {
+
+    font-family: 'NATS', serif;
+
+    font-size: 20px;
+
+    color: #B84E3B;
+
+    padding-top: 89px;
+
+    text-align: left;
+
+    display: block;
+
+    margin: 0% auto 0%;
+
+    line-height: 1.4;
+
 }
-.into_te .caption a:hover {
-    background-color: #18a566;
 }
-/* ---------------------- */
-
-/* Device-specific styles */
-
-/* ---------------------- */
-
-/* Sub-tablet <768px */
-
-@media (max-width: 768px) {
-    .into_te .container {
-        width: auto;
+@media only screen and (max-width: 480px) {}@media (min-width: 480px) and (max-width: 767px) {
+    #intro_te {
+        padding:20px;
     }
-    .into_te h2 {
-        font-size: 46px;
-    }
-    .into_te p {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
+    #intro_te {
+        padding: 0px 25px 25px 25px;
     }
 }
