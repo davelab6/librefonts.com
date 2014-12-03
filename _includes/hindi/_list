@@ -14,10 +14,7 @@
 <!-- HOWTO: include each demo's css here -->
 <style>
 {% include hindi/bandflyer.hi.css %}
-{% include hindi/fools-learn.hi.css %}
-{% include hindi/enemy-advice.hi.css %}
 {% include hindi/classifieds.hi.css %}
-{% include hindi/gandhi.hi.css %}
 {% include hindi/revolution.hi.css %}
 {% include hindi/cricket.hi.css %}
 
