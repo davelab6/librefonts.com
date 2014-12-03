@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     zoom: 1;
+    background: #EDEDED;
 }
 h1,
 h2,
@@ -36,8 +37,14 @@ body,
 }
 .content {
     position: relative;
+    
 }
-
+.narrow{
+    width: 90%;
+    max-width:1200px;
+    display: block;
+    margin: 0 auto;
+}
 /* Overlay--------------- */
 
 .content::before {
@@ -248,6 +255,33 @@ footer ul, li {
 Examples 
 ------------------------------*/
 
+.font_links{
+width: 100%;
+max-width: 1200px;
+display: block;
+background: #000;
+color: #fff;
+margin: 0 auto;
+text-align: center;
+font-size: 40px;
+}
+.shadow_bottom{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+background: no-repeat top url(../images/seperator_bottom.png);
+height: 100px;
+position: absolute;
+}
+.shadow_top{
+  width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+background: no-repeat top url(../images/seperator_top.png);
+height: 100px;
+position: absolute;
+margin-top: -100px;
+}
 .avatar img {
     width: 30px;
 height: 30px;
@@ -319,18 +353,23 @@ Menu
 
 /* ---------------------- */
 
-/* Sub-tablet <768px */
 
-@media (max-width: 768px) {
-    .section-intro {
-        width: 100%;
-    }
-    .section-intro .small {
-        margin: 0 20px;
-    }
-    .section-intro p {
-        max-width: 460px;
-        width: auto;
-        padding: 0 20px;
-    }
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+   
+
+   #invitation {
+   
+   padding: 20px;
+}
+    
+#invitation {
+   
+    padding: 0px 25px 25px 25px;
+}
+    
 }

@@ -1,148 +1,73 @@
 
 /* 
-* @Author: pathumego
-* @Last Modified by: pathumego
-*/
+* Author: @pathumego 
+* 
+*
+//* Invitationr*/
 
-.sample#cricket {
-
-    background:#4CB4E2;
-
-    padding: 100px 0;
-
-}
-
-.sample#cricket a{
-
-color: #fff;
-
-}
-
-.sample#cricket .text {
-
+#invitation {
+    display: block;
     margin: 0 auto;
-
-    padding: 0 20px;
-
-    width: 800px;
-
-}
-
-.sample#cricket .box {
-
-    margin: 0 auto;
-
-    padding: 15px;
-
-}
-
-.sample#cricket .box img {
-
-    width: 45%;
-
-  
-
-    min-width: 200px;
-
-
-    padding: 60px;
-
-    float: left;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 50px 100px 50px;
+    background: #ffdd32; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffdd32 0%, #fffb89 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffdd32), color-stop(100%,#fffb89)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffdd32 0%,#fffb89 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffdd32 0%,#fffb89 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffdd32 0%,#fffb89 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffdd32 0%,#fffb89 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdd32', endColorstr='#fffb89',GradientType=0 ); /* IE6-9 */
 
 }
-#circle{
-    background: #eee;
-    
-
+#invitation h1 {
+    font-family:'Rozha One';
+    font-size: 60px;
+    color: #B84E3B;
+    padding-top: 60px;
+    text-align: left;
+    display: block;
+    margin: 0% auto 0%;
 }
-.sample#cricket h1 {
-
-    color: #FFFFFF;
-font: 700 75px/75px "Khand";
+#invitation p {
+    font-family: 'Rozha One';
+font-size: 38px;
+color: #565656;
+padding-top: 30px;
 text-align: left;
+display: block;
+margin: 0% auto 0%;
 line-height: 1;
-float: left;
-
--webkit-transform: rotate(30deg);
--moz-transform: rotate(30deg);
--o-transform: rotate(180deg);
--ms-transform: rotate(30deg);
-transform: rotate(-20deg);
-
 }
-.sample#cricket h2 {
 
-color: #1C5F88;
-font: 700 33px/64px "Rajdhani";
+#invitation p#invi_body{
+    font-family: 'Karma';
+font-size: 20px;
+color: #B84E3B;
+padding-top: 89px;
 text-align: left;
-min-width: 300px;
-padding: 0px 0px 0px 80px;
-float: right;
-width: 78%;
-line-height: 1.5;
+display: block;
+margin: 0% auto 0%;
+line-height: 1.4;
 }
 
-
-.sample#cricket p {
-
-    color: #1C3045;
-
-    font: 300 16px/24px "Noto Sans";
-
-    margin-top: 40px;
-
-    float: left;
-
-    -webkit-column-count: 3;
-
-    -moz-column-count:3;
-
-    column-count: 3;
+}
+@media only screen and (max-width: 480px) {
 
 }
 
-.sample#cricket h1 span {
+@media (min-width: 480px) and (max-width: 767px) {
+   
 
-    font-weight: 300;
-
-    font-size: 30px;
-
+   #invitation {
+   
+   padding: 20px;
 }
-
-.sample#cricket a{
-
-color: #fff;
-
+    
+#invitation {
+   
+    padding: 0px 25px 25px 25px;
 }
-
-------------------- */
-
-/* Device-specific styles */
-
-/* ---------------------- */
-
-/* Sub-tablet <768px */
-
-@media (max-width: 768px) {
-
-    .sample#cricket .container {
-
-        width: auto;
-
-    }
-
-    .sample#cricket h1 {
-
-        font: 800 40px/64px"Ek Mukta";
-
-        text-align: left;
-
-        padding: 10px;
-
-        float: left;
-
-        width: 70%;
-
-    }
-
+    
 }
