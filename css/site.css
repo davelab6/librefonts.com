@@ -183,9 +183,9 @@ Home Page Styles
 
 .section-intro h1 {
     font: 800 75px/68px 'Noto Sans', serif;
-    color:  rgba(255, 83, 83, 0.94);
-    margin: 0.3em;
-    text-align: center;
+color: rgba(255, 83, 83, 0.94);
+margin: 0.3em;
+text-align: center
 }
 
 .section-intro h2 {
@@ -223,23 +223,8 @@ Home Page Styles
     width: 100%;
     float: none;
 }
-.section-intro a.btn {
-    font: 200 20px/100px'Noto Sans', sans-serif;
-    color: #515050;
-    background: #eee;
-    text-decoration: none;
-    width: 300px;
-    height: 300px;
-    font-size: 5em;
-    padding: 10px;
-    margin: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 5px;
-}
-.section-intro a.btn:hover {
-    background-color: #ddd;
-}
+
+
 footer {
     margin-top: 5em;
     color: #999;
@@ -249,8 +234,41 @@ footer {
 footer ul, li {
     list-style: none;
 }
+ul#homemenu {
+clear: both;
 
+}
 
+#homemenu li {
+color: #515050;
+background: #eee;
+text-decoration: none;
+width: 300px;
+display: block;
+float: left;
+margin-bottom: 100px;
+}
+
+#homemenu li a{
+    font: 200 20px/100px'Noto Sans', sans-serif;
+    color: #515050;
+    background: #eee;
+    text-decoration: none;
+    font-size: 5em;
+   
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+    
+
+}
+
+#homemenu li a:hover{
+    
+    color: #515050;
+    background: #eee;
+
+}
 /*----------------------------
 Examples 
 ------------------------------*/
