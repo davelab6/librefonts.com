@@ -68,6 +68,10 @@ body,
     box-shadow:inset  10px 2px 34px 0px rgba(0, 0, 0, 0.65);
 }
 
+.homeback{
+    background: #fff;
+
+}
 .menu-wrap {
     position: absolute;
     height: 100%;
@@ -280,7 +284,9 @@ width: 285px;
 /*----------------------------
 Examples 
 ------------------------------*/
-
+section{
+box-shadow: 10px #000;
+}
 .font_links{
 width: 100%;
 max-width: 1200px;
