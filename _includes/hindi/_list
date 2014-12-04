@@ -17,6 +17,7 @@
 {% include hindi/classifieds.hi.css %}
 {% include hindi/revolution.hi.css %}
 {% include hindi/cricket.hi.css %}
+{% include hindi/city.hi.css %}
 
 
 
