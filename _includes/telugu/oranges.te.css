@@ -1,0 +1,71 @@
+
+/* 
+* Author: @pathumego 
+* 
+*
+//* oranges*/
+
+#oranges_te {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 50px 100px 50px;
+    background: url(../images/oranges.jpeg) #000;
+    background-repeat:no-repeat;
+    background-size:contain 100%;
+
+
+}
+#oranges_te h1 {
+font-family: 'Ramabhadra', serif;
+font-size: 50px;
+color: #7B6352;
+padding-top: 150px;
+text-align: right;
+display: block;
+line-height: 1;
+
+ 
+}
+#oranges_te p {
+font-family: 'Ponnala', serif;
+font-size: 38px;
+color: #565656;
+padding-top: 30px;
+text-align: left;
+display: block;
+margin: 0% auto 0%;
+line-height: 1;
+}
+
+#oranges_te p#invi_body{
+font-family: 'NATS', serif; 
+font-size: 20px;
+color: #B84E3B;
+padding-top: 89px;
+text-align: left;
+display: block;
+margin: 0% auto 0%;
+line-height: 1.4;
+}
+
+}
+@media only screen and (max-width: 480px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+   
+
+   #oranges_te {
+   
+   padding: 20px;
+}
+    
+#oranges_te {
+   
+    padding: 0px 25px 25px 25px;
+}
+    
+}
