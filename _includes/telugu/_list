@@ -8,7 +8,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nats.css);
 @import url(http://fonts.googleapis.com/earlyaccess/lakkireddy.css);
 @import url(http://fonts.googleapis.com/earlyaccess/peddana.css);
-{% include telugu/intro.te.css %}
 {% include telugu/scoin-bag.te.css %}
 {% include telugu/oranges.te.css %}
 
