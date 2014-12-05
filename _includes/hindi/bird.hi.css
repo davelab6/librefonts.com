@@ -39,9 +39,9 @@ margin-top: 100px;
     font-size: 20px;
 
 }
-
-
-
+#bird img {
+margin-bottom: -5px;
+}
 @media only screen and (max-width: 480px) {
 
 }
