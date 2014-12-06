@@ -19,24 +19,7 @@
     <link href='http://fonts.googleapis.com/css?family=Rozha+One' rel='stylesheet' type='text/css'>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
-    $(window).load(function () {
-    $(window).on("scroll resize", function () {
-        var pos = $('#font_info').offset();
-        $('.specimen').each(function () {
-            if (pos.top >= $(this).offset().top && pos.top <= $(this).next().offset().top) {
-                $('#font_info').html($(this).find('.description').text()); //or any other way you want to get the date
-                return; //break the loop
-            }
-        });
-    });
-
-    $(document).ready(function () {
-        $(window).trigger('scroll'); // init the value
-    });
-
-})
-    </script>
+    
     <script src="/js/jquery.fittext.js"></script>
     
 </head> 
