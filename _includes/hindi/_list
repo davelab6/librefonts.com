@@ -16,6 +16,7 @@
 {% include hindi/bandflyer.hi.css %}
 {% include hindi/bird.hi.css %}
 {% include hindi/classifieds.hi.css %}
+{% include hindi/twain.hi.css %}
 {% include hindi/revolution.hi.css %}
 {% include hindi/cricket.hi.css %}
 {% include hindi/city.hi.css %}
