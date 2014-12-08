@@ -15,15 +15,16 @@
     height: 100%;
     overflow: hidden;  
 }
-#bird .font_name {
+#tools .font_name {
     color: #fff;
     display: inline-block;
     padding: 10px;
-    background: rgb(105, 104, 103);
+    background: rgb(242, 161, 36);
     position: absolute;
     margin-left: 60px;
+    z-index: 1000;
 }
-#bird .font_name a {
+#tools .font_name a {
     color: #fff; 
 }
 #tools .grid-pad {
