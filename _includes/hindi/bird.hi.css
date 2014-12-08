@@ -17,11 +17,12 @@
 }
 
 #bird .font_name {
-    color: #fff;
-    display: inline-block;
-    padding: 10px;
-    background: rgb(105, 104, 103);
-    position: absolute;
+  color: #fff;
+display: inline-block;
+padding: 10px;
+background: rgb(105, 104, 103);
+position: absolute;
+margin-left: 60px;
 }
 #bird .font_name a {
 color: #fff; 

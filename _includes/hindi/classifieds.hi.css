@@ -1,143 +1,100 @@
-
 /* 
 * @Author: pathumego 
 * @Last Modified by: pathumego
 */
-
 section#classifieds {
    background: #FAFAFA;
     padding: 100px 0;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
-
 #classifieds .font_name {
-color: #414141;
-display: inline-block;
-padding: 10px;
-background: rgb(255, 149, 9);
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    background: rgb(115, 115, 115);
     position: absolute;
 }
-
 #classifieds .font_name a {
-color: #FFFFFF;
+    color: #FFFFFF;
 }
-
-
-
 section#classifieds .grid{
-
-margin-top: -226px;
-overflow: hidden;
-margin-bottom: -141px;
+    margin-top: -226px;
+    overflow: hidden;
+    margin-bottom: -141px;
 }
-
-
 section #classifieds .text {
     margin: 0 auto;
     padding: 0 20px;
     width: 800px;
 }
 section#classifieds .box {
-     font-family: 'Halant';
-   border: 1px solid #000;
-padding: 15px;
-margin: 10px 0px;
+    font-family: 'Halant';
+    border: 1px solid #000;
+    padding: 15px;
+    margin: 10px 0px;
 }
- 
- 
-
 section#classifieds h1{
-  font-family: 'Rajdhani';
-font-size: 29px;
-color: #fff;
-background: #000;
-text-align: center;
-padding: 10px;
-margin: 10px 0px 10px 0px;
-text-align: center;
-padding: 10px;
-   
+    font-family: 'Rajdhani';
+    font-size: 29px;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    padding: 10px;   
 }
-
-
-
- 
-
-
 /* single classifieds */
-
 #cookery {
     font: 300 16px/24px"Laila";
     margin: 0;
 }
-
 #cookery h2{
-  font-family: 'Halant';
-font-size: 29px;
-text-align: center;
-padding: 10px;
-margin: 10px 0px 10px 0px;
-
-
-text-align: center;
-padding: 10px;
-   
+    font-family: 'Halant';
+    font-size: 29px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    padding: 10px;   
 }
-
 #cookery p span{
    font-weight:600;
-    
 }
-
 #advertise{
      font-family: 'Halant' serif;
     background: #000;
     color: #fff;
     text-align: center;
 }
-#advertise h2 {
-    
+#advertise h2 {   
     font-size: 40px;
 }
 #advertise p{
     background: #000;
     color: #fff;
-
 }
-
 #cleaning{
     font-family: 'Halant' serif;
-
-}
-
-#cleaning h2 {
-
 }
 #building span{
-font-weight: 700;
-
+    font-weight: 700;
 }
 #building img{
-float: left;
+    float: left;
     width: 40%;
     -webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
-filter: grayscale(100%);
-
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
-
-
 ------------------- */
 
 /* Device-specific styles */
 
 /* ---------------------- */
-
-/* Sub-tablet <768px */
 
 @media (max-width: 768px) {
     .section-gajraj .container {

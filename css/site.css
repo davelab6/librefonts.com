@@ -298,6 +298,7 @@ box-shadow: 10px #000;
 }
 
 .font_links{
+    font-family: 'Noto Sans';
 width: 100%;
 max-width: 1200px;
 display: block;

@@ -18,42 +18,43 @@
    
 }
 #city .font_name {
-color: #414141;
-display: inline-block;
-padding: 10px;
-background: rgb(203, 203, 203);
+    color: #414141;
+    display: inline-block;
+    padding: 10px;
+    background: rgb(203, 203, 203);
     position: absolute;
+    margin-left: 60px;
 }
 
 #city .font_name a {
-color: #fff; 
+    color: #fff; 
     color: #4F4F4F
 
 }
 
 #city .grid-pad {
-padding: 0;
+    padding: 0;
 }
 #city .grid {
-max-width: 1200px;
+    max-width: 1200px;
 }
 
 #city h1 {
     font-family: 'Noto Sans';
-font-weight: 700;
-line-height: 1.3;
-font-size: 30px;
-color: #000;
-position: absolute;
-padding: 60px;
-width: 100%;
-text-align: center;
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 30px;
+    color: #000;
+    position: absolute;
+    padding: 60px;
+    width: 100%;
+    text-align: center;
     margin-top: 100px;
 }
 
 #city h1 span {
     font-family: 'Noto Sans';
-font-weight: 700;
+    font-weight: 700;
     font-size: 20px;
 
 }

@@ -15,6 +15,17 @@
     height: 100%;
     overflow: hidden;  
 }
+#bird .font_name {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    background: rgb(105, 104, 103);
+    position: absolute;
+    margin-left: 60px;
+}
+#bird .font_name a {
+    color: #fff; 
+}
 #tools .grid-pad {
     padding: 0;
 }
@@ -23,27 +34,25 @@
 }
 #tools h1 {
     font-family: 'Teko';
-font-weight: 700;
-line-height: 1;
-font-size: 60px;
-color: #fff;
-position: absolute;
-padding: 60px;
-width: 100%;
-text-align: center;
-margin-top: 100px;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
 }
-#tools h1 span {
-    
-font-family: 'Teko';
-font-weight: 500;
-color: #000;
-background: #fff;
-padding: 10px 30px 5px 30px;
-
+#tools h1 span {  
+    font-family: 'Teko';
+    font-weight: 500;
+    color: #000;
+    background: #fff;
+    padding: 10px 30px 5px 30px;
 }
 #tools img {
-margin-bottom: -5px;
+    margin-bottom: -5px;
     width: 100%;
 }
 @media only screen and (max-width: 480px) {

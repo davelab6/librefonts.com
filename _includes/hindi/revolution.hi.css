@@ -13,28 +13,34 @@
     max-width: 1200px;
     font-family: 'Ek Mukta', sans-serif;
     background: #FFFCF4;
-    padding: 50px;
-    height: 100%;
+    padding: 0px 50px 50px 50px;
     overflow: hidden;
-   
 }
-
+#newspaper .font_name {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    background: rgb(95, 94, 92);
+    position: absolute;
+    z-index: 1000;
+    margin: 70px 70px 70px -50px;
+}
+#newspaper .font_name a {
+    color: #FFFFFF;
+}
 #newspaper .narrow {
     margin-top:-100px;
     margin-bottom: -130px;
 }
-
 #newspaper #left{
     width: 80%;
     min-width: 480px;
     float: left;
     display: block;
-
 }
 #newspaper #right{
     width: 20%;
     float: left;
-
 }
 #newspaper hr {
     background-color: #000;
@@ -50,7 +56,6 @@
     border: 0;
     clear: both;
 }
-
 #newspaper ul{
     margin: 0;
 }
@@ -64,7 +69,6 @@
     display: block;
     margin: 0% auto 0%;
 }
-
 #newspaper h2.links {
     font-family:'Ek Mukta';
     font-weight:700;
@@ -75,14 +79,14 @@
     margin: 0% auto 0%;
 }
 #newspaper h3#lottery_h1 {
-   font-family: 'Khand';
-font-weight: 700;
-font-size: 18px;
+    font-family: 'Khand';
+    font-weight: 700;
+    font-size: 18px;
 }
 #lottery {
-padding: 15px;
-background: #eee;
-margin-top: 41px;
+    padding: 15px;
+    background: #eee;
+    margin-top: 41px;
 }
 #newspaper p{
     font: 15px "Ek Mukta";
@@ -95,11 +99,9 @@ margin-top: 41px;
 }
 #newspaper p .strong{
     font-weight: 500;
-
 }
-
 .resultBall{
-border-radius: 50%;
+    border-radius: 50%;
     font-weight: 700;
     background: #eee;
 	width: 20px;
@@ -107,34 +109,25 @@ border-radius: 50%;
     text-align: center;
     padding: 5px;
     margin-left: 3px;
-
 }
 .resultEmpty{
-
 	width: 10px;
-	
     margin-left: 3px;
-
 }
-
-
 
 @media only screen and (max-width: 480px) {
-    #newspaper #left{
-         width: 100%;
-         display: block;
 
+#newspaper #left{
+    width: 100%;
+    display: block;
 }
-    #newspaper #right{
-        width: 100%;
-   
-
+#newspaper #right{
+    width: 100%;
 }
-    #newspaper p{
-   
-        -webkit-column-count: 1; /* Chrome, Safari, Opera */
-        -moz-column-count: 1; /* Firefox */
-        column-count: 1;
+#newspaper p{
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
 }
 }
 
