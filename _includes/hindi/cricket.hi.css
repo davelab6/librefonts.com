@@ -21,6 +21,13 @@ background: linear-gradient(to bottom,  #ffdd32 0%,#fffb89 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdd32', endColorstr='#fffb89',GradientType=0 ); /* IE6-9 */
 
 }
+
+#invitation #font_name {
+	width: 200px;
+padding: 10px;
+background: grey;
+}
+
 #invitation h1 {
     font-family:'Rozha One';
     font-size: 60px;
