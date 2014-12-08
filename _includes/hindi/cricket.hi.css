@@ -23,9 +23,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdd32', end
 }
 
 #invitation #font_name {
-	width: 200px;
+
+color: #fff; 
+    font-size: 10px; display:inline-block;
+ 
 padding: 10px;
-background: grey;
+background: rgb(253, 183, 0);
+}
+
+
+#invitation #font_name a {
+color: #fff; 
+
 }
 
 #invitation h1 {
