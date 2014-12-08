@@ -17,6 +17,19 @@
     
    
 }
+#city .font_name {
+color: #414141;
+display: inline-block;
+padding: 10px;
+background: rgb(203, 203, 203);
+    position: absolute;
+}
+
+#city .font_name a {
+color: #fff; 
+    color: #4F4F4F
+
+}
 
 #city .grid-pad {
 padding: 0;
