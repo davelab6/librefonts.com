@@ -288,15 +288,17 @@ Examples
 section{
 box-shadow: 10px #000;
 }
-
-
-.specimen {
-	
-}
+.font_name{
+    font-family:'Ek Mukta';
+    font-weight: 300;
+ 
+ }
 .font_name a{
     text-decoration: none;
 }
-
+.font_name a:hover{
+    color: #fff;
+}
 .font_links{
     font-family: 'Noto Sans';
 width: 100%;

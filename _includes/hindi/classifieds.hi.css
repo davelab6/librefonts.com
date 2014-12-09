@@ -20,6 +20,9 @@ section#classifieds {
 #classifieds .font_name a {
     color: #FFFFFF;
 }
+#classifieds .font_name a:hover {
+color: #ff6f6f; 
+}
 section#classifieds .grid{
     margin-top: -226px;
     overflow: hidden;

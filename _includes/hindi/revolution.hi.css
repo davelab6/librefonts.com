@@ -28,6 +28,9 @@
 #newspaper .font_name a {
     color: #FFFFFF;
 }
+#newspaper .font_name a:hover {
+    color: #ffbe65;
+}
 #newspaper .narrow {
     margin-top:-100px;
     margin-bottom: -130px;

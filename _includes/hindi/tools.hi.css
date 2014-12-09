@@ -27,6 +27,9 @@
 #tools .font_name a {
     color: #fff; 
 }
+#tools .font_name a:hover {
+    color: #895309;
+}
 #tools .grid-pad {
     padding: 0;
 }
@@ -46,7 +49,7 @@
     margin-top: 100px;
 }
 #tools h1 span {  
-    font-family: 'Teko';
+    font-family: 'Khand';
     font-weight: 500;
     color: #000;
     background: #fff;

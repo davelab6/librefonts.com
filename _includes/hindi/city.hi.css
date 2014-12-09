@@ -25,13 +25,12 @@
     position: absolute;
     margin-left: 60px;
 }
-
 #city .font_name a {
-    color: #fff; 
-    color: #4F4F4F
-
+    color: #4F4F4F;
 }
-
+#city .font_name a:hover {
+    color: #000;
+}
 #city .grid-pad {
     padding: 0;
 }

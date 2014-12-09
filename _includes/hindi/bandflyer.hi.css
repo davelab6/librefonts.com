@@ -25,6 +25,9 @@ margin-top: -50px;
 #bandflyer .font_name a {
 color: #fff; 
 }
+#bandflyer .font_name a:hover {
+color: #159cff; 
+}
 #bandflyer h1 {
     
     /* Old browsers */

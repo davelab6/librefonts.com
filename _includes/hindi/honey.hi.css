@@ -6,7 +6,7 @@
 
 /* Paper Articler*/
 
-#bird {
+#honey {
     display: block;
     margin: 0px auto 0 auto;
     width: 100%;
@@ -16,7 +16,7 @@
     overflow: hidden;  
 }
 
-#bird .font_name {
+#honey .font_name {
   color: #fff;
 display: inline-block;
 padding: 10px;
@@ -24,40 +24,38 @@ background: rgb(105, 104, 103);
 position: absolute;
 margin-left: 60px;
 }
-#bird .font_name a {
+#honey .font_name a {
 color: #fff; 
 }
-#bird .font_name a:hover {
-color: #c1c1c1; 
-}
-#tools .font_name a:hover {
-    color: #fff; 
-}
-#bird .grid-pad {
+#honey .grid-pad {
     padding: 0;
 }
-#bird .grid {
+#honey .grid {
     max-width: 1200px;
 }
-#bird h1 {
-    font-family: 'Kalam';
-    font-weight: 300;
-    line-height: 1.3;
-    font-size: 60px;
-    color: #000;
-    position: absolute;
-    padding: 60px;
-    width: 100%;
-    text-align: left;
-    margin-top: 100px;
+#honey h1 {
+font-family: 'Glegoo';
+font-weight: 700;
+line-height: 1.3;
+font-size: 60px;
+color: #A9670E;
+position: absolute;
+padding: 69px;
+border-radius: 50%;
+width: 270px;
+height: 270px;
+text-align: left;
+margin-top: 100px;
+background: #FFDF00;
     }
-#bird h1 span {
+#honey h1 span {
     font-family: 'Kalam';
     font-weight: 500;
     font-size: 20px;
 }
-#bird img {
+#honey img {
 margin-bottom: -5px;
+    width: 100%;
 }
 @media only screen and (max-width: 480px) {
 }

@@ -11,6 +11,7 @@
 <link href='http://fonts.googleapis.com/css?family=Halant:400,700&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Rajdhani:500&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Vesper+Libre:700,900,400&subset=latin,devanagari' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Glegoo:700,400&subset=latin,devanagari' rel='stylesheet' type='text/css'>
 <!-- HOWTO: include each demo's css here -->
 <style>
 {% include hindi/bandflyer.hi.css %}
@@ -21,6 +22,7 @@
 {% include hindi/cricket.hi.css %}
 {% include hindi/city.hi.css %}
 {% include hindi/tools.hi.css %}
+{% include hindi/honey.hi.css %}
 
 
 
