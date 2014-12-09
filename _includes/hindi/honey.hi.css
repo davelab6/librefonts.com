@@ -46,7 +46,18 @@ width: 270px;
 height: 270px;
 text-align: left;
 margin-top: 100px;
-background: #FFDF00;
+background: #ffb732; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffb732 0%, #fff389 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb732), color-stop(100%,#fff389)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffb732 0%,#fff389 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffb732 0%,#fff389 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffb732 0%,#fff389 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffb732 0%,#fff389 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb732', endColorstr='#fff389',GradientType=0 ); /* IE6-9 */
+
+     -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    transform: rotate(-20deg);
     }
 #honey h1 span {
     font-family: 'Kalam';
