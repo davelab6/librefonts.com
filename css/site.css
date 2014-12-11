@@ -3,9 +3,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/raviprakash.css);
 @import url(http://fonts.googleapis.com/earlyaccess/ponnala.css);
 @import url(http://fonts.googleapis.com/earlyaccess/ramabhadra.css);
-
-
-body {
+ body {
     margin: 0;
     padding: 0;
     zoom: 1;
@@ -17,7 +15,6 @@ p {
     margin: 0;
     padding: 0;
 }
-
 /*----------------------------------------- 
 Universal styles
 ------------------------------------------*/
@@ -37,14 +34,12 @@ body,
     -webkit-overflow-scrolling: touch;
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
-    
 }
 .content {
     position: relative;
-    
 }
-.narrow{
-    max-width:1200px;
+.narrow {
+    max-width: 1200px;
     display: block;
     margin: 0 auto;
 }
@@ -65,13 +60,11 @@ body,
     -webkit-transition: opacity 0.3s, -webkit-transform 0s 0.3s;
     transition: opacity 0.3s, transform 0s 0.3s;
     -webkit-box-shadow: inset 10px 2px 34px 0px rgba(0, 0, 0, 0.65);
-    -moz-box-shadow:inset 10px 2px 34px 0px rgba(0, 0, 0, 0.65);
-    box-shadow:inset  10px 2px 34px 0px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: inset 10px 2px 34px 0px rgba(0, 0, 0, 0.65);
+    box-shadow: inset 10px 2px 34px 0px rgba(0, 0, 0, 0.65);
 }
-
-.homeback{
+.home {
     background: #fff;
-
 }
 .menu-wrap {
     position: absolute;
@@ -123,7 +116,6 @@ body,
 .icon-list a {
     margin: 0 1em 0 0;
     padding: 0;
-    
 }
 .icon-list div {
     margin: 0 1em 0 0;
@@ -157,7 +149,6 @@ body,
     background: #eee;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-     
 }
 .menu-side a:hover {
     color: #000;
@@ -184,30 +175,26 @@ body,
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
-
-
 /*----------------------------------------- 
 Home Page Styles
 ------------------------------------------*/
 
 .section-intro h1 {
-    font: 800 75px/68px 'Noto Sans', serif;
-color: rgba(255, 83, 83, 0.94);
-margin: 0.3em;
-text-align: center
+    font: 800 75px/68px'Noto Sans', serif;
+    color: rgba(255, 83, 83, 0.94);
+    margin: 0.3em;
+    text-align: center
 }
-
 .section-intro h2 {
-    font: 200 30px/68px 'Noto Sans', sans-serif;
+    font: 200 30px/68px'Noto Sans', sans-serif;
     color: #656763;
     text-align: center;
 }
 .section-intro h4 {
-    font: 200 20px/68px 'Noto Sans', sans-serif;
+    font: 200 20px/68px'Noto Sans', sans-serif;
     color: #656763;
     text-align: center;
 }
-
 .section-intro .divider {
     width: 30px;
     padding: 30px 0 0 0;
@@ -222,116 +209,96 @@ text-align: center
     max-width: 560px;
 }
 .section-intro p.label {
-   text-align: center;
+    text-align: center;
     font-weight: 300;
     margin-bottom: 25px;
 }
-
 .home-menu {
     text-align: center;
     width: 100%;
     float: none;
 }
-
-
 footer {
     margin-top: 5em;
     color: #999;
     font-size: smaller;
     text-align: center;
+    height: 100px;
 }
-footer ul, li {
+footer ul,
+li {
     list-style: none;
 }
-ul#homemenu {
-clear: both;
-
-}
-
-#homemenu li {
-text-decoration: none;
-
-display: block;
-float: left;
-margin-bottom: 100px;
-}
-
-#homemenu li a{
+a.homemenu {
 font: 200 20px/100px'Noto Sans', sans-serif;
-text-decoration: none;
 font-size: 4em;
 color: #515050;
 background: #D0D0D0;
 text-decoration: none;
 display: block;
-/* float: left; */
-margin-bottom: 100px;
 padding: 30px;
-margin: 10px;
+margin: 100px 40px 100px 40px;
 text-align: center;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 5px;
-width: 285px;
+-webkit-transition: 0.5s;
+transition: 0.5s;
 }
-
-
-#homemenu li a:hover{
-    
-    color: #515050;
-    background: #a2a2a2;
-
+a.homemenu:hover {
+    color: #000;
+    background: rgba(255, 83, 83, 0.94);
 }
 /*----------------------------
 Examples 
 ------------------------------*/
-section{
-box-shadow: 10px #000;
+
+section {
+    box-shadow: 10px #000;
 }
-.font_name{
-    font-family:'Ek Mukta';
+.font_name {
+    font-family: 'Ek Mukta';
     font-weight: 300;
- 
- }
-.font_name a{
+}
+.font_name a {
     text-decoration: none;
 }
-.font_name a:hover{
+.font_name a:hover {
     color: #fff;
 }
-.font_links{
+.font_links {
     font-family: 'Noto Sans';
-width: 100%;
-max-width: 1200px;
-display: block;
-background: #000;
-color: #fff;
-margin: 0 auto;
-text-align: center;
-font-size: 40px;
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    background: #000;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
 }
-.shadow_bottom{
+.shadow_bottom {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-background: no-repeat top url(../images/seperator_bottom.png);
-height: 100px;
-position: absolute;
+    background: no-repeat top url(../images/seperator_bottom.png);
+    height: 100px;
+    position: absolute;
 }
-.shadow_top{
-  width: 100%;
-max-width: 1200px;
-margin: 0 auto;
-background: no-repeat top url(../images/seperator_top.png);
-height: 100px;
-position: absolute;
-margin-top: -100px;
+.shadow_top {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: no-repeat top url(../images/seperator_top.png);
+    height: 100px;
+    position: absolute;
+    margin-top: -100px;
 }
 .avatar img {
     width: 30px;
-height: 30px;
-margin-left: 40px;
-margin-bottom: 10px;
+    height: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -354,11 +321,9 @@ margin-bottom: 10px;
     width: 960px;
     margin: 0 auto;
 }
-
 /*----------------------------
 Menu
 ------------------------------*/
-
 
 /* Menu Button */
 
@@ -389,32 +354,17 @@ Menu
 .menu-button:hover {
     opacity: 0.6;
 }
-
-
-
 /* ---------------------- */
 
 /* Device-specific styles */
 
 /* ---------------------- */
 
-
-
-@media only screen and (max-width: 480px) {
-
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
-   
-
-   #invitation {
-   
-   padding: 20px;
-}
-    
-#invitation {
-   
-    padding: 0px 25px 25px 25px;
-}
-    
+@media only screen and (max-width: 480px) {}@media (min-width: 480px) and (max-width: 767px) {
+    #invitation {
+        padding: 20px;
+    }
+    #invitation {
+        padding: 0px 25px 25px 25px;
+    }
 }
