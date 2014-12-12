@@ -64,12 +64,22 @@ color: #8b8b8b;
 margin-bottom: -5px;
     width: 100%;
 }
+
+/* Device-specific styles */
+
+/* ---------------------- */
+
+
 @media only screen and (max-width: 480px) {
 
+#twain h1 {
+
+margin: 0px;
 }
+}
+
 
 @media (min-width: 480px) and (max-width: 767px) {
    
 
-  
 }

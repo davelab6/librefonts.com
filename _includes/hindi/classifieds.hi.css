@@ -93,22 +93,27 @@ section#classifieds h1{
     -moz-filter: grayscale(100%);
     filter: grayscale(100%);
 }
-------------------- */
+
 
 /* Device-specific styles */
 
 /* ---------------------- */
 
-@media (max-width: 768px) {
-    .section-gajraj .container {
-        width: auto;
-    }
-    .section-gajraj h2 {
-        font-size: 46px;
-    }
-    .section-gajraj p {
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-    }
+
+@media only screen and (max-width: 480px) {
+
+section#classifieds {
+  height: 1000px;
+}
+    
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+   
+
+section#classifieds {
+  height: 1500px;
+}
+    
 }

@@ -59,7 +59,27 @@ color: #c1c1c1;
 #bird img {
 margin-bottom: -5px;
 }
+/* Device-specific styles */
+
+/* ---------------------- */
+
+
 @media only screen and (max-width: 480px) {
+
+   
+#bird h1 {
+  
+    font-size: 30px;
+   
+    }
 }
+
+
 @media (min-width: 480px) and (max-width: 767px) {
+   
+#bird h1 {
+  
+    font-size: 40px;
+   
+    }
 }

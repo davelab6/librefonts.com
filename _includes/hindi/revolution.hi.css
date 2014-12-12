@@ -132,6 +132,9 @@
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
 }
+    
+ 
+     
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
