@@ -38,46 +38,46 @@ color: #535353;
     max-width: 1200px;
 }
 #honey h1 {
-font-family: 'Glegoo';
-font-weight: 700;
-line-height: 1.3;
-font-size: 60px;
-color: #A9670E;
-z-index: 1000;
-padding: 69px;
-margin:80px auto 0 auto;
-border-radius: 50%;
-width: 270px;
-height: 270px;
-text-align: left;
-background: #ffb732; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffb732 0%, #fff389 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb732), color-stop(100%,#fff389)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ffb732 0%,#fff389 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ffb732 0%,#fff389 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #ffb732 0%,#fff389 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #ffb732 0%,#fff389 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb732', endColorstr='#fff389',GradientType=0 ); /* IE6-9 */
--webkit-box-shadow: 10px 10px 34px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 34px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 34px 0px rgba(0,0,0,0.75);
-     -ms-transform: rotate(-20deg); /* IE 9 */
-    -webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+    font-family: 'Glegoo';
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 60px;
+    color: #A9670E;
+    z-index: 1000;
+    padding: 69px;
+    margin: 250px auto 0 auto;
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+    text-align: left;
+    background: #ffb732;
+    background: -moz-linear-gradient(top, #ffb732 0%, #fff389 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb732), color-stop(100%,#fff389));
+    background: -webkit-linear-gradient(top, #ffb732 0%,#fff389 100%);
+    background: -o-linear-gradient(top, #ffb732 0%,#fff389 100%);
+    background: -ms-linear-gradient(top, #ffb732 0%,#fff389 100%);
+    background: linear-gradient(to bottom, #ffb732 0%,#fff389 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb732', endColorstr='#fff389',GradientType=0 );
+    -webkit-box-shadow: 10px 10px 34px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 34px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 34px 0px rgba(0,0,0,0.75);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
     }
 #honey h2 {
-font-family: 'Laila';
-font-weight: 900;
-line-height: 1.3;
-font-size: 44px;
-color: #595959;
-padding: 100px 20px 20px 20px;
-background: rgba(255, 255, 255, 1);
-text-align: center;
-margin: -90px auto 100px auto;
-bottom: 0;
-width: 100%;
-display: block;
+    font-family: 'Laila';
+    font-weight: 900;
+    line-height: 1.3;
+    font-size: 50px;
+    color: #595959;
+    padding: 197px 20px 100px 39px;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin: -126px auto 0px auto;
+    bottom: 0;
+    width: 100%;
+    display: block;
     }
 
 
