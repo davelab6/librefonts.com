@@ -10,28 +10,41 @@
     width: 100%;
     max-width: 1200px;
     padding: 0px 50px 100px 50px;
-    background: #ffdd32; /* Old browsers */
-background: -moz-linear-gradient(top,  #ffdd32 0%, #fffb89 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffdd32), color-stop(100%,#fffb89)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #ffdd32 0%,#fffb89 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #ffdd32 0%,#fffb89 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #ffdd32 0%,#fffb89 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #ffdd32 0%,#fffb89 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdd32', endColorstr='#fffb89',GradientType=0 ); /* IE6-9 */
+    background: #E7E7E7;
 
 }
+#invitation_te .font_name {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    background: rgb(149, 149, 149);
+    position: absolute;
+    margin-left: 50px;
+    z-index: 1000;
+}
+#invitation_te .font_name a {
+    color: #fff; 
+}
+#invitation_te .font_name a:hover {
+color: #606060; 
+}
+
 #invitation_te h1 {
-font-family: 'Ravi Prakash', serif;
-font-size: 80px;
-color: #B84E3B;
-padding-top: 60px;
+font-family: 'Gidugu', sans-serif;
+line-height: 1.2;
+padding-top: 90px;
 text-align: left;
 display: block;
 margin: 0% auto 0%;
- 
+
+    color: #636363;
+font-weight:bold;
+font-size: 123px;
+
 }
+
 #invitation_te p {
-font-family: 'NATS', serif; 
+font-family: 'Mallanna', sans-serif;
 font-size: 38px;
 color: #565656;
 padding-top: 30px;
@@ -42,9 +55,8 @@ line-height: 1;
 }
 
 #invitation_te p#invi_body{
-font-family: 'NATS', serif; 
-font-size: 20px;
-color: #B84E3B;
+font-family: 'Mallanna', sans-serif;
+color: #545454;
 padding-top: 89px;
 text-align: left;
 display: block;
