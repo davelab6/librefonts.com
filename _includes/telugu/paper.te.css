@@ -1,0 +1,125 @@
+
+/* 
+* Author: @pathumego 
+* 
+*/
+
+/* Paper Articler*/
+
+#newspaper_te {
+   display: block;
+    margin: 0px auto 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    background: #FFFEE4;
+    padding: 0px 50px 50px 50px;
+    overflow: hidden;
+}
+#newspaper_te .font_name {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    background: rgb(95, 94, 92);
+    position: absolute;
+    z-index: 1000;
+    margin: 70px 70px 70px -50px;
+}
+#newspaper_te .font_name a {
+    color: #FFFFFF;
+}
+#newspaper_te .font_name a:hover {
+    color: #ffbe65;
+}
+#newspaper_te .narrow {
+    margin-top:-100px;
+    margin-bottom: -130px;
+}
+#newspaper_te #left{
+    width: 80%;
+    min-width: 480px;
+    float: left;
+    display: block;
+}
+#newspaper_te #right{
+    width: 20%;
+    float: left;
+}
+#newspaper_te hr {
+    background-color: #000;
+    margin: 30px 0 30px 0;
+    height: 1px;
+    border: 0;
+    clear: both;
+}
+#newspaper_te hr.contents {
+    background-color: #000;
+    margin: 9px 0 9px 0;
+    height: 1px;
+    border: 0;
+    clear: both;
+}
+#newspaper_te ul{
+    margin: 0;
+}
+#newspaper_te h1 {
+    font-family: 'Gidugu';
+    font-weight: 900;
+    line-height: 1.2;
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    display: block;
+    margin: 0% auto 0%;
+}
+
+
+#newspaper_te p{
+    font: 15px "Mandali";
+    font-weight: 200;
+    text-align: left;
+    color: #000;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+#newspaper_te p .strong{
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+#newspaper_te #left{
+    width: 100%;
+    display: block;
+}
+#newspaper_te #right{
+    width: 100%;
+}
+#newspaper_te p{
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+    
+ 
+     
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+   
+
+    #newspaper_te p{
+   
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+    
+    #newspaper_te h2.links {
+    text-align: center;
+}
+    #newspaper_te p.links_number {
+    display:none;
+}
+}

@@ -1,11 +1,13 @@
 <!-- single <link> tag for Google Fonts API is fastest -->
 <link href='http://fonts.googleapis.com/css?family=Gidugu|Mallanna&subset=telugu,latin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ramabhadra|Dhurjati|Mandali|NTR&subset=telugu,latin' rel='stylesheet' type='text/css'>
 
 <!-- HOWTO: include each demo's css here -->
 <style>
 /*--no links as no telugu in main API just yet--*/
 {% include telugu/scoin-bag.te.css %}
 {% include telugu/oranges.te.css %}
+{% include telugu/paper.te.css %}
 
 
 

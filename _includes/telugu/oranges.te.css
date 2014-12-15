@@ -28,29 +28,8 @@ line-height: 1;
 
  
 }
-#oranges_te p {
-font-family: 'Ponnala', serif;
-font-size: 38px;
-color: #565656;
-padding-top: 30px;
-text-align: left;
-display: block;
-margin: 0% auto 0%;
-line-height: 1;
-}
 
-#oranges_te p#invi_body{
-font-family: 'NATS', serif; 
-font-size: 20px;
-color: #B84E3B;
-padding-top: 89px;
-text-align: left;
-display: block;
-margin: 0% auto 0%;
-line-height: 1.4;
-}
 
-}
 @media only screen and (max-width: 480px) {
 
 }
