@@ -8,6 +8,7 @@
 {% include telugu/scoin-bag.te.css %}
 {% include telugu/oranges.te.css %}
 {% include telugu/paper.te.css %}
+{% include telugu/boat.te.css %}
 
 
 

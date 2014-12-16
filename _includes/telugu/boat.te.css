@@ -1,0 +1,82 @@
+
+/* 
+* Author: @pathumego 
+* 
+*/
+
+/* Paper Articler*/
+
+#boat {
+    display: block;
+    margin: 0px auto 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    background: #000;
+    height: 100%;
+    overflow: hidden;  
+}
+
+#boat .font_name {
+  color: #fff;
+display: inline-block;
+padding: 10px;
+background: rgb(105, 104, 103);
+position: absolute;
+margin-left: 60px;
+}
+#boat .font_name a {
+color: #fff; 
+}
+#boat .font_name a:hover {
+color: #c1c1c1; 
+}
+#boat .font_name a:hover {
+    color: #fff; 
+}
+#boat .grid-pad {
+    padding: 0;
+}
+#boat .grid {
+    max-width: 1200px;
+}
+#boat h1 {
+font-family: 'NTR';
+font-weight: 300;
+line-height: 1.3;
+font-size: 35px;
+color: #893A3A;
+position: absolute;
+padding: 60px;
+width: 100%;
+text-align: right;
+margin-top: 100px;
+}
+    
+#boat img {
+margin-bottom: -5px;
+    width: 100%;
+}
+/* Device-specific styles */
+
+/* ---------------------- */
+
+
+@media only screen and (max-width: 480px) {
+
+   
+#bird h1 {
+  
+    font-size: 30px;
+   
+    }
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+   
+#bird h1 {
+  
+    font-size: 40px;
+   
+    }
+}
