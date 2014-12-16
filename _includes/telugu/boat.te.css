@@ -11,7 +11,7 @@
     margin: 0px auto 0 auto;
     width: 100%;
     max-width: 1200px;
-    background: #000;
+    background: url(../images/boat.jpeg);
     height: 100%;
     overflow: hidden;  
 }
@@ -41,15 +41,14 @@ color: #c1c1c1;
 }
 #boat h1 {
 font-family: 'NTR';
-font-weight: 300;
 line-height: 1.3;
 font-size: 35px;
-color: #893A3A;
-position: absolute;
-padding: 60px;
-width: 100%;
-text-align: right;
-margin-top: 100px;
+color: #000000;
+padding: 9px;
+display: block;
+text-align: center;
+/* margin-top: 100px; */
+margin: 149px auto 150px auto;
 }
     
 #boat img {
