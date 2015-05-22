@@ -2,6 +2,12 @@
 
 This site showcases libre web fonts with examples of the fonts in use.
 
+Similar sites:
+
+* http://hellohappy.org/beautiful-web-type/
+* femmebot.github.io/google-type/
+* http://100daysoffonts.com
+
 ## How to add a new example
 
 Take a look at one of our example HTML and CSS files, and use it as a template or make your own following the same structure.
