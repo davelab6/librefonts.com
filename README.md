@@ -7,6 +7,7 @@ Similar sites:
 * http://hellohappy.org/beautiful-web-type/
 * http://femmebot.github.io/google-type/
 * http://100daysoffonts.com
+* https://jonsuh.com/100-days-of-scriptures/
 
 ## How to add a new example
 
